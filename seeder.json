@@ -1,0 +1,53 @@
+{
+  "assignments":{
+    "assignment0" : {
+      "title" : "Blog Exercise",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_BLOG.md",
+      "dueDate": "1/21/17",
+      "isAssigned":"true",
+      "assignedNumber": "1"
+    },
+    "assignment1" : {
+      "title" : "Article Styles",
+      "URL" : "",
+      "dueDate": "1/21/17",
+      "isAssigned":"true",
+      "assignedNumber": "2"
+    },
+    "assignment2" : {
+      "title" : "Banking Validate",
+      "URL" : "",
+      "dueDate": "1/21/17",
+      "isAssigned":"true",
+      "assignedNumber": "3"
+    },
+    "assignment3" : {
+      "title" : "Interactive Navigation",
+      "URL" : "",
+      "dueDate": "1/21/17",
+      "isAssigned":"true",
+      "assignedNumber": "4"
+    },
+    "assignment4" : {
+      "title" : "Pseudoclasses",
+      "URL" : "",
+      "dueDate": "1/21/17",
+      "isAssigned":"true",
+      "assignedNumber": "5"
+    },
+    "assignment5" : {
+      "title" : "Relationship Selectors",
+      "URL" : "",
+      "dueDate": "1/21/17",
+      "isAssigned":"true",
+      "assignedNumber": "6"
+    }
+  }
+}
+
+
+
+
+
+
+
