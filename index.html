@@ -48,9 +48,13 @@
 
 
   <div class="row">
-    <div class="col-xs-8 col-xs-offset-2 main-container">
+    <div class="col-xs-8 col-xs-offset-2 main-container" ng-controller="MainCtrl">
       <h1>Assignments</h1>
 
+      <div class="assignment-container" ng-repeat="assignment in assignments">
+      {{assignment.title}}
+        
+      </div>
     </div>
   </div>
   

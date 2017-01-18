@@ -1,7 +1,7 @@
 "use strict";
 app.factory("MainFactory", function($q, $http, FIREBASE_CONFIG) {
 
-  var getClassList = function() {
+  var getAssignmentList = function() {
     let assignments = [];
     return $q(function(resolve, reject) {
       $http.get(`${FIREBASE_CONFIG.databaseURL}/assignments.json`)
@@ -19,6 +19,6 @@ app.factory("MainFactory", function($q, $http, FIREBASE_CONFIG) {
     });
   };
 
-  return { getClassList: getClassList };
+  return { getAssignmentList: getAssignmentList };
 
 });
