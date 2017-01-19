@@ -5,42 +5,63 @@
       "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_BLOG.md",
       "dueDate": "1/21/17",
       "isAssigned":"true",
-      "assignedNumber": "1"
+      "assignedNumber": "1",
+      "topic": "HTML",
+      "notes": ""
     },
     "assignment1" : {
-      "title" : "Article Styles",
-      "URL" : "",
+      "title" : "Banking Form",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_BANKING_FORM.md",
       "dueDate": "1/21/17",
       "isAssigned":"true",
-      "assignedNumber": "2"
+      "assignedNumber": "2",
+      "topic": "HTML",
+      "notes": ""
     },
     "assignment2" : {
-      "title" : "Banking Validate",
-      "URL" : "",
+      "title" : "Personal Bio Site",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_PERSONAL_BIO.md",
       "dueDate": "1/21/17",
-      "isAssigned":"true",
-      "assignedNumber": "3"
+      "isAssigned":"false",
+      "assignedNumber": "0",
+      "topic": "HTML",
+      "notes": ""
     },
     "assignment3" : {
-      "title" : "Interactive Navigation",
-      "URL" : "",
+      "title" : "Article Styles",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_CSS_ARTICLE_STYLES.md",
       "dueDate": "1/21/17",
       "isAssigned":"true",
-      "assignedNumber": "4"
+      "assignedNumber": "3",
+      "topic": "CSS",
+      "notes": "Do in same repo as Blog Exercise - new Branch"
     },
     "assignment4" : {
-      "title" : "Pseudoclasses",
-      "URL" : "",
+      "title" : "Banking Validate",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_CSS_BANKING_VALIDATE.md",
       "dueDate": "1/21/17",
       "isAssigned":"true",
-      "assignedNumber": "5"
+      "assignedNumber": "4",
+      "topic": "CSS",
+      "notes": "Do in same repo as Banking Form - new Branch"
     },
     "assignment5" : {
-      "title" : "Relationship Selectors",
-      "URL" : "",
+      "title" : "CSS Diner",
+      "URL" : "https://flukeout.github.io/",
+      "dueDate": "1/21/17",
+      "isAssigned":"false",
+      "assignedNumber": "0",
+      "topic": "CSS",
+      "notes": "Great Pseudo Selector Practice"
+    },
+    "assignment6" : {
+      "title" : "Flexbox Froggy",
+      "URL" : "http://flexboxfroggy.com/",
       "dueDate": "1/21/17",
       "isAssigned":"true",
-      "assignedNumber": "6"
+      "assignedNumber": "5",
+      "topic": "CSS",
+      "notes": "Great Flexbox Practice"
     }
   }
 }
