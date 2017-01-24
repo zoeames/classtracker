@@ -116,6 +116,15 @@
       "assignedNumber": "12",
       "topic": "CSS, HTML",
       "notes": "New branch in your music history repo"
+    },
+    "assignment13" : {
+      "title" : "Sonnet",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-the-static-web/exercises/SW_JS_SONNET.md",
+      "dueDate": "1/24/17",
+      "isAssigned":"true",
+      "assignedNumber": "13",
+      "topic": "JS",
+      "notes": "In class exercise"
     }
   }
 }

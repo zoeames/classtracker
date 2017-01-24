@@ -33,6 +33,9 @@ a {
   border-color: #ADADAD;
 }
 
+.panel-default {
+  margin-bottom: 10px;
+}
 
 /*NAVBAR*/
 
