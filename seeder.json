@@ -112,10 +112,10 @@
       "title" : "Music History 2",
       "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-the-static-web/exercises/SW_MUSIC_HISTORY_02.md",
       "dueDate": "2/11/17",
-      "isAssigned":"false",
+      "isAssigned":"true",
       "assignedNumber": "12",
       "topic": "CSS, HTML",
-      "notes": "New branch in your music history repo"
+      "notes": "New branch in music history repo.  Ignore 'Merging your branch' section."
     },
     "assignment13" : {
       "title" : "Sonnet",
@@ -125,6 +125,69 @@
       "assignedNumber": "13",
       "topic": "JS",
       "notes": "In class exercise"
+    },
+    "assignment14" : {
+      "title" : "Student Grades",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-the-static-web/exercises/SW_JS_GRADES.md",
+      "dueDate": "1/28/17",
+      "isAssigned":"true",
+      "assignedNumber": "14",
+      "topic": "JS",
+      "notes": "***STUDY BUDDY REVIEW***"
+    },
+    "assignment15" : {
+      "title" : "Colored Reindeer",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-the-static-web/exercises/SW_JS_REINDEER.md",
+      "dueDate": "1/28/17",
+      "isAssigned":"true",
+      "assignedNumber": "15",
+      "topic": "JS",
+      "notes": "***STUDY BUDDY REVIEW***"
+    },
+    "assignment16" : {
+      "title" : "Boybands and Vegetables",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-the-static-web/exercises/SW_JS_BOYBANDS.md",
+      "dueDate": "1/28/17",
+      "isAssigned":"true",
+      "assignedNumber": "16",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment17" : {
+      "title" : "Temperature Converter",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-the-static-web/exercises/SW_JS_CONVERTER.md",
+      "dueDate": "2/11/17",
+      "isAssigned":"true",
+      "assignedNumber": "17",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment18" : {
+      "title" : "Alpha Stacker",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-the-static-web/exercises/SW_JS_ALPHASTACKER.md",
+      "dueDate": "2/11/17",
+      "isAssigned":"true",
+      "assignedNumber": "18",
+      "topic": "JS",
+      "notes": "Do not attempt the JS quiz until you complete this"
+    },
+    "assignment19" : {
+      "title" : "HTML Quiz",
+      "URL" : "https://classtracker.zoeames.com/",
+      "dueDate": "2/11/17",
+      "isAssigned":"true",
+      "assignedNumber": "19",
+      "topic": "Quiz",
+      "notes": "Complete the first 11 Assignments before starting this"
+    },
+    "assignment20" : {
+      "title" : "JS Quiz",
+      "URL" : "",
+      "dueDate": "2/11/17",
+      "isAssigned":"true",
+      "assignedNumber": "20",
+      "topic": "Quiz",
+      "notes": "Complete the first 18 Assignments before starting this"
     }
   }
 }
