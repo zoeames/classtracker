@@ -102,7 +102,7 @@
     "assignment11" : {
       "title" : "Music History 1",
       "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-the-static-web/exercises/SW_MUSIC_HISTORY_01.md",
-      "dueDate": "2/11/17",
+      "dueDate": "2/18/17",
       "isAssigned":"true",
       "assignedNumber": "11",
       "topic": "CSS, HTML",
@@ -111,7 +111,7 @@
     "assignment12" : {
       "title" : "Music History 2",
       "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-the-static-web/exercises/SW_MUSIC_HISTORY_02.md",
-      "dueDate": "2/11/17",
+      "dueDate": "2/18/17",
       "isAssigned":"true",
       "assignedNumber": "12",
       "topic": "CSS, HTML",
@@ -188,6 +188,96 @@
       "assignedNumber": "20",
       "topic": "Quiz",
       "notes": "Complete the first 18 Assignments before starting this"
+    },
+    "assignment21" : {
+      "title" : "Video on JS Callback Functions",
+      "URL" : "https://www.youtube.com/watch?v=pKS9PcLdMDo&index=5&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC",
+      "dueDate": "2/18/17",
+      "isAssigned":"true",
+      "assignedNumber": "21",
+      "topic": "Video",
+      "notes": ""
+    },
+    "assignment22" : {
+      "title" : "Video on IIFEs",
+      "URL" : "https://www.youtube.com/watch?v=DPB___uVRbc&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC&index=9",
+      "dueDate": "2/18/17",
+      "isAssigned":"true",
+      "assignedNumber": "22",
+      "topic": "Video",
+      "notes": ""
+    },
+    "assignment23" : {
+      "title" : "Video on IIFE Augmentors",
+      "URL" : "https://www.youtube.com/watch?v=5UIPt1Ky-64&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC&index=8",
+      "dueDate": "2/18/17",
+      "isAssigned":"true",
+      "assignedNumber": "23",
+      "topic": "Video",
+      "notes": ""
+    },
+    "assignment24" : {
+      "title" : "String Manipulation",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/exercises/SP_JS_ARRAYS_STRING_MANIPULATION.md",
+      "dueDate": "2/25/17",
+      "isAssigned":"true",
+      "assignedNumber": "24",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment25" : {
+      "title" : "IIFE Sandwhich",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/exercises/SP_JS_IIFE_SANDWICH.md",
+      "dueDate": "2/25/17",
+      "isAssigned":"true",
+      "assignedNumber": "25",
+      "topic": "JS",
+      "notes": "***STUDY BUDDY REVIEW 2/25***"
+    },
+    "assignment26" : {
+      "title" : "Music History 3",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/exercises/SP_JS_MUSIC_HISTORY_3.md",
+      "dueDate": "2/25/17",
+      "isAssigned":"true",
+      "assignedNumber": "26",
+      "topic": "JS",
+      "notes": "New branch in music history repo."
+    },
+    "assignment27" : {
+      "title" : "Github READMEs",
+      "URL" : "",
+      "dueDate": "3/25/17",
+      "isAssigned":"true",
+      "assignedNumber": "27",
+      "topic": "admin",
+      "notes": "Every project you have ever done needs one."
+    },
+    "assignment28" : {
+      "title" : "Dynamic Cards",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/exercises/SP_JS_EVENT_LISTENERS_DYNAMIC_CARDS.md",
+      "dueDate": "3/4/17",
+      "isAssigned":"true",
+      "assignedNumber": "28",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment29" : {
+      "title" : "Guinea Pig",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/exercises/SP_JS_EVENT_LISTENERS_GUINEA_PIG.md",
+      "dueDate": "3/4/17",
+      "isAssigned":"true",
+      "assignedNumber": "29",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment30" : {
+      "title" : "WYSIWYG",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/exercises/SP_JS_EVENT_LISTENERS_WYSIWYG.md",
+      "dueDate": "3/4/17",
+      "isAssigned":"true",
+      "assignedNumber": "30",
+      "topic": "JS",
+      "notes": "***STUDY BUDDY REVIEW 3/4***"
     }
   }
 }
