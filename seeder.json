@@ -277,7 +277,79 @@
       "isAssigned":"true",
       "assignedNumber": "30",
       "topic": "JS",
-      "notes": "***STUDY BUDDY REVIEW 3/4***"
+      "notes": ""
+    },
+    "assignment31" : {
+      "title" : "Read Bootstrap Docs",
+      "URL" : "http://getbootstrap.com/",
+      "dueDate": "3/6/17",
+      "isAssigned":"true",
+      "assignedNumber": "31",
+      "topic": "CSS",
+      "notes": "Get a sense of all the things bootstrap can do for you"
+    },
+    "assignment32" : {
+      "title" : "Pet Food",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/exercises/SP_JS_XHR_FOOD.md",
+      "dueDate": "3/11/17",
+      "isAssigned":"true",
+      "assignedNumber": "32",
+      "topic": "JS",
+      "notes": "***In Class 3/7***"
+    },
+    "assignment33" : {
+      "title" : "Seasonal Sales",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/exercises/SP_JS_XHR_SEASONAL_SALES.md",
+      "dueDate": "3/11/17",
+      "isAssigned":"true",
+      "assignedNumber": "33",
+      "topic": "JS",
+      "notes": "***STUDY BUDDY REVIEW 3/11***"
+    },
+    "assignment34" : {
+      "title" : "IIFE Bootstrap",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/exercises/SP_JS_IIFE_BOOTSTRAP.md",
+      "dueDate": "3/18/17",
+      "isAssigned":"true",
+      "assignedNumber": "34",
+      "topic": "AJAX",
+      "notes": ""
+    },
+    "assignment35" : {
+      "title" : "Music History 4",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/exercises/SP_JS_MUSIC_HISTORY_4.md",
+      "dueDate": "3/18/17",
+      "isAssigned":"true",
+      "assignedNumber": "35",
+      "topic": "AJAX",
+      "notes": ""
+    },
+    "assignment36" : {
+      "title" : "SPA Quiz",
+      "URL" : "",
+      "dueDate": "3/25/17",
+      "isAssigned":"true",
+      "assignedNumber": "36",
+      "topic": "Quiz",
+      "notes": "Don't start this unless you have completed ALL other assignemnts"
+    },
+    "assignment37" : {
+      "title" : "WYSIWYG Round 2",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/exercises/SP_JS_EVENT_LISTENERS_WYSIWYG.md",
+      "dueDate": "4/8/17",
+      "isAssigned":"true",
+      "assignedNumber": "37",
+      "topic": "jQuery",
+      "notes": "WYSIWYG but jQuery on EVERYTHING"
+    },
+    "assignment38" : {
+      "title" : "Music History 5",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-modern-javascript-developer/exercises/MJ_JQUERY_MUSIC_HISTORY_5.md",
+      "dueDate": "4/8/17",
+      "isAssigned":"true",
+      "assignedNumber": "38",
+      "topic": "jQuery",
+      "notes": ""
     }
   }
 }
