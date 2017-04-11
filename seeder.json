@@ -350,6 +350,15 @@
       "assignedNumber": "38",
       "topic": "jQuery",
       "notes": ""
+    },
+    "assignment39" : {
+      "title" : "Acme Explosives",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-modern-javascript-developer/exercises/MJ_PROMISES_ACME_EXPLOSIVES.md",
+      "dueDate": "4/18/17",
+      "isAssigned":"true",
+      "assignedNumber": "39",
+      "topic": "Promises",
+      "notes": ""
     }
   }
 }
