@@ -359,6 +359,24 @@
       "assignedNumber": "39",
       "topic": "Promises",
       "notes": ""
+    },
+    "assignment40" : {
+      "title" : "Promise Video",
+      "URL" : "https://www.youtube.com/watch?v=ieS07COyZZU&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC&index=7",
+      "dueDate": "4/22/17",
+      "isAssigned":"true",
+      "assignedNumber": "40",
+      "topic": "Promises",
+      "notes": ""
+    },
+    "assignment41" : {
+      "title" : "Treehouse Cage Match",
+      "URL" : "https://github.com/nss-nighclass-projects/treehouse-cage-match",
+      "dueDate": "4/22/17",
+      "isAssigned":"true",
+      "assignedNumber": "41",
+      "topic": "Promises",
+      "notes": "Will Present to Class on Monday"
     }
   }
 }
