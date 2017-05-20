@@ -409,10 +409,82 @@
       "title" : "Weather API Part 2",
       "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/4-rich-browser-applications/exercises/RBA_API_WEATHER_APP_PART2.md",
       "dueDate": "5/6/17",
-      "isAssigned":"false",
+      "isAssigned":"true",
       "assignedNumber": "45",
       "topic": "APIs",
+      "notes": "Optional"
+    },
+    "assignment46" : {
+      "title" : "Addressbook - Part 1",
+      "URL" : "",
+      "dueDate": "5/13/17",
+      "isAssigned":"true",
+      "assignedNumber": "46",
+      "topic": "Angular",
+      "notes": "Angular Setup"
+    },
+    "assignment47" : {
+      "title" : "Mushroom Mania",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/5-modern-frameworks/exercises/MF_MUSHROOMS.md",
+      "dueDate": "5/16/17",
+      "isAssigned":"true",
+      "assignedNumber": "47",
+      "topic": "Angular",
       "notes": ""
+    },
+    "assignment48" : {
+      "title" : "Addressbook - Part 2",
+      "URL" : "",
+      "dueDate": "5/16/17",
+      "isAssigned":"true",
+      "assignedNumber": "48",
+      "topic": "Angular",
+      "notes": "Firebase setup, seeder, get addresses and add new address"
+    },
+    "assignment49" : {
+      "title" : "Route Routing",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/5-modern-frameworks/exercises/MF_ROUTE_ROUTING.md",
+      "dueDate": "5/22/17",
+      "isAssigned":"true",
+      "assignedNumber": "49",
+      "topic": "Angular",
+      "notes": "Firebase setup, seeder, get addresses and add new address"
+    },
+    "assignment50" : {
+      "title" : "Addressbook - Part 3",
+      "URL" : "",
+      "dueDate": "5/22/17",
+      "isAssigned":"true",
+      "assignedNumber": "50",
+      "topic": "Angular",
+      "notes": "routes and full crud"
+    },
+    "assignment51" : {
+      "title" : "Music History 10ish",
+      "URL" : "",
+      "dueDate": "5/22/17",
+      "isAssigned":"true",
+      "assignedNumber": "51",
+      "topic": "Angular",
+      "notes": "routes and full crud on songs"
+    },
+    "assignment52" : {
+      "title" : "Addressbook",
+      "URL" : "",
+      "dueDate": "6/10/17",
+      "isAssigned":"true",
+      "assignedNumber": "52",
+      "topic": "Angular",
+      "notes": "Add Auth"
+    },
+    "assignment53" : {
+      "title" : "Music History",
+      "URL" : "",
+      "dueDate": "6/10/17",
+      "isAssigned":"true",
+      "assignedNumber": "53",
+      "topic": "Angular",
+      "notes": "Add Auth"
     }
   }
 }
