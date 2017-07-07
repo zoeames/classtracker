@@ -36,5 +36,41 @@
       "topic": "HTML",
       "notes": ""
     }
+  },
+  "thisWeek" :{
+    "monday":{
+      "date": "7/3/17",
+      "description":"Holiday - 4th of July"
+    },
+    "tuesday":{
+      "date": "7/4/17",
+      "description":"Holiday - 4th of July"
+    },
+    "studygroup":{
+      "date": "7/5-6/17",
+      "description":"None"
+    },
+    "saturday":{
+      "date": "7/8/17",
+      "description":"Introductions, installs"
+    }
+  },
+  "nextWeek" :{
+    "monday":{
+      "date": "7/10/17",
+      "description":"E5 Demos"
+    },
+    "tuesday":{
+      "date": "7/11/17",
+      "description":"Sublime, Command Line"
+    },
+    "studygroup":{
+      "date": "7/12-13/17",
+      "description":"Command Line Talks, Prework"
+    },
+    "saturday":{
+      "date": "7/15/17",
+      "description":"Github"
+    }
   }
 }

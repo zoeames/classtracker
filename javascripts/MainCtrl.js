@@ -9,6 +9,14 @@ app.controller("MainCtrl", function($scope, MainFactory){
 		$scope.assignments = fbAssignments;
 	})
 
+	MainFactory.getThisWeek().then(function(planz){
+		console.log("thisWeek ", planz);
+	});
+
+	MainFactory.getNextWeek().then(function(planz){
+		console.log("nextWeek ", planz);
+	});
+
 	$scope.objectToArray= function(arr) {  
     return $filter('objectToArray')($filter('map')(arr, 'id'));
   }
