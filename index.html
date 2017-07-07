@@ -37,7 +37,7 @@
       <div class="col-xs-8 col-xs-offset-2 main-container ">
         <h1>Assignments</h1>
 
-        <ion-list ng-repeat="(key, value) in assignments | groupBy: 'dueDate' ">
+        <ion-list ng-repeat="(key, value) in assignments | filter: {isAssigned: 'true' } | groupBy: 'dueDate' ">
           <div>
             <h3> Due Date: {{key}}</h3>
           </div>

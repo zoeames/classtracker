@@ -4,7 +4,7 @@ app.controller("MainCtrl", function($scope, MainFactory){
 	$scope.assignments = [];
 	MainFactory.getAssignmentList().then(function(fbAssignments){
 		fbAssignments.sort(function(a,b){ 
-  		return new Date(a.dueDate) - new Date(b.dueDate);
+  		return new Date(b.dueDate) - new Date(a.dueDate);
 		});
 		$scope.assignments = fbAssignments;
 	})
