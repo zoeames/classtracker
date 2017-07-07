@@ -1,0 +1,40 @@
+{
+  "assignments":{
+    "assignment0" : {
+      "title" : "Setup",
+      "URL" : "https://github.com/nss-nighclass-projects/homework/blob/master/HW1.md",
+      "dueDate": "7/10/17",
+      "isAssigned":"true",
+      "assignedNumber": "1",
+      "topic": "",
+      "notes": "PREWORK, PREWORK, PREWORK, Hey have you done your PREWORK?"
+    },
+    "assignment1" : {
+      "title" : "Blog Exercise",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_BLOG.md",
+      "dueDate": "1/21/17",
+      "isAssigned":"false",
+      "assignedNumber": "2",
+      "topic": "HTML",
+      "notes": ""
+    },
+    "assignment2" : {
+      "title" : "Banking Form",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_BANKING_FORM.md",
+      "dueDate": "1/21/17",
+      "isAssigned":"false",
+      "assignedNumber": "3",
+      "topic": "HTML",
+      "notes": ""
+    },
+    "assignment3" : {
+      "title" : "Personal Bio Site",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_PERSONAL_BIO.md",
+      "dueDate": "1/21/17",
+      "isAssigned":"false",
+      "assignedNumber": "4",
+      "topic": "HTML",
+      "notes": ""
+    }
+  }
+}
