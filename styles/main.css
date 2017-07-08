@@ -267,3 +267,13 @@ a {
     color: #777777 !important;
   }
 }
+
+
+
+.day{
+  border: 2px solid black;
+}
+
+.nextWeek {
+  margin-top: 10px;
+}
