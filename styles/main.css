@@ -16,7 +16,9 @@ a {
   color: #ffffff;
 }
 
-
+.main-container {
+  text-align: center;
+}
 /* default button */
 
 .btn-default {

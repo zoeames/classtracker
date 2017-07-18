@@ -10,17 +10,17 @@
       "notes": "PREWORK, PREWORK, PREWORK, Hey have you done your PREWORK?"
     },
     "assignment1" : {
-      "title" : "Blog Exercise",
-      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_BLOG.md",
-      "dueDate": "1/21/17",
-      "isAssigned":"false",
+      "title" : "Command Line Lightning Talks",
+      "URL" : "https://github.com/nss-nighclass-projects/homework/blob/master/commandline.md",
+      "dueDate": "7/15/17",
+      "isAssigned":"true",
       "assignedNumber": "2",
-      "topic": "HTML",
+      "topic": "commandline",
       "notes": ""
     },
     "assignment2" : {
-      "title" : "Banking Form",
-      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_BANKING_FORM.md",
+      "title" : "Blog Exercise",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_BLOG.md",
       "dueDate": "1/21/17",
       "isAssigned":"false",
       "assignedNumber": "3",
@@ -28,34 +28,43 @@
       "notes": ""
     },
     "assignment3" : {
-      "title" : "Personal Bio Site",
-      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_PERSONAL_BIO.md",
+      "title" : "Banking Form",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_BANKING_FORM.md",
       "dueDate": "1/21/17",
       "isAssigned":"false",
       "assignedNumber": "4",
       "topic": "HTML",
       "notes": ""
-    }
-  },
-  "thisWeek" :{
-    "monday":{
-      "date": "7/3/17",
-      "description":"Holiday - 4th of July"
     },
-    "tuesday":{
-      "date": "7/4/17",
-      "description":"Holiday - 4th of July"
-    },
-    "studygroup":{
-      "date": "",
-      "description":"None"
-    },
-    "saturday":{
-      "date": "7/8/17",
-      "description":"Introductions, installs"
+    "assignment4" : {
+      "title" : "Personal Bio Site",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_PERSONAL_BIO.md",
+      "dueDate": "1/21/17",
+      "isAssigned":"false",
+      "assignedNumber": "5",
+      "topic": "HTML",
+      "notes": ""
     }
   },
   "nextWeek" :{
+    "monday":{
+      "date": "7/17/17",
+      "description":"github review, HTML"
+    },
+    "tuesday":{
+      "date": "7/18/17",
+      "description":"Dev tools, CSS"
+    },
+    "studygroup":{
+      "date": "",
+      "description":"Exercises"
+    },
+    "saturday":{
+      "date": "7/22/17",
+      "description":"Exercises, more github, CSS"
+    }
+  },
+  "thisWeek" :{
     "monday":{
       "date": "7/10/17",
       "description":"E5 Demos"
