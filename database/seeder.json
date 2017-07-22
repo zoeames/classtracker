@@ -1,85 +1,267 @@
 {
-  "assignments":{
-    "assignment0" : {
-      "title" : "Setup",
-      "URL" : "https://github.com/nss-nighclass-projects/homework/blob/master/HW1.md",
+  "thisWeek": {
+    "monday": {
+      "date": "7/17/17",
+      "description": "github review, HTML, Dev tools"
+    },
+    "tuesday": {
+      "date": "7/18/17",
+      "description": "CSS 101"
+    },
+    "studygroup": {
+      "date": "",
+      "description": "Exercises"
+    },
+    "saturday": {
+      "date": "7/22/17",
+      "description": "CSS 102, Exercises"
+    }
+  },
+  "nextWeek": {
+    "monday": {
+      "date": "7/24/17",
+      "description": "Javascript"
+    },
+    "tuesday": {
+      "date": "7/25/17",
+      "description": "Javascript"
+    },
+    "studygroup": {
+      "date": "",
+      "description": "Exercises"
+    },
+    "saturday": {
+      "date": "7/29/17",
+      "description": "Javascript, Exercises"
+    }
+  },
+  "students": {
+    "student1": {
+      "Student": "John Achor",
+      "Email": "johnachor@gmail.com",
+      "Github": "https://github.com/johnachor",
+      "Treehouse": "https://teamtreehouse.com/johnachor"
+    },
+    "student2": {
+      "Student": "Gina Antonini",
+      "Email": "ginamantonini@gmail.com",
+      "Github": "https://github.com/GinaAntonini",
+      "Treehouse": "https://teamtreehouse.com/ginaantonini"
+    },
+    "student3": {
+      "Student": "Paul 'Gib' Bowden",
+      "Email": "gibbowden@gmail.com",
+      "Github": "https://github.com/gib-bowden",
+      "Treehouse": "https://teamtreehouse.com/gibbowden2"
+    },
+    "student4": {
+      "Student": "Jessica Brawner",
+      "Email": "jessica.brawner@nashvillesoftwareschool.com",
+      "Github": "https://github.com/lady-ace",
+      "Treehouse": "https://teamtreehouse.com/jessicabrawner"
+    },
+    "student5": {
+      "Student": "David Dassau",
+      "Email": "todieahero@hotmail.com",
+      "Github": "https://github.com/daviddassau",
+      "Treehouse": "https://teamtreehouse.com/daviddassau"
+    },
+    "student6": {
+      "Student": "Anna Dolan",
+      "Email": "anna.dolan115@gmail.com",
+      "Github": "https://github.com/annamd115",
+      "Treehouse": "https://teamtreehouse.com/annadolan"
+    },
+    "student7": {
+      "Student": "Ben Harrington",
+      "Email": "harringtonben@icloud.com",
+      "Github": "https://github.com/harringtonben",
+      "Treehouse": "https://teamtreehouse.com/benharrington"
+    },
+    "student8": {
+      "Student": "Matthew Hensley",
+      "Email": "Matt.hensley777@gmail.com",
+      "Github": "https://github.com/Matthensley777",
+      "Treehouse": "https://teamtreehouse.com/matthewhensley2"
+    },
+    "student9": {
+      "Student": "Ronnie Hickman",
+      "Email": "rhickman2305@gmail.com",
+      "Github": "",
+      "Treehouse": "https://teamtreehouse.com/ronniehickman"
+    },
+    "student10": {
+      "Student": "Eric Holman",
+      "Email": "Holman.eric85@gmail.com",
+      "Github": "https://github.com/Eholman7",
+      "Treehouse": "https://teamtreehouse.com/ericholman"
+    },
+    "student11": {
+      "Student": "Joonho 'Juno' Lee",
+      "Email": "lejuno80@gmail.com",
+      "Github": "https://github.com/Junochop",
+      "Treehouse": "https://teamtreehouse.com/joonholee"
+    },
+    "student12": {
+      "Student": "Kenneth Lewis",
+      "Email": "kenneth.g.lewis2@gmail.com",
+      "Github": "https://github.com/lewiskg",
+      "Treehouse": "https://teamtreehouse.com/kennethlewis2"
+    },
+    "student13": {
+      "Student": "Brooke Lewis",
+      "Email": "belv2c@gmail.com",
+      "Github": "https://github.com/belv2c",
+      "Treehouse": "https://teamtreehouse.com/brookelewis"
+    },
+    "student14": {
+      "Student": "Caitlin Murnick",
+      "Email": "caitlinmurnick@gmail.com",
+      "Github": "https://github.com/cmurnick",
+      "Treehouse": "https://teamtreehouse.com/caitlinmurnick"
+    },
+    "student15": {
+      "Student": "Andrea 'Dre' Wentz Randaci",
+      "Email": "drerandaci@gmail.com",
+      "Github": "https://github.com/DreRandaci",
+      "Treehouse": "https://teamtreehouse.com/drerandaci"
+    },
+    "student16": {
+      "Student": "Jessica Rodgers",
+      "Email": "jessica.rodgers11@gmail.com",
+      "Github": "https://github.com/jessrod11",
+      "Treehouse": "https://teamtreehouse.com/jessicarodgers3"
+    },
+    "student17": {
+      "Student": "Alejandro 'Alex' Sanchez",
+      "Email": "alesanchez728@gmail.com",
+      "Github": "https://github.com/alexsanchez728",
+      "Treehouse": "https://teamtreehouse.com/alexsanchez9"
+    },
+    "student18": {
+      "Student": "Robert Shock",
+      "Email": "rob.f.shock@gmail.com",
+      "Github": "https://github.com/RobertShock",
+      "Treehouse": "https://teamtreehouse.com/robertshock"
+    },
+    "student19": {
+      "Student": "Adam Smith",
+      "Email": "hagansmith@gmail.com",
+      "Github": "https://github.com/hagansmith",
+      "Treehouse": "https://teamtreehouse.com/adamsmith41"
+    },
+    "student20": {
+      "Student": "Kelly Stoops",
+      "Email": "kstoops815@gmail.com",
+      "Github": "https://github.com/kstoops815",
+      "Treehouse": "https://teamtreehouse.com/kellystoops"
+    },
+    "student21": {
+      "Student": "Amber Stuart",
+      "Email": "wammber15@gmail.com",
+      "Github": "https://github.com/waamber",
+      "Treehouse": "https://teamtreehouse.com/amberstuart3"
+    }
+  },
+  "assignments": {
+    "assignment0": {
+      "title": "Setup",
+      "URL": "https://github.com/nss-nighclass-projects/homework/blob/master/HW1.md",
       "dueDate": "7/10/17",
-      "isAssigned":"true",
+      "isAssigned": "true",
       "assignedNumber": "1",
       "topic": "",
       "notes": "PREWORK, PREWORK, PREWORK, Hey have you done your PREWORK?"
     },
-    "assignment1" : {
-      "title" : "Command Line Lightning Talks",
-      "URL" : "https://github.com/nss-nighclass-projects/homework/blob/master/commandline.md",
+    "assignment1": {
+      "title": "Command Line Lightning Talks",
+      "URL": "https://github.com/nss-nighclass-projects/homework/blob/master/commandline.md",
       "dueDate": "7/15/17",
-      "isAssigned":"true",
+      "isAssigned": "true",
       "assignedNumber": "2",
       "topic": "commandline",
       "notes": ""
     },
-    "assignment2" : {
-      "title" : "Blog Exercise",
-      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_BLOG.md",
-      "dueDate": "1/21/17",
-      "isAssigned":"false",
+    "assignment2": {
+      "title": "Interesting Articles",
+      "URL": "https://github.com/nss-nighclass-projects/the-static-web/blob/master/SW_HTML_ARTICLES_01.md",
+      "dueDate": "7/22/17",
+      "isAssigned": "true",
       "assignedNumber": "3",
       "topic": "HTML",
-      "notes": ""
+      "notes": "** studygroup **"
     },
-    "assignment3" : {
-      "title" : "Banking Form",
-      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_BANKING_FORM.md",
-      "dueDate": "1/21/17",
-      "isAssigned":"false",
+    "assignment3": {
+      "title": "Personal Site 1",
+      "URL": "https://github.com/nss-nighclass-projects/personal-site-instructions/blob/master/personal-bio-site-1.md",
+      "dueDate": "7/22/17",
+      "isAssigned": "true",
       "assignedNumber": "4",
       "topic": "HTML",
-      "notes": ""
+      "notes": "** studygroup **"
     },
-    "assignment4" : {
-      "title" : "Personal Bio Site",
-      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/eb21f67de01248d591116a153e73df5785e69cd8/2-the-static-web/exercises/SW_HTML_PERSONAL_BIO.md",
-      "dueDate": "1/21/17",
-      "isAssigned":"false",
+    "assignment4": {
+      "title": "Banking Form",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/1-the-static-web/exercises/SW_HTML_BANKING_FORM.md",
+      "dueDate": "7/22/17",
+      "isAssigned": "true",
       "assignedNumber": "5",
       "topic": "HTML",
+      "notes": "** studygroup **"
+    },
+    "assignment5": {
+      "title": "Interesting Articles",
+      "URL": "https://github.com/nss-nighclass-projects/the-static-web/blob/master/SW_CSS_ARTICLES_02.md",
+      "dueDate": "7/24/17",
+      "isAssigned": "true",
+      "assignedNumber": "6",
+      "topic": "CSS",
       "notes": ""
-    }
-  },
-  "nextWeek" :{
-    "monday":{
-      "date": "7/17/17",
-      "description":"github review, HTML"
     },
-    "tuesday":{
-      "date": "7/18/17",
-      "description":"Dev tools, CSS"
+    "assignment6": {
+      "title": "Personal Site 2",
+      "URL": "https://github.com/nss-nighclass-projects/personal-site-instructions/blob/master/personal-bio-site-2.md",
+      "dueDate": "7/24/17",
+      "isAssigned": "true",
+      "assignedNumber": "7",
+      "topic": "CSS",
+      "notes": ""
     },
-    "studygroup":{
-      "date": "",
-      "description":"Exercises"
+    "assignment7": {
+      "title": "Relationship Selectors",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/1-the-static-web/exercises/SW_CSS_RELATIONSHIP_SELECTORS.md",
+      "dueDate": "7/24/17",
+      "isAssigned": "true",
+      "assignedNumber": "8",
+      "topic": "CSS",
+      "notes": ""
     },
-    "saturday":{
-      "date": "7/22/17",
-      "description":"Exercises, more github, CSS"
-    }
-  },
-  "thisWeek" :{
-    "monday":{
-      "date": "7/10/17",
-      "description":"E5 Demos"
+    "assignment8": {
+      "title": "CSS Diner",
+      "URL": "https://flukeout.github.io/",
+      "dueDate": "7/24/17",
+      "isAssigned": "true",
+      "assignedNumber": "9",
+      "topic": "CSS",
+      "notes": "This assignment can't be submitted but is REALLY fun"
     },
-    "tuesday":{
-      "date": "7/11/17",
-      "description":"Sublime, Command Line"
+    "assignment9": {
+      "title": "Personal Site 3",
+      "URL": "https://github.com/nss-nighclass-projects/personal-site-instructions/blob/master/personal-bio-site-3.md",
+      "dueDate": "7/24/17",
+      "isAssigned": "true",
+      "assignedNumber": "10",
+      "topic": "CSS",
+      "notes": ""
     },
-    "studygroup":{
-      "date": "",
-      "description":"Command Line Talks, Prework"
-    },
-    "saturday":{
-      "date": "7/15/17",
-      "description":"Github"
+    "assignment11": {
+      "title": "You Don't Know JS - Up and Going",
+      "URL": "https://github.com/getify/You-Dont-Know-JS/tree/master/up%20%26%20going",
+      "dueDate": "7/29/17",
+      "isAssigned": "true",
+      "assignedNumber": "11",
+      "topic": "JS",
+      "notes": "Chapter 1 and Chapter 2"
     }
   }
 }
