@@ -1,3 +1,3 @@
 "use strict";
 
-var app = angular.module("ClassTracker", ["angular.filter"]);
+var app = angular.module("ClassTracker", ["ngRoute", "angular.filter"]);
