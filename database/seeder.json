@@ -1,38 +1,38 @@
 {
-  "thisWeek": {
+  "nextWeek": {
     "monday": {
-      "date": "7/17/17",
-      "description": "github review, HTML, Dev tools"
+      "date": "7/31/17",
+      "description": "Github for teams"
     },
     "tuesday": {
-      "date": "7/18/17",
-      "description": "CSS 101"
+      "date": "8/1/17",
+      "description": "Github projects"
     },
     "studygroup": {
       "date": "",
-      "description": "Exercises"
+      "description": "JS Exercises"
     },
     "saturday": {
-      "date": "7/22/17",
-      "description": "CSS 102, Exercises"
+      "date": "8/5/17",
+      "description": "JS Exercises"
     }
   },
-  "nextWeek": {
+  "thisWeek": {
     "monday": {
       "date": "7/24/17",
-      "description": "Javascript"
+      "description": "JS strings"
     },
     "tuesday": {
       "date": "7/25/17",
-      "description": "Javascript"
+      "description": "JS arrays, objects, for loops"
     },
     "studygroup": {
       "date": "",
-      "description": "Exercises"
+      "description": "JS Exercises"
     },
     "saturday": {
       "date": "7/29/17",
-      "description": "Javascript, Exercises"
+      "description": "JS functions, switch statements, for in loops, Exercises"
     }
   },
   "students": {
@@ -254,14 +254,68 @@
       "topic": "CSS",
       "notes": ""
     },
-    "assignment11": {
+    "assignment10": {
       "title": "You Don't Know JS - Up and Going",
       "URL": "https://github.com/getify/You-Dont-Know-JS/tree/master/up%20%26%20going",
       "dueDate": "7/29/17",
       "isAssigned": "true",
       "assignedNumber": "11",
       "topic": "JS",
-      "notes": "Chapter 1 and Chapter 2"
+      "notes": "Chapter 1 and Chapter 2, stop at IIFE"
+    },
+    "assignment11": {
+      "title": "Boybands",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/1-the-static-web/exercises/SW_JS_BOYBANDS.md",
+      "dueDate": "7/29/17",
+      "isAssigned": "true",
+      "assignedNumber": "12",
+      "topic": "JS",
+      "notes": "** studygroup **"
+    },
+    "assignment12": {
+      "title": "Reindeer",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/1-the-static-web/exercises/SW_JS_REINDEER.md",
+      "dueDate": "7/29/17",
+      "isAssigned": "true",
+      "assignedNumber": "13",
+      "topic": "JS",
+      "notes": "** studygroup **"
+    },
+    "assignment13": {
+      "title": "Personal Site 4",
+      "URL": "https://github.com/nss-nighclass-projects/personal-site-instructions/blob/master/personal-bio-site-4.md",
+      "dueDate": "7/29/17",
+      "isAssigned": "true",
+      "assignedNumber": "14",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment14": {
+      "title": "Blog Post",
+      "URL": "https://github.com/nss-nighclass-projects/homework/blob/master/blog.md",
+      "dueDate": "7/31/17",
+      "isAssigned": "true",
+      "assignedNumber": "15",
+      "topic": "JS",
+      "notes": "What you learned July 24th - 19th aka JS"
+    },
+    "assignment15": {
+      "title": "Coins",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/1-the-static-web/exercises/SW_JS_COINS.md",
+      "dueDate": "8/5/17",
+      "isAssigned": "false",
+      "assignedNumber": "16",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment16": {
+      "title": "Temperature Converter",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/1-the-static-web/exercises/SW_JS_CONVERTER.md",
+      "dueDate": "7/29/17",
+      "isAssigned": "false",
+      "assignedNumber": "17",
+      "topic": "JS",
+      "notes": ""
     }
   }
 }
