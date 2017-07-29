@@ -1,0 +1,70 @@
+<div class="main-container">
+  <h1>Tenative Plan</h1>
+  <div class="row thisWeek">
+    <div class="panel panel-default ">
+      <div class="panel-body ">
+        <h4>This Week: {{thisMonday.date}} - {{thisSaturday.date}}</h4>
+        <div class="col-xs-3 day text-center">
+          <p><strong>Monday: {{thisMonday.date}}</strong></p>
+          <p>{{thisMonday.description}}</p>
+        </div>
+        <div class="col-xs-3 day text-center">
+          <p><strong>Tuesday: {{thisTuesday.date}}</strong></p>
+          <p>{{thisTuesday.description}}</p>
+        </div>
+        <div class="col-xs-3 day text-center">
+          <p><strong>Studygroup: {{thisStudygroup.date}}</strong></p>
+          <p>{{thisStudygroup.description}}</p>
+        </div>
+        <div class="col-xs-3 day text-center">
+          <p><strong>Saturday: {{thisSaturday.date}}</strong></p>
+          <p>{{thisSaturday.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row nextWeek">
+    <div class="panel panel-default ">
+      <div class="panel-body ">
+        <h4>Next Week: {{nextMonday.date}} - {{nextSaturday.date}}</h4>
+        <div class="col-xs-3 day text-center">
+          <p><strong>Monday: {{nextMonday.date}}</strong></p>
+          <p>{{nextMonday.description}}</p>
+        </div>
+        <div class="col-xs-3 day text-center">
+          <p><strong>Tuesday: {{nextTuesday.date}}</strong></p>
+          <p>{{nextTuesday.description}}</p>
+        </div>
+        <div class="col-xs-3 day text-center">
+          <p><strong>Studygroup: {{nextStudygroup.date}}</strong></p>
+          <p>{{nextStudygroup.description}}</p>
+        </div>
+        <div class="col-xs-3 day text-center">
+          <p><strong>Saturday: {{nextSaturday.date}}</strong></p>
+          <p>{{nextSaturday.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row ">
+  <div class="main-container ">
+    <h1>Assignments</h1>
+    <a class="btn btn-warning" href="https://goo.gl/forms/Ln86IpxzQRCztSXt2">Submit Assignments</a>
+    <ion-list ng-repeat="(key, value) in assignments | filter: {isAssigned: 'true' } | groupBy: 'dueDate' ">
+      <div>
+        <h3> Due Date: {{key}}</h3>
+      </div>
+      <div ng-repeat="event in value | filter: {isAssigned: 'true' } | orderBy: 'assignedNumber*1' ">
+        <div class="panel panel-default ">
+          <div class="panel-body ">
+            <div class="col-xs-1 ">{{event.assignedNumber}}</div>
+            <div class="col-xs-3 "><a ng-href="{{event.URL}} " style="color: red; ">{{event.title}}</a></div>
+            <div class="col-xs-6 ">{{event.notes}}</div>
+            <div class="col-xs-2 ">{{event.dueDate}}</div>
+          </div>
+        </div>
+      </div>
+    </ion-list>
+  </div>
+</div>

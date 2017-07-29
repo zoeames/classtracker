@@ -10,104 +10,18 @@
     <link rel="stylesheet" type="text/css" href="styles/main.css">
   </head>
 
-  <body ng-app="ClassTracker" ng-controller="MainCtrl">
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">ClassTracker</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right" ">
-          <li><a ng-href=" ">Register</a></li>
-          <li><a ng-href=" ">Login</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
+  <body ng-app="ClassTracker" ng-controller="AssignmentCtrl">
+  <div ng-include="'partials/navbar.html'"></div>
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2" ng-view></div>
+  </div>
 
-    <div class="col-xs-8 col-xs-offset-2 main-container ">
-      <h1>Tenative Plan</h1>
-      <div class="row thisWeek">
-        <div class="panel panel-default ">
-          <div class="panel-body ">
-            <h4>This Week: {{thisMonday.date}} - {{thisSaturday.date}}</h4>
-            <div class="col-xs-3 day text-center">
-              <p><strong>Monday: {{thisMonday.date}}</strong></p>
-              <p>{{thisMonday.description}}</p>
-            </div>
-            <div class="col-xs-3 day text-center">
-              <p><strong>Tuesday: {{thisTuesday.date}}</strong></p>
-              <p>{{thisTuesday.description}}</p>
-            </div>
-            <div class="col-xs-3 day text-center">
-              <p><strong>Studygroup: {{thisStudygroup.date}}</strong></p>
-              <p>{{thisStudygroup.description}}</p>
-            </div>
-            <div class="col-xs-3 day text-center">
-              <p><strong>Saturday: {{thisSaturday.date}}</strong></p>
-              <p>{{thisSaturday.description}}</p>
-            </div>
-          </div>
-        </div>    
-      </div>
-      <div class="row nextWeek">
-        <div class="panel panel-default ">
-          <div class="panel-body ">
-            <h4>Next Week: {{nextMonday.date}} - {{nextSaturday.date}}</h4>
-            <div class="col-xs-3 day text-center">
-              <p><strong>Monday: {{nextMonday.date}}</strong></p>
-              <p>{{nextMonday.description}}</p>
-            </div>
-            <div class="col-xs-3 day text-center">
-              <p><strong>Tuesday: {{nextTuesday.date}}</strong></p>
-              <p>{{nextTuesday.description}}</p>
-            </div>
-            <div class="col-xs-3 day text-center">
-              <p><strong>Studygroup: {{nextStudygroup.date}}</strong></p>
-              <p>{{nextStudygroup.description}}</p>
-            </div>
-            <div class="col-xs-3 day text-center">
-              <p><strong>Saturday: {{nextSaturday.date}}</strong></p>
-              <p>{{nextSaturday.description}}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row ">
-      <div class="col-xs-8 col-xs-offset-2 main-container ">
-        <h1>Assignments</h1>
-        <a class="btn btn-warning" href="https://goo.gl/forms/Ln86IpxzQRCztSXt2">Submit Assignments</a>
-        <ion-list ng-repeat="(key, value) in assignments | filter: {isAssigned: 'true' } | groupBy: 'dueDate' ">
-          <div>
-            <h3> Due Date: {{key}}</h3>
-          </div>
-          <div ng-repeat="event in value | filter: {isAssigned: 'true' } | orderBy: 'assignedNumber*1' ">
-            <div class="panel panel-default ">
-              <div class="panel-body ">
-                <div class="col-xs-1 ">{{event.assignedNumber}}</div>
-                <div class="col-xs-3 "><a ng-href="{{event.URL}} " style="color: red; ">{{event.title}}</a></div>
-                <div class="col-xs-6 ">{{event.notes}}</div>
-                <div class="col-xs-2 ">{{event.dueDate}}</div>
-              </div>
-            </div>
-          </div>
-        </ion-list>
-      </div>
-    </div>
+    
 
     <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js "></script>
     <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js "></script>
-    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js "></script>
+    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js "></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
     <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.14/angular-filter.min.js "></script>
     
@@ -115,8 +29,11 @@
     <script type="text/javascript " src="/javascripts/AppConstants.js "></script>
     <script type="text/javascript " src="/javascripts/AppConfig.js "></script>
     
-    <script type="text/javascript " src="/javascripts/MainFactory.js "></script>
-    <script type="text/javascript " src="/javascripts/MainCtrl.js "></script>
+    <script type="text/javascript " src="/javascripts/factories/AssignmentFactory.js "></script>
+    <script type="text/javascript " src="/javascripts/factories/StudentFactory.js "></script>
+
+    <script type="text/javascript " src="/javascripts/controllers/AssignmentCtrl.js "></script>
+    <script type="text/javascript " src="/javascripts/controllers/PathfinderCtrl.js "></script>
     
   </body>
 </html>
