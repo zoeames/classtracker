@@ -1,5 +1,5 @@
 "use strict";
-app.factory("MainFactory", function($q, $http, FIREBASE_CONFIG) {
+app.factory("AssignmentFactory", function($q, $http, FIREBASE_CONFIG) {
 
   var getAssignmentList = function() {
     let assignments = [];
@@ -19,8 +19,7 @@ app.factory("MainFactory", function($q, $http, FIREBASE_CONFIG) {
     });
   };
 
-  var getThisWeek
- = function() {
+  var getThisWeek = function() {
     let assignments = [];
     return $q(function(resolve, reject) {
       $http.get(`${FIREBASE_CONFIG.databaseURL}/thisWeek.json`)
@@ -56,6 +55,6 @@ app.factory("MainFactory", function($q, $http, FIREBASE_CONFIG) {
     });
   };
 
-  return { getAssignmentList: getAssignmentList, getThisWeek:getThisWeek,  getNextWeek:getNextWeek};
+  return { getAssignmentList: getAssignmentList, getThisWeek: getThisWeek, getNextWeek: getNextWeek };
 
 });

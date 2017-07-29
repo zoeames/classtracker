@@ -1,6 +1,6 @@
 'use strict';
 
-app.controller("MainCtrl", function($scope, MainFactory){
+app.controller("AssignmentCtrl", function($scope, AssignmentFactory){
 	$scope.assignments = [];
 	$scope.thisMonday = {};
 	$scope.thisTuesday = {};
@@ -10,15 +10,15 @@ app.controller("MainCtrl", function($scope, MainFactory){
 	$scope.nextTuesday = {};
 	$scope.nextStudygroup = {};
 	$scope.nextSaturday = {};
-
-	MainFactory.getAssignmentList().then(function(fbAssignments){
+	
+	AssignmentFactory.getAssignmentList().then(function(fbAssignments){
 		fbAssignments.sort(function(a,b){ 
   		return new Date(b.dueDate) - new Date(a.dueDate);
 		});
 		$scope.assignments = fbAssignments;
 	})
 
-	MainFactory.getThisWeek().then(function(planz){
+	AssignmentFactory.getThisWeek().then(function(planz){
 		planz.forEach((plan) => {
 			switch (plan.id) {
 			  case 'monday':
@@ -37,7 +37,7 @@ app.controller("MainCtrl", function($scope, MainFactory){
 		});
 	});
 
-	MainFactory.getNextWeek().then(function(planz){
+	AssignmentFactory.getNextWeek().then(function(planz){
 		planz.forEach((plan) => {
 			switch (plan.id) {
 			  case 'monday':

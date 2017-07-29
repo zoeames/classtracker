@@ -1,0 +1,17 @@
+<div class="main-container ">
+  <h1>Pathfinder</h1>
+  <div class="row">
+    <table class="table table-striped">
+      <tr class="title-row">
+        <th class="text-center">Name</th>
+        <th class="text-center">Links</th>
+        <th class="text-center">Stars</th>
+      </tr>
+      <tr ng-repeat="student in students">
+        <td class="col-xs-3"><h3>{{student.name}}</h3></td>
+        <td class="col-xs-1 crap"><a class="treehouse-link" href="{{student.github}}"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> &nbsp <a class="treehouse-link" href="{{student.treehouse}}"><img class="treehouse-img" src="./images/treehouse.png"></a></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+</div>
