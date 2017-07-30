@@ -313,9 +313,13 @@ table {
 }
 
 .treehouse-link:last-of-type {
-  right: 20%
+  right: 0px;
 }
 
 .treehouse-link:first-of-type {
-  left: 20%
+  left: 0px;
+}
+
+.treehouse-link:nth-child(2){
+  left: 33%;
 }
