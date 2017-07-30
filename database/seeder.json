@@ -1,5 +1,5 @@
 {
-  "nextWeek": {
+  "thisWeek": {
     "monday": {
       "date": "7/31/17",
       "description": "Github for teams"
@@ -17,22 +17,22 @@
       "description": "JS Exercises"
     }
   },
-  "thisWeek": {
+  "nextWeek": {
     "monday": {
-      "date": "7/24/17",
-      "description": "JS strings"
+      "date": "8/7/17",
+      "description": "Group Project"
     },
     "tuesday": {
-      "date": "7/25/17",
-      "description": "JS arrays, objects, for loops"
+      "date": "8/8/17",
+      "description": "Group Project"
     },
     "studygroup": {
       "date": "",
-      "description": "JS Exercises"
+      "description": "Group Project"
     },
     "saturday": {
-      "date": "7/29/17",
-      "description": "JS functions, switch statements, for in loops, Exercises"
+      "date": "8/12/17",
+      "description": "Group Project"
     }
   },
   "students": {
@@ -40,127 +40,148 @@
       "name": "John Achor",
       "email": "johnachor@gmail.com",
       "github": "https://github.com/johnachor",
-      "treehouse": "https://teamtreehouse.com/johnachor"
+      "treehouse": "https://teamtreehouse.com/johnachor",
+      "biosite": "https://johnachor.github.io"
     },
     "student2": {
       "name": "Gina Antonini",
       "email": "ginamantonini@gmail.com",
       "github": "https://github.com/GinaAntonini",
-      "treehouse": "https://teamtreehouse.com/ginaantonini"
+      "treehouse": "https://teamtreehouse.com/ginaantonini",
+      "biosite": "https://GinaAntonini.github.io"
     },
     "student3": {
       "name": "Gib Bowden",
       "email": "gibbowden@gmail.com",
       "github": "https://github.com/gib-bowden",
-      "treehouse": "https://teamtreehouse.com/gibbowden2"
+      "treehouse": "https://teamtreehouse.com/gibbowden2",
+      "biosite": "https://gib-bowden.github.io"
     },
     "student4": {
       "name": "Jessica Brawner",
       "email": "jessica.brawner@nashvillesoftwareschool.com",
       "github": "https://github.com/lady-ace",
-      "treehouse": "https://teamtreehouse.com/jessicabrawner"
+      "treehouse": "https://teamtreehouse.com/jessicabrawner",
+      "biosite": "https://lady-ace.github.io"
     },
     "student5": {
       "name": "David Dassau",
       "email": "todieahero@hotmail.com",
       "github": "https://github.com/daviddassau",
-      "treehouse": "https://teamtreehouse.com/daviddassau"
+      "treehouse": "https://teamtreehouse.com/daviddassau",
+      "biosite": "https://daviddassau.github.io"
     },
     "student6": {
       "name": "Anna Dolan",
       "email": "anna.dolan115@gmail.com",
       "github": "https://github.com/annamd115",
-      "treehouse": "https://teamtreehouse.com/annadolan"
+      "treehouse": "https://teamtreehouse.com/annadolan",
+      "biosite": "https://annamd115.github.io"
     },
     "student7": {
       "name": "Ben Harrington",
       "email": "harringtonben@icloud.com",
       "github": "https://github.com/harringtonben",
-      "treehouse": "https://teamtreehouse.com/benharrington"
+      "treehouse": "https://teamtreehouse.com/benharrington",
+      "biosite": "https://harringtonben.github.io"
     },
     "student8": {
       "name": "Matthew Hensley",
       "email": "Matt.hensley777@gmail.com",
       "github": "https://github.com/Matthensley777",
-      "treehouse": "https://teamtreehouse.com/matthewhensley2"
+      "treehouse": "https://teamtreehouse.com/matthewhensley2",
+      "biosite": "https://Matthensley777.github.io"
     },
     "student9": {
       "name": "Ronnie Hickman",
       "email": "rhickman2305@gmail.com",
-      "github": "",
-      "treehouse": "https://teamtreehouse.com/ronniehickman"
+      "github": "https://github.com/rmhickman",
+      "treehouse": "https://teamtreehouse.com/ronniehickman",
+      "biosite": "https://rmhickman.github.io"
     },
     "student10": {
       "name": "Eric Holman",
       "email": "Holman.eric85@gmail.com",
       "github": "https://github.com/Eholman7",
-      "treehouse": "https://teamtreehouse.com/ericholman"
+      "treehouse": "https://teamtreehouse.com/ericholman",
+      "biosite": "https://Eholman7.github.io"
     },
     "student11": {
       "name": "Juno Lee",
       "email": "lejuno80@gmail.com",
       "github": "https://github.com/Junochop",
-      "treehouse": "https://teamtreehouse.com/joonholee"
+      "treehouse": "https://teamtreehouse.com/joonholee",
+      "biosite": "https://Junochop.github.io"
     },
     "student12": {
       "name": "Kenneth Lewis",
       "email": "kenneth.g.lewis2@gmail.com",
       "github": "https://github.com/lewiskg",
-      "treehouse": "https://teamtreehouse.com/kennethlewis2"
+      "treehouse": "https://teamtreehouse.com/kennethlewis2",
+      "biosite": "https://lewiskg.github.io"
     },
     "student13": {
       "name": "Brooke Lewis",
       "email": "belv2c@gmail.com",
       "github": "https://github.com/belv2c",
-      "treehouse": "https://teamtreehouse.com/brookelewis"
+      "treehouse": "https://teamtreehouse.com/brookelewis",
+      "biosite": "https://belv2c.github.io"
     },
     "student14": {
       "name": "Caitlin Murnick",
       "email": "caitlinmurnick@gmail.com",
       "github": "https://github.com/cmurnick",
-      "treehouse": "https://teamtreehouse.com/caitlinmurnick"
+      "treehouse": "https://teamtreehouse.com/caitlinmurnick",
+      "biosite": "https://cmurnick.github.io"
     },
     "student15": {
       "name": "Dre Wentz Randaci",
       "email": "drerandaci@gmail.com",
       "github": "https://github.com/DreRandaci",
-      "treehouse": "https://teamtreehouse.com/drerandaci"
+      "treehouse": "https://teamtreehouse.com/drerandaci",
+      "biosite": "https://DreRandaci.github.io"
     },
     "student16": {
       "name": "Jessica Rodgers",
       "email": "jessica.rodgers11@gmail.com",
       "github": "https://github.com/jessrod11",
-      "treehouse": "https://teamtreehouse.com/jessicarodgers3"
+      "treehouse": "https://teamtreehouse.com/jessicarodgers3",
+      "biosite": "https://jessrod11.github.io"
     },
     "student17": {
       "name": "Alex Sanchez",
       "email": "alesanchez728@gmail.com",
       "github": "https://github.com/alexsanchez728",
-      "treehouse": "https://teamtreehouse.com/alexsanchez9"
+      "treehouse": "https://teamtreehouse.com/alexsanchez9",
+      "biosite": "https://alexsanchez728.github.io"
     },
     "student18": {
       "name": "Robert Shock",
       "email": "rob.f.shock@gmail.com",
       "github": "https://github.com/RobertShock",
-      "treehouse": "https://teamtreehouse.com/robertshock"
+      "treehouse": "https://teamtreehouse.com/robertshock",
+      "biosite": "https://RobertShock.github.io"
     },
     "student19": {
       "name": "Adam Smith",
       "email": "hagansmith@gmail.com",
       "github": "https://github.com/hagansmith",
-      "treehouse": "https://teamtreehouse.com/adamsmith41"
+      "treehouse": "https://teamtreehouse.com/adamsmith41",
+      "biosite": "https://hagansmith.github.io"
     },
     "student20": {
       "name": "Kelly Stoops",
       "email": "kstoops815@gmail.com",
       "github": "https://github.com/kstoops815",
-      "treehouse": "https://teamtreehouse.com/kellystoops"
+      "treehouse": "https://teamtreehouse.com/kellystoops",
+      "biosite": "https://kstoops815.github.io"
     },
     "student21": {
       "name": "Amber Stuart",
       "email": "wammber15@gmail.com",
       "github": "https://github.com/waamber",
-      "treehouse": "https://teamtreehouse.com/amberstuart3"
+      "treehouse": "https://teamtreehouse.com/amberstuart3",
+      "biosite": "https://waamber.github.io"
     }
   },
   "assignments": {
