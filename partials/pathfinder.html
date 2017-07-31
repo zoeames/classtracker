@@ -10,15 +10,17 @@
       <tr ng-repeat="student in students">
         <td class="col-xs-3"><h3>{{student.name}}</h3></td>
         <td class="col-xs-1 crap">
-          <a class="treehouse-link" href="{{student.github}}">
-            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-          </a>
-          <a class="treehouse-link" href="{{student.biosite}}">
-            <i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i>
-          </a>
-          <a class="treehouse-link" href="{{student.treehouse}}">
-            <img class="treehouse-img" src="./images/treehouse.png">
-          </a>
+          <div class="row">
+            <a class="treehouse-link" href="{{student.github}}" target="_blank">
+              <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </a>
+            <a class="treehouse-link" href="{{student.biosite}}" target="_blank">
+              <i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i>
+            </a>
+            <a class="treehouse-link" href="{{student.treehouse}}" target="_blank">
+              <img class="treehouse-img" src="./images/treehouse.png">
+            </a>
+          </div>
         </td>
         <td></td>
       </tr>
