@@ -355,6 +355,42 @@
       "assignedNumber": "19",
       "topic": "Github",
       "notes": "What you learned July 31th - August 5th aka working on group projects"
+    },
+    "assignment19" : {
+      "title" : "Dynamic Cards",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/exercises/SP_JS_EVENT_LISTENERS_DYNAMIC_CARDS.md",
+      "dueDate": "8/19/17",
+      "isAssigned":"true",
+      "assignedNumber": "20",
+      "topic": "JS",
+      "notes": "** Study Group **"
+    },
+    "assignment20" : {
+      "title" : "Guinea Pig",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/exercises/SP_JS_EVENT_LISTENERS_GUINEA_PIG.md",
+      "dueDate": "8/26/17",
+      "isAssigned":"true",
+      "assignedNumber": "21",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment21" : {
+      "title" : "WYSIWYG",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-single-page-applications/exercises/SP_JS_EVENT_LISTENERS_WYSIWYG.md",
+      "dueDate": "8/26/17",
+      "isAssigned":"true",
+      "assignedNumber": "22",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment22": {
+      "title": "Blog Post",
+      "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "dueDate": "8/22/17",
+      "isAssigned": "true",
+      "assignedNumber": "23",
+      "topic": "",
+      "notes": "Event listeners and markdown"
     }
   }
 }
