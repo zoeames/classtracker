@@ -1,38 +1,38 @@
 {
   "nextWeek": {
     "monday": {
-      "date": "8/28/17",
-      "description": "ES6, IIFEs"
+      "date": "9/11/17",
+      "description": "Task Runners"
     },
     "tuesday": {
-      "date": "8/29/17",
-      "description": "IIFE"
+      "date": "9/12/17",
+      "description": "Browserify"
     },
     "studygroup": {
       "date": "",
       "description": "Exercises"
     },
     "saturday": {
-      "date": "9/02/17",
-      "description": "Exercises"
+      "date": "9/13/17",
+      "description": "Browserify, exercises"
     }
   },
   "thisWeek": {
     "monday": {
-      "date": "8/21/17",
-      "description": "exercises"
+      "date": "9/4/17",
+      "description": "HOLIDAY"
     },
     "tuesday": {
-      "date": "8/22/17",
-      "description": "XHR"
+      "date": "9/5/17",
+      "description": "IIFE"
     },
     "studygroup": {
       "date": "",
-      "description": "XHR Exercises"
+      "description": "IIFE Exercise"
     },
     "saturday": {
-      "date": "8/26/17",
-      "description": "XHR Exercises"
+      "date": "9/9/17",
+      "description": "more IIFEs, Exercises"
     }
   },
   "students": {
@@ -409,6 +409,114 @@
       "assignedNumber": "25",
       "topic": "",
       "notes": "XHR"
+    },
+    "assignment25": {
+      "title": "Personal Site - XHR",
+      "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-5.md",
+      "dueDate": "9/05/17",
+      "isAssigned": "true",
+      "assignedNumber": "26",
+      "topic": "XHR",
+      "notes": ""
+    },
+    "assignment26": {
+      "title": "Personal Site - Bootstrap",
+      "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-6.md",
+      "dueDate": "9/05/17",
+      "isAssigned": "true",
+      "assignedNumber": "27",
+      "topic": "Bootstrap",
+      "notes": ""
+    },
+    "assignment27": {
+      "title": "Blog Post",
+      "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "dueDate": "9/05/17",
+      "isAssigned": "true",
+      "assignedNumber": "28",
+      "topic": "",
+      "notes": "Bootstrap"
+    },
+    "assignment28": {
+      "title": "Personal Site - ES6",
+      "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-7.md",
+      "dueDate": "9/05/17",
+      "isAssigned": "true",
+      "assignedNumber": "29",
+      "topic": "ES6",
+      "notes": ""
+    },
+    "assignment29": {
+      "title": "IIFE Sandwhich",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-single-page-applications/exercises/SP_JS_IIFE_SANDWICH.md",
+      "dueDate": "9/12/17",
+      "isAssigned": "true",
+      "assignedNumber": "30",
+      "topic": "IIFE",
+      "notes": "** Studygroup **"
+    },
+    "assignment30" : {
+      "URL" : "https://github.com/nss-nightclass-projects/Browserify_Solar_System/blob/master/README.md",
+      "assignedNumber" : "31",
+      "dueDate" : "9/16/17",
+      "isAssigned" : true,
+      "notes" : "** Studygroup **",
+      "title" : "Solar System",
+      "topic" : "Browserify"
+    },
+    "assignment31" : {
+      "URL" : "https://github.com/nss-nightclass-projects/Browserify-Sandwich-Maker/blob/master/README.md",
+      "assignedNumber" : "32",
+      "dueDate" : "9/18/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Browserify Sandwich",
+      "topic" : "browserify"
+    },
+    "assignment32" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "33",
+      "dueDate" : "9/18/17",
+      "isAssigned" : true,
+      "notes" : "what you learned about task runners and browserify",
+      "title" : "Blog Post",
+      "topic" : "browserify"
+    },
+    "assignment33" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/fall_break_HW.md",
+      "assignedNumber" : "34",
+      "dueDate" : "10/7/17",
+      "isAssigned" : true,
+      "notes" : "** MAIN BREAK INSTRUCTIONS **",
+      "title" : "HW over break",
+      "topic" : "admin"
+    },
+    "assignment34" : {
+      "URL" : "https://github.com/nss-nightclass-projects/Adopt-My-Cats",
+      "assignedNumber" : "35",
+      "dueDate" : "10/7/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Adopt My Cats",
+      "topic" : "jquery"
+    },
+    "assignment35" : {
+      "URL" : "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-8.md",
+      "assignedNumber" : "36",
+      "dueDate" : "10/7/17",
+      "isAssigned" : true,
+      "notes" : "what you learned about task runners and browserify",
+      "title" : "Personal Site - Jquery",
+      "topic" : "jquery"
+    },
+    "assignment36" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "37",
+      "dueDate" : "10/7/17",
+      "isAssigned" : true,
+      "notes" : "what you learned about Chatty and jquery",
+      "title" : "Blog Post",
+      "topic" : "jquery"
     }
   }
 }
