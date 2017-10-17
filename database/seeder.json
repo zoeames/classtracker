@@ -544,6 +544,24 @@
       "notes" : "",
       "title" : "Personal Site #9",
       "topic" : "SASS"
+    },
+    "assignment40" : {
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/4-rich-browser-applications/exercises/RBA_API_WEATHER_APP_PART1.md",
+      "assignedNumber" : "41",
+      "dueDate" : "10/24/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Local Weather Application",
+      "topic" : "APIs"
+    },
+    "assignment41" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "42",
+      "dueDate" : "10/24/17",
+      "isAssigned" : true,
+      "notes" : "what you learned about APIs",
+      "title" : "Blog Post",
+      "topic" : "APIs"
     }
   }
 }
