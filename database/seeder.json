@@ -1,38 +1,38 @@
 {
   "nextWeek": {
     "monday": {
-      "date": "10/23/17",
-      "description": "Firebase"
+      "date": "11/20/17",
+      "description": "Angular"
     },
     "tuesday": {
-      "date": "10/24/17",
-      "description": "Firebase Auth"
+      "date": "11/21/17",
+      "description": "Angular"
     },
     "studygroup": {
       "date": "",
-      "description": "Group Project"
+      "description": "Thanksgiving Break"
     },
     "saturday": {
-      "date": "10/28/17",
-      "description": "Group Project"
+      "date": "11/25/17",
+      "description": "Thanksgiving Break"
     }
   },
   "thisWeek": {
     "monday": {
-      "date": "10/16/17",
-      "description": "APIs"
+      "date": "11/13/17",
+      "description": "Angular"
     },
     "tuesday": {
-      "date": "10/17/17",
-      "description": "Firebase"
+      "date": "11/14/17",
+      "description": "Angular"
     },
     "studygroup": {
-      "date": "",
-      "description": "API exercises"
+      "date": "11/15/17",
+      "description": "Angular"
     },
     "saturday": {
-      "date": "10/21/17",
-      "description": "BARCAMP"
+      "date": "11/18/17",
+      "description": "Angular"
     }
   },
   "students": {
@@ -580,6 +580,33 @@
       "notes" : "what you learned about Firebase",
       "title" : "Blog Post",
       "topic" : "APIs"
+    },
+    "assignment44" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "45",
+      "dueDate" : "11/13/17",
+      "isAssigned" : true,
+      "notes" : "what you learned from Theme Park",
+      "title" : "Blog Post",
+      "topic" : "APIs"
+    },
+    "assignment45" : {
+      "URL" : "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-10.md",
+      "assignedNumber" : "46",
+      "dueDate" : "11/13/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Personal Bio Site #10 - firebase",
+      "topic" : "firebase"
+    },
+    "assignment46" : {
+      "URL" : "https://github.com/nss-nightclass-projects/angular-contacts/blob/master/angular-contacts-part-1.md",
+      "assignedNumber" : "47",
+      "dueDate" : "11/14/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Angular Contacts #1",
+      "topic" : "angular "
     }
   }
 }
