@@ -607,6 +607,78 @@
       "notes" : "",
       "title" : "Angular Contacts #1",
       "topic" : "angular "
+    },
+    "assignment47" : {
+      "URL" : "https://github.com/nss-nightclass-projects/angular-contacts/blob/master/angular-contacts-part-2.md",
+      "assignedNumber" : "48",
+      "dueDate" : "11/15/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Angular Contacts #2",
+      "topic" : "angular "
+    },
+    "assignment48" : {
+      "URL" : "https://github.com/nss-nightclass-projects/angular-contacts/blob/master/angular-contacts-part-3.md",
+      "assignedNumber" : "49",
+      "dueDate" : "11/18/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Angular Contacts #3",
+      "topic" : "angular "
+    },
+    "assignment49" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "50",
+      "dueDate" : "11/20/17",
+      "isAssigned" : true,
+      "notes" : "what you learned about angular",
+      "title" : "Blog Post",
+      "topic" : "Angular"
+    },
+    "assignment50" : {
+      "URL" : "https://github.com/nss-nightclass-projects/angular-contacts/blob/master/angular-contacts-part-4.md",
+      "assignedNumber" : "51",
+      "dueDate" : "11/20/17",
+      "isAssigned" : false,
+      "notes" : "",
+      "title" : "Angular Contacts #4",
+      "topic" : "angular "
+    },
+    "assignment51" : {
+      "URL" : "https://github.com/nss-nightclass-projects/angular-contacts/blob/master/angular-contacts-part-5.md",
+      "assignedNumber" : "52",
+      "dueDate" : "11/21/17",
+      "isAssigned" : false,
+      "notes" : "",
+      "title" : "Angular Contacts #5",
+      "topic" : "angular "
+    },
+    "assignment52" : {
+      "URL" : "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-11.md",
+      "assignedNumber" : "53",
+      "dueDate" : "11/27/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Personal Bio Site #11 - angular",
+      "topic" : "angular"
+    },
+    "assignment53" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "54",
+      "dueDate" : "11/27/17",
+      "isAssigned" : false,
+      "notes" : "what you learned about angular",
+      "title" : "Blog Post",
+      "topic" : "Angular"
+    },
+    "assignment54" : {
+      "URL" : "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-12.md",
+      "assignedNumber" : "55",
+      "dueDate" : "12/16/17",
+      "isAssigned" : false,
+      "notes" : "",
+      "title" : "Personal Bio Site #12 - freedom",
+      "topic" : ""
     }
   }
 }
