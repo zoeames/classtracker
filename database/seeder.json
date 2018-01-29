@@ -9,6 +9,22 @@
       "treehouseComplete": false
     },
     "student2": {
+      "name": "Jeffrey Chen",
+      "email": "jeffreychen2016@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/xuehuichen",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student3": {
+      "name": "Michael Clark",
+      "email": "michael.clark1992@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/michaelclark17",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student4": {
       "name": "Anna Dolan",
       "email": "anna.dolan115@gmail.com",
       "github": "https://github.com/annamd115",
@@ -16,7 +32,15 @@
       "biosite": "https://annamd115.github.io",
       "treehouseComplete": true
     },
-    "student3": {
+    "student5": {
+      "name": "Thomas Dugan",
+      "email": "thomas@aadwebb.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/thomasdugan",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student6": {
       "name": "Eric Holman",
       "email": "Holman.eric85@gmail.com",
       "github": "https://github.com/Eholman7",
@@ -24,12 +48,172 @@
       "biosite": "https://Eholman7.github.io",
       "treehouseComplete": false
     },
-    "student4": {
-      "name": "Jessica Rodgers",
+    "student7": {
+      "name": "Maken Hubbard",
+      "email": "Makhub26@outlook.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/makenhubbard",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student8": {
+      "name": "Mehret Kualal",
+      "email": "merutaye@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/mehretkualala",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student9": {
+      "name": "Corey Lutrick",
+      "email": "coreylutrick@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/coreylutrick",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student10": {
+      "name": "Colt McCormick",
+      "email": "coltmccormick@hotmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/coltmccormick",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student11": {
+      "name": "Andrew Million",
+      "email": "amillion3@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/andymillion",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student12": {
+      "name": "Amanda Mitchell",
+      "email": "wreedamitchell@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/amandamitchell4",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student13": {
+      "name": "Drake Morrison",
+      "email": "Drakermorrison@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/drakemorrison",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student14": {
+      "name": "April Nichols",
+      "email": "nicholsar@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/aprilnichols",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student15": {
+      "name": "Alexander Orga",
+      "email": "a.orga@icloud.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/alexanderorga",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student16": {
+      "name": "Mary Alice Orr",
+      "email": "m.a.orr17@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/maryorr2",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student17": {
+      "name": "Nathan Pabst",
+      "email": "nathan.pabst@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/nathanpabst",
+      "biosite": "",
+      "treehouseComplete": true
+    },
+    "student18": {
+      "name": "Margarita Patrick",
+      "email": "mpatrick1007@yahoo.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/margaritapatrick",
+      "biosite": "",
+      "treehouseComplete": true
+    },
+    "student19": {
+      "name": "Stix Rodgers",
       "email": "jessica.rodgers11@gmail.com",
       "github": "https://github.com/jessrod11",
       "treehouse": "https://teamtreehouse.com/jessicarodgers3",
       "biosite": "https://jessrod11.github.io",
+      "treehouseComplete": false
+    },
+    "student20": {
+      "name": "Simone Rose",
+      "email": "A.simonerose@outlook.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/simonerose2",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student21": {
+      "name": "Barry Russell",
+      "email": "blrussell09@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/barryrussell",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student22": {
+      "name": "Lola Simpson",
+      "email": "lolalsimp@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/latashasimpson",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student23": {
+      "name": "Amanda Slayton",
+      "email": "alslayton86@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/amandaslayton",
+      "biosite": "",
+      "treehouseComplete": true
+    },
+    "student24": {
+      "name": "Michael Leo Taylor",
+      "email": "leotaylor723@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/leotaylor2",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student25": {
+      "name": "Colin White",
+      "email": "clwhite814@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/colinwhite2",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student26": {
+      "name": "Adam Wieckert",
+      "email": "wiec1369@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/adamwieckert",
+      "biosite": "",
+      "treehouseComplete": false
+    },
+    "student27": {
+      "name": "Brian Wright",
+      "email": "briankw23@gmail.com",
+      "github": "",
+      "treehouse": "https://teamtreehouse.com/brianwright7",
+      "biosite": "",
       "treehouseComplete": false
     }
   },

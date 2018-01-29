@@ -336,11 +336,11 @@ table {
 
 
 .middle-points{
-  background-color: rgb(159, 193, 93);
+  background-color: yellow;
 }
 
 .low-points{
-  background-color: lightgoldenrodyellow;
+  background-color: orange;
 }
 
 .almost-points{
