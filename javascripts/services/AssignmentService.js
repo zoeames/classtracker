@@ -1,4 +1,4 @@
-app.factory("AssignmentFactory", function($q, $http, FIREBASE_CONFIG) {
+app.service("AssignmentService", function($q, $http, FIREBASE_CONFIG) {
 
   var getAssignmentList = function() {
     let assignments = [];
@@ -18,6 +18,6 @@ app.factory("AssignmentFactory", function($q, $http, FIREBASE_CONFIG) {
     });
   };
 
-  return { getAssignmentList: getAssignmentList, getThisWeek: getThisWeek, getNextWeek: getNextWeek };
+  return { getAssignmentList: getAssignmentList};
 
 });

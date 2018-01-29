@@ -1,4 +1,4 @@
-app.factory("StudentFactory", function($q, $http, FIREBASE_CONFIG) {
+app.service("StudentService", function($q, $http, FIREBASE_CONFIG) {
 
   var getStudentList = function() {
     let students = [];
