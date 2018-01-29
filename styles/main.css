@@ -323,3 +323,26 @@ table {
 .treehouse-link:nth-child(2){
   left: 33%;
 }
+
+.treehouse-check{
+  color: darkgreen;
+  background-color: white;
+}
+
+.danger-points{
+  background-color: red;
+  color: white;
+}
+
+
+.middle-points{
+  background-color: rgb(159, 193, 93);
+}
+
+.low-points{
+  background-color: lightgoldenrodyellow;
+}
+
+.almost-points{
+  background-color: rgb(53, 225, 53);
+}
