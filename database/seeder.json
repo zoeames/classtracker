@@ -5,28 +5,32 @@
       "email": "johnachor@gmail.com",
       "github": "https://github.com/johnachor",
       "treehouse": "https://teamtreehouse.com/johnachor",
-      "biosite": "https://johnachor.github.io"
+      "biosite": "https://johnachor.github.io",
+      "treehouseComplete": false
     },
     "student2": {
       "name": "Anna Dolan",
       "email": "anna.dolan115@gmail.com",
       "github": "https://github.com/annamd115",
       "treehouse": "https://teamtreehouse.com/annadolan",
-      "biosite": "https://annamd115.github.io"
+      "biosite": "https://annamd115.github.io",
+      "treehouseComplete": true
     },
     "student3": {
       "name": "Eric Holman",
       "email": "Holman.eric85@gmail.com",
       "github": "https://github.com/Eholman7",
       "treehouse": "https://teamtreehouse.com/ericholman",
-      "biosite": "https://Eholman7.github.io"
+      "biosite": "https://Eholman7.github.io",
+      "treehouseComplete": false
     },
     "student4": {
       "name": "Jessica Rodgers",
       "email": "jessica.rodgers11@gmail.com",
       "github": "https://github.com/jessrod11",
       "treehouse": "https://teamtreehouse.com/jessicarodgers3",
-      "biosite": "https://jessrod11.github.io"
+      "biosite": "https://jessrod11.github.io",
+      "treehouseComplete": false
     }
   },
   "assignments": {
