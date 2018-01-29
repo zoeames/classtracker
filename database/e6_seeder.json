@@ -1,0 +1,703 @@
+{
+  "nextWeek": {
+    "monday": {
+      "date": "11/20/17",
+      "description": "Angular"
+    },
+    "tuesday": {
+      "date": "11/21/17",
+      "description": "Angular"
+    },
+    "studygroup": {
+      "date": "",
+      "description": "Thanksgiving Break"
+    },
+    "saturday": {
+      "date": "11/25/17",
+      "description": "Thanksgiving Break"
+    }
+  },
+  "thisWeek": {
+    "monday": {
+      "date": "11/13/17",
+      "description": "Angular"
+    },
+    "tuesday": {
+      "date": "11/14/17",
+      "description": "Angular"
+    },
+    "studygroup": {
+      "date": "11/15/17",
+      "description": "Angular"
+    },
+    "saturday": {
+      "date": "11/18/17",
+      "description": "Angular"
+    }
+  },
+  "students": {
+    "student1": {
+      "name": "John Achor",
+      "email": "johnachor@gmail.com",
+      "github": "https://github.com/johnachor",
+      "treehouse": "https://teamtreehouse.com/johnachor",
+      "biosite": "https://johnachor.github.io"
+    },
+    "student2": {
+      "name": "Gina Antonini",
+      "email": "ginamantonini@gmail.com",
+      "github": "https://github.com/GinaAntonini",
+      "treehouse": "https://teamtreehouse.com/ginaantonini",
+      "biosite": "https://GinaAntonini.github.io"
+    },
+    "student3": {
+      "name": "Gib Bowden",
+      "email": "gibbowden@gmail.com",
+      "github": "https://github.com/gib-bowden",
+      "treehouse": "https://teamtreehouse.com/gibbowden2",
+      "biosite": "https://gib-bowden.github.io"
+    },
+    "student4": {
+      "name": "Jessica Brawner",
+      "email": "jessica.brawner@nashvillesoftwareschool.com",
+      "github": "https://github.com/lady-ace",
+      "treehouse": "https://teamtreehouse.com/jessicabrawner",
+      "biosite": "https://lady-ace.github.io"
+    },
+    "student5": {
+      "name": "David Dassau",
+      "email": "todieahero@hotmail.com",
+      "github": "https://github.com/daviddassau",
+      "treehouse": "https://teamtreehouse.com/daviddassau",
+      "biosite": "https://daviddassau.github.io"
+    },
+    "student6": {
+      "name": "Anna Dolan",
+      "email": "anna.dolan115@gmail.com",
+      "github": "https://github.com/annamd115",
+      "treehouse": "https://teamtreehouse.com/annadolan",
+      "biosite": "https://annamd115.github.io"
+    },
+    "student7": {
+      "name": "Ben Harrington",
+      "email": "harringtonben@icloud.com",
+      "github": "https://github.com/harringtonben",
+      "treehouse": "https://teamtreehouse.com/benharrington",
+      "biosite": "https://harringtonben.github.io"
+    },
+    "student8": {
+      "name": "Matthew Hensley",
+      "email": "Matt.hensley777@gmail.com",
+      "github": "https://github.com/Matthensley777",
+      "treehouse": "https://teamtreehouse.com/matthewhensley2",
+      "biosite": "https://Matthensley777.github.io"
+    },
+    "student9": {
+      "name": "Ronnie Hickman",
+      "email": "rhickman2305@gmail.com",
+      "github": "https://github.com/rmhickman",
+      "treehouse": "https://teamtreehouse.com/ronniehickman",
+      "biosite": "https://rmhickman.github.io"
+    },
+    "student10": {
+      "name": "Eric Holman",
+      "email": "Holman.eric85@gmail.com",
+      "github": "https://github.com/Eholman7",
+      "treehouse": "https://teamtreehouse.com/ericholman",
+      "biosite": "https://Eholman7.github.io"
+    },
+    "student11": {
+      "name": "Juno Lee",
+      "email": "lejuno80@gmail.com",
+      "github": "https://github.com/Junochop",
+      "treehouse": "https://teamtreehouse.com/joonholee",
+      "biosite": "https://Junochop.github.io"
+    },
+    "student12": {
+      "name": "Kenneth Lewis",
+      "email": "kenneth.g.lewis2@gmail.com",
+      "github": "https://github.com/lewiskg",
+      "treehouse": "https://teamtreehouse.com/kennethlewis2",
+      "biosite": "https://lewiskg.github.io"
+    },
+    "student13": {
+      "name": "Brooke Lewis",
+      "email": "belv2c@gmail.com",
+      "github": "https://github.com/belv2c",
+      "treehouse": "https://teamtreehouse.com/brookelewis",
+      "biosite": "https://belv2c.github.io"
+    },
+    "student14": {
+      "name": "Caitlin Murnick",
+      "email": "caitlinmurnick@gmail.com",
+      "github": "https://github.com/cmurnick",
+      "treehouse": "https://teamtreehouse.com/caitlinmurnick",
+      "biosite": "https://cmurnick.github.io"
+    },
+    "student15": {
+      "name": "Dre Wentz Randaci",
+      "email": "drerandaci@gmail.com",
+      "github": "https://github.com/DreRandaci",
+      "treehouse": "https://teamtreehouse.com/drerandaci",
+      "biosite": "https://DreRandaci.github.io"
+    },
+    "student16": {
+      "name": "Jessica Rodgers",
+      "email": "jessica.rodgers11@gmail.com",
+      "github": "https://github.com/jessrod11",
+      "treehouse": "https://teamtreehouse.com/jessicarodgers3",
+      "biosite": "https://jessrod11.github.io"
+    },
+    "student17": {
+      "name": "Alex Sanchez",
+      "email": "alesanchez728@gmail.com",
+      "github": "https://github.com/alexsanchez728",
+      "treehouse": "https://teamtreehouse.com/alexsanchez9",
+      "biosite": "https://alexsanchez728.github.io"
+    },
+    "student18": {
+      "name": "Robert Shock",
+      "email": "rob.f.shock@gmail.com",
+      "github": "https://github.com/RobertShock",
+      "treehouse": "https://teamtreehouse.com/robertshock",
+      "biosite": "https://RobertShock.github.io"
+    },
+    "student19": {
+      "name": "Adam Smith",
+      "email": "hagansmith@gmail.com",
+      "github": "https://github.com/hagansmith",
+      "treehouse": "https://teamtreehouse.com/adamsmith41",
+      "biosite": "https://hagansmith.github.io"
+    },
+    "student20": {
+      "name": "Kelly Stoops",
+      "email": "kstoops815@gmail.com",
+      "github": "https://github.com/kstoops815",
+      "treehouse": "https://teamtreehouse.com/kellystoops",
+      "biosite": "https://kstoops815.github.io"
+    },
+    "student21": {
+      "name": "Amber Stuart",
+      "email": "wammber15@gmail.com",
+      "github": "https://github.com/waamber",
+      "treehouse": "https://teamtreehouse.com/amberstuart3",
+      "biosite": "https://waamber.github.io"
+    }
+  },
+  "assignments": {
+    "assignment0": {
+      "title": "Setup",
+      "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/HW1.md",
+      "dueDate": "7/10/17",
+      "isAssigned": "true",
+      "assignedNumber": "1",
+      "topic": "",
+      "notes": "PREWORK, PREWORK, PREWORK, Hey have you done your PREWORK?"
+    },
+    "assignment1": {
+      "title": "Command Line Lightning Talks",
+      "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/commandline.md",
+      "dueDate": "7/15/17",
+      "isAssigned": "true",
+      "assignedNumber": "2",
+      "topic": "commandline",
+      "notes": ""
+    },
+    "assignment2": {
+      "title": "Interesting Articles",
+      "URL": "https://github.com/nss-nightclass-projects/the-static-web/blob/master/SW_HTML_ARTICLES_01.md",
+      "dueDate": "7/22/17",
+      "isAssigned": "true",
+      "assignedNumber": "3",
+      "topic": "HTML",
+      "notes": "** studygroup **"
+    },
+    "assignment3": {
+      "title": "Personal Site 1",
+      "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-1.md",
+      "dueDate": "7/22/17",
+      "isAssigned": "true",
+      "assignedNumber": "4",
+      "topic": "HTML",
+      "notes": "** studygroup **"
+    },
+    "assignment4": {
+      "title": "Banking Form",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/1-the-static-web/exercises/SW_HTML_BANKING_FORM.md",
+      "dueDate": "7/22/17",
+      "isAssigned": "true",
+      "assignedNumber": "5",
+      "topic": "HTML",
+      "notes": "** studygroup **"
+    },
+    "assignment5": {
+      "title": "Interesting Articles",
+      "URL": "https://github.com/nss-nightclass-projects/the-static-web/blob/master/SW_CSS_ARTICLES_02.md",
+      "dueDate": "7/24/17",
+      "isAssigned": "true",
+      "assignedNumber": "6",
+      "topic": "CSS",
+      "notes": ""
+    },
+    "assignment6": {
+      "title": "Personal Site 2",
+      "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-2.md",
+      "dueDate": "7/24/17",
+      "isAssigned": "true",
+      "assignedNumber": "7",
+      "topic": "CSS",
+      "notes": ""
+    },
+    "assignment7": {
+      "title": "Relationship Selectors",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/1-the-static-web/exercises/SW_CSS_RELATIONSHIP_SELECTORS.md",
+      "dueDate": "7/24/17",
+      "isAssigned": "true",
+      "assignedNumber": "8",
+      "topic": "CSS",
+      "notes": ""
+    },
+    "assignment8": {
+      "title": "CSS Diner",
+      "URL": "https://flukeout.github.io/",
+      "dueDate": "7/24/17",
+      "isAssigned": "true",
+      "assignedNumber": "9",
+      "topic": "CSS",
+      "notes": "This assignment can't be submitted but is REALLY fun"
+    },
+    "assignment9": {
+      "title": "Personal Site 3",
+      "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-3.md",
+      "dueDate": "7/24/17",
+      "isAssigned": "true",
+      "assignedNumber": "10",
+      "topic": "CSS",
+      "notes": ""
+    },
+    "assignment10": {
+      "title": "You Don't Know JS - Up and Going",
+      "URL": "https://github.com/getify/You-Dont-Know-JS/tree/master/up%20%26%20going",
+      "dueDate": "7/29/17",
+      "isAssigned": "true",
+      "assignedNumber": "11",
+      "topic": "JS",
+      "notes": "Chapter 1 and Chapter 2, stop at IIFE"
+    },
+    "assignment11": {
+      "title": "Boybands",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/1-the-static-web/exercises/SW_JS_BOYBANDS.md",
+      "dueDate": "7/29/17",
+      "isAssigned": "true",
+      "assignedNumber": "12",
+      "topic": "JS",
+      "notes": "** studygroup **"
+    },
+    "assignment12": {
+      "title": "Reindeer",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/1-the-static-web/exercises/SW_JS_REINDEER.md",
+      "dueDate": "7/29/17",
+      "isAssigned": "true",
+      "assignedNumber": "13",
+      "topic": "JS",
+      "notes": "** studygroup **"
+    },
+    "assignment13": {
+      "title": "Personal Site 4",
+      "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-4.md",
+      "dueDate": "7/29/17",
+      "isAssigned": "true",
+      "assignedNumber": "14",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment14": {
+      "title": "Blog Post",
+      "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "dueDate": "7/31/17",
+      "isAssigned": "true",
+      "assignedNumber": "15",
+      "topic": "JS",
+      "notes": "What you learned July 24th - 19th aka JS"
+    },
+    "assignment15": {
+      "title": "Coins",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/1-the-static-web/exercises/SW_JS_COINS.md",
+      "dueDate": "8/5/17",
+      "isAssigned": "true",
+      "assignedNumber": "16",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment16": {
+      "title": "Temperature Converter",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/1-the-static-web/exercises/SW_JS_CONVERTER.md",
+      "dueDate": "8/7/17",
+      "isAssigned": "true",
+      "assignedNumber": "17",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment17": {
+      "title": "Blog Post",
+      "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "dueDate": "8/7/17",
+      "isAssigned": "true",
+      "assignedNumber": "18",
+      "topic": "JS",
+      "notes": "What you learned July 24th - July 29 aka moar github"
+    },
+    "assignment18": {
+      "title": "Blog Post",
+      "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "dueDate": "8/14/17",
+      "isAssigned": "true",
+      "assignedNumber": "19",
+      "topic": "Github",
+      "notes": "What you learned July 31th - August 5th aka working on group projects"
+    },
+    "assignment19" : {
+      "title" : "Dynamic Cards",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-single-page-applications/exercises/SP_JS_EVENT_LISTENERS_DYNAMIC_CARDS.md",
+      "dueDate": "8/19/17",
+      "isAssigned":"true",
+      "assignedNumber": "20",
+      "topic": "JS",
+      "notes": "** Study Group **"
+    },
+    "assignment20" : {
+      "title" : "Guinea Pig",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-single-page-applications/exercises/SP_JS_EVENT_LISTENERS_GUINEA_PIG.md",
+      "dueDate": "8/26/17",
+      "isAssigned":"true",
+      "assignedNumber": "21",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment21" : {
+      "title" : "WYSIWYG",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-single-page-applications/exercises/SP_JS_EVENT_LISTENERS_WYSIWYG.md",
+      "dueDate": "8/26/17",
+      "isAssigned":"true",
+      "assignedNumber": "22",
+      "topic": "JS",
+      "notes": ""
+    },
+    "assignment22": {
+      "title": "Blog Post",
+      "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "dueDate": "8/22/17",
+      "isAssigned": "true",
+      "assignedNumber": "23",
+      "topic": "",
+      "notes": "Event listeners and markdown"
+    },
+    "assignment23" : {
+      "title" : "Seasonal Sales",
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-single-page-applications/exercises/SP_JS_XHR_SEASONAL_SALES.md",
+      "dueDate": "8/29/17",
+      "isAssigned":"true",
+      "assignedNumber": "24",
+      "topic": "XHR",
+      "notes": ""
+    },
+    "assignment24": {
+      "title": "Blog Post",
+      "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "dueDate": "8/29/17",
+      "isAssigned": "true",
+      "assignedNumber": "25",
+      "topic": "",
+      "notes": "XHR"
+    },
+    "assignment25": {
+      "title": "Personal Site - XHR",
+      "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-5.md",
+      "dueDate": "9/05/17",
+      "isAssigned": "true",
+      "assignedNumber": "26",
+      "topic": "XHR",
+      "notes": ""
+    },
+    "assignment26": {
+      "title": "Personal Site - Bootstrap",
+      "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-6.md",
+      "dueDate": "9/05/17",
+      "isAssigned": "true",
+      "assignedNumber": "27",
+      "topic": "Bootstrap",
+      "notes": ""
+    },
+    "assignment27": {
+      "title": "Blog Post",
+      "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "dueDate": "9/05/17",
+      "isAssigned": "true",
+      "assignedNumber": "28",
+      "topic": "",
+      "notes": "Bootstrap"
+    },
+    "assignment28": {
+      "title": "Personal Site - ES6",
+      "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-7.md",
+      "dueDate": "9/05/17",
+      "isAssigned": "true",
+      "assignedNumber": "29",
+      "topic": "ES6",
+      "notes": ""
+    },
+    "assignment29": {
+      "title": "IIFE Sandwhich",
+      "URL": "https://github.com/nashville-software-school/front-end-milestones/blob/master/2-single-page-applications/exercises/SP_JS_IIFE_SANDWICH.md",
+      "dueDate": "9/12/17",
+      "isAssigned": "true",
+      "assignedNumber": "30",
+      "topic": "IIFE",
+      "notes": "** Studygroup **"
+    },
+    "assignment30" : {
+      "URL" : "https://github.com/nss-nightclass-projects/Browserify_Solar_System/blob/master/README.md",
+      "assignedNumber" : "31",
+      "dueDate" : "9/16/17",
+      "isAssigned" : true,
+      "notes" : "** Studygroup **",
+      "title" : "Solar System",
+      "topic" : "Browserify"
+    },
+    "assignment31" : {
+      "URL" : "https://github.com/nss-nightclass-projects/Browserify-Sandwich-Maker/blob/master/README.md",
+      "assignedNumber" : "32",
+      "dueDate" : "9/18/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Browserify Sandwich",
+      "topic" : "browserify"
+    },
+    "assignment32" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "33",
+      "dueDate" : "9/18/17",
+      "isAssigned" : true,
+      "notes" : "what you learned about task runners and browserify",
+      "title" : "Blog Post",
+      "topic" : "browserify"
+    },
+    "assignment33" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/fall_break_HW.md",
+      "assignedNumber" : "34",
+      "dueDate" : "10/7/17",
+      "isAssigned" : true,
+      "notes" : "** MAIN BREAK INSTRUCTIONS **",
+      "title" : "HW over break",
+      "topic" : "admin"
+    },
+    "assignment34" : {
+      "URL" : "https://github.com/nss-nightclass-projects/Adopt-My-Cats",
+      "assignedNumber" : "35",
+      "dueDate" : "10/7/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Adopt My Cats",
+      "topic" : "jquery"
+    },
+    "assignment35" : {
+      "URL" : "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-8.md",
+      "assignedNumber" : "36",
+      "dueDate" : "10/7/17",
+      "isAssigned" : true,
+      "notes" : "what you learned about task runners and browserify",
+      "title" : "Personal Site - Jquery",
+      "topic" : "jquery"
+    },
+    "assignment36" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "37",
+      "dueDate" : "10/7/17",
+      "isAssigned" : true,
+      "notes" : "what you learned about Chatty and jquery",
+      "title" : "Blog Post",
+      "topic" : "jquery"
+    },
+    "assignment37" : {
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/3-modern-javascript-developer/exercises/MJ_PROMISES_ACME_EXPLOSIVES.md",
+      "assignedNumber" : "38",
+      "dueDate" : "10/17/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Acme Explosives",
+      "topic" : "promises"
+    },
+    "assignment38" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "39",
+      "dueDate" : "10/17/17",
+      "isAssigned" : true,
+      "notes" : "what you learned about Promises",
+      "title" : "Blog Post",
+      "topic" : "promises"
+    },
+    "assignment39" : {
+      "URL" : "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-9.md",
+      "assignedNumber" : "40",
+      "dueDate" : "10/21/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Personal Site #9",
+      "topic" : "SASS"
+    },
+    "assignment40" : {
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/4-rich-browser-applications/exercises/RBA_API_WEATHER_APP_PART1.md",
+      "assignedNumber" : "41",
+      "dueDate" : "10/24/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Local Weather Application",
+      "topic" : "APIs"
+    },
+    "assignment41" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "42",
+      "dueDate" : "10/24/17",
+      "isAssigned" : true,
+      "notes" : "what you learned about APIs",
+      "title" : "Blog Post",
+      "topic" : "APIs"
+    },
+    "assignment42" : {
+      "URL" : "https://github.com/nashville-software-school/front-end-milestones/blob/master/4-rich-browser-applications/exercises/RBA_API_WEATHER_APP_PART2.md",
+      "assignedNumber" : "43",
+      "dueDate" : "10/31/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Local Weather Application II",
+      "topic" : "APIs"
+    },
+    "assignment43" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "44",
+      "dueDate" : "10/31/17",
+      "isAssigned" : true,
+      "notes" : "what you learned about Firebase",
+      "title" : "Blog Post",
+      "topic" : "APIs"
+    },
+    "assignment44" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "45",
+      "dueDate" : "11/13/17",
+      "isAssigned" : true,
+      "notes" : "what you learned from Theme Park",
+      "title" : "Blog Post",
+      "topic" : "APIs"
+    },
+    "assignment45" : {
+      "URL" : "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-10.md",
+      "assignedNumber" : "46",
+      "dueDate" : "11/13/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Personal Bio Site #10 - firebase",
+      "topic" : "firebase"
+    },
+    "assignment46" : {
+      "URL" : "https://github.com/nss-nightclass-projects/angular-contacts/blob/master/angular-contacts-part-1.md",
+      "assignedNumber" : "47",
+      "dueDate" : "11/14/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Angular Contacts #1",
+      "topic" : "angular "
+    },
+    "assignment47" : {
+      "URL" : "https://github.com/nss-nightclass-projects/angular-contacts/blob/master/angular-contacts-part-2.md",
+      "assignedNumber" : "48",
+      "dueDate" : "11/15/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Angular Contacts #2",
+      "topic" : "angular "
+    },
+    "assignment48" : {
+      "URL" : "https://github.com/nss-nightclass-projects/angular-contacts/blob/master/angular-contacts-part-3.md",
+      "assignedNumber" : "49",
+      "dueDate" : "11/18/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Angular Contacts #3",
+      "topic" : "angular "
+    },
+    "assignment49" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "50",
+      "dueDate" : "11/20/17",
+      "isAssigned" : true,
+      "notes" : "what you learned about angular",
+      "title" : "Blog Post",
+      "topic" : "Angular"
+    },
+    "assignment50" : {
+      "URL" : "https://github.com/nss-nightclass-projects/angular-contacts/blob/master/angular-contacts-part-4.md",
+      "assignedNumber" : "51",
+      "dueDate" : "11/20/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Angular Contacts #4",
+      "topic" : "angular "
+    },
+    "assignment51" : {
+      "URL" : "https://github.com/nss-nightclass-projects/angular-contacts/blob/master/angular-contacts-part-5.md",
+      "assignedNumber" : "52",
+      "dueDate" : "11/21/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Angular Contacts #5",
+      "topic" : "angular "
+    },
+    "assignment52" : {
+      "URL" : "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-11.md",
+      "assignedNumber" : "53",
+      "dueDate" : "11/27/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Personal Bio Site #11 - angular",
+      "topic" : "angular"
+    },
+    "assignment53" : {
+      "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+      "assignedNumber" : "54",
+      "dueDate" : "11/27/17",
+      "isAssigned" : true,
+      "notes" : "what you learned about angular",
+      "title" : "Blog Post",
+      "topic" : "Angular"
+    },
+    "assignment54" : {
+      "URL" : "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-12.md",
+      "assignedNumber" : "55",
+      "dueDate" : "12/16/17",
+      "isAssigned" : true,
+      "notes" : "",
+      "title" : "Personal Bio Site #12 - freedom",
+      "topic" : "Angular"
+    },
+    "assignment55" : {
+      "URL" : "https://github.com/nss-nightclass-projects/capstone-central/blob/master/02_initial-proposal.md",
+      "assignedNumber" : "56",
+      "dueDate" : "11/27/17",
+      "isAssigned" : true,
+      "notes" : "Google Doc",
+      "title" : "Initial Capstone Proposal",
+      "topic" : "capstone"
+    },
+    "assignment56" : {
+      "URL" : "https://github.com/nss-nightclass-projects/capstone-central/blob/master/03_mentor-1on1s.md",
+      "assignedNumber" : "57",
+      "dueDate" : "12/2/17",
+      "isAssigned" : true,
+      "notes" : "See section on 1st meeting",
+      "title" : "Capstone Planning and Wireframes",
+      "topic" : "capstone"
+    }
+
+  }
+}
