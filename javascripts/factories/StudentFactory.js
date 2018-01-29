@@ -1,4 +1,3 @@
-"use strict";
 app.factory("StudentFactory", function($q, $http, FIREBASE_CONFIG) {
 
   var getStudentList = function() {
