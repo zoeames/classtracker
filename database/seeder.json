@@ -639,7 +639,7 @@
       "URL" : "https://github.com/nss-nightclass-projects/angular-contacts/blob/master/angular-contacts-part-4.md",
       "assignedNumber" : "51",
       "dueDate" : "11/20/17",
-      "isAssigned" : false,
+      "isAssigned" : true,
       "notes" : "",
       "title" : "Angular Contacts #4",
       "topic" : "angular "
@@ -648,7 +648,7 @@
       "URL" : "https://github.com/nss-nightclass-projects/angular-contacts/blob/master/angular-contacts-part-5.md",
       "assignedNumber" : "52",
       "dueDate" : "11/21/17",
-      "isAssigned" : false,
+      "isAssigned" : true,
       "notes" : "",
       "title" : "Angular Contacts #5",
       "topic" : "angular "
@@ -666,7 +666,7 @@
       "URL" : "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
       "assignedNumber" : "54",
       "dueDate" : "11/27/17",
-      "isAssigned" : false,
+      "isAssigned" : true,
       "notes" : "what you learned about angular",
       "title" : "Blog Post",
       "topic" : "Angular"
@@ -675,10 +675,29 @@
       "URL" : "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-12.md",
       "assignedNumber" : "55",
       "dueDate" : "12/16/17",
-      "isAssigned" : false,
+      "isAssigned" : true,
       "notes" : "",
       "title" : "Personal Bio Site #12 - freedom",
-      "topic" : ""
+      "topic" : "Angular"
+    },
+    "assignment55" : {
+      "URL" : "https://github.com/nss-nightclass-projects/capstone-central/blob/master/02_initial-proposal.md",
+      "assignedNumber" : "56",
+      "dueDate" : "11/27/17",
+      "isAssigned" : true,
+      "notes" : "Google Doc",
+      "title" : "Initial Capstone Proposal",
+      "topic" : "capstone"
+    },
+    "assignment56" : {
+      "URL" : "https://github.com/nss-nightclass-projects/capstone-central/blob/master/03_mentor-1on1s.md",
+      "assignedNumber" : "57",
+      "dueDate" : "12/2/17",
+      "isAssigned" : true,
+      "notes" : "See section on 1st meeting",
+      "title" : "Capstone Planning and Wireframes",
+      "topic" : "capstone"
     }
+
   }
 }
