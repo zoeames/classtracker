@@ -1,5 +1,3 @@
-"use strict";
-
 app.run(function(FIREBASE_CONFIG) {
   firebase.initializeApp(FIREBASE_CONFIG);
 });
@@ -10,9 +8,9 @@ app.config(function($routeProvider) {
       templateUrl: 'partials/assignemnts.html',
       controller: 'AssignmentCtrl'
     })
-    .when('/pathfinder', {
-      templateUrl: 'partials/pathfinder.html',
-      controller: 'PathfinderCtrl'
+    .when('/students', {
+      templateUrl: 'partials/students.html',
+      controller: 'StudentCtrl'
     })
     .otherwise('/');
 });

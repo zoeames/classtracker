@@ -1,9 +1,7 @@
-"use strict";
-
 app.constant("FIREBASE_CONFIG", {
-      apiKey: "",
-      authDomain: "",
-      databaseURL: "",
-      storageBucket: "",
-      messagingSenderId: ""
-  })
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  storageBucket: "",
+  messagingSenderId: ""
+});
