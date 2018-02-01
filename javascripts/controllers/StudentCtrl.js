@@ -15,4 +15,9 @@ app.controller("StudentCtrl", function ($scope, StudentService) {
 	}).catch(function (err) {
 		console.error("error in students", err);
 	});
+
+	$scope.getlastname = function(user) {
+    var name =  user.name.split(' ');
+    return name[1];
+}
 });
