@@ -8,7 +8,7 @@
         <th class="text-center">Treehouse Points</th>
         <th class="text-center"></th>
       </tr>
-      <tr ng-repeat="student in students | orderBy getLastName">
+      <tr ng-repeat="student in students | orderBy:getLastName">
         <td class="col-xs-3">
           <h3>{{student.name}}</h3>
         </td>
