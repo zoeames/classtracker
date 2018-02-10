@@ -16,6 +16,8 @@ import { studentsComponent, studentsComponentName } from './components/students/
 import AssignmentService, { assignmentServiceName } from './services/assignment.service';
 import StudentService, { studentServiceName } from './services/student.service';
 
+import '../style/app.css';
+
 const classTrackerApp = angular.module('ClassTracker', [
   uiRouter,
   ngSanitize,
