@@ -1,4 +1,4 @@
-old_crap/javascripts/AppConstants.js
+src/app/app.constants.js
 public/
 dist/
 node_modules/

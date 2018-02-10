@@ -1,0 +1,12 @@
+export default [
+  {
+    name: 'FIREBASE_CONFIG',
+    value: {
+      apiKey: '',
+      authDomain: '',
+      databaseURL: '',
+      storageBucket: '',
+      messagingSenderId: '',
+    },
+  },
+];
