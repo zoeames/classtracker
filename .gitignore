@@ -1,4 +1,4 @@
-javascripts/AppConstants.js
-public/
-lib/node_modules/
+src/app/app.constants.js
+dist/
+node_modules/
 .DS_Store

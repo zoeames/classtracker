@@ -1,0 +1,41 @@
+import angular from 'angular';
+import uiBootstrap from 'angular-ui-bootstrap';
+import uiRouter from '@uirouter/angularjs';
+import ngSanitize from 'angular-sanitize';
+import ngAnimate from 'angular-animate';
+import 'angular-filter';
+
+import appConstants from './app.constants';
+import routing from './app.config';
+import appRun from './app.run';
+import { navbarComponent, navbarComponentName } from './components/navbar/navbar.component';
+import { assignmentsComponent, assignmentsComponentName } from './components/assignments/assignments.component';
+import { calendarComponent, calendarComponentName } from './components/calendar/calendar.component';
+import { studentsComponent, studentsComponentName } from './components/students/students.component';
+
+import AssignmentService, { assignmentServiceName } from './services/assignment.service';
+import StudentService, { studentServiceName } from './services/student.service';
+
+import '../style/app.css';
+
+const classTrackerApp = angular.module('ClassTracker', [
+  uiRouter,
+  ngSanitize,
+  ngAnimate,
+  uiBootstrap,
+  'angular.filter',
+]);
+
+appConstants.forEach((con) => { classTrackerApp.constant(con.name, con.value); });
+classTrackerApp.component(navbarComponentName, navbarComponent);
+classTrackerApp.component(assignmentsComponentName, assignmentsComponent);
+classTrackerApp.component(calendarComponentName, calendarComponent);
+classTrackerApp.component(studentsComponentName, studentsComponent);
+
+classTrackerApp.service(assignmentServiceName, AssignmentService);
+classTrackerApp.service(studentServiceName, StudentService);
+
+classTrackerApp.config(routing);
+classTrackerApp.run(appRun);
+
+export default classTrackerApp.name;

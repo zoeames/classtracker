@@ -1,0 +1,41 @@
+<navbar></navbar>
+<div id="students-dashboard" class="text-center">
+  <div class="main-container ">
+    <h1>Students</h1>
+    <div class="row">
+      <table class="table table-striped">
+        <tr class="title-row">
+          <th class="text-center">Name</th>
+          <th class="text-center">Links</th>
+          <th class="text-center">Treehouse Points</th>
+          <th class="text-center"></th>
+        </tr>
+        <tr ng-repeat="student in $ctrl.students | orderBy:'lastName'">
+          <td class="col-xs-3">
+            <h3>{{student.firstName}} {{student.lastName}}</h3>
+          </td>
+          <td class="col-xs-1 crap">
+            <div class="row">
+              <!-- <a class="treehouse-link" href="{{student.github}}" target="_blank">
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+              </a>
+              <a class="treehouse-link" href="{{student.biosite}}" target="_blank">
+                <i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i>
+              </a> -->
+              <a class="treehouse-link" href="{{student.treehouse}}" target="_blank">
+                <img class="treehouse-img" src="./img/treehouse.png">
+              </a>
+            </div>
+          </td>
+          <td class="col-xs-3" ng-class="{'danger-points': student.treehousePoints < 3000, 'low-points': student.treehousePoints > 3000 && student.treehousePoints < 4000, 'middle-points': student.treehousePoints > 4000 && student.treehousePoints < 5000, 'almost-points': student.treehousePoints > 5000 && student.treehousePoints < 6000}">
+            <span ng-if='student.treehousePoints === "done"'>
+              <i class="fa fa-check-square fa-2x treehouse-check" aria-hidden="true"></i>
+            </span>
+            <span ng-if='student.treehousePoints !== "done"'>{{student.treehousePoints}}</span>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
