@@ -4,6 +4,9 @@ import uiRouter from '@uirouter/angularjs';
 import ngSanitize from 'angular-sanitize';
 import ngAnimate from 'angular-animate';
 import 'angular-filter';
+import 'moment';
+import 'angular-bootstrap-calendar';
+import 'angular-bootstrap-calendar/dist/css/angular-bootstrap-calendar.min.css'
 
 import appConstants from './app.constants';
 import routing from './app.config';
@@ -24,6 +27,7 @@ const classTrackerApp = angular.module('ClassTracker', [
   ngAnimate,
   uiBootstrap,
   'angular.filter',
+  'mwl.calendar'
 ]);
 
 appConstants.forEach((con) => { classTrackerApp.constant(con.name, con.value); });
