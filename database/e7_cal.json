@@ -1,0 +1,34 @@
+{
+  "cal1": {
+    "title": "Introductions and Installs",
+    "startsAt": "Februrary 12, 2018 6:00:00",
+    "endsAt": "Februrary 12, 2018 7:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "eventType": "lecture"
+  },
+  "cal2": {
+    "title": "HTML 101",
+    "startsAt": "Februrary 13, 2018 6:00:00",
+    "endsAt": "Februrary 13, 2018 7:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "eventType": "lecture"
+  },
+  "cal3": {
+    "title": "Week 1 HW",
+    "startsAt": "Februrary 14, 2018 6:00:00",
+    "endsAt": "Februrary 15, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "eventType": "study"
+  },
+  "cal4": {
+    "title": "CSS 101",
+    "startsAt": "Februrary 17, 2018 9:00:00",
+    "endsAt": "Februrary 17, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "eventType": "lecture"
+  }
+}

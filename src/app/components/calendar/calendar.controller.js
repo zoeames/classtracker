@@ -10,12 +10,12 @@ class CalendarController {
     this.viewDate = new Date();
     this.cellIsOpen = false;
     this.events = [
-      {
-        title: 'Introductions and Installs',
-        color: this.calendarConfig.colorTypes.info,
-        startsAt: this.moment('Februrary 12, 2018 18:00:00'),
-        endsAt: this.moment('Februrary 12, 2018 08:00:00'),
-      }
+      // {
+      //   title: 'Introductions and Installs',
+      //   color: this.calendarConfig.colorTypes.info,
+      //   startsAt: this.moment('Februrary 12, 2018 6:00:00'),
+      //   endsAt: this.moment('Februrary 12, 2018 7:00:00'),
+      // }
       // , {
       //   title: '<i class="glyphicon glyphicon-asterisk"></i> <span class="text-primary">Another event</span>, with a <i>html</i> title',
       //   color: this.calendarConfig.colorTypes.info,
