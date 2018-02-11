@@ -4,28 +4,30 @@ class CalendarController {
 
     this.moment = moment;
     this.calendarConfig = calendarConfig;
+    this.calendarConfig.dateFormatter = 'moment';
 
     this.calendarView = 'month';
     this.viewDate = new Date();
-    this.cellIsOpen = true;
+    this.cellIsOpen = false;
     this.events = [
       {
-        title: 'An event',
-        color: this.calendarConfig.colorTypes.warning,
-        startsAt: this.moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate(),
-        endsAt: this.moment().startOf('week').add(1, 'week').add(9, 'hours').toDate(),
-      }, {
-        title: '<i class="glyphicon glyphicon-asterisk"></i> <span class="text-primary">Another event</span>, with a <i>html</i> title',
+        title: 'Introductions and Installs',
         color: this.calendarConfig.colorTypes.info,
-        startsAt: this.moment().subtract(1, 'day').toDate(),
-        endsAt: this.moment().add(5, 'days').toDate(),
-      }, {
-        title: 'This is a really long event title that occurs on every year',
-        color: this.calendarConfig.colorTypes.important,
-        startsAt: this.moment().startOf('day').add(7, 'hours').toDate(),
-        endsAt: this.moment().startOf('day').add(19, 'hours').toDate(),
-        recursOn: 'year',
+        startsAt: this.moment('Februrary 12, 2018 18:00:00'),
+        endsAt: this.moment('Februrary 12, 2018 08:00:00'),
       }
+      // , {
+      //   title: '<i class="glyphicon glyphicon-asterisk"></i> <span class="text-primary">Another event</span>, with a <i>html</i> title',
+      //   color: this.calendarConfig.colorTypes.info,
+      //   startsAt: this.moment().subtract(1, 'day').toDate(),
+      //   endsAt: this.moment().add(5, 'days').toDate(),
+      // }, {
+      //   title: 'This is a really long event title that occurs on every year',
+      //   color: this.calendarConfig.colorTypes.important,
+      //   startsAt: this.moment().startOf('day').add(7, 'hours').toDate(),
+      //   endsAt: this.moment().startOf('day').add(19, 'hours').toDate(),
+      //   recursOn: 'year',
+      // }
     ];
   }
 
