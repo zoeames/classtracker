@@ -1,36 +1,53 @@
 class CalendarController {
-  constructor(moment, calendarConfig) {
+  constructor(moment, calendarConfig, calService) {
     'ngInject';
 
     this.moment = moment;
     this.calendarConfig = calendarConfig;
     this.calendarConfig.dateFormatter = 'moment';
+    this.calService = calService
 
     this.calendarView = 'month';
     this.viewDate = new Date();
     this.cellIsOpen = false;
-    this.events = [
-      // {
-      //   title: 'Introductions and Installs',
-      //   color: this.calendarConfig.colorTypes.info,
-      //   startsAt: this.moment('Februrary 12, 2018 6:00:00'),
-      //   endsAt: this.moment('Februrary 12, 2018 7:00:00'),
-      // }
-      // , {
-      //   title: '<i class="glyphicon glyphicon-asterisk"></i> <span class="text-primary">Another event</span>, with a <i>html</i> title',
-      //   color: this.calendarConfig.colorTypes.info,
-      //   startsAt: this.moment().subtract(1, 'day').toDate(),
-      //   endsAt: this.moment().add(5, 'days').toDate(),
-      // }, {
-      //   title: 'This is a really long event title that occurs on every year',
-      //   color: this.calendarConfig.colorTypes.important,
-      //   startsAt: this.moment().startOf('day').add(7, 'hours').toDate(),
-      //   endsAt: this.moment().startOf('day').add(19, 'hours').toDate(),
-      //   recursOn: 'year',
-      // }
-    ];
+    this.events = [];
   }
 
+  $onInit() {
+    this.getEvents();
+  }
+
+  getEvents() {
+    this.calService.getcalEvents().then((fbEvents) => {
+      this.makeCalEvents(fbEvents);
+    });
+  }
+
+  makeCalEvents(things) {
+    console.log('things', things);
+    things.forEach((calEvent) => {
+      calEvent.startsAt = new Date(calEvent.startsAt);
+      calEvent.endsAt = new Date(calEvent.endsAt);
+
+      switch (calEvent.eventType) {
+        case 'lecutre':
+          calEvent.color = this.calendarConfig.colorTypes.info;
+          break;
+        case 'study':
+          calEvent.color = this.calendarConfig.colorTypes.important;
+          break;
+        case 'vacation':
+          calEvent.color = this.calendarConfig.colorTypes.error;
+          break;
+        default:
+          calEvent.color = this.calendarConfig.colorTypes.info;
+      }
+    });
+    this.events = things;
+  }
+
+
+  // Calendar Stuff
   toggle($event, field, event) {
     $event.preventDefault();
     $event.stopPropagation();

@@ -18,6 +18,7 @@ import { studentsComponent, studentsComponentName } from './components/students/
 
 import AssignmentService, { assignmentServiceName } from './services/assignment.service';
 import StudentService, { studentServiceName } from './services/student.service';
+import CalService, { calServiceName } from './services/cal.service';
 
 import '../style/app.css';
 
@@ -38,6 +39,7 @@ classTrackerApp.component(studentsComponentName, studentsComponent);
 
 classTrackerApp.service(assignmentServiceName, AssignmentService);
 classTrackerApp.service(studentServiceName, StudentService);
+classTrackerApp.service(calServiceName, CalService);
 
 classTrackerApp.config(routing);
 classTrackerApp.run(appRun);
