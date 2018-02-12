@@ -4,6 +4,9 @@ import uiRouter from '@uirouter/angularjs';
 import ngSanitize from 'angular-sanitize';
 import ngAnimate from 'angular-animate';
 import 'angular-filter';
+import 'moment';
+import 'angular-bootstrap-calendar';
+import 'angular-bootstrap-calendar/dist/css/angular-bootstrap-calendar.min.css'
 
 import appConstants from './app.constants';
 import routing from './app.config';
@@ -15,6 +18,7 @@ import { studentsComponent, studentsComponentName } from './components/students/
 
 import AssignmentService, { assignmentServiceName } from './services/assignment.service';
 import StudentService, { studentServiceName } from './services/student.service';
+import CalService, { calServiceName } from './services/cal.service';
 
 import '../style/app.css';
 
@@ -24,6 +28,7 @@ const classTrackerApp = angular.module('ClassTracker', [
   ngAnimate,
   uiBootstrap,
   'angular.filter',
+  'mwl.calendar'
 ]);
 
 appConstants.forEach((con) => { classTrackerApp.constant(con.name, con.value); });
@@ -34,6 +39,7 @@ classTrackerApp.component(studentsComponentName, studentsComponent);
 
 classTrackerApp.service(assignmentServiceName, AssignmentService);
 classTrackerApp.service(studentServiceName, StudentService);
+classTrackerApp.service(calServiceName, CalService);
 
 classTrackerApp.config(routing);
 classTrackerApp.run(appRun);

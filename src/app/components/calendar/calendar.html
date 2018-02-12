@@ -1,4 +1,55 @@
 <navbar></navbar>
 <div id="calendar-dashboard" class="text-center">
-  <h1>COMING SOON</h1>
+  <h2 class="text-center">{{ $ctrl.calendarTitle }}</h2>
+
+  <div class="row">
+
+    <div class="col-md-12 text-center">
+      <div class="btn-group">
+
+        <button
+          class="btn btn-primary"
+          mwl-date-modifier
+          date="$ctrl.viewDate"
+          decrement="$ctrl.calendarView"
+          ng-click="$ctrl.cellIsOpen = false">
+          Previous
+        </button>
+        <button
+          class="btn btn-default"
+          mwl-date-modifier
+          date="$ctrl.viewDate"
+          set-to-today
+          ng-click="$ctrl.cellIsOpen = false">
+          Today
+        </button>
+        <button
+          class="btn btn-primary"
+          mwl-date-modifier
+          date="$ctrl.viewDate"
+          increment="$ctrl.calendarView"
+          ng-click="$ctrl.cellIsOpen = false">
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <mwl-calendar
+    events="$ctrl.events"
+    view="$ctrl.calendarView"
+    view-title="$ctrl.calendarTitle"
+    view-date="$ctrl.viewDate"
+    on-event-click="$ctrl.eventClicked(calendarEvent)"
+    cell-is-open="$ctrl.cellIsOpen"
+    day-view-start="06:00"
+    day-view-end="22:59"
+    day-view-split="30"
+    cell-auto-open-disabled="true"
+    on-view-change-click="false"
+    on-timespan-click="$ctrl.timespanClicked(calendarDate, calendarCell)">
+  </mwl-calendar>
+
 </div>

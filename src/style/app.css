@@ -345,3 +345,9 @@ table {
 .almost-points{
   background-color: rgb(53, 225, 53);
 }
+
+
+/* don't show week numbers in calendar */
+.cal-week-box-cell{
+  display: none;
+}
