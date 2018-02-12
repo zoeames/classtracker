@@ -60,7 +60,7 @@
     "github": "",
     "treehouse": "https://teamtreehouse.com/makenhubbard",
     "biosite": "",
-    "treehouseComplete": false
+    "treehouseComplete": true
   },
   "student8": {
     "firstName": "Mehret",
@@ -195,7 +195,7 @@
     "github": "",
     "treehouse": "https://teamtreehouse.com/latashasimpson",
     "biosite": "",
-    "treehouseComplete": true
+    "treehouseComplete": false
   },
   "student23": {
     "firstName": "Amanda",

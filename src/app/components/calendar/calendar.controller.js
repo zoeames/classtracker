@@ -4,7 +4,6 @@ class CalendarController {
 
     this.moment = moment;
     this.calendarConfig = calendarConfig;
-    this.calendarConfig.dateFormatter = 'moment';
     this.calService = calService
 
     this.calendarView = 'month';
@@ -24,23 +23,32 @@ class CalendarController {
   }
 
   makeCalEvents(things) {
-    console.log('things', things);
     things.forEach((calEvent) => {
       calEvent.startsAt = new Date(calEvent.startsAt);
       calEvent.endsAt = new Date(calEvent.endsAt);
 
+      // calendarConfig.colorTypes color options:
+      // info: blue
+      // important: red
+      // warning: yellow
+      // inverse: black
+      // special: purple
+      // success: green
       switch (calEvent.eventType) {
-        case 'lecutre':
+        case 'lecture':
           calEvent.color = this.calendarConfig.colorTypes.info;
           break;
         case 'study':
-          calEvent.color = this.calendarConfig.colorTypes.important;
+          calEvent.color = this.calendarConfig.colorTypes.success;
           break;
         case 'vacation':
-          calEvent.color = this.calendarConfig.colorTypes.error;
+          calEvent.color = this.calendarConfig.colorTypes.important;
+          break;
+        case 'demo':
+          calEvent.color = this.calendarConfig.colorTypes.special;
           break;
         default:
-          calEvent.color = this.calendarConfig.colorTypes.info;
+          calEvent.color = this.calendarConfig.colorTypes.inverse;
       }
     });
     this.events = things;

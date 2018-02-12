@@ -1,34 +1,83 @@
 {
   "cal1": {
+    "title": "Spring Break",
+    "startsAt": "May 7, 2018 9:00:00",
+    "endsAt": "May 12, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "eventType": "vacation",
+    "Description":"No Classes"
+  },
+  "cal2": {
+    "title": "Memorial Day Holiday",
+    "startsAt": "May 28, 2018 9:00:00",
+    "endsAt": "May 28, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "eventType": "vacation",
+    "Description":"No Classe.  School Closed"
+  },
+  "cal3": {
+    "title": "Fourth of July Holiday",
+    "startsAt": "July 4, 2018 9:00:00",
+    "endsAt": "July 4, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "eventType": "vacation",
+    "Description":"No Classes"
+  },
+  "cal4": {
+    "title": "Summer Break",
+    "startsAt": "August 6, 2018 9:00:00",
+    "endsAt": "August 11, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "eventType": "vacation",
+    "Description":"No Classes"
+  },
+  "cal5": {
+    "title": "Front-End Demo Day",
+    "startsAt": "August 18, 2018 9:00:00",
+    "endsAt": "August 18, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "eventType": "demo",
+    "Description":"Demos of front end capstones to the incoming class."
+  },
+  "cal6": {
     "title": "Introductions and Installs",
     "startsAt": "Februrary 12, 2018 6:00:00",
     "endsAt": "Februrary 12, 2018 7:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
-    "eventType": "lecture"
+    "eventType": "lecture",
+    "Description":"Introductions, administrative stuff, and annoucements.  Computer installs for both MAC and PC."
   },
-  "cal2": {
+  "cal7": {
     "title": "HTML 101",
     "startsAt": "Februrary 13, 2018 6:00:00",
     "endsAt": "Februrary 13, 2018 7:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
-    "eventType": "lecture"
+    "eventType": "lecture",
+    "Description":"Review of basic HTML."
   },
-  "cal3": {
+  "cal8": {
     "title": "Week 1 HW",
     "startsAt": "Februrary 14, 2018 6:00:00",
     "endsAt": "Februrary 15, 2018 6:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
-    "eventType": "study"
+    "eventType": "study",
+    "Description":"See assignments tab."
   },
-  "cal4": {
+  "cal9": {
     "title": "CSS 101",
     "startsAt": "Februrary 17, 2018 9:00:00",
     "endsAt": "Februrary 17, 2018 14:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
-    "eventType": "lecture"
+    "eventType": "lecture",
+    "Description":"Review of basic CSS."
   }
 }
