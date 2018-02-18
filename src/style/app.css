@@ -307,20 +307,20 @@ table {
   position: relative !important;
 }
 
-.treehouse-link {
+.treehouse-link-table {
   position: absolute;
   top: 20%;
 }
 
-.treehouse-link:last-of-type {
+.treehouse-link-table:last-of-type {
   right: 0px;
 }
 
-.treehouse-link:first-of-type {
+.treehouse-link-table:first-of-type {
   left: 0px;
 }
 
-.treehouse-link:nth-child(2){
+.treehouse-link-table:nth-child(2){
   left: 33%;
 }
 
@@ -371,4 +371,12 @@ mwl-calendar .cal-month-box .cal-row-fluid{
 
 .cal-cell {
   border: solid black 1px;
+}
+
+.github-link{
+  color: black;
+}
+
+.website-link{
+  color: purple;
 }
