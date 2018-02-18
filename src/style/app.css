@@ -351,3 +351,24 @@ table {
 .cal-week-box-cell{
   display: none;
 }
+
+.bold-text{
+  font-weight: bold;
+}
+
+#calendar-dashboard a {
+  color: blue;
+  text-decoration: underline;
+}
+
+mwl-calendar .cal-year-box .row {
+  border-color: black;
+}
+
+mwl-calendar .cal-month-box .cal-row-fluid{
+  border-color: black;
+}
+
+.cal-cell {
+  border: solid black 1px;
+}

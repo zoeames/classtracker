@@ -10,6 +10,8 @@ class CalendarController {
     this.viewDate = new Date();
     this.cellIsOpen = false;
     this.events = [];
+    this.selectedEvents = [];
+    this.eventDate = '';
   }
 
   $onInit() {
@@ -63,12 +65,8 @@ class CalendarController {
   }
 
   timespanClicked(date, cell) {
-    if ((this.cellIsOpen && this.moment(date).startOf('day').isSame(this.moment(this.viewDate).startOf('day'))) || cell.events.length === 0 || !cell.inMonth) {
-      this.cellIsOpen = false;
-    } else {
-      this.cellIsOpen = true;
-      this.viewDate = date;
-    }
+    this.eventDate = cell.date;
+    this.selectedEvents = cell.events;
   };
 }
 
