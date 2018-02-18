@@ -1,9 +1,11 @@
 class StudentsController {
   constructor(studentService) {
-    'ngInject';
+    "ngInject";
 
     this.studentService = studentService;
     this.students = [];
+    this.badStudents = [];
+    this.goodStudents = [];
   }
 
   $onInit() {
@@ -11,22 +13,34 @@ class StudentsController {
   }
 
   getStudentList() {
-    this.studentService.getStudentList().then((fbStudents) => {
-      fbStudents.forEach((student) => {
-        if (student.treehouseComplete === true) {
-          student.treehousePoints = 'done';
-        } else if (student.treehouse === '') {
-          student.treehousePoints = '????';
-        } else {
-          this.studentService.getTreehouseProfilePoints(student.treehouse).then((treehouse) => {
-            student.treehousePoints = treehouse;
-          });
-        }
+    this.studentService
+      .getStudentList()
+      .then(fbStudents => {
+        fbStudents.forEach(student => {
+          if (student.treehouseComplete === true) {
+            student.treehousePoints = "done";
+          } else if (student.treehouse === "") {
+            student.treehousePoints = "????";
+          } else {
+            this.studentService
+              .getTreehouseProfilePoints(student.treehouse)
+              .then(treehouse => {
+                student.treehousePoints = treehouse;
+              });
+          }
+        });
+        this.students = fbStudents;
+        this.students.forEach((student) => {
+          if(student.treehouseComplete){
+            this.goodStudents.push(student);
+          }else {
+            this.badStudents.push(student);
+          }
+        });
+      })
+      .catch(err => {
+        console.error("error in students", err);
       });
-      this.students = fbStudents;
-    }).catch((err) => {
-      console.error('error in students', err);
-    });
   }
 }
 
