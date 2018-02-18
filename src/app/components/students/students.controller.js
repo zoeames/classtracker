@@ -6,6 +6,7 @@ class StudentsController {
     this.students = [];
     this.badStudents = [];
     this.goodStudents = [];
+    this.instructors = [];
   }
 
   $onInit() {
@@ -30,10 +31,12 @@ class StudentsController {
           }
         });
         this.students = fbStudents;
-        this.students.forEach((student) => {
-          if(student.treehouseComplete){
+        this.students.forEach(student => {
+          if (student.treehouseComplete && student.isStudent) {
             this.goodStudents.push(student);
-          }else {
+          } else if (!student.isStudent) {
+            this.instructors.push(student);
+          } else {
             this.badStudents.push(student);
           }
         });

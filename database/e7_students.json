@@ -1,4 +1,37 @@
 {
+  "instructor1": {
+    "firstName": "Zoe",
+    "lastName": "Ames",
+    "email": "zoeames@gmail.com",
+    "github": "https://github.com/zoeames",
+    "treehouse": "",
+    "biosite": "https://www.zoeames.com",
+    "treehouseComplete": true,
+    "isStudent": false,
+    "uid": ""
+  },
+  "instructor2": {
+    "firstName": "Callan",
+    "lastName": "Morrison",
+    "email": "callan.l.morrison@gmail.com",
+    "github": "https://github.com/morecallan",
+    "treehouse": "",
+    "biosite": "",
+    "treehouseComplete": true,
+    "isStudent": false,
+    "uid": ""
+  },
+  "instructor3": {
+    "firstName": "Lauren",
+    "lastName": "Rouse",
+    "email": "lauren.l.rouse@gmail.com",
+    "github": "https://github.com/rousell",
+    "treehouse": "",
+    "biosite": "",
+    "treehouseComplete": true,
+    "isStudent": false,
+    "uid": ""
+  },
   "student1": {
     "firstName": "John",
     "lastName": "Achor",
@@ -7,6 +40,7 @@
     "treehouse": "https://teamtreehouse.com/johnachor",
     "biosite": "https://johnachor.github.io",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student2": {
@@ -17,6 +51,7 @@
     "treehouse": "https://teamtreehouse.com/xuehuichen",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student3": {
@@ -27,6 +62,7 @@
     "treehouse": "https://teamtreehouse.com/michaelclark17",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student4": {
@@ -37,6 +73,7 @@
     "treehouse": "https://teamtreehouse.com/annadolan",
     "biosite": "https://annamd115.github.io",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student5": {
@@ -47,6 +84,7 @@
     "treehouse": "https://teamtreehouse.com/thomasdugan",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student6": {
@@ -57,6 +95,7 @@
     "treehouse": "https://teamtreehouse.com/ericholman",
     "biosite": "https://Eholman7.github.io",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student7": {
@@ -67,6 +106,7 @@
     "treehouse": "https://teamtreehouse.com/makenhubbard",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student8": {
@@ -77,6 +117,7 @@
     "treehouse": "https://teamtreehouse.com/mehretkualala",
     "biosite": "",
     "treehouseComplete": false,
+    "isStudent": true,
     "uid": ""
   },
   "student9": {
@@ -87,6 +128,7 @@
     "treehouse": "https://teamtreehouse.com/joonholee",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student10": {
@@ -97,6 +139,7 @@
     "treehouse": "https://teamtreehouse.com/coreylutrick",
     "biosite": "",
     "treehouseComplete": false,
+    "isStudent": true,
     "uid": ""
   },
   "student11": {
@@ -107,6 +150,7 @@
     "treehouse": "https://teamtreehouse.com/coltmccormick",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student12": {
@@ -117,6 +161,7 @@
     "treehouse": "https://teamtreehouse.com/andymillion",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student13": {
@@ -127,6 +172,7 @@
     "treehouse": "https://teamtreehouse.com/amandamitchell4",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student14": {
@@ -137,6 +183,7 @@
     "treehouse": "https://teamtreehouse.com/drakemorrison",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student15": {
@@ -147,6 +194,7 @@
     "treehouse": "https://teamtreehouse.com/aprilnichols",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student16": {
@@ -157,6 +205,7 @@
     "treehouse": "https://teamtreehouse.com/alexanderorga",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student17": {
@@ -167,6 +216,7 @@
     "treehouse": "https://teamtreehouse.com/maryorr2",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student18": {
@@ -177,6 +227,7 @@
     "treehouse": "https://teamtreehouse.com/nathanpabst",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student19": {
@@ -187,6 +238,7 @@
     "treehouse": "https://teamtreehouse.com/margaritapatrick",
     "biosite": "https://github.com/RitaSyed",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student20": {
@@ -197,6 +249,7 @@
     "treehouse": "https://teamtreehouse.com/jessicarodgers3",
     "biosite": "https://jessrod11.github.io",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student21": {
@@ -207,6 +260,7 @@
     "treehouse": "https://teamtreehouse.com/barryrussell",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student22": {
@@ -217,6 +271,7 @@
     "treehouse": "https://teamtreehouse.com/latashasimpson",
     "biosite": "",
     "treehouseComplete": false,
+    "isStudent": true,
     "uid": ""
   },
   "student23": {
@@ -227,6 +282,7 @@
     "treehouse": "https://teamtreehouse.com/amandaslayton",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student24": {
@@ -237,6 +293,7 @@
     "treehouse": "https://teamtreehouse.com/leotaylor2",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student25": {
@@ -247,6 +304,7 @@
     "treehouse": "https://teamtreehouse.com/colinwhite2",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student26": {
@@ -257,6 +315,7 @@
     "treehouse": "https://teamtreehouse.com/adamwieckert",
     "biosite": "",
     "treehouseComplete": true,
+    "isStudent": true,
     "uid": ""
   },
   "student27": {
@@ -267,6 +326,7 @@
     "treehouse": "https://teamtreehouse.com/brianwright7",
     "biosite": "",
     "treehouseComplete": false,
+    "isStudent": true,
     "uid": ""
   },
   "student28": {
@@ -277,6 +337,7 @@
     "treehouse": "https://teamtreehouse.com/christiangatewood",
     "biosite": "",
     "treehouseComplete": false,
+    "isStudent": true,
     "uid": ""
   },
   "student29": {
@@ -287,6 +348,7 @@
     "treehouse": "https://teamtreehouse.com/aliceinwonderland ",
     "biosite": "",
     "treehouseComplete": false,
+    "isStudent": true,
     "uid": ""
   }
 }
