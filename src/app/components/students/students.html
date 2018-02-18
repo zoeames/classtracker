@@ -10,32 +10,61 @@
           <th class="text-center">Treehouse Points</th>
           <th class="text-center"></th>
         </tr>
-        <tr ng-repeat="student in $ctrl.students | orderBy:'lastName'">
+        <tr ng-repeat="student in $ctrl.badStudents | orderBy:'lastName'">
           <td class="col-xs-3">
             <h3>{{student.firstName}} {{student.lastName}}</h3>
           </td>
           <td class="col-xs-1 crap">
             <div class="row">
-              <!-- <a class="treehouse-link" href="{{student.github}}" target="_blank">
-                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-              </a>
-              <a class="treehouse-link" href="{{student.biosite}}" target="_blank">
-                <i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i>
-              </a> -->
-              <a class="treehouse-link" href="{{student.treehouse}}" target="_blank">
+              <a class="treehouse-link-table" href="{{student.treehouse}}" target="_blank">
                 <img class="treehouse-img" src="./img/treehouse.png">
               </a>
             </div>
           </td>
-          <td class="col-xs-3" ng-class="{'danger-points': student.treehousePoints < 3000, 'low-points': student.treehousePoints > 3000 && student.treehousePoints < 4000, 'middle-points': student.treehousePoints > 4000 && student.treehousePoints < 5000, 'almost-points': student.treehousePoints > 5000 && student.treehousePoints < 6000}">
+          <td class="col-xs-3" ng-class="{'danger-points': student.treehousePoints < 3000, 'low-points': student.treehousePoints > 3000 && student.treehousePoints < 4000, 'middle-points': student.treehousePoints > 4000 && student.treehousePoints < 5000, 'almost-points': student.treehousePoints > 5000 && student.treehousePoints < 6600}">
             <span ng-if='student.treehousePoints === "done"'>
               <i class="fa fa-check-square fa-2x treehouse-check" aria-hidden="true"></i>
             </span>
             <span ng-if='student.treehousePoints !== "done"'>{{student.treehousePoints}}</span>
           </td>
-          <td></td>
+          <td class="col-xs-3">
+            Links:
+            <a class="github-link" href="{{student.github}}" target="_blank">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a class="website-link" href="{{student.biosite}}" target="_blank">
+              <i class="fas fa-address-book fa-2x"></i>
+            </a>
+          </td>
         </tr>
       </table>
+    </div>
+  </div>
+
+  <div class="students">
+    <div class="col-sm-4" ng-repeat="student in $ctrl.goodStudents | orderBy:'lastName'">
+      <div class="panel panel-primary">
+        <div class="panel-heading">{{student.firstName}} {{student.lastName}}</div>
+        <div class="panel-body text-center">
+          <div class="col-xs-12">
+            <div class="col-xs-4">
+              <a class="treehouse-link" href="{{student.treehouse}}" target="_blank">
+                <img class="treehouse-img" src="./img/treehouse.png">
+              </a>
+            </div>
+            <div class="col-xs-4">
+              <a class="github-link" href="{{student.github}}" target="_blank">
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+            </div>
+            <div class="col-xs-4">
+              <a class="website-link" href="{{student.biosite}}" target="_blank">
+                <i class="fas fa-address-book fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
