@@ -7,5 +7,14 @@
     "assignedNumber": "1",
     "topic": "",
     "notes": "PREWORK, PREWORK, PREWORK, Hey have you done your PREWORK?"
+  },
+  "assignment1": {
+    "title": "HW Week 1",
+    "URL": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week01.md",
+    "dueDate": "2/19/18",
+    "isAssigned": "true",
+    "assignedNumber": "2",
+    "topic": "",
+    "notes": "Please do the steps in order."
   }
 }

@@ -9,7 +9,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "vacation",
-    "description": "No Classes"
+    "description": "No Classes",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal2": {
     "title": "Memorial Day Holiday",
@@ -21,7 +23,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "vacation",
-    "description": "No Classe.  School Closed"
+    "description": "No Classe.  School Closed",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal3": {
     "title": "Fourth of July Holiday",
@@ -33,7 +37,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "vacation",
-    "description": "No Classes"
+    "description": "No Classes",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal4": {
     "title": "Summer Break",
@@ -45,7 +51,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "vacation",
-    "description": "No Classes"
+    "description": "No Classes",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal5": {
     "title": "Front-End Demo Day",
@@ -57,7 +65,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "demo",
-    "description": "Demos of front end capstones to the incoming class."
+    "description": "Demos of front end capstones to the incoming class.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal6": {
     "title": "John's Adminstrative Presentation",
@@ -69,43 +79,51 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Adminstrative NSS stuff."
+    "description": "Adminstrative NSS stuff.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal7": {
     "title": "Class Expectations",
     "startsAt": "Februrary 12, 2018 8:00:00",
     "endsAt": "Februrary 12, 2018 9:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "Zoe",
-    "instructor": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1DnGx7TP-xtQCGZw5myD5f-WYMDz31ihKVXTPBeKx2T8/edit?usp=sharing",
+    "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Course expectations and materials we will cover."
+    "description": "Course expectations and materials we will cover.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal8": {
     "title": "Installs",
     "startsAt": "Februrary 12, 2018 9:00:00",
     "endsAt": "Februrary 12, 2018 10:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1WvYUqLBVBssCNj55em_mk_1aR1rWX20tqdFANa5wmQw/edit?usp=sharing",
     "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Computer installs for both MAC and PC."
+    "description": "Computer installs for both MAC and PC.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal9": {
     "title": "HTML 101",
     "startsAt": "Februrary 13, 2018 6:00:00",
     "endsAt": "Februrary 13, 2018 9:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1B7yXyhuevE7L2SZEoqxPh2PdAdo2Iwm2ArISQKX790o/edit?usp=sharing",
     "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Review of basic HTML."
+    "description": "Review of basic HTML.",
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/html-css-101"
   },
   "cal10": {
     "title": "Week 1 HW",
@@ -115,9 +133,11 @@
     "presentationUrl": "",
     "instructor": "",
     "isHW": true,
-    "hwUrl": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week01.md",
     "eventType": "study",
-    "description": "See assignments tab."
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal11": {
     "title": "CSS 101",
@@ -129,7 +149,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Review of basic CSS."
+    "description": "Review of basic CSS.",
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/html-css-101"
   },
   "cal12": {
     "title": "Intro to Command Line",
@@ -141,7 +163,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "All the major commands you need to rule your computer via the terminal."
+    "description": "All the major commands you need to rule your computer via the terminal.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal13": {
     "title": "Github Basics",
@@ -153,7 +177,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "What is git and how do you use it?"
+    "description": "What is git and how do you use it?",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal14": {
     "title": "Github Branching",
@@ -165,7 +191,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "More advanced git."
+    "description": "More advanced git.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal15": {
     "title": "Week 2 HW",
@@ -175,9 +203,11 @@
     "presentationUrl": "",
     "instructor": "",
     "isHW": true,
-    "hwUrl": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week02.md",
     "eventType": "study",
-    "description": "See assignments tab."
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal16": {
     "title": "Developer Tools",
@@ -189,7 +219,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "An introduction to your new best friends."
+    "description": "An introduction to your new best friends.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal17": {
     "title": "Advanced CSS",
@@ -201,7 +233,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "More advanced CSS."
+    "description": "More advanced CSS.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal18": {
     "title": "Javascript Strings",
@@ -213,7 +247,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Introductory javascript - focusing on strings."
+    "description": "Introductory javascript - focusing on strings.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal19": {
     "title": "Javascript Arrays",
@@ -225,7 +261,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Introductory javascript - focusing on Arrays."
+    "description": "Introductory javascript - focusing on Arrays.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal20": {
     "title": "Week 3 HW",
@@ -235,9 +273,11 @@
     "presentationUrl": "",
     "instructor": "",
     "isHW": true,
-    "hwUrl": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week03.md",
     "eventType": "study",
-    "description": "See assignments tab."
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal21": {
     "title": "Javascript Objects",
@@ -249,7 +289,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Introductory javascript - focusing on Objects."
+    "description": "Introductory javascript - focusing on Objects.",
+    "hasGithub": false,
+    "githubRepo":""
   },
   "cal22": {
     "title": "Javascript Functions",
@@ -261,6 +303,316 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Introductory javascript - focusing on Functions."
+    "description": "Introductory javascript - focusing on Functions.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal23": {
+    "title": "Week 4 HW",
+    "startsAt": "March 7, 2018 6:00:00",
+    "endsAt": "March 8, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week04.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal24": {
+    "title": "Week 5 HW",
+    "startsAt": "March 14, 2018 6:00:00",
+    "endsAt": "March 15, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week05.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal25": {
+    "title": "Week 6 HW",
+    "startsAt": "March 21, 2018 6:00:00",
+    "endsAt": "March 22, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week06.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal26": {
+    "title": "Week 7 HW",
+    "startsAt": "March 28, 2018 6:00:00",
+    "endsAt": "March 29, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week07.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal27": {
+    "title": "Week 8 HW",
+    "startsAt": "April 4, 2018 6:00:00",
+    "endsAt": "April 5, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week08.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal28": {
+    "title": "Week 9 HW",
+    "startsAt": "April 11, 2018 6:00:00",
+    "endsAt": "April 12, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week09.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal29": {
+    "title": "Week 10 HW",
+    "startsAt": "April 18, 2018 6:00:00",
+    "endsAt": "April 19, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week10.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal30": {
+    "title": "Week 11 HW",
+    "startsAt": "April 25, 2018 6:00:00",
+    "endsAt": "April 26, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week11.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal31": {
+    "title": "Week 12 HW",
+    "startsAt": "May 2, 2018 6:00:00",
+    "endsAt": "May 3, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week12.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal32": {
+    "title": "Week 13 HW",
+    "startsAt": "May 9, 2018 6:00:00",
+    "endsAt": "May 10, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week13.md",
+    "eventType": "study",
+    "description": "Spring Break HW - individual assignments.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal33": {
+    "title": "Week 14 HW",
+    "startsAt": "May 16, 2018 6:00:00",
+    "endsAt": "May 17, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week14.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal34": {
+    "title": "Week 15 HW",
+    "startsAt": "May 23, 2018 6:00:00",
+    "endsAt": "May 24, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week15.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal35": {
+    "title": "Week 16 HW",
+    "startsAt": "May 30, 2018 6:00:00",
+    "endsAt": "May 31, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week16.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal36": {
+    "title": "Week 17 HW",
+    "startsAt": "June 6, 2018 6:00:00",
+    "endsAt": "June 7, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week17.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal37": {
+    "title": "Week 18 HW",
+    "startsAt": "June 13, 2018 6:00:00",
+    "endsAt": "June 14, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week18.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal38": {
+    "title": "Week 19 HW",
+    "startsAt": "June 20, 2018 6:00:00",
+    "endsAt": "June 21, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week19.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal39": {
+    "title": "Week 20 HW",
+    "startsAt": "June 27, 2018 6:00:00",
+    "endsAt": "June 28, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week20.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal40": {
+    "title": "Week 21 HW",
+    "startsAt": "July 4, 2018 6:00:00",
+    "endsAt": "July 5, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week21.md",
+    "eventType": "study",
+    "description": "July 4th Break HW - individual assignments.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal41": {
+    "title": "Week 22 HW",
+    "startsAt": "July 11, 2018 6:00:00",
+    "endsAt": "July 12, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week22.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal42": {
+    "title": "Week 23 HW",
+    "startsAt": "July 18, 2018 6:00:00",
+    "endsAt": "July 19, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week23.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal43": {
+    "title": "Week 24 HW",
+    "startsAt": "July 25, 2018 6:00:00",
+    "endsAt": "July 26, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week24.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal44": {
+    "title": "Week 25 HW",
+    "startsAt": "August 1, 2018 6:00:00",
+    "endsAt": "August 2, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week25.md",
+    "eventType": "study",
+    "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
   }
 }

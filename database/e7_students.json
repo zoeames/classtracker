@@ -6,7 +6,7 @@
     "github": "https://github.com/johnachor",
     "treehouse": "https://teamtreehouse.com/johnachor",
     "biosite": "https://johnachor.github.io",
-    "treehouseComplete": false
+    "treehouseComplete": true
   },
   "student2": {
     "firstName": "Jeffrey",
@@ -42,7 +42,7 @@
     "github": "",
     "treehouse": "https://teamtreehouse.com/thomasdugan",
     "biosite": "",
-    "treehouseComplete": false
+    "treehouseComplete": true
   },
   "student6": {
     "firstName": "Eric",
@@ -96,7 +96,7 @@
     "github": "",
     "treehouse": "https://teamtreehouse.com/coltmccormick",
     "biosite": "",
-    "treehouseComplete": false
+    "treehouseComplete": true
   },
   "student12": {
     "firstName": "Andrew",
@@ -114,7 +114,7 @@
     "github": "",
     "treehouse": "https://teamtreehouse.com/amandamitchell4",
     "biosite": "",
-    "treehouseComplete": false
+    "treehouseComplete": true
   },
   "student14": {
     "firstName": "Drake",
@@ -186,7 +186,7 @@
     "github": "",
     "treehouse": "https://teamtreehouse.com/barryrussell",
     "biosite": "",
-    "treehouseComplete": false
+    "treehouseComplete": true
   },
   "student22": {
     "firstName": "Lola",
@@ -213,7 +213,7 @@
     "github": "",
     "treehouse": "https://teamtreehouse.com/leotaylor2",
     "biosite": "",
-    "treehouseComplete": false
+    "treehouseComplete": true
   },
   "student25": {
     "firstName": "Colin",
@@ -222,7 +222,7 @@
     "github": "",
     "treehouse": "https://teamtreehouse.com/colinwhite2",
     "biosite": "",
-    "treehouseComplete": false
+    "treehouseComplete": true
   },
   "student26": {
     "firstName": "Adam",
@@ -247,7 +247,16 @@
     "lastName": "Gatewood",
     "email": "c.gatewood55@gmail.com",
     "github": "",
-    "treehouse": "",
+    "treehouse": "https://teamtreehouse.com/christiangatewood",
+    "biosite": "",
+    "treehouseComplete": false
+  },
+  "student29": {
+    "firstName": "Alicia",
+    "lastName": "Zaludova",
+    "email": "aliciazaludova@gmail.com",
+    "github": "https://github.com/aliciazaludova",
+    "treehouse": "https://teamtreehouse.com/aliceinwonderland ",
     "biosite": "",
     "treehouseComplete": false
   }
