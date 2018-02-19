@@ -2,5 +2,23 @@
 <div id="submit-dashboard" class="text-center">
   <div class="main-container ">
     <h1>Submit Assignments</h1>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Backlog</h3>
+        <div class="panel panel-default" ng-repeat="assignment in $ctrl.assignments | filter: {isAssigned: 'true' }">
+            <div class="panel-heading">{{assignment.title}}
+              <button class="pull-right btn btn-default" ng-click="$ctrl.startAssignment(assignment)"><i class="fas fa-arrow-alt-circle-right"></i></button>
+            </div>
+            <div class="panel-body text-left">
+              <div>Due Date: {{assignment.dueDate}}</div>
+              <div ng-if="assignment.notes">Notes: {{assignment.notes}}</div>
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-4">In Progress</div>
+      <div class="col-sm-4">Done</div>
+    </div>
+
   </div>
 </div>

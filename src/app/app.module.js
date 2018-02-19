@@ -22,6 +22,7 @@ import AuthService, { authServiceName } from './services/auth.service';
 import AssignmentService, { assignmentServiceName } from './services/assignment.service';
 import StudentService, { studentServiceName } from './services/student.service';
 import CalService, { calServiceName } from './services/cal.service';
+import SubmitAssignmentService, { submitAssignmentServiceName } from './services/submitAssignment.service';
 
 import '../style/app.css';
 
@@ -46,6 +47,7 @@ classTrackerApp.service(authServiceName, AuthService);
 classTrackerApp.service(assignmentServiceName, AssignmentService);
 classTrackerApp.service(studentServiceName, StudentService);
 classTrackerApp.service(calServiceName, CalService);
+classTrackerApp.service(submitAssignmentServiceName, SubmitAssignmentService);
 
 classTrackerApp.config(routing);
 classTrackerApp.run(appRun);

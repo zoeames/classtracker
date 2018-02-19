@@ -4,7 +4,8 @@
     "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/prework.md",
     "dueDate": "2/12/18",
     "isAssigned": "true",
-    "assignedNumber": "1",
+    "isGithub": "false",
+    "assignedNumber": 1,
     "topic": "",
     "notes": "PREWORK, PREWORK, PREWORK, Hey have you done your PREWORK?"
   },
@@ -13,7 +14,38 @@
     "URL": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week01.md",
     "dueDate": "2/19/18",
     "isAssigned": "true",
-    "assignedNumber": "2",
+    "isGithub": "false",
+    "assignedNumber": 2,
+    "topic": "",
+    "notes": "Please do the steps in order."
+  },
+  "assignment2": {
+    "title": "test 1",
+    "URL": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week01.md",
+    "dueDate": "3/1/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 3,
+    "topic": "",
+    "notes": "Please do the steps in order."
+  },
+  "assignment3": {
+    "title": "test2",
+    "URL": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week01.md",
+    "dueDate": "3/5/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 4,
+    "topic": "",
+    "notes": "Please do the steps in order."
+  },
+  "assignment4": {
+    "title": "HW Week 1",
+    "URL": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week01.md",
+    "dueDate": "3/19/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 5,
     "topic": "",
     "notes": "Please do the steps in order."
   }
