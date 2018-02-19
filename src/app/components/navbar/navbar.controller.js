@@ -1,16 +1,30 @@
 class NavbarController {
-  constructor() {
-    'ngInject';
+  constructor($state, authService) {
+    "ngInject";
 
-    this.testData = 'Navbar';
+    this.$state = $state;
+    this.authService = authService;
+    this.isAuth = this.authService.isAuthenticated;
   }
 
-  auth(){
-    console.log('you hit auth');
+  auth() {
+    console.log("you hit auth");
+    this.authService
+      .authenticateGithub()
+      .then(result => {
+        if(result.user.uid){
+          this.isAuth = true;
+        }
+        this.$state.go("assignments");
+      })
+      .catch(err => {
+        console.log("error in authenticate", err);
+      });
   }
 
-  logout(){
-    console.log('you hit logout');
+  logout() {
+    this.isAuth = false;
+    this.authService.logout()
   }
 }
 

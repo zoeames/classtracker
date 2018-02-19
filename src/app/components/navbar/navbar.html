@@ -23,10 +23,10 @@
         <li>
           <a ui-sref="calendar">Calendar</a>
         </li>
-        <li>
+        <li ng-if="!$ctrl.isAuth">
           <a ng-click="$ctrl.auth()"><i class="fab fa-github"></i>&nbsp Login</a>
         </li>
-        <li>
+        <li ng-if="$ctrl.isAuth">
           <a ng-click="$ctrl.logout()">Logout</a>
         </li>
       </ul>
