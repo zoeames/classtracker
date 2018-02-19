@@ -11,11 +11,13 @@ import 'angular-bootstrap-calendar/dist/css/angular-bootstrap-calendar.min.css'
 import appConstants from './app.constants';
 import routing from './app.config';
 import appRun from './app.run';
+
 import { navbarComponent, navbarComponentName } from './components/navbar/navbar.component';
 import { assignmentsComponent, assignmentsComponentName } from './components/assignments/assignments.component';
 import { calendarComponent, calendarComponentName } from './components/calendar/calendar.component';
 import { studentsComponent, studentsComponentName } from './components/students/students.component';
 
+import AuthService, { authServiceName } from './services/auth.service';
 import AssignmentService, { assignmentServiceName } from './services/assignment.service';
 import StudentService, { studentServiceName } from './services/student.service';
 import CalService, { calServiceName } from './services/cal.service';
@@ -32,11 +34,13 @@ const classTrackerApp = angular.module('ClassTracker', [
 ]);
 
 appConstants.forEach((con) => { classTrackerApp.constant(con.name, con.value); });
+
 classTrackerApp.component(navbarComponentName, navbarComponent);
 classTrackerApp.component(assignmentsComponentName, assignmentsComponent);
 classTrackerApp.component(calendarComponentName, calendarComponent);
 classTrackerApp.component(studentsComponentName, studentsComponent);
 
+classTrackerApp.service(authServiceName, AuthService);
 classTrackerApp.service(assignmentServiceName, AssignmentService);
 classTrackerApp.service(studentServiceName, StudentService);
 classTrackerApp.service(calServiceName, CalService);
