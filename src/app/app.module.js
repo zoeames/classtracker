@@ -16,6 +16,7 @@ import { navbarComponent, navbarComponentName } from './components/navbar/navbar
 import { assignmentsComponent, assignmentsComponentName } from './components/assignments/assignments.component';
 import { calendarComponent, calendarComponentName } from './components/calendar/calendar.component';
 import { studentsComponent, studentsComponentName } from './components/students/students.component';
+import { submitComponent, submitComponentName } from './components/submit/submit.component';
 
 import AuthService, { authServiceName } from './services/auth.service';
 import AssignmentService, { assignmentServiceName } from './services/assignment.service';
@@ -39,6 +40,7 @@ classTrackerApp.component(navbarComponentName, navbarComponent);
 classTrackerApp.component(assignmentsComponentName, assignmentsComponent);
 classTrackerApp.component(calendarComponentName, calendarComponent);
 classTrackerApp.component(studentsComponentName, studentsComponent);
+classTrackerApp.component(submitComponentName, submitComponent);
 
 classTrackerApp.service(authServiceName, AuthService);
 classTrackerApp.service(assignmentServiceName, AssignmentService);
