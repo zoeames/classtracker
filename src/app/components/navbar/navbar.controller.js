@@ -24,7 +24,8 @@ class NavbarController {
 
   logout() {
     this.isAuth = false;
-    this.authService.logout()
+    this.authService.logout();
+    this.$state.go("assignments");
   }
 }
 

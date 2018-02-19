@@ -5,7 +5,7 @@ const assignmentsConfig = {
   url: '/assignments',
   component: assignmentsComponentName,
   data: {
-    authRequired: true,
+    authRequired: false,
   },
 };
 
