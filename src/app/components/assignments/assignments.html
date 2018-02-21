@@ -4,7 +4,7 @@
     <div class="main-container ">
       <h1>Assignments</h1>
       <!-- <a class="btn btn-warning" href="https://goo.gl/forms/Ln86IpxzQRCztSXt2">Submit Assignments</a> -->
-      <ion-list ng-repeat="(key, value) in $ctrl.assignments | filter: {isAssigned: 'true' } ">
+      <ion-list ng-repeat="(key, value) in $ctrl.assignments | filter: {isAssigned: 'true' } | groupBy: 'dueDate' ">
         <div>
           <h3> Due Date: {{key}}</h3>
         </div>
