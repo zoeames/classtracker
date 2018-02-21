@@ -20,33 +20,43 @@
     "notes": "Please do the steps in order."
   },
   "assignment2": {
-    "title": "test 1",
-    "URL": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week01.md",
-    "dueDate": "3/1/18",
+    "title": "CSS Zen Garden",
+    "URL": "",
+    "dueDate": "2/26/18",
     "isAssigned": "true",
     "isGithub": "true",
     "assignedNumber": 3,
-    "topic": "",
-    "notes": "Please do the steps in order."
+    "topic": "HTML/CSS",
+    "notes": "*** Study Group ***"
   },
   "assignment3": {
-    "title": "test2",
-    "URL": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week01.md",
-    "dueDate": "3/5/18",
+    "title": "Blog Post",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "2/27/18",
     "isAssigned": "true",
     "isGithub": "true",
     "assignedNumber": 4,
     "topic": "",
-    "notes": "Please do the steps in order."
+    "notes": "Week 1: HTML, CSS, Git, Github"
   },
   "assignment4": {
-    "title": "HW Week 1",
-    "URL": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week01.md",
-    "dueDate": "3/19/18",
+    "title": "Personal Site #1",
+    "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-1.md",
+    "dueDate": "2/27/18",
     "isAssigned": "true",
     "isGithub": "true",
     "assignedNumber": 5,
     "topic": "",
-    "notes": "Please do the steps in order."
+    "notes": ""
+  },
+  "assignment5": {
+    "title": "Personal Site #2",
+    "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-2.md",
+    "dueDate": "2/27/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 6,
+    "topic": "",
+    "notes": "we will cover this material on 2/24"
   }
 }

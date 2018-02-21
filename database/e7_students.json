@@ -138,7 +138,7 @@
     "github": "https://github.com/Coreylutrick",
     "treehouse": "https://teamtreehouse.com/coreylutrick",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -270,7 +270,7 @@
     "github": "https://github.com/lolasimp",
     "treehouse": "https://teamtreehouse.com/latashasimpson",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -325,7 +325,7 @@
     "github": "https://github.com/briankw23",
     "treehouse": "https://teamtreehouse.com/brianwright7",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
