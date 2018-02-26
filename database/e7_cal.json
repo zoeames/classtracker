@@ -213,31 +213,17 @@
     "title": "Developer Tools",
     "startsAt": "Februrary 24, 2018 7:00:00",
     "endsAt": "Februrary 24, 2018 8:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1ufqFxhI6RzJkWbsykjW3w5A0y-HNQ-iB53oCRD7zYxw/edit?usp=sharing",
     "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "An introduction to your new best friends.",
+    "description": "An introduction to your new best friend.",
     "hasGithub": false,
     "githubRepo":""
   },
   "cal17": {
-    "title": "Advanced CSS",
-    "startsAt": "Februrary 24, 2018 8:00:00",
-    "endsAt": "Februrary 24, 2018 9:30:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
-    "instructor": "Zoe",
-    "isHW": false,
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "More advanced CSS.",
-    "hasGithub": false,
-    "githubRepo":""
-  },
-  "cal18": {
     "title": "Javascript Strings",
     "startsAt": "Februrary 26, 2018 6:00:00",
     "endsAt": "Februrary 26, 2018 9:30:00",
@@ -251,7 +237,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal19": {
+  "cal18": {
     "title": "Javascript Arrays",
     "startsAt": "Februrary 27, 2018 6:00:00",
     "endsAt": "Februrary 27, 2018 9:30:00",
@@ -265,7 +251,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal20": {
+  "cal19": {
     "title": "Week 3 HW",
     "startsAt": "Februrary 28, 2018 6:00:00",
     "endsAt": "Februrary 29, 2018 6:00:00",
@@ -279,7 +265,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal21": {
+  "cal20": {
     "title": "Javascript Objects",
     "startsAt": "March 3, 2018 9:00:00",
     "endsAt": "March 3, 2018 12:00:00",
@@ -293,7 +279,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal22": {
+  "cal21": {
     "title": "Javascript Functions",
     "startsAt": "March 3, 2018 12:00:00",
     "endsAt": "March 3, 2018 14:00:00",
@@ -307,7 +293,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal23": {
+  "cal22": {
     "title": "Week 4 HW",
     "startsAt": "March 7, 2018 6:00:00",
     "endsAt": "March 8, 2018 6:00:00",
