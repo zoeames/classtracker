@@ -58,5 +58,45 @@
     "assignedNumber": 6,
     "topic": "",
     "notes": "we will cover this material on 2/24"
+  },
+  "assignment6": {
+    "title": "Blog Post",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "3/6/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 7,
+    "topic": "",
+    "notes": "Week 3: JS"
+  },
+  "assignment7": {
+    "title": "JS Arrays",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/JS_arrays.md",
+    "dueDate": "3/9/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 8,
+    "topic": "",
+    "notes": "*** Study Group ***"
+  },
+  "assignment8": {
+    "title": "JS Objects",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/JS_objects.md",
+    "dueDate": "3/9/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 9,
+    "topic": "",
+    "notes": ""
+  },
+  "assignment9": {
+    "title": "JS Functions",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/JS_functions.md",
+    "dueDate": "3/9/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 10,
+    "topic": "",
+    "notes": ""
   }
 }

@@ -227,22 +227,22 @@
     "title": "Javascript Strings",
     "startsAt": "Februrary 26, 2018 6:00:00",
     "endsAt": "Februrary 26, 2018 9:30:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1eOcrPreA1TAQdp-TPg3dD3pxwqknak_QaQEPZlLZIkc/edit?usp=sharing",
     "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Introductory javascript - focusing on strings.",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/jsStrings"
   },
   "cal18": {
     "title": "Javascript Arrays",
     "startsAt": "Februrary 27, 2018 6:00:00",
     "endsAt": "Februrary 27, 2018 9:30:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1yA2TqiMIrIzF0d-zPKypWGWFKupC3uqvh54cZmaxatA/edit?usp=sharing",
     "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
@@ -276,24 +276,81 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Introductory javascript - focusing on Objects.",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/jsObjectsFunctions"
   },
   "cal21": {
     "title": "Javascript Functions",
     "startsAt": "March 3, 2018 12:00:00",
     "endsAt": "March 3, 2018 14:00:00",
+    "hasPresentation": true,
+    "presentationUrl": "https://www.youtube.com/watch?v=VUTXsPFx-qQ",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Introductory javascript - focusing on Functions.",
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/jsObjectsFunctions"
+  },
+
+  "cal22": {
+    "title": "Advanced Javascript",
+    "startsAt": "March 5, 2018 12:00:00",
+    "endsAt": "March 5, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Lauren",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Advanced array methods - forEach, map, reduce, etc",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal23": {
+    "title": "Wireframes",
+    "startsAt": "March 6, 2018 12:00:00",
+    "endsAt": "March 6, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Lauren",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Available tools to help you make wireframes",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal24": {
+    "title": "Github Projects",
+    "startsAt": "March 6, 2018 12:00:00",
+    "endsAt": "March 6, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Callan",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to create cards/tickets using github projects",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal25": {
+    "title": "Github for Teams",
+    "startsAt": "March 6, 2018 12:00:00",
+    "endsAt": "March 6, 2018 14:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
     "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Introductory javascript - focusing on Functions.",
+    "description": "Working with a team on github",
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal22": {
+  "cal26": {
     "title": "Week 4 HW",
     "startsAt": "March 7, 2018 6:00:00",
     "endsAt": "March 8, 2018 6:00:00",
@@ -307,21 +364,91 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal24": {
-    "title": "Week 5 HW",
-    "startsAt": "March 14, 2018 6:00:00",
-    "endsAt": "March 15, 2018 6:00:00",
+  "cal27": {
+    "title": "Lab Day",
+    "startsAt": "March 10, 2018 12:00:00",
+    "endsAt": "March 10, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on any open assignments.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal28": {
+    "title": "Group Project",
+    "startsAt": "March 12, 2018 6:00:00",
+    "endsAt": "March 17, 2018 6:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
     "instructor": "",
     "isHW": true,
     "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week05.md",
     "eventType": "study",
-    "description": "See assignments tab.",
+    "description": "Group Project: See Github Project",
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal25": {
+  "cal29": {
+    "title": "Group Project Demos",
+    "startsAt": "March 19, 2018 6:00:00",
+    "endsAt": "March 19, 2018 7:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and Tell",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal30": {
+    "title": "Markdown",
+    "startsAt": "March 19, 2018 7:00:00",
+    "endsAt": "March 19, 2018 8:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "The Language of README.md",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal31": {
+    "title": "ES6",
+    "startsAt": "March 19, 2018 8:00:00",
+    "endsAt": "March 19, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Lauren",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Sexy new JS syntax.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal32": {
+    "title": "Event Listeners",
+    "startsAt": "March 20, 2018 6:00:00",
+    "endsAt": "March 20, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Callan",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Events and the DOM",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal33": {
     "title": "Week 6 HW",
     "startsAt": "March 21, 2018 6:00:00",
     "endsAt": "March 22, 2018 6:00:00",
@@ -335,7 +462,49 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal26": {
+  "cal34": {
+    "title": "Lab Day",
+    "startsAt": "March 24, 2018 12:00:00",
+    "endsAt": "March 24, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on any open assignments.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal35": {
+    "title": "XHR",
+    "startsAt": "March 26, 2018 6:00:00",
+    "endsAt": "March 26, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "XHR requests",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal36": {
+    "title": "XHR 2",
+    "startsAt": "March 27, 2018 6:00:00",
+    "endsAt": "March 27, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "XHR requests",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal37": {
     "title": "Week 7 HW",
     "startsAt": "March 28, 2018 6:00:00",
     "endsAt": "March 29, 2018 6:00:00",
@@ -349,7 +518,21 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal27": {
+  "cal38": {
+    "title": "Lab Day",
+    "startsAt": "March 31, 2018 12:00:00",
+    "endsAt": "March 31, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on any open assignments.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal82": {
     "title": "Week 8 HW",
     "startsAt": "April 4, 2018 6:00:00",
     "endsAt": "April 5, 2018 6:00:00",
@@ -363,7 +546,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal28": {
+  "cal83": {
     "title": "Week 9 HW",
     "startsAt": "April 11, 2018 6:00:00",
     "endsAt": "April 12, 2018 6:00:00",
@@ -377,7 +560,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal29": {
+  "cal84": {
     "title": "Week 10 HW",
     "startsAt": "April 18, 2018 6:00:00",
     "endsAt": "April 19, 2018 6:00:00",
@@ -391,7 +574,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal30": {
+  "cal85": {
     "title": "Week 11 HW",
     "startsAt": "April 25, 2018 6:00:00",
     "endsAt": "April 26, 2018 6:00:00",
@@ -405,7 +588,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal31": {
+  "cal86": {
     "title": "Week 12 HW",
     "startsAt": "May 2, 2018 6:00:00",
     "endsAt": "May 3, 2018 6:00:00",
@@ -419,7 +602,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal32": {
+  "cal87": {
     "title": "Week 13 HW",
     "startsAt": "May 9, 2018 6:00:00",
     "endsAt": "May 10, 2018 6:00:00",
@@ -433,7 +616,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal33": {
+  "cal88": {
     "title": "Week 14 HW",
     "startsAt": "May 16, 2018 6:00:00",
     "endsAt": "May 17, 2018 6:00:00",
@@ -447,7 +630,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal34": {
+  "cal89": {
     "title": "Week 15 HW",
     "startsAt": "May 23, 2018 6:00:00",
     "endsAt": "May 24, 2018 6:00:00",
@@ -461,7 +644,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal35": {
+  "cal90": {
     "title": "Week 16 HW",
     "startsAt": "May 30, 2018 6:00:00",
     "endsAt": "May 31, 2018 6:00:00",
@@ -475,7 +658,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal36": {
+  "cal91": {
     "title": "Week 17 HW",
     "startsAt": "June 6, 2018 6:00:00",
     "endsAt": "June 7, 2018 6:00:00",
@@ -489,7 +672,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal37": {
+  "cal92": {
     "title": "Week 18 HW",
     "startsAt": "June 13, 2018 6:00:00",
     "endsAt": "June 14, 2018 6:00:00",
@@ -503,7 +686,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal38": {
+  "cal93": {
     "title": "Week 19 HW",
     "startsAt": "June 20, 2018 6:00:00",
     "endsAt": "June 21, 2018 6:00:00",
@@ -517,7 +700,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal39": {
+  "cal94": {
     "title": "Week 20 HW",
     "startsAt": "June 27, 2018 6:00:00",
     "endsAt": "June 28, 2018 6:00:00",
@@ -531,7 +714,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal40": {
+  "cal95": {
     "title": "Week 21 HW",
     "startsAt": "July 4, 2018 6:00:00",
     "endsAt": "July 5, 2018 6:00:00",
@@ -545,7 +728,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal41": {
+  "cal96": {
     "title": "Week 22 HW",
     "startsAt": "July 11, 2018 6:00:00",
     "endsAt": "July 12, 2018 6:00:00",
@@ -559,7 +742,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal42": {
+  "cal98": {
     "title": "Week 23 HW",
     "startsAt": "July 18, 2018 6:00:00",
     "endsAt": "July 19, 2018 6:00:00",
@@ -573,7 +756,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal43": {
+  "cal99": {
     "title": "Week 24 HW",
     "startsAt": "July 25, 2018 6:00:00",
     "endsAt": "July 26, 2018 6:00:00",
@@ -587,7 +770,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal44": {
+  "cal100": {
     "title": "Week 25 HW",
     "startsAt": "August 1, 2018 6:00:00",
     "endsAt": "August 2, 2018 6:00:00",
