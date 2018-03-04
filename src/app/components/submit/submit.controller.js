@@ -6,6 +6,7 @@ class SubmitController {
     this.submitAssignmentService = submitAssignmentService;
     this.authService = authService;
     this.assignments = [];
+    this.uid = this.authService.getCurrentUid();
   }
 
   $onInit() {
@@ -14,8 +15,12 @@ class SubmitController {
 
   getGithubAssignments() {
     this.assignmentService.getGithubAssignmentList().then(fbAssignments => {
-      fbAssignments.sort((a, b) => new Date(a.dueDate) - new Date(b.dueDate));
-      this.assignments = fbAssignments;
+      
+      this.submitAssignmentService.getSubmitAssignmentsByUid(this.uid).then((myAssignments) =>{
+        let combinedAssignments = this.submitAssignmentService.smashLists(fbAssignments, myAssignments);
+        combinedAssignments.sort((a, b) => new Date(a.dueDate) - new Date(b.dueDate));
+        this.assignments = combinedAssignments;
+      })
     });
   }
 
