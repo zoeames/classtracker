@@ -350,5 +350,16 @@
     "treehouseComplete": true,
     "isStudent": true,
     "uid": "EOdZDVczTcezKUhZzEIO9HpZwGE3"
+  },
+  "student30": {
+    "firstName": "Anastasiia",
+    "lastName": "Somchyk",
+    "email": "E4nastya@gmail.com",
+    "github": "https://github.com/AnastasiiaSomchyk",
+    "treehouse": "https://teamtreehouse.com/AnastasiiaSomchyk",
+    "biosite": "",
+    "treehouseComplete": false,
+    "isStudent": true,
+    "uid": ""
   }
 }
