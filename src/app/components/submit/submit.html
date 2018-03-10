@@ -39,11 +39,14 @@
               </div>
             </div>
             <div ng-if='assignment.isEditing'>
-              <input id="githubUrl" class="col-xs-9" type="text" ng-model="assignment.githubUrl" placeholder="https://github.com/zoeames/class-deadlines">
+              <input id="githubUrl" class="col-xs-9 github-url-input" type="text" ng-model="assignment.githubUrl" placeholder="https://github.com/zoeames/class-deadlines">
               <div class="col-xs-3 no-pad">
                 <button class="btn btn-info" ng-click="$ctrl.updateGithub(assignment)">
                   <i class="fas fa-save"></i>
                 </button>
+                <button class="btn btn-danger" ng-click="assignment.isEditing = false">
+                    <i class="fas fa-times"></i>
+                  </button>
               </div>
             </div>
           </div>

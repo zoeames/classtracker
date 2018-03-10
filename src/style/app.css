@@ -387,8 +387,13 @@ mwl-calendar .cal-month-box .cal-row-fluid{
 
 
 .github-url-box{
+  padding-top: 5px;
   border: 2px dotted #ADADAD;
   height: 34px;
+}
+
+.github-url-input{
+  height: 34px; 
 }
 
 .no-pad{
