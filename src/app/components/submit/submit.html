@@ -29,6 +29,23 @@
           <div class="panel-body text-left">
             <div>Due Date: {{assignment.dueDate}}</div>
             <div ng-if="assignment.notes">Notes: {{assignment.notes}}</div>
+            <label for="githubUrl">Github Repo Url:</label>
+            <div ng-if='!assignment.isEditing'>
+              <div class="col-xs-9 github-url-box">{{assignment.githubUrl || 'none'}}</div>
+              <div class="col-xs-3 no-pad">
+                <button class="btn btn-default" ng-click="assignment.isEditing = true">
+                  <i class="fas fa-pencil-alt"></i>
+                </button>
+              </div>
+            </div>
+            <div ng-if='assignment.isEditing'>
+              <input id="githubUrl" class="col-xs-9" type="text" ng-model="assignment.githubUrl" placeholder="https://github.com/zoeames/class-deadlines">
+              <div class="col-xs-3 no-pad">
+                <button class="btn btn-info" ng-click="$ctrl.updateGithub(assignment)">
+                  <i class="fas fa-save"></i>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -384,3 +384,13 @@ mwl-calendar .cal-month-box .cal-row-fluid{
 #submit-dashboard .panel-heading{
   line-height: 35px;
 }
+
+
+.github-url-box{
+  border: 2px dotted #ADADAD;
+  height: 34px;
+}
+
+.no-pad{
+  padding: 0px;
+}

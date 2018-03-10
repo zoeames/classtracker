@@ -32,14 +32,24 @@ class SubmitController {
       status: "inProgress"
     };
 
-    this.submitAssignmentService
-      .postNewAssignment(newSumitAssignment)
+    this.submitAssignmentService.postNewAssignment(newSumitAssignment)
       .then(result => {
         this.getGithubAssignments();
       })
       .catch(err => {
         console.log("err", err);
       });
+  }
+
+  updateGithub(assignment){
+    console.log("updateGithub", assignment);
+    this.submitAssignmentService.updateGithub(assignment)
+    .then(result => {
+      this.getGithubAssignments();
+    })
+    .catch(err => {
+      console.log("err", err);
+    });
   }
 }
 

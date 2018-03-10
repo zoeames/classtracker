@@ -31,6 +31,11 @@ export default class SubmitAssignmentService {
     });
   }
 
+  updateGithub(assignment){
+    const githubUrl = assignment.githubUrl;
+    return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignment.submitAssignmentId}.json`, JSON.stringify({ githubUrl }));
+  }
+
   smashLists(assignments, myAssignments){
     for(let i=0; i<assignments.length; i++){
       let assignment = assignments[i];
@@ -41,6 +46,7 @@ export default class SubmitAssignmentService {
           assignment.githubUrl = myAssignment.githubUrl;
           assignment.status = myAssignment.status;
           assignment.submitAssignmentId = myAssignment.submitAssignmentId;
+          assignment.isEditing = false;
         }
       }
     }
