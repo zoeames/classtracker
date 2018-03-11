@@ -5,7 +5,7 @@ const calendarConfig = {
   url: '/calendar',
   component: calendarComponentName,
   data: {
-    authRequired: true,
+    authRequired: false,
   },
 };
 

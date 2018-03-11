@@ -6,7 +6,7 @@ const studentsConfig = {
   url: '/students',
   component: studentsComponentName,
   data: {
-    authRequired: true,
+    authRequired: false,
   },
 };
 

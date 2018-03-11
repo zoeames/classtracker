@@ -4,7 +4,8 @@
     "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/prework.md",
     "dueDate": "2/12/18",
     "isAssigned": "true",
-    "assignedNumber": "1",
+    "isGithub": "false",
+    "assignedNumber": 1,
     "topic": "",
     "notes": "PREWORK, PREWORK, PREWORK, Hey have you done your PREWORK?"
   },
@@ -13,8 +14,129 @@
     "URL": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week01.md",
     "dueDate": "2/19/18",
     "isAssigned": "true",
-    "assignedNumber": "2",
+    "isGithub": "false",
+    "assignedNumber": 2,
     "topic": "",
     "notes": "Please do the steps in order."
+  },
+  "assignment2": {
+    "title": "CSS Zen Garden",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/CSS_zen_garden_challenge.md",
+    "dueDate": "2/26/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 3,
+    "topic": "HTML/CSS",
+    "notes": "*** Study Group ***"
+  },
+  "assignment3": {
+    "title": "Blog Post #1",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "2/27/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 4,
+    "topic": "HTML/CSS",
+    "notes": "Week 1: HTML, CSS, Git, Github"
+  },
+  "assignment4": {
+    "title": "Personal Site #1",
+    "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-01.md",
+    "dueDate": "2/27/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 5,
+    "topic": "CSS",
+    "notes": "HTML and CSS"
+  },
+  "assignment5": {
+    "title": "Personal Site #2",
+    "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-02.md",
+    "dueDate": "2/27/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 6,
+    "topic": "CSS",
+    "notes": "we will cover this material on 2/24"
+  },
+  "assignment6": {
+    "title": "Blog Post #2",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "3/6/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 7,
+    "topic": "JS",
+    "notes": "Week 3: JS"
+  },
+  "assignment7": {
+    "title": "JS Arrays",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/JS_arrays.md",
+    "dueDate": "3/9/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 8,
+    "topic": "JS",
+    "notes": "*** Study Group ***"
+  },
+  "assignment8": {
+    "title": "JS Objects",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/JS_objects.md",
+    "dueDate": "3/9/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 9,
+    "topic": "JS",
+    "notes": ""
+  },
+  "assignment9": {
+    "title": "JS Functions",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/JS_functions.md",
+    "dueDate": "3/9/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 10,
+    "topic": "JS",
+    "notes": ""
+  },
+  "assignment10": {
+    "title": "You Don't Know JS: Up and Going",
+    "URL": "https://github.com/getify/You-Dont-Know-JS/tree/master/up%20%26%20going",
+    "dueDate": "3/13/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 11,
+    "topic": "JS",
+    "notes": "Read Ch1 and Ch2 (some advanced topics, can be skimmed: IIFE, Closure, this, Prototypes, Old & New)"
+  },
+  "assignment11": {
+    "title": "Language Translator",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/JS_translator.md",
+    "dueDate": "3/13/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 12,
+    "topic": "JS",
+    "notes": "*** Study Group: do all the project planning ***"
+  },
+  "assignment12": {
+    "title": "Personal Site #3",
+    "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-03.md",
+    "dueDate": "3/13/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 13,
+    "topic": "",
+    "notes": ""
+  },
+  "assignment13": {
+    "title": "Blog Post #3",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "3/13/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 14,
+    "topic": "JS",
+    "notes": "Week 4: Advanced JS and git for teams.  Add this to your array from Personal Site #3"
   }
 }

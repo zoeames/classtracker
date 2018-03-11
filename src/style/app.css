@@ -380,3 +380,22 @@ mwl-calendar .cal-month-box .cal-row-fluid{
 .website-link{
   color: purple;
 }
+
+#submit-dashboard .panel-heading{
+  line-height: 35px;
+}
+
+
+.github-url-box{
+  padding-top: 5px;
+  border: 2px dotted #ADADAD;
+  height: 34px;
+}
+
+.github-url-input{
+  height: 34px; 
+}
+
+.no-pad{
+  padding: 0px;
+}

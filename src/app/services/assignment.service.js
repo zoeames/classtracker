@@ -26,4 +26,22 @@ export default class assignmentService {
         });
     });
   }
+
+  getGithubAssignmentList() {
+    const assignments = [];
+    return this.$q((resolve, reject) => {
+      this.$http.get(`${this.FB.databaseURL}/assignments.json?orderBy="isGithub"&equalTo="true"`)
+        .then((assignmentObject) => {
+          const assignmentCollection = assignmentObject.data;
+          Object.keys(assignmentCollection).forEach((key) => {
+            assignmentCollection[key].assignmentId = key;
+            assignments.push(assignmentCollection[key]);
+          });
+          resolve(assignments);
+        })
+        .catch((error) => {
+          reject(error);
+        });
+    });
+  }
 }
