@@ -21,7 +21,7 @@
     </div>
     <div>
       <h3>Assignments:</h3>
-      <table class="table table-striped">
+      <table class="table">
         <thead>
           <tr>
             <th scope="col">Title</th>
@@ -32,7 +32,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="assignment in $ctrl.assignments | orderBy:'assignedNumber'">
+          <tr ng-repeat="assignment in $ctrl.assignments | orderBy:'assignedNumber'" ng-class='{"success": assignment.status === "done", "warning": assignment.status === "inProgress", "danger": assignment.status === "backlog"}'>
             <th scope="row">{{assignment.title}}</th>
             <th scope="row">{{assignment.dueDate}}</th>
             <th scope="row">{{assignment.status}}</th>
