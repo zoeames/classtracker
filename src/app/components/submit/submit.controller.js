@@ -41,6 +41,19 @@ class SubmitController {
       });
   }
 
+
+
+  completeAssignment(assignment) {
+    this.submitAssignmentService.completeAssignment(assignment)
+      .then(result => {
+        this.getGithubAssignments();
+      })
+      .catch(err => {
+        console.log("err", err);
+      });
+  }
+
+
   updateGithub(assignment){
     console.log("updateGithub", assignment);
     this.submitAssignmentService.updateGithub(assignment)

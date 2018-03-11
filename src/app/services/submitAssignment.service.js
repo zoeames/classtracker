@@ -36,6 +36,11 @@ export default class SubmitAssignmentService {
     return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignment.submitAssignmentId}.json`, JSON.stringify({ githubUrl }));
   }
 
+  completeAssignment(assignment){
+    return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignment.submitAssignmentId}.json`, JSON.stringify({ status: "done" }));
+  }
+
+
   smashLists(assignments, myAssignments){
     for(let i=0; i<assignments.length; i++){
       let assignment = assignments[i];
