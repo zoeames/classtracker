@@ -31,4 +31,22 @@ export default class studentService {
       .then(treehouseProfile => treehouseProfile.data.points.total)
       .catch(error => error);
   }
+
+  getSingleStudent(uid){
+    const students = [];
+    return this.$q((resolve, reject) => {
+      this.$http.get(`${this.FB.databaseURL}/students.json?orderBy="uid"&equalTo="${uid}"`)
+        .then((studentObject) => {
+          const studentCollection = studentObject.data;
+          Object.keys(studentCollection).forEach((key) => {
+            studentCollection[key].id = key;
+            students.push(studentCollection[key]);
+          });
+          resolve(students[0]);
+        })
+        .catch((error) => {
+          reject(error);
+        });
+    });
+  }
 }

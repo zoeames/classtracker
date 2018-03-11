@@ -1,32 +1,57 @@
 class StudentProgressController {
-  constructor(authService, assignmentService, studentService, submitAssignmentService) {
+  constructor(
+    $stateParams,
+    assignmentService,
+    studentService,
+    submitAssignmentService
+  ) {
     "ngInject";
 
+    this.$stateParams = $stateParams;
+
     this.assignmentService = assignmentService;
-    this.submitAssignmentService = submitAssignmentService;
     this.studentService = studentService;
-    this.authService = authService;
-    
+    this.submitAssignmentService = submitAssignmentService;
     this.assignments = [];
-    this.uid = this.authService.getCurrentUid();
-    this.students = [];
+    this.studentId = "";
+    this.student = {};
   }
 
   $onInit() {
-    // this.getStudentList();
+    this.studentId = this.$stateParams.id;
+    this.getStudent(this.studentId);
+    this.getGithubAssignments();
   }
-  
-  // getStudentList() {
-  //   this.studentService
-  //     .getStudentList()
-  //     .then(fbStudents => {
-  //       this.students = fbStudents;
-  //       console.log("students", this.students);
-  //     })
-  //     .catch(err => {
-  //       console.error("error in students", err);
-  //     });
-  // }
+
+  getStudent(uid) {
+    this.studentService
+      .getSingleStudent(uid)
+      .then(fbStudent => {
+        this.student = fbStudent;
+      })
+      .catch(err => {
+        console.error("error in get single student", err);
+      });
+  }
+
+  getGithubAssignments() {
+    this.assignmentService.getGithubAssignmentList().then(fbAssignments => {
+      this.submitAssignmentService
+        .getSubmitAssignmentsByUid(this.studentId)
+        .then(myAssignments => {
+          let combinedAssignments = this.submitAssignmentService.smashLists(
+            fbAssignments,
+            myAssignments
+          );
+          combinedAssignments.sort(
+            (a, b) => new Date(a.dueDate) - new Date(b.dueDate)
+          );
+          this.assignments = combinedAssignments;
+
+          console.log("this.assignments", this.assignments);
+        });
+    });
+  }
 }
 
 export default StudentProgressController;
