@@ -17,6 +17,8 @@ import { assignmentsComponent, assignmentsComponentName } from './components/ass
 import { calendarComponent, calendarComponentName } from './components/calendar/calendar.component';
 import { studentsComponent, studentsComponentName } from './components/students/students.component';
 import { submitComponent, submitComponentName } from './components/submit/submit.component';
+import { trackerComponent, trackerComponentName } from './components/tracker/tracker.component';
+import { studentProgressComponent, studentProgressComponentName } from './components/student_progress/student_progress.component';
 
 import AuthService, { authServiceName } from './services/auth.service';
 import AssignmentService, { assignmentServiceName } from './services/assignment.service';
@@ -42,6 +44,8 @@ classTrackerApp.component(assignmentsComponentName, assignmentsComponent);
 classTrackerApp.component(calendarComponentName, calendarComponent);
 classTrackerApp.component(studentsComponentName, studentsComponent);
 classTrackerApp.component(submitComponentName, submitComponent);
+classTrackerApp.component(trackerComponentName, trackerComponent);
+classTrackerApp.component(studentProgressComponentName, studentProgressComponent);
 
 classTrackerApp.service(authServiceName, AuthService);
 classTrackerApp.service(assignmentServiceName, AssignmentService);

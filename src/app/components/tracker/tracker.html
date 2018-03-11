@@ -1,0 +1,20 @@
+<navbar></navbar>
+<div id="submit-dashboard" class="text-center">
+  <div class="main-container ">
+    <h1>Assignment Tracker</h1>
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>Student</th>
+          <th>UID</th>
+        </tr>
+      </thead>
+      <tbody ng-repeat="student in $ctrl.students | orderBy:'lastName'">
+        <tr>
+          <td><a ui-sref="student_progress({id: student.uid})">{{student.firstName}} {{student.lastName}}</a></td>
+          <td>{{student.uid}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -390,6 +390,8 @@ mwl-calendar .cal-month-box .cal-row-fluid{
   padding-top: 5px;
   border: 2px dotted #ADADAD;
   height: 34px;
+  overflow-x: scroll;
+  white-space: nowrap;
 }
 
 .github-url-input{
@@ -398,4 +400,8 @@ mwl-calendar .cal-month-box .cal-row-fluid{
 
 .no-pad{
   padding: 0px;
+}
+
+tr a {
+  color: black;
 }
