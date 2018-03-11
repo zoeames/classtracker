@@ -55,7 +55,6 @@ class SubmitController {
 
 
   updateGithub(assignment){
-    console.log("updateGithub", assignment);
     this.submitAssignmentService.updateGithub(assignment)
     .then(result => {
       this.getGithubAssignments();

@@ -37,7 +37,7 @@ export default class SubmitAssignmentService {
   }
 
   completeAssignment(assignment){
-    return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignment.submitAssignmentId}.json`, JSON.stringify({ status: "done" }));
+    return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignment.submitAssignmentId}.json`, JSON.stringify({ status: "done", submissionDate: Date.now() }));
   }
 
 
@@ -52,6 +52,7 @@ export default class SubmitAssignmentService {
           assignment.status = myAssignment.status;
           assignment.submitAssignmentId = myAssignment.submitAssignmentId;
           assignment.isEditing = false;
+          assignment.submissionDate = myAssignment.submissionDate;
         }
       }
     }
