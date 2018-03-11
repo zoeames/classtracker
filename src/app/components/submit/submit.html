@@ -22,7 +22,7 @@
         <h3>In Progress</h3>
         <div class="panel panel-warning" ng-repeat="assignment in $ctrl.assignments | filter: {isAssigned: 'true', status: 'inProgress' }">
           <div class="panel-heading">{{assignment.title}}
-            <button class="pull-right btn btn-info" ng-click="$ctrl.updateAssignment(assignment)">
+            <button class="pull-right btn btn-info" ng-disabled="(assignment.isEditing === true) || (assignment.githubUrl.length < 1)" ng-click="$ctrl.updateAssignment(assignment)">
               <i class="fas fa-check"></i>
             </button>
           </div>
