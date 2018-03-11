@@ -1,4 +1,4 @@
-class AssignmentTrackerController {
+class TrackerController {
   constructor(authService, assignmentService, submitAssignmentService) {
     "ngInject";
 
@@ -26,4 +26,4 @@ class AssignmentTrackerController {
   }
 }
 
-export default AssignmentTrackerController;
+export default TrackerController;
