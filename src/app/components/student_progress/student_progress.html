@@ -1,25 +1,54 @@
 <navbar></navbar>
 <div id="student-dashboard" class="text-center">
-  <div class="main-container ">
-    <h1>Student: {{$ctrl.student.firstName}} {{$ctrl.student.lastName}}</h1>
-    <div class="col-xs-12">
-      <div class="col-xs-4">
-        <a class="treehouse-link" href="{{student.treehouse}}" target="_blank">
-          <img class="treehouse-img" src="./img/treehouse.png">
-        </a>
-      </div>
-      <div class="col-xs-4">
-        <a class="github-link" href="{{student.github}}" target="_blank">
-          <i class="fab fa-github fa-2x"></i>
-        </a>
-      </div>
-      <div class="col-xs-4">
-        <a class="website-link" href="{{student.biosite}}" target="_blank">
-          <i class="fas fa-address-book fa-2x"></i>
-        </a>
+  <div>
+    <div class="row">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-xs-9">
+            <h1>Student: {{$ctrl.student.firstName}} {{$ctrl.student.lastName}}</h1>
+          </div>
+          <div class="col-xs-3">
+            <div class="col-xs-4">
+              <a class="treehouse-link" href="{{student.treehouse}}" target="_blank">
+                <img class="treehouse-img" src="./img/treehouse.png">
+              </a>
+            </div>
+            <div class="col-xs-4">
+              <a class="github-link" href="{{student.github}}" target="_blank">
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+            </div>
+            <div class="col-xs-4">
+              <a class="website-link" href="{{student.biosite}}" target="_blank">
+                <i class="fas fa-address-book fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="col-xs-4">
+            Completed Assignments:
+            <br>
+            {{$ctrl.completedAssignmentNum}}/{{$ctrl.assignments.length}} = 
+            {{($ctrl.completedAssignmentNum/$ctrl.assignments.length*100).toFixed("0")}}%
+          </div>
+          <div class="col-xs-4">
+            In Progress Assignments: 
+            <br>
+            {{$ctrl.progressAssignmentNum}}/{{$ctrl.assignments.length}} = 
+            {{($ctrl.progressAssignmentNum/$ctrl.assignments.length*100).toFixed("0")}}%
+          </div>
+          <div class="col-xs-4">
+            Un-started Assignments: 
+            <br>
+            {{$ctrl.freshAssignmentNum}}/{{$ctrl.assignments.length}} = 
+            {{($ctrl.freshAssignmentNum/$ctrl.assignments.length*100).toFixed("0")}}%
+          </div>
+        </div>
+
       </div>
     </div>
-    <div>
+    <div class="row">
       <h3>Assignments:</h3>
       <table class="table">
         <thead>

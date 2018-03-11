@@ -15,12 +15,32 @@ class StudentProgressController {
     this.assignments = [];
     this.studentId = "";
     this.student = {};
+
+    this.completedAssignmentNum = 0;
+    this.progressAssignmentNum = 0;
+    this.freshAssignmentNum = 0;
   }
 
   $onInit() {
     this.studentId = this.$stateParams.id;
     this.getStudent(this.studentId);
     this.getGithubAssignments();
+  }
+
+  assignmentTotals() {
+    this.assignments.forEach(a => {
+      switch (a.status) {
+        case "done":
+          this.completedAssignmentNum++;
+          break;
+        case "inProgress":
+          this.progressAssignmentNum++;
+          break;
+        case "backlog":
+          this.freshAssignmentNum++;
+          break;
+      }
+    });
   }
 
   getStudent(uid) {
@@ -47,8 +67,7 @@ class StudentProgressController {
             (a, b) => new Date(a.dueDate) - new Date(b.dueDate)
           );
           this.assignments = combinedAssignments;
-
-          console.log("this.assignments", this.assignments);
+          this.assignmentTotals();
         });
     });
   }
