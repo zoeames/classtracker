@@ -1,6 +1,15 @@
 {
   "rules": {
     ".read": "true",
-    ".write": "auth != null"
+    ".write": "true",
+    "assignments": {
+      ".indexOn": "isGithub"
+    },
+    "students": {
+      ".indexOn": "uid"
+    },
+    "submitAssignments": {
+      ".indexOn": "uid"
+    }
   }
 }
