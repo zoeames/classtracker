@@ -58,6 +58,8 @@
             <th scope="col">Status</th>
             <th scope="col">Date Submitted</th>
             <th scope="col">Github Repo</th>
+            <th scope="col">Excuse</th>
+            <th scope="col">Reset</th>
           </tr>
         </thead>
         <tbody>
@@ -67,9 +69,19 @@
             <th scope="row">{{assignment.status}}</th>
             <th scope="row">{{assignment.submissionDate | date:'medium'}}</th>
             <th scope="row">
-              <a target="_blank" href="{{assignment.githubUrl}}">
+              <a ng-if="assignment.githubUrl" target="_blank" href="{{assignment.githubUrl}}">
                 <i class="fab fa-github"></i>
               </a>
+            </th>
+            <th scope="row">
+              <button ng-if="!(assignment.status === 'done')" class="btn btn-default" ng-click="excuseAssignment(assignment)">
+                <i class="far fa-pause-circle"></i>
+              </button>
+            </th>
+            <th scope="row">
+              <button ng-if="assignment.status === 'done'" class="btn btn-danger" ng-click="resetAssignment(assignment)">
+                <i class="fas fa-undo"></i>
+              </button>
             </th>
           </tr>
         </tbody>
