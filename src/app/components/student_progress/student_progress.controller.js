@@ -75,6 +75,21 @@ class StudentProgressController {
         });
     });
   }
+
+  excuseAssignment(assignment) {
+    this.submitAssignmentService
+      .excuseAssignment(assignment.submitAssignmentId)
+      .then(result => {
+        this.getGithubAssignments();
+      })
+      .catch(err => {
+        console.error("err", err);
+      });
+  }
+
+  resetAssignment(assignment) {
+    console.log("assignment un-completed", assignment);
+  }
 }
 
 export default StudentProgressController;

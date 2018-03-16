@@ -74,12 +74,12 @@
               </a>
             </th>
             <th scope="row">
-              <button ng-if="!(assignment.status === 'done')" class="btn btn-default" ng-click="excuseAssignment(assignment)">
+              <button ng-if="!(assignment.status === 'done')" class="btn btn-default" ng-click="$ctrl.excuseAssignment(assignment)">
                 <i class="far fa-pause-circle"></i>
               </button>
             </th>
             <th scope="row">
-              <button ng-if="assignment.status === 'done'" class="btn btn-danger" ng-click="resetAssignment(assignment)">
+              <button ng-if="assignment.status === 'done'" class="btn btn-danger" ng-click="$ctrl.resetAssignment(assignment)">
                 <i class="fas fa-undo"></i>
               </button>
             </th>
