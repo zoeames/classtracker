@@ -61,7 +61,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="assignment in $ctrl.assignments | orderBy:'assignedNumber'" ng-class='{"success": assignment.status === "done", "warning": assignment.status === "inProgress", "danger": assignment.status === "backlog"}'>
+          <tr ng-repeat="assignment in $ctrl.assignments | orderBy:'assignedNumber'" ng-class='{"success": assignment.status === "done", "warning": assignment.status === "inProgress" , "danger": assignment.status === "backlog", "royal": assignment.status === "excused"}'>
             <th scope="row">{{assignment.title}}</th>
             <th scope="row">{{assignment.dueDate}}</th>
             <th scope="row">{{assignment.status}}</th>
