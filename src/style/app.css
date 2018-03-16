@@ -36,6 +36,13 @@ a {
   background-color: #D6C5DB;
 }
 
+.panel-royal>.panel-heading{
+  color: #91669C;
+  background-color: #D6C5DB;
+  border-color: #F0EAF1;
+}
+
+
 /* default button */
 
 .btn-default {
