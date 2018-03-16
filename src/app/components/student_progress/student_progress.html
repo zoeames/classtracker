@@ -74,8 +74,8 @@
               </a>
             </th>
             <th scope="row">
-              <button ng-if="!(assignment.status === 'done')" class="btn btn-default" ng-click="$ctrl.excuseAssignment(assignment)">
-                <i class="far fa-pause-circle"></i>
+              <button ng-if="!(assignment.status === 'done') && !(assignment.status === 'excused')" class="btn btn-default" ng-click="$ctrl.excuseAssignment(assignment)">
+                <i class="fas fa-pause"></i>
               </button>
             </th>
             <th scope="row">

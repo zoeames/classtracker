@@ -21,7 +21,18 @@ a {
 }
 
 /* royal class for tables */
-.table>tbody>tr.royal>td, .table>tbody>tr.royal>th, .table>tbody>tr>td.royal, .table>tbody>tr>th.royal, .table>tfoot>tr.royal>td, .table>tfoot>tr.royal>th, .table>tfoot>tr>td.royal, .table>tfoot>tr>th.royal, .table>thead>tr.royal>td, .table>thead>tr.royal>th, .table>thead>tr>td.royal, .table>thead>tr>th.royal{
+.table>tbody>tr.royal>td,
+.table>tbody>tr.royal>th,
+.table>tbody>tr>td.royal,
+.table>tbody>tr>th.royal,
+.table>tfoot>tr.royal>td,
+.table>tfoot>tr.royal>th,
+.table>tfoot>tr>td.royal,
+.table>tfoot>tr>th.royal,
+.table>thead>tr.royal>td,
+.table>thead>tr.royal>th,
+.table>thead>tr>td.royal,
+.table>thead>tr>th.royal{
   background-color: #D6C5DB;
 }
 
