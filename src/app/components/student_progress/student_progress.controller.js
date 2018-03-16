@@ -88,7 +88,14 @@ class StudentProgressController {
   }
 
   resetAssignment(assignment) {
-    console.log("assignment un-completed", assignment);
+    this.submitAssignmentService
+      .resetAssignment(assignment.submitAssignmentId)
+      .then(result => {
+        this.getGithubAssignments();
+      })
+      .catch(err => {
+        console.error("err", err);
+      });
   }
 }
 
