@@ -19,6 +19,7 @@ class StudentProgressController {
     this.completedAssignmentNum = 0;
     this.progressAssignmentNum = 0;
     this.freshAssignmentNum = 0;
+    this.excusedAssignmentNum = 0;
   }
 
   $onInit() {
@@ -38,6 +39,9 @@ class StudentProgressController {
           break;
         case "backlog":
           this.freshAssignmentNum++;
+          break;
+        case "excused":
+          this.excusedAssignmentNum++;
           break;
       }
     });

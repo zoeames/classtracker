@@ -29,20 +29,20 @@
           <div class="col-xs-4">
             Completed Assignments:
             <br>
-            {{$ctrl.completedAssignmentNum}}/{{$ctrl.assignments.length}} = 
-            {{($ctrl.completedAssignmentNum/$ctrl.assignments.length*100).toFixed("0")}}%
+            {{$ctrl.completedAssignmentNum}}/{{$ctrl.assignments.length-$ctrl.excusedAssignmentNum}} = 
+            {{($ctrl.completedAssignmentNum/($ctrl.assignments.length-$ctrl.excusedAssignmentNum)*100).toFixed("0")}}%
           </div>
           <div class="col-xs-4">
             In Progress Assignments: 
             <br>
-            {{$ctrl.progressAssignmentNum}}/{{$ctrl.assignments.length}} = 
-            {{($ctrl.progressAssignmentNum/$ctrl.assignments.length*100).toFixed("0")}}%
+            {{$ctrl.progressAssignmentNum}}/{{$ctrl.assignments.length-$ctrl.excusedAssignmentNum}} = 
+            {{($ctrl.progressAssignmentNum/($ctrl.assignments.length-$ctrl.excusedAssignmentNum)*100).toFixed("0")}}%
           </div>
           <div class="col-xs-4">
             Un-started Assignments: 
             <br>
-            {{$ctrl.freshAssignmentNum}}/{{$ctrl.assignments.length}} = 
-            {{($ctrl.freshAssignmentNum/$ctrl.assignments.length*100).toFixed("0")}}%
+            {{$ctrl.freshAssignmentNum}}/{{$ctrl.assignments.length-$ctrl.excusedAssignmentNum}} = 
+            {{($ctrl.freshAssignmentNum/($ctrl.assignments.length-$ctrl.excusedAssignmentNum)*100).toFixed("0")}}%
           </div>
         </div>
 
