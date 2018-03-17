@@ -17,7 +17,8 @@
       </thead>
       <tbody>
         <tr ng-repeat="assignment in $ctrl.assignments | orderBy:'assignedNumber'">
-          <td>{{assignment.title}}</td>
+          <td>{{assignment.details.title}}</td>
+          <td ng-repeat="student in assignment.students">{{student.status}}</td>
         </tr>
       </tbody>
     </table>
