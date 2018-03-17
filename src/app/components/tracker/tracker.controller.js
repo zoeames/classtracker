@@ -27,7 +27,9 @@ class TrackerController {
     this.assignmentService
       .getGithubAssignmentList()
       .then(fbAssignments => {
-        this.tempAssignments = fbAssignments;
+        this.tempAssignments = fbAssignments.sort(
+          (a, b) => a.assignedNumber - b.assignedNumber
+        );
         for (let x = 0; x < this.tempAssignments.length; x++) {
           let newAssignment = {
             details: this.tempAssignments[x],
@@ -65,7 +67,6 @@ class TrackerController {
     this.submitAssignmentService
       .getSubmitAssignmentsByUid(student.uid)
       .then(myAssignments => {
-        console.log("myAssignments", myAssignments);
         student.assignments = this.submitAssignmentService.smashLists(
           this.tempAssignments,
           myAssignments
@@ -95,16 +96,11 @@ class TrackerController {
   }
 
   megaSmash(studentStuff) {
-    console.log("tempAssignments", this.tempAssignments);
-    console.log("studentStuff", studentStuff);
-    console.log("all the students", this.students);
     for (let y = 0; y < this.assignments.length; y++) {
       const assignment = this.assignments[y];
-      console.log("assignment", assignment);
       const status = this.getStatus(studentStuff.assignments[y].status);
       assignment.studentStats.push(status);
     }
-    console.log("assignments", this.assignments);
   }
 }
 
