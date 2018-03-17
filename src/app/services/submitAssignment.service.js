@@ -49,7 +49,6 @@ export default class SubmitAssignmentService {
   }
 
   smashLists(assignments, myAssignments){
-    let assignmentList = []
     for(let i=0; i<assignments.length; i++){
       let assignment = assignments[i];
       assignment.status = 'backlog';
@@ -63,8 +62,7 @@ export default class SubmitAssignmentService {
           assignment.submissionDate = myAssignment.submissionDate;
         }
       }
-      assignmentList.push(assignment);
     }
-    return assignmentList;
+    return assignments;
   }
 }
