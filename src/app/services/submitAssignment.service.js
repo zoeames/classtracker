@@ -40,6 +40,13 @@ export default class SubmitAssignmentService {
     return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignment.submitAssignmentId}.json`, JSON.stringify({ status: "done", submissionDate: Date.now() }));
   }
 
+  excuseAssignment(assignmentId){
+    return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignmentId}.json`, JSON.stringify({ status: "excused" }));
+  }
+
+  resetAssignment(assignmentId){
+    return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignmentId}.json`, JSON.stringify({ status: "inProgress" }));
+  }
 
   smashLists(assignments, myAssignments){
     for(let i=0; i<assignments.length; i++){

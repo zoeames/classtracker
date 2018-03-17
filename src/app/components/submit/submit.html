@@ -67,6 +67,28 @@
             <div ng-if="assignment.notes">Notes: {{assignment.notes}}</div>
           </div>
         </div>
+
+
+        <div class="panel panel-royal" ng-repeat="assignment in $ctrl.assignments | filter: {isAssigned: 'true', status: 'excused' }">
+          <div class="panel-heading">{{assignment.title}}
+            <a ng-if="assignment.githubUrl" class="pull-right btn btn-success" target="_blank" href="{{assignment.githubUrl}}">
+              <i class="fab fa-github"></i>
+            </a>
+            <button class="pull-right btn btn-default" ng-click="$ctrl.acceptExcused(assignment)">
+              <i class="fas fa-star"></i>
+            </button>
+          </div>
+          <div class="panel-body text-left">
+            <div>Due Date: {{assignment.dueDate}}</div>
+            <div>Date Submitted: {{assignment.submissionDate | date:'medium'}}</div>
+            <div ng-if="assignment.notes">Notes: {{assignment.notes}}</div>
+          </div>
+        </div>
+
+
+
+
+
       </div>
     </div>
   </div>

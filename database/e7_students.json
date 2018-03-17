@@ -142,17 +142,6 @@
     "isStudent": true,
     "uid": "YFcKnfmEu2Ps623DEaKhm4KNLVL2"
   },
-  "student11": {
-    "firstName": "Colt",
-    "lastName": "McCormick",
-    "email": "coltmccormick@hotmail.com",
-    "github": "https://github.com/colt-mccormick",
-    "treehouse": "https://teamtreehouse.com/coltmccormick",
-    "biosite": "https://colt-mccormick.github.io",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "jNvShb46SZUPL4KcnuIA6YDN8Vu2"
-  },
   "student12": {
     "firstName": "Andy",
     "lastName": "Million",
@@ -358,8 +347,8 @@
     "github": "https://github.com/AnastasiiaSomchyk",
     "treehouse": "https://teamtreehouse.com/AnastasiiaSomchyk",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
-    "uid": ""
+    "uid": "b8bHHogPo9hGvo82XPXN4SkvjL82"
   }
 }

@@ -63,6 +63,17 @@ class SubmitController {
       console.log("err", err);
     });
   }
+
+  acceptExcused(assignment){
+    this.submitAssignmentService
+      .resetAssignment(assignment.submitAssignmentId)
+      .then(result => {
+        this.getGithubAssignments();
+      })
+      .catch(err => {
+        console.error("err", err);
+      });
+  }
 }
 
 export default SubmitController;

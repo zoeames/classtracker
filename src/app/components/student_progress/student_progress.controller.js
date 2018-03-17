@@ -19,6 +19,7 @@ class StudentProgressController {
     this.completedAssignmentNum = 0;
     this.progressAssignmentNum = 0;
     this.freshAssignmentNum = 0;
+    this.excusedAssignmentNum = 0;
   }
 
   $onInit() {
@@ -38,6 +39,9 @@ class StudentProgressController {
           break;
         case "backlog":
           this.freshAssignmentNum++;
+          break;
+        case "excused":
+          this.excusedAssignmentNum++;
           break;
       }
     });
@@ -70,6 +74,28 @@ class StudentProgressController {
           this.assignmentTotals();
         });
     });
+  }
+
+  excuseAssignment(assignment) {
+    this.submitAssignmentService
+      .excuseAssignment(assignment.submitAssignmentId)
+      .then(result => {
+        this.getGithubAssignments();
+      })
+      .catch(err => {
+        console.error("err", err);
+      });
+  }
+
+  resetAssignment(assignment) {
+    this.submitAssignmentService
+      .resetAssignment(assignment.submitAssignmentId)
+      .then(result => {
+        this.getGithubAssignments();
+      })
+      .catch(err => {
+        console.error("err", err);
+      });
   }
 }
 

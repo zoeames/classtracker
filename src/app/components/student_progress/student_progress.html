@@ -29,20 +29,20 @@
           <div class="col-xs-4">
             Completed Assignments:
             <br>
-            {{$ctrl.completedAssignmentNum}}/{{$ctrl.assignments.length}} = 
-            {{($ctrl.completedAssignmentNum/$ctrl.assignments.length*100).toFixed("0")}}%
+            {{$ctrl.completedAssignmentNum}}/{{$ctrl.assignments.length-$ctrl.excusedAssignmentNum}} = 
+            {{($ctrl.completedAssignmentNum/($ctrl.assignments.length-$ctrl.excusedAssignmentNum)*100).toFixed("0")}}%
           </div>
           <div class="col-xs-4">
             In Progress Assignments: 
             <br>
-            {{$ctrl.progressAssignmentNum}}/{{$ctrl.assignments.length}} = 
-            {{($ctrl.progressAssignmentNum/$ctrl.assignments.length*100).toFixed("0")}}%
+            {{$ctrl.progressAssignmentNum}}/{{$ctrl.assignments.length-$ctrl.excusedAssignmentNum}} = 
+            {{($ctrl.progressAssignmentNum/($ctrl.assignments.length-$ctrl.excusedAssignmentNum)*100).toFixed("0")}}%
           </div>
           <div class="col-xs-4">
             Un-started Assignments: 
             <br>
-            {{$ctrl.freshAssignmentNum}}/{{$ctrl.assignments.length}} = 
-            {{($ctrl.freshAssignmentNum/$ctrl.assignments.length*100).toFixed("0")}}%
+            {{$ctrl.freshAssignmentNum}}/{{$ctrl.assignments.length-$ctrl.excusedAssignmentNum}} = 
+            {{($ctrl.freshAssignmentNum/($ctrl.assignments.length-$ctrl.excusedAssignmentNum)*100).toFixed("0")}}%
           </div>
         </div>
 
@@ -58,18 +58,30 @@
             <th scope="col">Status</th>
             <th scope="col">Date Submitted</th>
             <th scope="col">Github Repo</th>
+            <th scope="col">Excuse</th>
+            <th scope="col">Reset</th>
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="assignment in $ctrl.assignments | orderBy:'assignedNumber'" ng-class='{"success": assignment.status === "done", "warning": assignment.status === "inProgress", "danger": assignment.status === "backlog"}'>
+          <tr ng-repeat="assignment in $ctrl.assignments | orderBy:'assignedNumber'" ng-class='{"success": assignment.status === "done", "warning": assignment.status === "inProgress" , "danger": assignment.status === "backlog", "royal": assignment.status === "excused"}'>
             <th scope="row">{{assignment.title}}</th>
             <th scope="row">{{assignment.dueDate}}</th>
             <th scope="row">{{assignment.status}}</th>
             <th scope="row">{{assignment.submissionDate | date:'medium'}}</th>
             <th scope="row">
-              <a target="_blank" href="{{assignment.githubUrl}}">
+              <a ng-if="assignment.githubUrl" target="_blank" href="{{assignment.githubUrl}}">
                 <i class="fab fa-github"></i>
               </a>
+            </th>
+            <th scope="row">
+              <button ng-if="!(assignment.status === 'done') && !(assignment.status === 'excused')" class="btn btn-default" ng-click="$ctrl.excuseAssignment(assignment)">
+                <i class="fas fa-pause"></i>
+              </button>
+            </th>
+            <th scope="row">
+              <button ng-if="assignment.status === 'done'" class="btn btn-danger" ng-click="$ctrl.resetAssignment(assignment)">
+                <i class="fas fa-undo"></i>
+              </button>
             </th>
           </tr>
         </tbody>
