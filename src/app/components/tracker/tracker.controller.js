@@ -21,14 +21,16 @@ class TrackerController {
   $onInit() {
     this.getStudentList();
     this.getAssignmentList();
-    
   }
 
   getStudentList() {
     this.studentService
       .getStudentList()
       .then(fbStudents => {
-        this.students = fbStudents;
+        this.students = fbStudents.sort(function(a, b){
+          return a.lastName == b.lastName ? 0 : +(a.lastName > b.lastName) || -1;
+        });
+        // this.students = fbStudents;
         console.log("students", this.students);
       })
       .catch(err => {

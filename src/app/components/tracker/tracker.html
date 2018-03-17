@@ -6,7 +6,7 @@
       <thead>
         <tr>
           <th>Assignments</th>
-          <th class="rotate" ng-repeat="student in $ctrl.students | orderBy:'lastName'">
+          <th class="rotate" ng-repeat="student in $ctrl.students">
             <div>
               <a ui-sref="student_progress({id: student.uid})">
                 <span>{{student.firstName}} {{student.lastName}}</span>
