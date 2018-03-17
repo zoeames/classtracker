@@ -21,27 +21,26 @@ a {
 }
 
 /* royal class for tables */
-.table>tbody>tr.royal>td,
-.table>tbody>tr.royal>th,
-.table>tbody>tr>td.royal,
-.table>tbody>tr>th.royal,
-.table>tfoot>tr.royal>td,
-.table>tfoot>tr.royal>th,
-.table>tfoot>tr>td.royal,
-.table>tfoot>tr>th.royal,
-.table>thead>tr.royal>td,
-.table>thead>tr.royal>th,
-.table>thead>tr>td.royal,
-.table>thead>tr>th.royal{
-  background-color: #D6C5DB;
+.table > tbody > tr.royal > td,
+.table > tbody > tr.royal > th,
+.table > tbody > tr > td.royal,
+.table > tbody > tr > th.royal,
+.table > tfoot > tr.royal > td,
+.table > tfoot > tr.royal > th,
+.table > tfoot > tr > td.royal,
+.table > tfoot > tr > th.royal,
+.table > thead > tr.royal > td,
+.table > thead > tr.royal > th,
+.table > thead > tr > td.royal,
+.table > thead > tr > th.royal {
+  background-color: #d6c5db;
 }
 
-.panel-royal>.panel-heading{
-  color: #91669C;
-  background-color: #D6C5DB;
-  border-color: #F0EAF1;
+.panel-royal > .panel-heading {
+  color: #91669c;
+  background-color: #d6c5db;
+  border-color: #f0eaf1;
 }
-
 
 /* default button */
 
@@ -429,4 +428,28 @@ mwl-calendar .cal-month-box .cal-row-fluid {
 
 tr a {
   color: black;
+}
+
+/* Tracker table student names */
+th.rotate {
+  /* Something you can count on */
+  height: 140px;
+  white-space: nowrap;
+}
+
+th.rotate > div {
+  transform: translate(30px) rotate(315deg);
+  width: 30px;
+}
+th.rotate > div > a {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+}
+#tracker-table {
+  margin: 2%;
+  background-color: transparent;
+}
+
+td{
+  border-right: 2px solid #ccc;
 }
