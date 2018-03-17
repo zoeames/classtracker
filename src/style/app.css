@@ -430,3 +430,20 @@ mwl-calendar .cal-month-box .cal-row-fluid {
 tr a {
   color: black;
 }
+
+/* Tracker table student names */
+th.rotate {
+  /* Something you can count on */
+  height: 140px;
+  white-space: nowrap;
+}
+ 
+th.rotate > div {
+  transform: 
+    rotate(315deg);
+  width: 30px;
+}
+th.rotate > div > a {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+}
