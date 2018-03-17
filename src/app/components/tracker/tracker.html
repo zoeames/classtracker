@@ -16,9 +16,9 @@
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="assignment in $ctrl.assignments | orderBy:'assignedNumber'">
+        <tr ng-repeat="assignment in $ctrl.assignments | orderBy:'details.assignedNumber'">
           <td>{{assignment.details.title}}</td>
-          <td ng-repeat="student in assignment.students">{{student.status}}</td>
+          <td ng-repeat="stat in assignment.studentStats track by $index" ng-class='{"success": stat === "D", "warning": stat === "P" , "danger": stat === "X", "royal": stat === "E"}'>{{stat}}</td>
         </tr>
       </tbody>
     </table>

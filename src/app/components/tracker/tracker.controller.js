@@ -20,23 +20,7 @@ class TrackerController {
   }
 
   $onInit() {
-    this.getStudentList();
-  }
-
-  getStudentList() {
-    this.studentService
-      .getStudentList()
-      .then(fbStudents => {
-        this.students = fbStudents.sort(function(a, b) {
-          return a.lastName == b.lastName
-            ? 0
-            : +(a.lastName > b.lastName) || -1;
-        });
-        this.getAssignmentList();
-      })
-      .catch(err => {
-        console.error("error in students", err);
-      });
+    this.getAssignmentList();
   }
 
   getAssignmentList() {
@@ -44,24 +28,83 @@ class TrackerController {
       .getGithubAssignmentList()
       .then(fbAssignments => {
         this.tempAssignments = fbAssignments;
-        this.megaSmash();
+        for (let x = 0; x < this.tempAssignments.length; x++) {
+          let newAssignment = {
+            details: this.tempAssignments[x],
+            studentStats: []
+          };
+          this.assignments.push(newAssignment);
+        }
+        this.getStudentList();
       })
       .catch(err => {
         console.error("error in assignments", err);
       });
   }
 
-  megaSmash() {
+  getStudentList() {
+    this.studentService
+      .getStudentList()
+      .then(fbStudents => {
+        const filteredAry = fbStudents.filter(e => e.isStudent);
+        this.students = filteredAry.sort(function(a, b) {
+          return a.lastName == b.lastName
+            ? 0
+            : +(a.lastName > b.lastName) || -1;
+        });
+        for (let j = 0; j < this.students.length; j++) {
+          this.getAllTheStudentStuff(this.students[j]);
+        }
+      })
+      .catch(err => {
+        console.error("error in students", err);
+      });
+  }
+
+  getAllTheStudentStuff(student) {
+    this.submitAssignmentService
+      .getSubmitAssignmentsByUid(student.uid)
+      .then(myAssignments => {
+        console.log("myAssignments", myAssignments);
+        student.assignments = this.submitAssignmentService.smashLists(
+          this.tempAssignments,
+          myAssignments
+        );
+        this.megaSmash(student);
+      })
+      .catch(err => {
+        console.error("error in getAllTheStudentStuff", err);
+      });
+  }
+
+  getStatus(status) {
+    switch (status) {
+      case "inProgress":
+        return "P";
+        break;
+      case "excused":
+        return "E";
+        break;
+      case "done":
+        return "D";
+        break;
+      default:
+        return "X";
+        break;
+    }
+  }
+
+  megaSmash(studentStuff) {
     console.log("tempAssignments", this.tempAssignments);
-    console.log("students", this.students);
-    this.tempAssignments.forEach((tempAssignment) => {
-      let newAssignment = {details: tempAssignment, students: []}
-      for(let i=0; i < this.students.length; i++){
-        const student = {status: "X"}
-        newAssignment.students.push(student);
-      }
-      this.assignments.push(newAssignment);
-    });
+    console.log("studentStuff", studentStuff);
+    console.log("all the students", this.students);
+    for (let y = 0; y < this.assignments.length; y++) {
+      const assignment = this.assignments[y];
+      console.log("assignment", assignment);
+      const status = this.getStatus(studentStuff.assignments[y].status);
+      assignment.studentStats.push(status);
+    }
+    console.log("assignments", this.assignments);
   }
 }
 
