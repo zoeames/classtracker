@@ -59,13 +59,15 @@
           </thead>
           <tbody>
             <tr ng-repeat="assignment in $ctrl.assignments | orderBy:'assignedNumber'" ng-class='{"success": assignment.status === "done", "warning": assignment.status === "inProgress" , "danger": assignment.status === "backlog", "royal": assignment.status === "excused"}'>
-              <th scope="row">{{assignment.title}}</th>
+              <th scope="row" class='text-nowrap'>
+                <a ng-href="{{assignment.URL}}" target="_blank">{{assignment.title}}</a>
+              </th>
               <th scope="row">{{assignment.dueDate}}</th>
               <th scope="row">{{assignment.status}}</th>
-              <th scope="row">{{assignment.submissionDate | date:'medium'}}</th>
-              <th scope="row">
+              <th scope="row">{{assignment.submissionDate | date:'M/d/yy h:mm a'}}</th>
+              <th scope="row" class="text-center">
                 <a ng-if="assignment.githubUrl" target="_blank" href="{{assignment.githubUrl}}">
-                  <i class="fab fa-github"></i>
+                  <i class="fab fa-github fa-lg"></i>
                 </a>
               </th>
               <th scope="row">
