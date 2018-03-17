@@ -2,7 +2,7 @@
 <div id="submit-dashboard" class="text-center">
   <div class="main-container ">
     <h1>Assignment Tracker</h1>
-    <table class="table" id="tracker-table">
+    <table class="table table-hover" id="tracker-table">
       <thead>
         <tr>
           <th>Assignments</th>
@@ -13,12 +13,18 @@
               </a>
             </div>
           </th>
+          <th class="text-right">Assignments</th>
         </tr>
       </thead>
       <tbody>
         <tr ng-repeat="assignment in $ctrl.assignments">
-          <td>{{assignment.details.title}}</td>
+          <td class='text-nowrap'>
+            <a ng-href="{{assignment.details.URL}}" target="_blank">{{assignment.details.title}}</a>
+          </td>
           <td ng-repeat="stat in assignment.studentStats track by $index" ng-class='{"success": stat === "D", "warning": stat === "P" , "danger": stat === "X", "royal": stat === "E"}'>{{stat}}</td>
+          <td class='text-nowrap'>
+            <a ng-href="{{assignment.details.URL}}" target="_blank">{{assignment.details.title}}</a>
+          </td>
         </tr>
       </tbody>
     </table>
