@@ -1,5 +1,6 @@
 class TrackerController {
   constructor(
+    $q,
     authService,
     assignmentService,
     studentService,
@@ -7,6 +8,7 @@ class TrackerController {
   ) {
     "ngInject";
 
+    this.$q = $q;
     this.assignmentService = assignmentService;
     this.submitAssignmentService = submitAssignmentService;
     this.studentService = studentService;
@@ -45,6 +47,7 @@ class TrackerController {
   }
 
   getStudentList() {
+    let studentPromises = [];
     this.studentService
       .getStudentList()
       .then(fbStudents => {
@@ -55,8 +58,18 @@ class TrackerController {
             : +(a.lastName > b.lastName) || -1;
         });
         for (let j = 0; j < this.students.length; j++) {
-          this.getAllTheStudentStuff(this.students[j]);
+          studentPromises.push(this.getAllTheStudentStuff(this.students[j]));
         }
+
+        this.$q.all(studentPromises).then(data => {
+          for (let b = 0; b < data.length; b++) {
+            var newAssignments = this.submitAssignmentService.smashLists(
+              this.tempAssignments,
+              data[b].assignments
+            );
+            this.megaSmash(newAssignments);
+          }
+        });
       })
       .catch(err => {
         console.error("error in students", err);
@@ -64,18 +77,17 @@ class TrackerController {
   }
 
   getAllTheStudentStuff(student) {
-    this.submitAssignmentService
-      .getSubmitAssignmentsByUid(student.uid)
-      .then(myAssignments => {
-        student.assignments = this.submitAssignmentService.smashLists(
-          this.tempAssignments,
-          myAssignments
-        );
-        this.megaSmash(student);
-      })
-      .catch(err => {
-        console.error("error in getAllTheStudentStuff", err);
-      });
+    return this.$q((resolve, reject) => {
+      this.submitAssignmentService
+        .getSubmitAssignmentsByUid(student.uid)
+        .then(myAssignments => {
+          student.assignments = myAssignments;
+          resolve(student);
+        })
+        .catch(err => {
+          reject(err);
+        });
+    });
   }
 
   getStatus(status) {
@@ -95,10 +107,10 @@ class TrackerController {
     }
   }
 
-  megaSmash(studentStuff) {
+  megaSmash(studentAssignments) {
     for (let y = 0; y < this.assignments.length; y++) {
       const assignment = this.assignments[y];
-      const status = this.getStatus(studentStuff.assignments[y].status);
+      const status = this.getStatus(studentAssignments[y].status);
       assignment.studentStats.push(status);
     }
   }
