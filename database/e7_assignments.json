@@ -138,5 +138,25 @@
     "assignedNumber": 14,
     "topic": "JS",
     "notes": "Week 4: Advanced JS and git for teams.  Add this to your array from Personal Site #3"
+  },
+  "assignment14": {
+    "title": "Travel Diary",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/travel-diary.md",
+    "dueDate": "3/27/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 15,
+    "topic": "",
+    "notes": "*** Study Group: plan and code ***"
+  },
+  "assignment15": {
+    "title": "Blog Post #4",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "3/27/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 16,
+    "topic": "JS",
+    "notes": "Week 6: Topics include ES6, DOM Interaction, and markdown.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
   }
 }

@@ -393,62 +393,48 @@
     "githubRepo":""
   },
   "cal29": {
-    "title": "Group Project Demos",
-    "startsAt": "March 19, 2018 6:00:00",
-    "endsAt": "March 19, 2018 7:00:00",
+    "title": "SNOW DAY",
+    "startsAt": "March 19, 2018 7:00:00",
+    "endsAt": "March 19, 2018 8:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
     "instructor": "",
     "isHW": false,
     "hwUrl": "",
-    "eventType": "demo",
-    "description": "Show and Tell",
+    "eventType": "vacation",
+    "description": "#FakeTornado",
     "hasGithub": false,
     "githubRepo":""
   },
   "cal30": {
-    "title": "Markdown",
-    "startsAt": "March 19, 2018 7:00:00",
-    "endsAt": "March 19, 2018 8:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
-    "instructor": "Zoe",
-    "isHW": false,
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "The Language of README.md",
-    "hasGithub": false,
-    "githubRepo":""
-  },
-  "cal31": {
     "title": "ES6",
-    "startsAt": "March 19, 2018 8:00:00",
-    "endsAt": "March 19, 2018 9:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "startsAt": "March 20, 2018 8:00:00",
+    "endsAt": "March 20, 2018 9:00:00",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1nRZppdSraM-clVcy6u70pooBp3s8x4iG4cshHB9Ln1g/edit?usp=sharing",
     "instructor": "Lauren",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Sexy new JS syntax.",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/es6-intro"
   },
-  "cal32": {
+  "cal31": {
     "title": "Event Listeners",
     "startsAt": "March 20, 2018 6:00:00",
     "endsAt": "March 20, 2018 9:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/13PIHs8tgEA-e2VqgZmSeGrsisZNo1VxX2ZfJSEBxUw4/edit?usp=sharing",
     "instructor": "Callan",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Events and the DOM",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/event-listeners"
   },
-  "cal33": {
+  "cal32": {
     "title": "Week 6 HW",
     "startsAt": "March 21, 2018 6:00:00",
     "endsAt": "March 22, 2018 6:00:00",
@@ -462,7 +448,35 @@
     "hasGithub": false,
     "githubRepo":""
   },
+  "cal33": {
+    "title": "Group Project Demos",
+    "startsAt": "March 24, 2018 6:00:00",
+    "endsAt": "March 24, 2018 7:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell of Bandz pages.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
   "cal34": {
+    "title": "Markdown",
+    "startsAt": "March 24, 2018 7:00:00",
+    "endsAt": "March 24, 2018 8:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "The Language of README.md",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal35": {
     "title": "Lab Day",
     "startsAt": "March 24, 2018 12:00:00",
     "endsAt": "March 24, 2018 14:00:00",
@@ -476,7 +490,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal35": {
+  "cal36": {
     "title": "XHR",
     "startsAt": "March 26, 2018 6:00:00",
     "endsAt": "March 26, 2018 9:00:00",
@@ -490,7 +504,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal36": {
+  "cal37": {
     "title": "XHR 2",
     "startsAt": "March 27, 2018 6:00:00",
     "endsAt": "March 27, 2018 9:00:00",
@@ -504,7 +518,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal37": {
+  "cal38": {
     "title": "Week 7 HW",
     "startsAt": "March 28, 2018 6:00:00",
     "endsAt": "March 29, 2018 6:00:00",
@@ -518,7 +532,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal38": {
+  "cal39": {
     "title": "Lab Day",
     "startsAt": "March 31, 2018 12:00:00",
     "endsAt": "March 31, 2018 14:00:00",
