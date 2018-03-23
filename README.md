@@ -17,10 +17,13 @@ blablablabla
 
 
 
+### How to Install
+
 ### How to Run
 ##### To run Development with live reload:
 ```>  npm start```
 
+### How to Deploy (via firebase deploy)
 ##### To run bundle for production deployment
 ```>  npm run build```
 
