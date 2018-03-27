@@ -491,21 +491,35 @@
     "githubRepo":""
   },
   "cal36": {
-    "title": "XHR",
+    "title": "JSON",
     "startsAt": "March 26, 2018 6:00:00",
+    "endsAt": "March 26, 2018 8:00:00",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/13PXq2ocjUjMxR-qeI3ou7qC6DQfcdf2E2W3lB-LB0qg/edit?usp=sharing",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JavaScript Object Notation",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal37": {
+    "title": "Intro to XHR",
+    "startsAt": "March 26, 2018 8:00:00",
     "endsAt": "March 26, 2018 9:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1X-5aImz2hLUjHV5udIcawwJsKlohhERM2QMFwDT5W8Y/edit?usp=sharing",
     "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
     "description": "XHR requests",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/xhr-intro"
   },
-  "cal37": {
-    "title": "XHR 2",
+  "cal38": {
+    "title": "XHR Code along - XHR Zoo",
     "startsAt": "March 27, 2018 6:00:00",
     "endsAt": "March 27, 2018 9:00:00",
     "hasPresentation": false,
@@ -514,11 +528,11 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "XHR requests",
-    "hasGithub": false,
-    "githubRepo":""
+    "description": "Animals in a Zoo that eat other animals",
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/xhr-zoo"
   },
-  "cal38": {
+  "cal39": {
     "title": "Week 7 HW",
     "startsAt": "March 28, 2018 6:00:00",
     "endsAt": "March 29, 2018 6:00:00",
@@ -532,7 +546,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal39": {
+  "cal40": {
     "title": "Lab Day",
     "startsAt": "March 31, 2018 12:00:00",
     "endsAt": "March 31, 2018 14:00:00",

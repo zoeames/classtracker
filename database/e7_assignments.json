@@ -158,5 +158,35 @@
     "assignedNumber": 16,
     "topic": "JS",
     "notes": "Week 6: Topics include ES6, DOM Interaction, and markdown.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
+  },
+  "assignment16": {
+    "title": "Solar System",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/solar_system.md",
+    "dueDate": "4/3/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 17,
+    "topic": "XHR",
+    "notes": "*** Study Group: plan and code ***"
+  },
+  "assignment17": {
+    "title": "Blog Post #5",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "4/3/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 18,
+    "topic": "XHR",
+    "notes": "Week 7: XHR.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
+  },
+  "assignment18": {
+    "title": "Personal Site #4",
+    "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-04.md",
+    "dueDate": "4/3/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 19,
+    "topic": "XHR",
+    "notes": ""
   }
 }
