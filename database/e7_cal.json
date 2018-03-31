@@ -560,7 +560,35 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal82": {
+  "cal41": {
+    "title": "Bootstrap",
+    "startsAt": "April 2, 2018 6:00:00",
+    "endsAt": "April 2, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal42": {
+    "title": "Bootstrap",
+    "startsAt": "April 3, 2018 6:00:00",
+    "endsAt": "April 3, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal43": {
     "title": "Week 8 HW",
     "startsAt": "April 4, 2018 6:00:00",
     "endsAt": "April 5, 2018 6:00:00",
@@ -574,7 +602,49 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal83": {
+  "cal44": {
+    "title": "Lab Day",
+    "startsAt": "April 7, 2018 12:00:00",
+    "endsAt": "April 7, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on any open assignments.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal45": {
+    "title": "Task Runners",
+    "startsAt": "April 9, 2018 6:00:00",
+    "endsAt": "April 9, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal46": {
+    "title": "Browserify",
+    "startsAt": "April 10, 2018 6:00:00",
+    "endsAt": "April 10, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal47": {
     "title": "Week 9 HW",
     "startsAt": "April 11, 2018 6:00:00",
     "endsAt": "April 12, 2018 6:00:00",
@@ -588,7 +658,49 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal84": {
+  "cal48": {
+    "title": "Lab Day",
+    "startsAt": "April 14, 2018 12:00:00",
+    "endsAt": "April 14, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on any open assignments.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal49": {
+    "title": "Browserify + XHR",
+    "startsAt": "April 16, 2018 6:00:00",
+    "endsAt": "April 16, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal50": {
+    "title": "Browserify + XHR",
+    "startsAt": "April 17, 2018 6:00:00",
+    "endsAt": "April 17, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal51": {
     "title": "Week 10 HW",
     "startsAt": "April 18, 2018 6:00:00",
     "endsAt": "April 19, 2018 6:00:00",
@@ -602,21 +714,72 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal85": {
-    "title": "Week 11 HW",
-    "startsAt": "April 25, 2018 6:00:00",
-    "endsAt": "April 26, 2018 6:00:00",
+  "cal52": {
+    "title": "Group Project",
+    "startsAt": "April 21, 2018 6:00:00",
+    "endsAt": "April 28, 2018 6:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
     "instructor": "",
-    "isHW": true,
-    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week11.md",
+    "isHW": false,
+    "hwUrl": "",
     "eventType": "study",
-    "description": "See assignments tab.",
+    "description": "Group Project: See Github Project",
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal86": {
+
+
+
+
+
+
+
+
+
+  "cal53": {
+    "title": "Group Project Demos",
+    "startsAt": "April 30, 2018 6:00:00",
+    "endsAt": "April 30, 2018 7:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal54": {
+    "title": "Jquery Selectors",
+    "startsAt": "April 30, 2018 6:00:00",
+    "endsAt": "April 30, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal55": {
+    "title": "Jquery Ajax",
+    "startsAt": "May 1, 2018 6:00:00",
+    "endsAt": "May 1, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal56": {
     "title": "Week 12 HW",
     "startsAt": "May 2, 2018 6:00:00",
     "endsAt": "May 3, 2018 6:00:00",
@@ -627,6 +790,20 @@
     "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week12.md",
     "eventType": "study",
     "description": "See assignments tab.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal57": {
+    "title": "Lab Day",
+    "startsAt": "May 5, 2018 12:00:00",
+    "endsAt": "May 5, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on any open assignments.",
     "hasGithub": false,
     "githubRepo":""
   },
