@@ -188,5 +188,45 @@
     "assignedNumber": 19,
     "topic": "XHR",
     "notes": ""
+  },
+  "assignment19": {
+    "title": "Treehouse Cage Match",
+    "URL": "https://github.com/nss-nightclass-projects/treehouse-cage-match",
+    "dueDate": "4/9/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 20,
+    "topic": "XHR",
+    "notes": "*** Study Group: plan and code ***"
+  },
+  "assignment20": {
+    "title": "Blog Post #6",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "4/9/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 21,
+    "topic": "Bootstrap",
+    "notes": "Week 8: Bootstrap.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
+  },
+  "assignment21": {
+    "title": "Adoption Website",
+    "URL": "https://github.com/nss-nightclass-projects/adoption-website",
+    "dueDate": "4/17/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 22,
+    "topic": "Browserify",
+    "notes": "*** Study Group: plan and code ***"
+  },
+  "assignment22": {
+    "title": "Blog Post #7",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "4/17/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 23,
+    "topic": "Blog",
+    "notes": "Week 8: Task Runners and Browserify.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
   }
 }
