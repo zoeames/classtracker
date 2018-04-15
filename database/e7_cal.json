@@ -673,18 +673,18 @@
     "githubRepo":""
   },
   "cal49": {
-    "title": "Lab Day",
+    "title": "Browserify + XHR",
     "startsAt": "April 14, 2018 12:00:00",
     "endsAt": "April 14, 2018 14:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
-    "instructor": "",
+    "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
-    "eventType": "study",
-    "description": "Open time to work on any open assignments.",
-    "hasGithub": false,
-    "githubRepo":""
+    "eventType": "lecture",
+    "description": "Grocery Store Application",
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/browserify-grocery"
   },
   "cal50": {
     "title": "Browserify + XHR",
@@ -696,9 +696,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "",
-    "hasGithub": false,
-    "githubRepo":""
+    "description": "Grocery Store Application",
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/browserify-grocery"
   },
   "cal51": {
     "title": "Browserify + XHR",
@@ -710,9 +710,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "",
-    "hasGithub": false,
-    "githubRepo":""
+    "description": "Grocery Store Application",
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/browserify-grocery"
   },
   "cal52": {
     "title": "Week 10 HW",
@@ -762,7 +762,7 @@
     "endsAt": "April 30, 2018 9:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
-    "instructor": "Zoe",
+    "instructor": "Callan",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
@@ -776,7 +776,7 @@
     "endsAt": "May 1, 2018 9:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
-    "instructor": "Zoe",
+    "instructor": "Callan",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
