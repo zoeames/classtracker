@@ -10,7 +10,6 @@ function setInstructorsRedirects($transitions) {
   $transitions.onBefore(matchState, (transition) => {
     const authService = transition.injector().get('authService');
     if (authService.isInstructor()) { return true; }
-
     const $state = transition.router.stateService;
     const redirectTo = transition.$to().name;
     const redirectParams = transition.params();
