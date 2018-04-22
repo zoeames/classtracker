@@ -39,4 +39,8 @@ export default class authService {
     firebase.auth().signOut();
     this.$window.localStorage.clear();
   }
+
+  isInstructor() {
+    return true;
+  }
 }
