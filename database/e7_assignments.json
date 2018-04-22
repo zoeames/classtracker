@@ -228,5 +228,25 @@
     "assignedNumber": 23,
     "topic": "Blog",
     "notes": "Week 8: Task Runners and Browserify.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
+  },
+  "assignment23": {
+    "title": "Movie Maker",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/movie-maker.md",
+    "dueDate": "4/24/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 24,
+    "topic": "Browserify",
+    "notes": "*** Study Group: plan and code ***"
+  },
+  "assignment24": {
+    "title": "Blog Post #8",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "4/24/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 25,
+    "topic": "Blog",
+    "notes": "Week 8: Task Runners and Browserify.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
   }
 }
