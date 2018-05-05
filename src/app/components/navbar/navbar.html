@@ -24,11 +24,15 @@
           <a ui-sref="calendar">Calendar</a>
         </li>
         <li ng-if="!$ctrl.isAuth">
-          <a ng-click="$ctrl.auth()"><i class="fab fa-github"></i>&nbsp Login</a>
+          <a ng-click="$ctrl.auth()">
+            <i class="fab fa-github"></i>&nbsp Login</a>
         </li>
         <li ng-if="$ctrl.isAuth">
-            <a ui-sref="submit">Submit</a>
-          </li>
+          <a ui-sref="submit">Submit</a>
+        </li>
+        <li ng-if="$ctrl.isAuth">
+          <a ui-sref="instructors.tracker">Tracker</a>
+        </li>
         <li ng-if="$ctrl.isAuth">
           <a ng-click="$ctrl.logout()">Logout</a>
         </li>
