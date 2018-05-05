@@ -760,29 +760,29 @@
     "title": "Jquery Selectors",
     "startsAt": "April 30, 2018 6:00:00",
     "endsAt": "April 30, 2018 9:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1mO_cfOyn3HUdthocopJ-tcwj4Jf0CrSP7lrgvoBS5WU/edit?usp=sharing",
     "instructor": "Callan",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
     "description": "",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/fish-store"
   },
   "cal56": {
     "title": "Jquery Ajax",
     "startsAt": "May 1, 2018 6:00:00",
     "endsAt": "May 1, 2018 9:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1mO_cfOyn3HUdthocopJ-tcwj4Jf0CrSP7lrgvoBS5WU/edit?usp=sharing",
     "instructor": "Callan",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
     "description": "",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/fish-store"
   },
   "cal57": {
     "title": "Week 12 HW",
@@ -794,7 +794,7 @@
     "isHW": true,
     "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week12.md",
     "eventType": "study",
-    "description": "See assignments tab.",
+    "description": "You also have spring break to complete this work",
     "hasGithub": false,
     "githubRepo":""
   },
@@ -809,20 +809,6 @@
     "hwUrl": "",
     "eventType": "study",
     "description": "Open time to work on any open assignments.",
-    "hasGithub": false,
-    "githubRepo":""
-  },
-  "cal87": {
-    "title": "Week 13 HW",
-    "startsAt": "May 9, 2018 6:00:00",
-    "endsAt": "May 10, 2018 6:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
-    "instructor": "",
-    "isHW": true,
-    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week13.md",
-    "eventType": "study",
-    "description": "Spring Break HW - individual assignments.",
     "hasGithub": false,
     "githubRepo":""
   },

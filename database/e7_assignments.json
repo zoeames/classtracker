@@ -227,7 +227,7 @@
     "isGithub": "true",
     "assignedNumber": 23,
     "topic": "Blog",
-    "notes": "Week 8: Task Runners and Browserify.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
+    "notes": "Week 9: Task Runners and Browserify.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
   },
   "assignment23": {
     "title": "Movie Maker",
@@ -247,6 +247,36 @@
     "isGithub": "true",
     "assignedNumber": 25,
     "topic": "Blog",
-    "notes": "Week 8: Task Runners and Browserify.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
+    "notes": "Week 10: Task Runners and Browserify.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
+  },
+  "assignment25": {
+    "title": "Blog Post #9",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "5/1/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 26,
+    "topic": "Blog",
+    "notes": "Week 11: Chatty group project.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
+  },
+  "assignment26": {
+    "title": "Ex Tracker - Part 1",
+    "URL": "https://github.com/nss-nightclass-projects/ex-tracker/blob/master/README.md",
+    "dueDate": "5/15/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 27,
+    "topic": "jquery",
+    "notes": "*** Study Group: plan and code ***"
+  },
+  "assignment27": {
+    "title": "Blog Post #10",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "5/15/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 28,
+    "topic": "Blog",
+    "notes": "Week 12: Jquery.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
   }
 }
