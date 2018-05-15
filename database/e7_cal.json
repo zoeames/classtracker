@@ -30,14 +30,14 @@
   "cal3": {
     "title": "Fourth of July Holiday",
     "startsAt": "July 4, 2018 9:00:00",
-    "endsAt": "July 4, 2018 14:00:00",
+    "endsAt": "July 5, 2018 14:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
     "instructor": "",
     "isHW": false,
     "hwUrl": "",
     "eventType": "vacation",
-    "description": "No Classes",
+    "description": "No Studygroups",
     "hasGithub": false,
     "githubRepo":""
   },
@@ -812,7 +812,21 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal88": {
+  "cal59": {
+    "title": "Promises",
+    "startsAt": "May 14, 2018 6:00:00",
+    "endsAt": "May 15, 2018 9:00:00",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1qaSIsUynsvKZ7fghujWL4qNFMMvQozaOnZAdfKmldVs/edit?usp=sharing",
+    "instructor": "Lauren",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/pup-promises"
+  },
+  "cal60": {
     "title": "Week 14 HW",
     "startsAt": "May 16, 2018 6:00:00",
     "endsAt": "May 17, 2018 6:00:00",
@@ -826,7 +840,49 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal89": {
+  "cal61": {
+    "title": "Lab Day",
+    "startsAt": "May 19, 2018 12:00:00",
+    "endsAt": "May 19, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on any open assignments.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal62": {
+    "title": "Postman",
+    "startsAt": "May 21, 2018 6:00:00",
+    "endsAt": "May 21, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal63": {
+    "title": "API's",
+    "startsAt": "May 22, 2018 6:00:00",
+    "endsAt": "May 22, 2018 9:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal64": {
     "title": "Week 15 HW",
     "startsAt": "May 23, 2018 6:00:00",
     "endsAt": "May 24, 2018 6:00:00",
@@ -840,7 +896,35 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal90": {
+  "cal65": {
+    "title": "Intro to Firebase",
+    "startsAt": "May 26, 2018 9:00:00",
+    "endsAt": "May 26, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Callan",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal66": {
+    "title": "Firebase",
+    "startsAt": "May 29, 2018 9:00:00",
+    "endsAt": "May 29, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Callan",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal67": {
     "title": "Week 16 HW",
     "startsAt": "May 30, 2018 6:00:00",
     "endsAt": "May 31, 2018 6:00:00",
@@ -854,7 +938,35 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal91": {
+  "cal68": {
+    "title": "Lab Day",
+    "startsAt": "June 2, 2018 12:00:00",
+    "endsAt": "June 2, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on any open assignments.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal69": {
+    "title": "Firebase Auth",
+    "startsAt": "June 4, 2018 9:00:00",
+    "endsAt": "June 5, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Lauren",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal70": {
     "title": "Week 17 HW",
     "startsAt": "June 6, 2018 6:00:00",
     "endsAt": "June 7, 2018 6:00:00",
@@ -868,7 +980,35 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal92": {
+  "cal71": {
+    "title": "Lab Day",
+    "startsAt": "June 9, 2018 12:00:00",
+    "endsAt": "June 9, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on any open assignments.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal72": {
+    "title": "SASS",
+    "startsAt": "June 11, 2018 9:00:00",
+    "endsAt": "June 12, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "Callan",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal73": {
     "title": "Week 18 HW",
     "startsAt": "June 13, 2018 6:00:00",
     "endsAt": "June 14, 2018 6:00:00",
@@ -882,17 +1022,45 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal93": {
-    "title": "Week 19 HW",
-    "startsAt": "June 20, 2018 6:00:00",
-    "endsAt": "June 21, 2018 6:00:00",
+  "cal74": {
+    "title": "Lab Day",
+    "startsAt": "June 16, 2018 12:00:00",
+    "endsAt": "June 16, 2018 14:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
     "instructor": "",
-    "isHW": true,
-    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week19.md",
+    "isHW": false,
+    "hwUrl": "",
     "eventType": "study",
-    "description": "See assignments tab.",
+    "description": "Open time to work on any open assignments.",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal75": {
+    "title": "Group Project",
+    "startsAt": "June 18, 2018 6:00:00",
+    "endsAt": "June 23, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Group Project: See Github Project",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal76": {
+    "title": "Group Project Demos",
+    "startsAt": "June 25, 2018 6:00:00",
+    "endsAt": "June 25, 2018 7:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell.",
     "hasGithub": false,
     "githubRepo":""
   },
@@ -953,30 +1121,30 @@
     "githubRepo":""
   },
   "cal99": {
-    "title": "Week 24 HW",
-    "startsAt": "July 25, 2018 6:00:00",
-    "endsAt": "July 26, 2018 6:00:00",
+    "title": "CAPSTONES",
+    "startsAt": "July 23, 2018 6:00:00",
+    "endsAt": "August 4, 2018 6:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
     "instructor": "",
-    "isHW": true,
-    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week24.md",
+    "isHW": false,
+    "hwUrl": "",
     "eventType": "study",
-    "description": "See assignments tab.",
+    "description": "Open work time.",
     "hasGithub": false,
     "githubRepo":""
   },
   "cal100": {
-    "title": "Week 25 HW",
-    "startsAt": "August 1, 2018 6:00:00",
-    "endsAt": "August 2, 2018 6:00:00",
+    "title": "Capstone MVP Demo",
+    "startsAt": "August 4, 2018 9:00:00",
+    "endsAt": "August 4, 2018 14:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
     "instructor": "",
-    "isHW": true,
-    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week25.md",
-    "eventType": "study",
-    "description": "See assignments tab.",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Capstone MVP demo to instructors.",
     "hasGithub": false,
     "githubRepo":""
   }

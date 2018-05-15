@@ -278,5 +278,25 @@
     "assignedNumber": 28,
     "topic": "Blog",
     "notes": "Week 12: Jquery.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
+  },
+  "assignment28": {
+    "title": "Ex Tracker - Part 2",
+    "URL": "https://github.com/nss-nightclass-projects/ex-tracker/blob/master/README.md",
+    "dueDate": "5/22/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 29,
+    "topic": "promises",
+    "notes": "*** Study Group: plan (add more cards to existing project) and code ***"
+  },
+  "assignment29": {
+    "title": "Blog Post #11",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "5/22/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 30,
+    "topic": "Blog",
+    "notes": "Week 12: Promises.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
   }
 }
