@@ -855,32 +855,32 @@
     "githubRepo":""
   },
   "cal62": {
-    "title": "Postman",
+    "title": "API's and Postman",
     "startsAt": "May 21, 2018 6:00:00",
     "endsAt": "May 21, 2018 9:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1NaTgdyKgNX3KDCTVV__jRYYF63suw1HhPWdtRes8tJs/edit?usp=sharing",
     "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "",
-    "hasGithub": false,
-    "githubRepo":""
+    "description": "Introduction to APIs and how to use postman",
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/movie-history"
   },
   "cal63": {
     "title": "API's",
     "startsAt": "May 22, 2018 6:00:00",
     "endsAt": "May 22, 2018 9:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1NaTgdyKgNX3KDCTVV__jRYYF63suw1HhPWdtRes8tJs/edit?usp=sharing",
     "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "",
-    "hasGithub": false,
-    "githubRepo":""
+    "description": "How to use The Movie Database API.",
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/movie-history"
   },
   "cal64": {
     "title": "Week 15 HW",
@@ -900,29 +900,29 @@
     "title": "Intro to Firebase",
     "startsAt": "May 26, 2018 9:00:00",
     "endsAt": "May 26, 2018 14:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1mb-N-kuHOvylF_PgESezKaUeznklAtMRCGHyjqpV6T8/edit?usp=sharing",
     "instructor": "Callan",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
     "description": "",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/movie-history"
   },
   "cal66": {
     "title": "Firebase",
     "startsAt": "May 29, 2018 9:00:00",
     "endsAt": "May 29, 2018 14:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1mb-N-kuHOvylF_PgESezKaUeznklAtMRCGHyjqpV6T8/edit?usp=sharing",
     "instructor": "Callan",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
     "description": "",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/movie-history"
   },
   "cal67": {
     "title": "Week 16 HW",
