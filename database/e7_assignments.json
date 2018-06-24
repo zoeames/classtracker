@@ -348,5 +348,45 @@
     "assignedNumber": 35,
     "topic": "firebase",
     "notes": "Add blogs and projects to firebase."
+  },
+  "assignment35": {
+    "title": "Local Weather - Part 3",
+    "URL": "https://github.com/nss-nightclass-projects/local-weather",
+    "dueDate": "6/12/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 36,
+    "topic": "firebase",
+    "notes": "*** Study Group: plan and code ***"
+  },
+  "assignment36": {
+    "title": "Blog Post #14",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "6/12/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 37,
+    "topic": "Blog",
+    "notes": "Week 17: Firebase Auth.  Add this to your blogs array in blogs.js that you created in Personal Site #3"
+  },
+  "assignment37": {
+    "title": "Personal Site #7",
+    "URL": "https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-bio-site-07.md",
+    "dueDate": "6/30/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 38,
+    "topic": "SASS",
+    "notes": "Final Styling"
+  },
+  "assignment38": {
+    "title": "Blog Post #15",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "6/26/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 39,
+    "topic": "Blog",
+    "notes": "Week 19: SASS.  Add this to firebase"
   }
 }
