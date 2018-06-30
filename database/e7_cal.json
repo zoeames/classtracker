@@ -1096,8 +1096,8 @@
     "title": "JS Frameworks",
     "startsAt": "June 25, 2018 6:00:00",
     "endsAt": "June 25, 2018 8:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/14pOoDEDVnQGgdmwXybozihGNYdgMqB-_UwcEOZQF4TY/edit?usp=sharing",
     "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
@@ -1110,8 +1110,8 @@
     "title": "React Setup",
     "startsAt": "June 25, 2018 8:00:00",
     "endsAt": "June 25, 2018 9:30:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1C2qQd-pcadlMlGeh_AhbHUN0dZZppZFDMzdvvIBjAjo/edit?usp=sharing",
     "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
@@ -1124,15 +1124,15 @@
     "title": "React: Realtor Part 1",
     "startsAt": "June 26, 2018 6:00:00",
     "endsAt": "June 26, 2018 9:30:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/14vqpWx_u3-RdChj1Ru80n1WY15UtYyPpkUvc9tSH2WU/edit?usp=sharing",
     "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Component setup and READ",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/realtor"
   },
   "cal82": {
     "title": "Week 20 HW",
@@ -1150,6 +1150,20 @@
   },
   "cal83": {
     "title": "React: Realtor Part 2",
+    "startsAt": "June 30, 2018 12:00:00",
+    "endsAt": "June 30, 2018 13:00:00",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/14vqpWx_u3-RdChj1Ru80n1WY15UtYyPpkUvc9tSH2WU/edit?usp=sharing",
+    "instructor": "Zoe",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "POST a new listing",
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/realtor"
+  },
+  "cal84": {
+    "title": "Capstone 101",
     "startsAt": "June 30, 2018 9:00:00",
     "endsAt": "June 30, 2018 12:00:00",
     "hasPresentation": false,
@@ -1158,23 +1172,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "POST a new listing",
-    "hasGithub": false,
-    "githubRepo":""
-  },
-  "cal84": {
-    "title": "Capstone 101",
-    "startsAt": "June 30, 2018 12:00:00",
-    "endsAt": "June 30, 2018 13:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
-    "instructor": "Zoe",
-    "isHW": false,
-    "hwUrl": "",
-    "eventType": "lecture",
     "description": "All you need to know about capstones",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-nightclass-projects/capstone-central"
   },
   "cal85": {
     "title": "Personal Site Review",
@@ -1190,11 +1190,6 @@
     "hasGithub": false,
     "githubRepo":""
   },
-
-
-
-
-
   "cal86": {
     "title": "React: Fish Store Part 1",
     "startsAt": "July 2, 2018 9:00:00",
@@ -1262,8 +1257,8 @@
     "hwUrl": "",
     "eventType": "study",
     "description": "Needs to be submitted to google form by end of day",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-nightclass-projects/capstone-central/blob/master/02_initial-proposal.md"
   },
   "cal91": {
     "title": "Group Project",
@@ -1290,8 +1285,8 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Determine MVP for your capstone",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-nightclass-projects/capstone-central/blob/master/03_mentor-1on1s.md"
   },
   "cal93": {
     "title": "Group Project Demos",

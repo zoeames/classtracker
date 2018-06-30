@@ -388,5 +388,45 @@
     "assignedNumber": 39,
     "topic": "Blog",
     "notes": "Week 19: SASS.  Add this to firebase"
+  },
+  "assignment39": {
+    "title": "React Mashups",
+    "URL": "https://github.com/nss-nightclass-projects/react-mashups/blob/master/README.md",
+    "dueDate": "7/3/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 40,
+    "topic": "React",
+    "notes": "Plan and code.  We won't get to POST until saturday."
+  },
+  "assignment40": {
+    "title": "Blog Post #16",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "7/3/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 41,
+    "topic": "Blog",
+    "notes": "Week 20: React.  Add this to firebase"
+  },
+  "assignment41": {
+    "title": "Submit Capstone Proposal",
+    "URL": "https://github.com/nss-nightclass-projects/capstone-central/blob/master/02_initial-proposal.md",
+    "dueDate": "7/7/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 42,
+    "topic": "Capstone",
+    "notes": "The earlier you submit this the better"
+  },
+  "assignment42": {
+    "title": "Preparation for 1st capstone meeting",
+    "URL": "https://github.com/nss-nightclass-projects/capstone-central/blob/master/03_mentor-1on1s.md",
+    "dueDate": "7/14/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 43,
+    "topic": "Blog",
+    "notes": "Wireframes, tickets, firebase structure, working API request(optional)"
   }
 }
