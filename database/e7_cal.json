@@ -1158,7 +1158,7 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "POST a new listing",
+    "description": "Complete GET",
     "hasGithub": true,
     "githubRepo":"https://github.com/nss-evening-cohort-7/realtor"
   },
@@ -1187,11 +1187,11 @@
     "hwUrl": "",
     "eventType": "study",
     "description": "Personal Site Review",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-nightclass-projects/personal-site-instructions/blob/master/personal-site-review.md"
   },
   "cal86": {
-    "title": "React: Fish Store Part 1",
+    "title": "React: Realtor Part 3",
     "startsAt": "July 2, 2018 9:00:00",
     "endsAt": "July 2, 2018 12:00:00",
     "hasPresentation": false,
@@ -1200,12 +1200,12 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Project Setup, main component, routing",
-    "hasGithub": false,
-    "githubRepo":""
+    "description": "Display Building component and building tile",
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/realtor"
   },
  "cal87": {
-    "title": "React: Fish Store Part 2",
+    "title": "React: Realtor Part 4",
     "startsAt": "July 3, 2018 9:00:00",
     "endsAt": "July 3, 2018 12:00:00",
     "hasPresentation": false,
@@ -1214,9 +1214,9 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "READ and POST",
-    "hasGithub": false,
-    "githubRepo":""
+    "description": "POST new form",
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/realtor"
   },
   "cal88": {
     "title": "Week 21 HW",
@@ -1233,7 +1233,7 @@
     "githubRepo":""
   },
   "cal89": {
-    "title": "React: Fish Store Part 3",
+    "title": "React: Fish Store Part 1",
     "startsAt": "July 7, 2018 9:00:00",
     "endsAt": "July 7, 2018 12:00:00",
     "hasPresentation": false,
@@ -1242,7 +1242,7 @@
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "UPDATE and DELETE",
+    "description": "Project Setup, main component, routing",
     "hasGithub": false,
     "githubRepo":""
   },
@@ -1261,20 +1261,48 @@
     "githubRepo":"https://github.com/nss-nightclass-projects/capstone-central/blob/master/02_initial-proposal.md"
   },
   "cal91": {
-    "title": "Group Project",
-    "startsAt": "July 9, 2018 6:00:00",
-    "endsAt": "July 14, 2018 6:00:00",
+    "title": "React: Fish Store Part 2",
+    "startsAt": "July 9, 2018 9:00:00",
+    "endsAt": "July 9, 2018 14:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
     "instructor": "",
     "isHW": false,
     "hwUrl": "",
-    "eventType": "study",
-    "description": "Group Project:",
+    "eventType": "lecture",
+    "description": "",
     "hasGithub": false,
     "githubRepo":""
   },
   "cal92": {
+    "title": "React: Fish Store Part 3",
+    "startsAt": "July 10, 2018 9:00:00",
+    "endsAt": "July 10, 2018 14:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": false,
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal93": {
+    "title": "Week 22 HW",
+    "startsAt": "July 11, 2018 6:00:00",
+    "endsAt": "July 12, 2018 6:00:00",
+    "hasPresentation": false,
+    "presentationUrl": "",
+    "instructor": "",
+    "isHW": true,
+    "hwUrl": "https://github.com/nss-nightclass-projects/e7-homework/blob/master/week22.md",
+    "eventType": "study",
+    "description": "REACT",
+    "hasGithub": false,
+    "githubRepo":""
+  },
+  "cal94": {
     "title": "Capstone 1-on-1",
     "startsAt": "July 14, 2018 10:00:00",
     "endsAt": "July 14, 2018 13:00:00",
@@ -1288,21 +1316,21 @@
     "hasGithub": true,
     "githubRepo":"https://github.com/nss-nightclass-projects/capstone-central/blob/master/03_mentor-1on1s.md"
   },
-  "cal93": {
-    "title": "Group Project Demos",
-    "startsAt": "July 16, 2018 6:00:00",
-    "endsAt": "July 16, 2018 7:00:00",
+  "cal95": {
+    "title": "Lab Day",
+    "startsAt": "July 14, 2018 10:00:00",
+    "endsAt": "July 14, 2018 14:00:00",
     "hasPresentation": false,
     "presentationUrl": "",
     "instructor": "",
     "isHW": false,
     "hwUrl": "",
-    "eventType": "demo",
-    "description": "Show and tell.",
+    "eventType": "study",
+    "description": "Open time to work on any open assignments.",
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal94": {
+  "cal96": {
     "title": "CAPSTONES",
     "startsAt": "July 16, 2018 6:00:00",
     "endsAt": "August 4, 2018 6:00:00",
@@ -1316,7 +1344,7 @@
     "hasGithub": false,
     "githubRepo":""
   },
-  "cal95": {
+  "cal97": {
     "title": "Capstone MVP Demo",
     "startsAt": "July 31, 2018 9:00:00",
     "endsAt": "July 31, 2018 14:00:00",
