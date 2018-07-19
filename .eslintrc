@@ -1,0 +1,48 @@
+{
+  "extends": "react-app",
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "jquery": true
+  },
+  "globals": {
+    "firebase": true
+  },
+  "rules": {
+    "arrow-spacing": ["error", { "before": true, "after": true }],
+    "block-spacing": ["error", "always"],
+    "camelcase": ["error", { "properties": "always" }],
+    "comma-dangle": ["error", "always-multiline"],
+    "eol-last": "error",
+    "eqeqeq": ["error", "always", { "null": "ignore" }],
+    "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
+    "keyword-spacing": ["error", { "before": true, "after": true }],
+    "indent": ["error", 2],
+    "no-console": ["error", { "allow": ["error"] }],
+    "no-debugger": "error",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
+    "no-redeclare": "error",
+    "no-tabs": "error",
+    "no-trailing-spaces": "error",
+    "no-undef": "error",
+    "no-unused-vars": "error",
+    "no-unreachable": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "quotes": [
+      "error",
+      "single",
+      { "avoidEscape": true, "allowTemplateLiterals": true }
+    ],
+    "semi": ["error", "always"],
+    "space-before-blocks": ["error", "always"],
+    "space-before-function-paren": ["error", "always"],
+    "spaced-comment": ["error", "always"],
+    "space-in-parens": ["error", "never"],
+    "space-infix-ops": "error",
+    "template-curly-spacing": ["error", "never"],
+    "yoda": ["error", "never"]
+  }
+}
