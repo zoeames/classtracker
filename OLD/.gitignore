@@ -1,0 +1,4 @@
+src/app/app.constants.js
+dist/
+node_modules/
+.DS_Store
