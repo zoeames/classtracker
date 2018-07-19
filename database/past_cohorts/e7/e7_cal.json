@@ -1236,15 +1236,15 @@
     "title": "React: Fish Store Part 1",
     "startsAt": "July 7, 2018 9:00:00",
     "endsAt": "July 7, 2018 12:00:00",
-    "hasPresentation": false,
-    "presentationUrl": "",
+    "hasPresentation": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1a_GKMH1NziyI7qlRDSOKX8cqe7-isy5RChJ1rW9IPm4/edit?usp=sharing",
     "instructor": "Zoe",
     "isHW": false,
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Project Setup, main component, routing",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/react-fish-store"
   },
   "cal90": {
     "title": "Capstone Proposals Due",
@@ -1271,8 +1271,8 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/react-fish-store"
   },
   "cal92": {
     "title": "React: Fish Store Part 3",
@@ -1285,8 +1285,8 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "",
-    "hasGithub": false,
-    "githubRepo":""
+    "hasGithub": true,
+    "githubRepo":"https://github.com/nss-evening-cohort-7/react-fish-store"
   },
   "cal93": {
     "title": "Week 22 HW",

@@ -428,5 +428,25 @@
     "assignedNumber": 43,
     "topic": "Blog",
     "notes": "Wireframes, tickets, firebase structure, working API request(optional)"
+  },
+  "assignment43": {
+    "title": "React Hoarder",
+    "URL": "https://github.com/nss-nightclass-projects/react-hoarder",
+    "dueDate": "7/14/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 44,
+    "topic": "React",
+    "notes": "Plan and code.  Due at 1:45pm saturday"
+  },
+  "assignment44": {
+    "title": "Blog Post #18",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/blog.md",
+    "dueDate": "7/14/18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 45,
+    "topic": "Blog",
+    "notes": "Week 21: React Routing.  Add this to firebase"
   }
 }
