@@ -46,6 +46,6 @@ const getSingleStudent = (uid) => {
         reject(err);
       });
   });
-}
+};
 
 export default { getRequest, getTreehouseProfilePoints, getSingleStudent };

@@ -39,7 +39,7 @@
     "github": "https://github.com/johnachor",
     "treehouse": "https://teamtreehouse.com/johnachor",
     "biosite": "https://johnachor-github-personal.firebaseapp.com",
-    "treehouseComplete": true,
+    "treehouseComplete": false,
     "isStudent": true,
     "uid": "wXo1i82vtrU5lhGD6YbNtIAsxwC3"
   },
@@ -61,7 +61,7 @@
     "github": "https://github.com/michaelclark2",
     "treehouse": "https://teamtreehouse.com/michaelclark17",
     "biosite": "https://michaelclark-112e5.firebaseapp.com",
-    "treehouseComplete": true,
+    "treehouseComplete": false,
     "isStudent": true,
     "uid": "Y3lBuLK9aPhNzYFRWCkSmbTiTMi1"
   },
@@ -208,17 +208,6 @@
     "isStudent": true,
     "uid": "eq0aYa4aauTFjSV1KQ0EQLfWWWT2"
   },
-  "student19": {
-    "firstName": "Rita",
-    "lastName": "Patrick",
-    "email": "mpatrick1007@yahoo.com",
-    "github": "https://github.com/RitaSyed",
-    "treehouse": "https://teamtreehouse.com/margaritapatrick",
-    "biosite": "",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "fhO8sgTJZDgcMwf2HgvJ1aAUDJY2"
-  },
   "student20": {
     "firstName": "Stix",
     "lastName": "Rodgers",
@@ -226,7 +215,7 @@
     "github": "https://github.com/jessrod11",
     "treehouse": "https://teamtreehouse.com/jessicarodgers3",
     "biosite": "https://stix-website.firebaseapp.com",
-    "treehouseComplete": true,
+    "treehouseComplete": false,
     "isStudent": true,
     "uid": "TVzYxi8mUteBxff73IeqiwzjcIk1"
   },
