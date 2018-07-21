@@ -1,3 +1,11 @@
+@import 'styles/_colors';
+
 .GoodStudent {
-  text-align: center;
+  .treehouse-img {
+    height: 28px;
+  }
+
+  .website-link {
+    color: $purple;
+  }
 }

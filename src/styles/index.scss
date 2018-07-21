@@ -223,10 +223,6 @@ a {
   margin-top: 10px;
 }
 
-.treehouse-img {
-  height: 28px;
-}
-
 td h3 {
   margin: 0px;
 }
@@ -248,44 +244,6 @@ table {
   position: relative !important;
 }
 
-.treehouse-link-table {
-  position: absolute;
-  top: 20%;
-}
-
-.treehouse-link-table:last-of-type {
-  right: 0px;
-}
-
-.treehouse-link-table:first-of-type {
-  left: 0px;
-}
-
-.treehouse-link-table:nth-child(2) {
-  left: 33%;
-}
-
-.treehouse-check {
-  color: darkgreen;
-  background-color: white;
-}
-
-.danger-points {
-  background-color: red;
-  color: white;
-}
-
-.middle-points {
-  background-color: yellow;
-}
-
-.low-points {
-  background-color: orange;
-}
-
-.almost-points {
-  background-color: rgb(53, 225, 53);
-}
 
 /* don't show week numbers in calendar */
 .cal-week-box-cell {
@@ -315,10 +273,6 @@ mwl-calendar .cal-month-box .cal-row-fluid {
 
 .github-link {
   color: black;
-}
-
-.website-link {
-  color: purple;
 }
 
 #submit-dashboard .panel-heading {
