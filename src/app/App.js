@@ -17,15 +17,13 @@ class App extends Component {
       <h1>Loading</h1>
     ) : (
       <BrowserRouter>
-        <div>
+        <div className="App">
           <Navbar/>
-          <div className="container">
-            <div className="row">
-              <Switch>
-                <Route path="/students" exact component={Students} />
-                <Redirect from="*" to="/students"/>
-              </Switch>
-            </div>
+          <div className="body-container">
+            <Switch>
+              <Route path="/students" exact component={Students} />
+              <Redirect from="*" to="/students"/>
+            </Switch>
           </div>
         </div>
       </BrowserRouter>

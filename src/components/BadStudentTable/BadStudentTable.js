@@ -9,24 +9,24 @@ class BadStudentTable extends React.Component {
     const { students } = this.props;
 
     const studentRows = students.map(student => {
-      return (
-        <BadStudent key={student.id} student={student} />
-      );
+      return <BadStudent key={student.id} student={student} />;
     });
     return (
-      <div className="BadStudentTable">
-        <table className="table table-striped">
-          <thead>
-            <tr className="title-row">
-              <th className="text-center">Name</th>
-              <th className="text-center">Links</th>
-              <th className="text-center">Treehouse Points</th>
-            </tr>
-          </thead>
-          <tbody>
-            {studentRows}
-          </tbody>
-        </table>
+      <div className="BadStudentTable col-xs-12">
+        {students.length > 0 ? (
+          <table className="table table-striped">
+            <thead>
+              <tr className="title-row">
+                <th className="text-center">Name</th>
+                <th className="text-center">Links</th>
+                <th className="text-center">Treehouse Points</th>
+              </tr>
+            </thead>
+            <tbody>{studentRows}</tbody>
+          </table>
+        ) : (
+          ''
+        )}
       </div>
     );
   }

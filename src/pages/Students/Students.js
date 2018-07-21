@@ -46,13 +46,11 @@ class Students extends React.Component {
     });
     return (
       <div className="Students">
-        <div className="main-container">
-          <h1>Students</h1>
-          <h3>E8 Students</h3>
-          {badStudentComponents}
-          <h3>E7 Students</h3>
-          {goodStudentComponents}
-        </div>
+        <h1>Students</h1>
+        <h3>E8 Students</h3>
+        {badStudentComponents}
+        <h3>E7 Students</h3>
+        {goodStudentComponents}
       </div>
     );
   }
