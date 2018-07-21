@@ -1,17 +1,34 @@
 import React, { Component } from 'react';
+import { Route, BrowserRouter, Switch, Redirect } from 'react-router-dom';
+// import firebase from 'firebase';
+
+import Students from '../pages/Students/Students';
+import Navbar from '../components/Navbar/Navbar';
+
 import './App.css';
 
 class App extends Component {
+  state = {
+    loading: false,
+  };
+
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+    return this.state.loading === true ? (
+      <h1>Loading</h1>
+    ) : (
+      <BrowserRouter>
+        <div>
+          <Navbar/>
+          <div className="container">
+            <div className="row">
+              <Switch>
+                <Route path="/students" exact component={Students} />
+                <Redirect from="*" to="/students"/>
+              </Switch>
+            </div>
+          </div>
+        </div>
+      </BrowserRouter>
     );
   }
 }
