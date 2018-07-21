@@ -1,6 +1,6 @@
 body {
   background-color: #e1f5fe;
-  padding-top: 70px;
+  // padding-top: 70px;
 }
 
 body h1,
@@ -60,91 +60,6 @@ a {
 
 .panel-default {
   margin-bottom: 10px;
-}
-
-/*NAVBAR*/
-
-.navbar-default {
-  background-color: #01579b;
-  border-color: #1b71b5;
-}
-
-.navbar-default .navbar-brand {
-  color: #ffffff;
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #ffc107;
-}
-
-.navbar-default .navbar-text {
-  color: #ffffff;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #ffc107;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #ffc107;
-  background-color: #1b71b5;
-}
-
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #ffc107;
-  background-color: #1b71b5;
-}
-
-.navbar-default .navbar-toggle {
-  border-color: #1b71b5;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #1b71b5;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
-}
-
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #ffffff;
-}
-
-.navbar-default .navbar-link {
-  color: #ffffff;
-}
-
-.navbar-default .navbar-link:hover {
-  color: #ffc107;
-}
-
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffffff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffc107;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffc107;
-    background-color: #1b71b5;
-  }
 }
 
 /*SIDENAVBAR*/
@@ -308,10 +223,6 @@ a {
   margin-top: 10px;
 }
 
-.treehouse-img {
-  height: 28px;
-}
-
 td h3 {
   margin: 0px;
 }
@@ -333,44 +244,6 @@ table {
   position: relative !important;
 }
 
-.treehouse-link-table {
-  position: absolute;
-  top: 20%;
-}
-
-.treehouse-link-table:last-of-type {
-  right: 0px;
-}
-
-.treehouse-link-table:first-of-type {
-  left: 0px;
-}
-
-.treehouse-link-table:nth-child(2) {
-  left: 33%;
-}
-
-.treehouse-check {
-  color: darkgreen;
-  background-color: white;
-}
-
-.danger-points {
-  background-color: red;
-  color: white;
-}
-
-.middle-points {
-  background-color: yellow;
-}
-
-.low-points {
-  background-color: orange;
-}
-
-.almost-points {
-  background-color: rgb(53, 225, 53);
-}
 
 /* don't show week numbers in calendar */
 .cal-week-box-cell {
@@ -400,10 +273,6 @@ mwl-calendar .cal-month-box .cal-row-fluid {
 
 .github-link {
   color: black;
-}
-
-.website-link {
-  color: purple;
 }
 
 #submit-dashboard .panel-heading {

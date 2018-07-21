@@ -1,7 +1,7 @@
-# class-deadlines
+# ClassTracker
 
 ### Description
-blablablabla
+This project is currently being converted from AngularJS to React.  Please pardon the mess....
 
 ### Screenshots
 ![Image1]()
