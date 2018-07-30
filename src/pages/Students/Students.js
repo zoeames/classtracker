@@ -25,6 +25,18 @@ class Students extends React.Component {
             tempBadStudents.push(student);
           }
         });
+        tempGoodStudents.sort((a, b) => {
+          if (a.firstName < b.firstName) return -1;
+          if (a.firstName > b.firstName) return 1;
+          return 0;
+        });
+
+        tempBadStudents.sort((a, b) => {
+          if (a.firstName < b.firstName) return -1;
+          if (a.firstName > b.firstName) return 1;
+          return 0;
+        });
+
         this.setState({badStudents: tempBadStudents, goodStudents: tempGoodStudents});
       })
       .catch(err => {
