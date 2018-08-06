@@ -33,6 +33,7 @@ class BadStudentTable extends React.Component {
     const {student} = this.state;
     const treehouseImage = require(`./img/treehouse.png`);
     const points = this.state.treehousePoints;
+    const githubLink = `https://github.com/${student.githubUsername}`;
     return (
       <tr className="BadStudent">
         <td className="col-xs-3">
@@ -50,7 +51,7 @@ class BadStudentTable extends React.Component {
               alt="treehouse logo"
             />
           </a>
-          <a className="logo" href={student.github} target="_blank">
+          <a className="logo" href={githubLink} target="_blank">
             <i className="fab fa-github fa-2x" />
           </a>
           <a className="logo website-link" href={student.biosite} target="_blank">
