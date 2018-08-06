@@ -12,17 +12,22 @@ class BadStudentTable extends React.Component {
 
   componentDidMount() {
     const {student} = this.props;
-    studentRequests
-      .getTreehouseProfilePoints(student.treehouse)
-      .then(treehouse => {
-        if (treehouse > 3000) {
-          treehouse = 'done';
-        }
-        this.setState({student: student, treehousePoints: treehouse});
-      })
-      .catch(err => {
-        console.error('error with get treehouse points request', err);
-      });
+    if (student.treehouse.length > 0) {
+      studentRequests
+        .getTreehouseProfilePoints(student.treehouse)
+        .then(treehouse => {
+          if (treehouse > 3000) {
+            treehouse = 'done';
+          }
+          this.setState({student: student, treehousePoints: treehouse});
+        })
+        .catch(err => {
+          console.error('error with get treehouse points request', err);
+        });
+    } else {
+      this.setState({student: student, treehousePoints: 'missing'});
+    }
+
   }
   render() {
     const {student} = this.state;
