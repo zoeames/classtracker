@@ -62,6 +62,7 @@ class BadStudentTable extends React.Component {
             ${(points > 2900 && points < 3000) ? 'almost-points' : ''}
             ${points > 2000 && points < 2900 ? 'middle-points' : ''}
             ${points < 2000 ? 'danger-points' : ''}
+            ${points === 'missing' ? 'danger-points' : ''}
           `}
         >
           {
