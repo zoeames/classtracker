@@ -39,7 +39,7 @@
     "githubUsername": "rarceneaux",
     "treehouse": "https://teamtreehouse.com/raymondarceneaux",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -61,7 +61,7 @@
     "githubUsername": "meeshysu",
     "treehouse": "https://teamtreehouse.com/michellebeshears",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -72,7 +72,7 @@
     "githubUsername": "ke4tri",
     "treehouse": "https://teamtreehouse.com/waynecollier2",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -83,7 +83,7 @@
     "githubUsername": "MCrank",
     "treehouse": "https://teamtreehouse.com/marcocrank",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -91,10 +91,10 @@
     "firstName": "Austin",
     "lastName": "Cumberlander",
     "email": "austincumberlander@gmail.com",
-    "githubUsername": "",
+    "githubUsername": "acumberlander",
     "treehouse": "https://teamtreehouse.com/austincumberlander",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -132,10 +132,10 @@
     "uid": ""
   },
   "student10": {
-    "firstName": "Edgar",
+    "firstName": "Jerome",
     "lastName": "Howze",
     "email": "ejhowze@gmail.com",
-    "githubUsername": "",
+    "githubUsername": "ejhowze",
     "treehouse": "https://teamtreehouse.com/edgarhowze",
     "biosite": "",
     "treehouseComplete": false,
@@ -168,7 +168,7 @@
     "firstName": "Maggie",
     "lastName": "Leavell",
     "email": "mjleavell@gmail.com",
-    "githubUsername": "",
+    "githubUsername": "mjleavell",
     "treehouse": "https://teamtreehouse.com/mleavell",
     "biosite": "",
     "treehouseComplete": false,
@@ -190,7 +190,7 @@
     "firstName": "Jonathan",
     "lastName": "Mohan",
     "email": "jonathanmohan.net@gmail.com",
-    "githubUsername": "",
+    "githubUsername": "JonathanPMohan",
     "treehouse": "https://teamtreehouse.com/jonathanmohan",
     "biosite": "",
     "treehouseComplete": false,
@@ -215,7 +215,7 @@
     "githubUsername": "waysidetester",
     "treehouse": "https://teamtreehouse.com/dylanmurray",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -237,7 +237,7 @@
     "githubUsername": "moffutt10",
     "treehouse": "https://teamtreehouse.com/marshalloffutt",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -248,7 +248,7 @@
     "githubUsername": "ripalpate",
     "treehouse": "https://teamtreehouse.com/ripalbenpatel",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -278,7 +278,7 @@
     "firstName": "Aftan",
     "lastName": "Walls",
     "email": "aftan.walls@gmail.com",
-    "githubUsername": "",
+    "githubUsername": "Amerrida",
     "treehouse": "https://teamtreehouse.com/aftanwalls",
     "biosite": "",
     "treehouseComplete": false,
@@ -289,7 +289,7 @@
     "firstName": "Jasmine",
     "lastName": "Walters",
     "email": "jsmnwltrs@gmail.com",
-    "githubUsername": "",
+    "githubUsername": "jsmnwltrs",
     "treehouse": "https://teamtreehouse.com/jasminewalters",
     "biosite": "",
     "treehouseComplete": false,
@@ -314,7 +314,7 @@
     "githubUsername": "shanedwilson",
     "treehouse": "https://teamtreehouse.com/shanewilson3",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -325,7 +325,7 @@
     "githubUsername": "colinlwhite",
     "treehouse": "https://teamtreehouse.com/colinwhite2",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -339,262 +339,5 @@
     "treehouseComplete": false,
     "isStudent": true,
     "uid": ""
-  },
-
-
-
-
-  "student31": {
-    "firstName": "John",
-    "lastName": "Achor",
-    "email": "johnachor@gmail.com",
-    "githubUsername": "johnachor",
-    "treehouse": "https://teamtreehouse.com/johnachor",
-    "biosite": "https://johnachor-github-personal.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "wXo1i82vtrU5lhGD6YbNtIAsxwC3"
-  },
-  "student32": {
-    "firstName": "Jeffrey",
-    "lastName": "Chen",
-    "email": "jeffreychen2016@gmail.com",
-    "githubUsername": "jeffreychen2016",
-    "treehouse": "https://teamtreehouse.com/xuehuichen",
-    "biosite": "https://personal-site-64c36.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "AsoPShd7JrgZZPnF4gphhRkVg2o2"
-  },
-  "student33": {
-    "firstName": "Michael",
-    "lastName": "Clark",
-    "email": "michael.clark1992@gmail.com",
-    "githubUsername": "michaelclark2",
-    "treehouse": "https://teamtreehouse.com/michaelclark17",
-    "biosite": "https://michaelclark-112e5.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "Y3lBuLK9aPhNzYFRWCkSmbTiTMi1"
-  },
-  "student34": {
-    "firstName": "Anna",
-    "lastName": "Dolan",
-    "email": "anna.dolan115@gmail.com",
-    "githubUsername": "annamd115",
-    "treehouse": "https://teamtreehouse.com/annadolan",
-    "biosite": "https://personal-site-9a5fd.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "bxyRY61pFuP8zBRNnPkst8sVywh1"
-  },
-  "student35": {
-    "firstName": "Thomas",
-    "lastName": "Dugan",
-    "email": "thomas@aadwebb.com",
-    "githubUsername": "ledugani",
-    "treehouse": "https://teamtreehouse.com/thomasdugan",
-    "biosite": "https://personal-site-128be.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "jZcWVlmnJNdYD61Mav6RJ53TsQ93"
-  },
-  "student37": {
-    "firstName": "Maken",
-    "lastName": "Hubbard",
-    "email": "Makhub26@outlook.com",
-    "githubUsername": "MakenHubbard",
-    "treehouse": "https://teamtreehouse.com/makenhubbard",
-    "biosite": "https://my-portfolio-ffff9.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "hKrf1oVwM0RyV2xcU94iosxIB2m2"
-  },
-  "student38": {
-    "firstName": "Mehret",
-    "lastName": "Kualal",
-    "email": "merutaye@gmail.com",
-    "githubUsername": "Mehret17",
-    "treehouse": "https://teamtreehouse.com/mehretkualala",
-    "biosite": "https://my-presononalsite.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "NjJxCaOmTaOzv5jPZsImKsBOLz12"
-  },
-  "student39": {
-    "firstName": "Juno",
-    "lastName": "Lee",
-    "email": "lejuno80@gmail.com",
-    "githubUsername": "Junochop",
-    "treehouse": "https://teamtreehouse.com/joonholee",
-    "biosite": "https://myportfoliowebsite-68f57.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "FIiH19j3meV5scI2uKnB6YgFYL73"
-  },
-  "student40": {
-    "firstName": "Corey",
-    "lastName": "Lutrick",
-    "email": "coreylutrick@gmail.com",
-    "githubUsername": "Coreylutrick",
-    "treehouse": "https://teamtreehouse.com/coreylutrick",
-    "biosite": "https://newpersonalsite-c46a6.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "YFcKnfmEu2Ps623DEaKhm4KNLVL2"
-  },
-  "student42": {
-    "firstName": "Andy",
-    "lastName": "Million",
-    "email": "amillion3@gmail.com",
-    "githubUsername": "amillion3",
-    "treehouse": "https://teamtreehouse.com/andymillion",
-    "biosite": "https://personal-profile-b3a3a.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "IiA4yf8TbiWIkGMJ8Z578fOf9lW2"
-  },
-  "student43": {
-    "firstName": "Amanda",
-    "lastName": "Mitchell",
-    "email": "wreedamitchell@gmail.com",
-    "githubUsername": "AmandaM04",
-    "treehouse": "https://teamtreehouse.com/amandamitchell4",
-    "biosite": "https://personalsite-fafcc.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "eSGWm7osiTUxect9p0h0nonhrE23"
-  },
-  "student44": {
-    "firstName": "Drake",
-    "lastName": "Morrison",
-    "email": "Drakermorrison@gmail.com",
-    "githubUsername": "DrakeMorrison",
-    "treehouse": "https://teamtreehouse.com/drakemorrison",
-    "biosite": "https://drake-morrison.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "7bUZhm8zP8NcVLJ6tieCCAkRNxU2"
-  },
-  "student45": {
-    "firstName": "April",
-    "lastName": "Nichols",
-    "email": "nicholsar@gmail.com",
-    "githubUsername": "aprilrochelle",
-    "treehouse": "https://teamtreehouse.com/aprilnichols",
-    "biosite": "https://personalsite-aw.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "NAaDg6O5JSTdOsHqWzQz04aW9Op2"
-  },
-  "student46": {
-    "firstName": "Alex",
-    "lastName": "Orga",
-    "email": "a.orga@icloud.com",
-    "githubUsername": "AlexOrga",
-    "treehouse": "https://teamtreehouse.com/alexanderorga",
-    "biosite": "https://personal-site-bbd6d.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "b3KLpjKPPxgxwuXTA4UfX8kWRds1"
-  },
-  "student47": {
-    "firstName": "Mary Alice",
-    "lastName": "Orr",
-    "email": "m.a.orr17@gmail.com",
-    "githubUsername": "maryaliceorr",
-    "treehouse": "https://teamtreehouse.com/maryorr2",
-    "biosite": "https://mary-alice-orr-site-93840.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "8Ny8iGKJBjfZg5eFHg5feO3LG9j2"
-  },
-  "student48": {
-    "firstName": "Nathan",
-    "lastName": "Pabst",
-    "email": "nathan.pabst@gmail.com",
-    "githubUsername": "nathanpabst",
-    "treehouse": "https://teamtreehouse.com/nathanpabst",
-    "biosite": "https://my-website-4ecf9.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "eq0aYa4aauTFjSV1KQ0EQLfWWWT2"
-  },
-  "student50": {
-    "firstName": "Stix",
-    "lastName": "Rodgers",
-    "email": "jessica.rodgers11@gmail.com",
-    "githubUsername": "jessrod11",
-    "treehouse": "https://teamtreehouse.com/jessicarodgers3",
-    "biosite": "https://stix-website.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "TVzYxi8mUteBxff73IeqiwzjcIk1"
-  },
-  "student51": {
-    "firstName": "Barry",
-    "lastName": "Russell",
-    "email": "blrussell09@gmail.com",
-    "githubUsername": "BLRussell-09",
-    "treehouse": "https://teamtreehouse.com/barryrussell",
-    "biosite": "https://personalsite-b8a15.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "qH9K37RapoMCospquF93REi9ZV82"
-  },
-  "student52": {
-    "firstName": "Lola",
-    "lastName": "Simpson",
-    "email": "lolalsimp@gmail.com",
-    "githubUsername": "lolasimp",
-    "treehouse": "https://teamtreehouse.com/latashasimpson",
-    "biosite": "https://lola-personalsite.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "8NsVDa29pvR0iGs9qPkS2cxSMbV2"
-  },
-  "student53": {
-    "firstName": "Amanda",
-    "lastName": "Slayton",
-    "email": "alslayton86@gmail.com",
-    "githubUsername": "ASlayton",
-    "treehouse": "https://teamtreehouse.com/amandaslayton",
-    "biosite": "https://aslaytonsite.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "OxPvCAwWv4OyLmHfQqyVOE1l5U22"
-  },
-  "student54": {
-    "firstName": "Leo",
-    "lastName": "Taylor",
-    "email": "leotaylor723@gmail.com",
-    "githubUsername": "leotaylor",
-    "treehouse": "https://teamtreehouse.com/leotaylor2",
-    "biosite": "https://personalsite-78e6a.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "kyaRwp8pIifyuvop1aQdkc57V6j1"
-  },
-  "student56": {
-    "firstName": "Adam",
-    "lastName": "Wieckert",
-    "email": "wiec1369@gmail.com",
-    "githubUsername": "awieckert",
-    "treehouse": "https://teamtreehouse.com/adamwieckert",
-    "biosite": "https://awieckert-portfolio.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "p1v3HIopBkQW2OLgDNxkYdGW8zm2"
-  },
-  "student57": {
-    "firstName": "Brian",
-    "lastName": "Wright",
-    "email": "briankw23@gmail.com",
-    "githubUsername": "briankw23",
-    "treehouse": "https://teamtreehouse.com/brianwright7",
-    "biosite": "https://brianwright-bf62f.firebaseapp.com",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "ETN0BxanIXW4OIHg1Mc7fHrORHt1"
   }
 }
