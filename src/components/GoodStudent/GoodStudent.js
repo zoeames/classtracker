@@ -53,7 +53,7 @@ class GoodStudent extends React.Component {
       }
     };
     return (
-      <div className="GoodStudent col col-md-4">
+      <div className="GoodStudent col-md-4">
         <div className="card">
           <div className="card-header bg-primary">
             {student.firstName} {student.lastName}
