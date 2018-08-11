@@ -12,6 +12,9 @@ import Submit from '../pages/Submit/Submit';
 
 import './App.css';
 
+import fbConection from '../firebaseRequests/connection';
+fbConection();
+
 class App extends Component {
   state = {
     loading: false,
