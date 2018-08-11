@@ -53,11 +53,11 @@ class Navbar extends React.Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           {authed ? (
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/tracker">
                   Tracker
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/submit">
                   Submit
@@ -86,6 +86,21 @@ class Navbar extends React.Component {
             </ul>
           ) : (
             <ul className="navbar-nav ml-auto">
+              <li className="nav-item">
+                <Link className="nav-link" to="/students">
+                  Students
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Calendar">
+                  Calendar
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/assignments">
+                  Assignments
+                </Link>
+              </li>
               <li className="nav-item">
                 <a className="nav-link" onClick={this.githubAuth}>
                   <i className="fab fa-github"></i> Login
