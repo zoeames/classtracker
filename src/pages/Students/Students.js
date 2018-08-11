@@ -60,7 +60,9 @@ class Students extends React.Component {
       <div className="Students">
         <h1>Students</h1>
         {badStudentComponents}
-        {goodStudentComponents}
+        <div className="d-flex flex-wrap">
+          {goodStudentComponents}
+        </div>
       </div>
     );
   }
