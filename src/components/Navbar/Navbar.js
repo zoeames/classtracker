@@ -15,12 +15,22 @@ class Navbar extends React.Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link to="/students">Students</Link>
-              <Link to="/tracker">Tracker</Link>
-              <Link to="/submit">Submit</Link>
-              <Link to="/Calendar">Calendar</Link>
-              <Link to="/student/1234">Detail page</Link>
-              <Link to="/assignments">Assignments</Link>
+              <Link className="nav-link" to="/students">Students</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/tracker">Tracker</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/submit">Submit</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Calendar">Calendar</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/student/1234">Detail page</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/assignments">Assignments</Link>
             </li>
           </ul>
         </div>
