@@ -16,7 +16,7 @@ class BadStudentTable extends React.Component {
         {students.length > 0 ? (
           <table className="table table-striped">
             <thead>
-              <tr className="title-row">
+              <tr className="bg-primary">
                 <th className="text-center">Name</th>
                 <th className="text-center">Links</th>
                 <th className="text-center">Treehouse Points</th>

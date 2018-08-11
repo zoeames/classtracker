@@ -33,24 +33,13 @@
     "uid": "ZHfDJR2oDsPRX9RdzRKVIBpK3GD3"
   },
   "student1": {
-    "firstName": "Raymon",
+    "firstName": "Raymond",
     "lastName": "Arcenaux",
     "email": "rla.arceneaux@gmail.com",
     "githubUsername": "rarceneaux",
     "treehouse": "https://teamtreehouse.com/raymondarceneaux",
     "biosite": "",
     "treehouseComplete": true,
-    "isStudent": true,
-    "uid": ""
-  },
-  "student2": {
-    "firstName": "Stephanie",
-    "lastName": "Beasley",
-    "email": "steph.beasley22@gmail.com",
-    "githubUsername": "",
-    "treehouse": "",
-    "biosite": "",
-    "treehouseComplete": false,
     "isStudent": true,
     "uid": ""
   },

@@ -53,32 +53,34 @@ class GoodStudent extends React.Component {
       }
     };
     return (
-      <div className="GoodStudent col-xs-4">
-        <div className="panel panel-primary">
-          <div className="panel-heading">{student.firstName} {student.lastName}</div>
-          <div className="panel-body text-center">
-            <div className="col-xs-12">
-              <div className="col-xs-4">
+      <div className="GoodStudent col-md-4">
+        <div className="card">
+          <div className="card-header bg-primary">
+            {student.firstName} {student.lastName}
+          </div>
+          <div className="card-body">
+            <div className="row justify-content-md-center">
+              <div className="col col-lg-2">
                 <a className="treehouse-link" href={student.treehouse} target="_blank">
                   <img className="treehouse-img" src={treehouseImage} alt="treehouse logo"/>
                 </a>
               </div>
-              <div className="col-xs-4">
+              <div className="col-md-auto">
                 <a className="github-link" href={githubLink} target="_blank">
                   <i className="fab fa-github fa-2x"></i>
                 </a>
               </div>
-              <div className="col-xs-4">
+              <div className="col col-lg-2">
                 <a className="website-link" href={student.biosite} target="_blank">
                   <i className="fas fa-address-book fa-2x"></i>
                 </a>
               </div>
             </div>
-            <div>
-              <h3>Today's Commits: {todaysCommits}</h3>
-              <h3>Yesterday's Commits: {yesterdaysCommits}</h3>
-              {lastPr()}
-            </div>
+          </div>
+          <div>
+            <h3>Today's Commits: {todaysCommits}</h3>
+            <h3>Yesterday's Commits: {yesterdaysCommits}</h3>
+            {lastPr()}
           </div>
         </div>
       </div>
