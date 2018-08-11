@@ -16,6 +16,11 @@ class Navbar extends React.Component {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link to="/students">Students</Link>
+              <Link to="/tracker">Tracker</Link>
+              <Link to="/submit">Submit</Link>
+              <Link to="/Calendar">Calendar</Link>
+              <Link to="/student/1234">Detail page</Link>
+              <Link to="/assignments">Assignments</Link>
             </li>
           </ul>
         </div>
