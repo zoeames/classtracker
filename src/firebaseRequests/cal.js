@@ -4,7 +4,7 @@ import constants from '../constants';
 const getCalEventsRequest = () => {
   return new Promise((resolve, reject) => {
     axios
-      .get(`${constants.firebaseConfig.databaseURL}/students.json`)
+      .get(`${constants.firebaseConfig.databaseURL}/cal.json`)
       .then(res => {
         const events = [];
         const calCollection = res.data;
