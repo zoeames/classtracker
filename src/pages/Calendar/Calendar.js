@@ -13,6 +13,7 @@ BigCalendar.momentLocalizer(moment);
 class Calendar extends React.Component {
   state = {
     events: [],
+    selectedEvents: [],
   };
 
   componentDidMount() {
@@ -59,17 +60,32 @@ class Calendar extends React.Component {
     };
   };
 
+  selectDate = (slotInfo) => {
+    const startDate = new Date(slotInfo.end);
+    const startTime = startDate.getTime();
+    const endTime = startTime + (60 * 60 * 24 * 1000);
+    const events = this.state.events.filter((event) => {
+      const eventStartDate = new Date(event.start);
+      const eventStartTime = eventStartDate.getTime();
+      return eventStartTime >= startTime && eventStartTime <= endTime;
+    });
+    console.log(events);
+    this.setState({selectedEvents: events});
+
+  }
   render() {
     return (
       <div className="Calendar">
         <div className="cal-holder">
           <BigCalendar
+            selectable
             events={this.state.events}
             step={60}
             defaultView="month"
             views={['month']}
             defaultDate={new Date()}
             eventPropGetter={this.eventStyleGetter}
+            onSelectSlot={this.selectDate}
           />
         </div>
       </div>
