@@ -60,20 +60,52 @@ class Calendar extends React.Component {
     };
   };
 
-  selectDate = (slotInfo) => {
+  selectDate = slotInfo => {
     const startDate = new Date(slotInfo.end);
     const startTime = startDate.getTime();
-    const endTime = startTime + (60 * 60 * 24 * 1000);
-    const events = this.state.events.filter((event) => {
+    const endTime = startTime + 60 * 60 * 24 * 1000;
+    const events = this.state.events.filter(event => {
       const eventStartDate = new Date(event.start);
       const eventStartTime = eventStartDate.getTime();
-      return eventStartTime >= startTime && eventStartTime <= endTime;
+      const eventEndDate = new Date(event.end);
+      const eventEndTime = eventEndDate.getTime();
+      return (
+        (startTime > eventStartTime && startTime < eventEndTime) ||
+        (endTime > eventStartTime && endTime < eventEndTime) ||
+        (eventStartTime >= startTime && eventStartTime <= endTime)
+      );
     });
-    console.log(events);
-    this.setState({selectedEvents: events});
-
-  }
+    this.setState({ selectedEvents: events });
+  };
   render() {
+    const displaySelectedEvents = this.state.selectedEvents.map(event => {
+      let backgroundClass = '';
+      switch (event.eventType) {
+      case 'vacation':
+        backgroundClass = 'danger';
+        break;
+      case 'demo':
+        backgroundClass = 'purple';
+        break;
+      case 'lecture':
+        backgroundClass = 'primary';
+        break;
+      case 'study':
+        backgroundClass = 'success';
+        break;
+      default:
+        backgroundClass = 'secondary';
+      }
+
+      return (
+        <div key={event.id} className="event col-md-4">
+          <div  className={`card col-xs-4 border border-${backgroundClass}`}>
+            <div className={`card-header bg-${backgroundClass}`}>{event.title}</div>
+            <div className="card-body" />
+          </div>
+        </div>
+      );
+    });
     return (
       <div className="Calendar">
         <div className="cal-holder">
@@ -88,6 +120,7 @@ class Calendar extends React.Component {
             onSelectSlot={this.selectDate}
           />
         </div>
+        <div className="d-flex flex-wrap">{displaySelectedEvents}</div>
       </div>
     );
   }
