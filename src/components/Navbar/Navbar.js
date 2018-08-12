@@ -8,29 +8,122 @@ import './Navbar.css';
 class Navbar extends React.Component {
   static propTypes = {
     authed: PropTypes.bool,
+    admin: PropTypes.bool,
     runAway: PropTypes.func,
+    setStudent: PropTypes.func,
   };
 
   githubAuth = () => {
     authRequests
       .authenticateGithub()
       .then(result => {
-        console.error('result', result);
-        // if(result.user.uid){
-        //   this.isAuth = true;
-        // }
-        // this.$state.go("assignments");
+        this.props.setStudent(result);
       })
       .catch(err => {
         console.error('error in authenticate', err);
       });
-  }
+  };
+
+  logoutClickEvent = () => {
+    authRequests.logoutUser();
+    this.props.runAway();
+  };
 
   render() {
-    const { authed, runAway } = this.props;
-    const logoutClickEvent = () => {
-      authRequests.logoutUser();
-      runAway();
+    const { admin, authed } = this.props;
+
+    const buildNavbar = () => {
+      if (admin) {
+        return (
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <Link className="nav-link" to="/tracker">
+                Tracker
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/submit">
+                Submit
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/students">
+                Students
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Calendar">
+                Calendar
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/assignments">
+                Assignments
+              </Link>
+            </li>
+            <li>
+              <button onClick={this.logoutClickEvent} className="btn btn-danger">
+                Logout
+              </button>
+            </li>
+          </ul>
+        );
+      } else if (authed) {
+        return (
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <Link className="nav-link" to="/submit">
+                Submit
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/students">
+                Students
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Calendar">
+                Calendar
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/assignments">
+                Assignments
+              </Link>
+            </li>
+            <li>
+              <button onClick={this.logoutClickEvent} className="btn btn-danger">
+                Logout
+              </button>
+            </li>
+          </ul>
+        );
+      } else {
+        return (
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <Link className="nav-link" to="/students">
+                Students
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Calendar">
+                Calendar
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/assignments">
+                Assignments
+              </Link>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" onClick={this.githubAuth}>
+                <i className="fab fa-github" /> Login
+              </a>
+            </li>
+          </ul>
+        );
+      }
     };
 
     return (
@@ -51,63 +144,7 @@ class Navbar extends React.Component {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          {authed ? (
-            <ul className="navbar-nav ml-auto">
-              {/* <li className="nav-item">
-                <Link className="nav-link" to="/tracker">
-                  Tracker
-                </Link>
-              </li> */}
-              <li className="nav-item">
-                <Link className="nav-link" to="/submit">
-                  Submit
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/students">
-                  Students
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/Calendar">
-                  Calendar
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/assignments">
-                  Assignments
-                </Link>
-              </li>
-              <li>
-                <button onClick={logoutClickEvent} className="btn btn-danger">
-                  Logout
-                </button>
-              </li>
-            </ul>
-          ) : (
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <Link className="nav-link" to="/students">
-                  Students
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/Calendar">
-                  Calendar
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/assignments">
-                  Assignments
-                </Link>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" onClick={this.githubAuth}>
-                  <i className="fab fa-github"></i> Login
-                </a>
-              </li>
-            </ul>
-          )}
+          {buildNavbar()}
         </div>
       </nav>
     );

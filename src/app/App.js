@@ -4,7 +4,7 @@ import firebase from 'firebase';
 
 import Navbar from '../components/Navbar/Navbar';
 import Students from '../pages/Students/Students';
-// import Tracker from '../pages/Tracker/Tracker';
+import Tracker from '../pages/Tracker/Tracker';
 import Assignments from '../pages/Assignments/Assignments';
 import Calendar from '../pages/Calendar/Calendar';
 import SingleStudent from '../pages/SingleStudent/SingleStudent';
@@ -12,12 +12,12 @@ import Submit from '../pages/Submit/Submit';
 
 import './App.css';
 
+import studentRequests from '../firebaseRequests/students';
 import fbConection from '../firebaseRequests/connection';
 fbConection();
 
 const PrivateRoute = ({ component: Component, authed, ...rest }) => {
   return (
-    // renders a route and passes in all the props (...rest is all the other props)
     <Route
       {...rest}
       render={props =>
@@ -33,41 +33,52 @@ const PrivateRoute = ({ component: Component, authed, ...rest }) => {
   );
 };
 
-// const PrivateAdminRoute = ({ component: Component, authed, ...rest }) => {
-//   return (
-//     // renders a route and passes in all the props (...rest is all the other props)
-//     <Route
-//       {...rest}
-//       render={props =>
-//         authed === true ? (
-//           <Component {...props} />
-//         ) : (
-//           <Redirect
-//             to={{ pathname: '/login', state: { from: props.location } }}
-//           />
-//         )
-//       }
-//     />
-//   );
-// };
+const PrivateAdminRoute = ({ component: Component, admin, ...rest }) => {
+  return (
+    <Route
+      {...rest}
+      render={props =>
+        admin === true ? (
+          <Component {...props} />
+        ) : (
+          <Redirect
+            to={{ pathname: '/assignments', state: { from: props.location } }}
+          />
+        )
+      }
+    />
+  );
+};
 
 class App extends Component {
   state = {
     authed: false,
+    admin: false,
     loading: false,
+    student: {},
   };
 
   componentDidMount() {
     this.removeListener = firebase.auth().onAuthStateChanged(user => {
       if (user) {
-        this.setState({
-          authed: true,
-          loading: false,
-        });
+        studentRequests.getSingleStudent(user.uid)
+          .then(fbStudent => {
+            this.setState({
+              authed: true,
+              loading: false,
+              admin: !fbStudent.isStudent,
+              student: fbStudent,
+            });
+          })
+          .catch((err) => {
+            console.error('error with user', err);
+          });
+
       } else {
         this.setState({
           authed: false,
           loading: false,
+          student: {},
         });
       }
     });
@@ -80,8 +91,14 @@ class App extends Component {
   runAway = () => {
     this.setState({
       authed: false,
+      admin: false,
       loading: false,
+      student: {},
     });
+  }
+
+  setStudent = (student) => {
+    this.setState({student});
   }
 
   render() {
@@ -92,7 +109,9 @@ class App extends Component {
         <div className="App">
           <Navbar
             authed={this.state.authed}
+            admin={this.state.admin}
             runAway={this.runAway}
+            setStudent={this.setStudent}
           />
           <div className="body-container">
             <Switch>
@@ -109,12 +128,12 @@ class App extends Component {
                 path="/submit"
                 component={Submit}
               />
-              {/* <PrivateAdminRoute
+              <PrivateAdminRoute
                 authed={this.state.authed}
                 admin={this.state.admin}
                 path="/tracker"
                 component={Tracker}
-              /> */}
+              />
               <Redirect from="*" to="/students"/>
             </Switch>
           </div>
