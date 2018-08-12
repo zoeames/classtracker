@@ -1,13 +1,90 @@
 {
   "cal01": {
-    "title": "No Class",
+    "title": "Holiday - Labor Day",
     "start": "September 3, 2018 18:00:00",
     "end": "September 3, 2018 21:30:00",
     "presentationUrl": "",
     "instructor": "",
     "hwUrl": "",
     "eventType": "vacation",
-    "description": "No Class - Labor Day",
+    "description": "No Class",
+    "githubRepo":""
+  },
+  "cal02": {
+    "title": "Holiday - Thanksgiving",
+    "start": "November 21, 2018 8:00:00",
+    "end": "November 24, 2018 23:30:00",
+    "presentationUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "vacation",
+    "description": "No Classes",
+    "githubRepo":""
+  },
+  "cal03": {
+    "title": "Holiday Break",
+    "start": "December 19, 2018 8:00:00",
+    "end": "January 5, 2019 23:30:00",
+    "presentationUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "vacation",
+    "description": "No Classes",
+    "githubRepo":""
+  },
+  "cal04": {
+    "title": "Spring Break",
+    "start": "February 11, 2019 8:00:00",
+    "end": "February 16, 2019 23:30:00",
+    "presentationUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "vacation",
+    "description": "No Classes",
+    "githubRepo":""
+  },
+  "cal06": {
+    "title": "Front End Capstone Demo Day",
+    "start": "February 23, 2019 9:00:00",
+    "end": "February 23, 2019 14:00:00",
+    "presentationUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Demo front end capstones to E9",
+    "githubRepo":""
+  },
+  "cal07": {
+    "title": "Don't be an Asshole!",
+    "start": "August 13, 2018 18:00:00",
+    "end": "August 13, 2018 19:00:00",
+    "presentationUrl": "",
+    "instructor": "John Wark",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Rules and policies at NSS",
+    "githubRepo":""
+  },
+  "cal08": {
+    "title": "Class Expectations and Overview",
+    "start": "August 13, 2018 19:00:00",
+    "end": "August 13, 2018 20:00:00",
+    "presentationUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "What we are going to do for the next six months",
+    "githubRepo":""
+  },
+  "cal09": {
+    "title": "Installs",
+    "start": "August 13, 2018 20:00:00",
+    "end": "August 13, 2018 21:30:00",
+    "presentationUrl": "",
+    "instructor": "Zoe, Callan, Lauren",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Mac and PC Installs",
     "githubRepo":""
   }
 }

@@ -31,15 +31,25 @@ class Calendar extends React.Component {
 
     switch (event.eventType) {
     case 'vacation':
-      backgroundColor = 'red';
+      backgroundColor = '#dc3545';
+      break;
+    case 'demo':
+      backgroundColor = '#6f42c1';
+      break;
+    case 'lecture':
+      backgroundColor = '#007bff';
+      break;
+    case 'study':
+      backgroundColor = '#28a745';
       break;
     default:
-      backgroundColor = 'grey';
+      backgroundColor = '#6c757d';
     }
 
     const style = {
       backgroundColor: backgroundColor,
       borderRadius: '10px',
+      border: '1px solid black',
       opacity: 0.8,
       color: 'black',
       display: 'block',
