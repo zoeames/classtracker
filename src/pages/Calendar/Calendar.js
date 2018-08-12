@@ -101,7 +101,13 @@ class Calendar extends React.Component {
         <div key={event.id} className="event col-md-4">
           <div  className={`card col-xs-4 border border-${backgroundClass}`}>
             <div className={`card-header bg-${backgroundClass}`}>{event.title}</div>
-            <div className="card-body" />
+            <div className="card-body">
+              {event.instructor.length > 0 ? <div><strong>Instructor:</strong> {event.instructor}</div> : ''}
+              <div><strong>Description:</strong> {event.description}</div>
+              {event.resourceUrl.length > 0 ? <div>Resource <a href={event.resourceUrl} target="_blank">Here</a></div> : ''}
+              {event.githubRepo.length > 0 ? <div>Github <a href={event.githubRepo} target="_blank">Here</a></div> : ''}
+              {event.hwUrl.length > 0 ? <div>HW <a href={event.hwUrl} target="_blank">Here</a></div> : ''}
+            </div>
           </div>
         </div>
       );
