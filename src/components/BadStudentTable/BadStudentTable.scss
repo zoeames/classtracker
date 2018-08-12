@@ -1,3 +1,6 @@
 .BadStudentTable {
-  text-align: center
+  text-align: center;
+  .table {
+    border-width: 3px !important;
+  }
 }

@@ -14,7 +14,7 @@ class BadStudentTable extends React.Component {
     return (
       <div className="BadStudentTable col-xs-12">
         {students.length > 0 ? (
-          <table className="table table-striped">
+          <table className="table table-striped table-hover border border-primary">
             <thead>
               <tr className="bg-primary">
                 <th className="text-center">Name</th>
