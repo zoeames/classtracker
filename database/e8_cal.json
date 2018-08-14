@@ -58,7 +58,7 @@
     "title": "Don't be an Asshole!",
     "start": "August 13, 2018 18:00:00",
     "end": "August 13, 2018 19:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://drive.google.com/file/d/1UJ3MzQR3cwUxNaI-5ll-cR8Abzgn2BH6/view?usp=sharing",
     "instructor": "John Wark",
     "hwUrl": "",
     "eventType": "lecture",
@@ -69,7 +69,7 @@
     "title": "Class Expectations and Overview",
     "start": "August 13, 2018 19:00:00",
     "end": "August 13, 2018 20:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://docs.google.com/presentation/d/1Fl5jZvrV_PYvOUoUwF6cnWaLqLgVm-pEPZe80rcolfc/edit?usp=sharing",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
@@ -85,7 +85,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Mac and PC Installs",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/setup.md"
   },
   "cal10": {
     "title": "HTML and CSS",
@@ -96,7 +96,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Refresher of HTML and CSS",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-nightclass-projects/Night-Class-Resources/tree/master/book-1-foundations"
   },
   "cal11": {
     "title": "Week 1 HW",
