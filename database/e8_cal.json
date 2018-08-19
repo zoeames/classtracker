@@ -251,5 +251,16 @@
     "eventType": "study",
     "description": "Open time to work on exercises",
     "githubRepo":""
+  },
+  "cal25": {
+    "title": "Github Installs",
+    "start": "August 18, 2018 20:00:00",
+    "end": "August 18, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Getting your machine talkign to github",
+    "githubRepo":"https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-setup.md"
   }
 }
