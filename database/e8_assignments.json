@@ -1,0 +1,113 @@
+{
+  "assignment01": {
+    "title": "Treehouse Prework",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/prework.md",
+    "dueDate": "08/21/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 1,
+    "topic": "",
+    "notes": "Treehouse sections only - should be about 3000 points"
+  },
+  "assignment02": {
+    "title": "Reading Prework",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/prework.md",
+    "dueDate": "08/21/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 2,
+    "topic": "",
+    "notes": "Prework reading sections"
+  },
+
+  "assignment03": {
+    "title": "test3",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/prework.md",
+    "dueDate": "08/12/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 3,
+    "topic": "",
+    "notes": "Prework reading sections"
+  },
+  "assignment04": {
+    "title": "test4",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/prework.md",
+    "dueDate": "08/12/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 4,
+    "topic": "",
+    "notes": "Prework reading sections"
+  },
+  "assignment05": {
+    "title": "test5",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/prework.md",
+    "dueDate": "08/12/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 5,
+    "topic": "",
+    "notes": "Prework reading sections"
+  },
+  "assignment06": {
+    "title": "test6",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/prework.md",
+    "dueDate": "08/12/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 6,
+    "topic": "",
+    "notes": "Prework reading sections"
+  },
+  "assignment07": {
+    "title": "test7",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/prework.md",
+    "dueDate": "08/12/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 7,
+    "topic": "",
+    "notes": "Prework reading sections"
+  },
+  "assignment08": {
+    "title": "test8",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/prework.md",
+    "dueDate": "08/16/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 8,
+    "topic": "",
+    "notes": "Prework reading sections"
+  },
+  "assignment09": {
+    "title": "test9",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/prework.md",
+    "dueDate": "08/16/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 9,
+    "topic": "",
+    "notes": "Prework reading sections"
+  },
+  "assignment10": {
+    "title": "test10",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/prework.md",
+    "dueDate": "08/08/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 10,
+    "topic": "",
+    "notes": "Prework reading sections"
+  },
+  "assignment11": {
+    "title": "test11",
+    "URL": "https://github.com/nss-nightclass-projects/homework/blob/master/prework.md",
+    "dueDate": "08/08/18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 11,
+    "topic": "",
+    "notes": "Prework reading sections"
+  }
+}
