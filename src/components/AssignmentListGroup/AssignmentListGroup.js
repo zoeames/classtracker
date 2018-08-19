@@ -8,19 +8,25 @@ class AssignmentListGroup extends React.Component {
     const {assignments, dueDate} = this.props;
     const assignmentList = assignments.map((assignment) => {
       return (
-        <a key={assignment.id} className="list-group-item list-group-item-action flex-column align-items-start active">
-          <div className="d-flex w-100 justify-content-between">
-            <h5 className="mb-1">List group item heading</h5>
-            <small>3 days ago</small>
+        <div key={assignment.id} className="list-group-item list-group-item-action flex-column align-items-start">
+          <div className="row">
+            <div className="col-3 text-left">
+              <h5>{assignment.title}</h5>
+            </div>
+            <div className="col-8 text-left">
+              <p>{assignment.notes}</p>
+              <small><a href={assignment.URL} target="_blank">View Assignment</a></small>
+            </div>
+            <div className="col text-right">
+              <small>{assignment.topic}</small>
+            </div>
           </div>
-          <p className="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-          <small>Donec id elit non mi porta.</small>
-        </a>
+        </div>
       );
     });
     return (
-      <div>
-        <h3>{moment(dueDate).format('LL')}</h3>
+      <div className="AssignmentListGroup">
+        <h3>Due: {moment(dueDate).format('LL')}</h3>
         <div className="list-group">
           {assignmentList}
         </div>

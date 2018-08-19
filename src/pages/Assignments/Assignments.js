@@ -27,7 +27,7 @@ class Assignments extends React.Component {
         ...new Set(
           this.state.assignments.map(assignment => assignment.dueDate)
         ),
-      ].sort();
+      ].sort().reverse();
       return dates.map(date => {
         const selectedAssignments = this.state.assignments.filter(
           assignment => assignment.dueDate === date
