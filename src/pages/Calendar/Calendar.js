@@ -114,6 +114,7 @@ class Calendar extends React.Component {
     });
     return (
       <div className="Calendar">
+        <h1>Course Calendar</h1>
         <div className="cal-holder">
           <BigCalendar
             selectable
