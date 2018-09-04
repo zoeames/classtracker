@@ -261,7 +261,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to debug using the chrome developer tools",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/debugging-intro"
   },
   "cal26": {
     "title": "Wireframes",
@@ -294,7 +294,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to embrace Gitcidents.",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/DinoMate"
   },
   "cal29": {
     "title": "Week 4 HW",
