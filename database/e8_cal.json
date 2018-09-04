@@ -184,7 +184,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Difference between ES6 and ES5",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/js-functions"
   },
   "cal19": {
     "title": "JS Functions",
@@ -195,7 +195,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS Functions",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/js-functions"
   },
   "cal20": {
     "title": "JS Strings",
@@ -206,7 +206,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS string methods",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/js-part-deux"
   },
   "cal21": {
     "title": "JS Objects",
@@ -217,7 +217,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS objects",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/js-part-deux"
   },
   "cal22": {
     "title": "JS Arrays",
@@ -242,21 +242,21 @@
     "githubRepo":""
   },
   "cal24": {
-    "title": "Advanced CSS",
+    "title": "It's Not Dark Magic - Pulling Back the Curtains From Your Stylesheets",
     "start": "September 1, 2018 9:00:00",
     "end": "September 1, 2018 12:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://www.youtube.com/watch?v=eajyNEsdx4k&feature=youtu.be",
     "instructor": "Aimee Knight",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Aimee Knight will talk about advanced CSS",
-    "githubRepo":""
+    "description": "Aimee Knight will talk about how CSS works under the covers.",
+    "githubRepo":"https://github.com/AimeeKnight/Dark-Magic"
   },
   "cal25": {
     "title": "Developer Tools",
     "start": "September 1, 2018 12:00:00",
     "end": "September 1, 2018 14:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/dev-tools.md",
     "instructor": "Lauren",
     "hwUrl": "",
     "eventType": "lecture",
@@ -264,17 +264,39 @@
     "githubRepo":""
   },
   "cal26": {
-    "title": "Git for teams",
-    "start": "September 4, 2018 20:00:00",
-    "end": "September 4, 2018 21:30:00",
-    "resourceUrl": "",
-    "instructor": "Zoe, Callan, Lauren",
+    "title": "Wireframes",
+    "start": "September 4, 2018 18:00:00",
+    "end": "September 4, 2018 19:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/wireframes.md",
+    "instructor": "Lauren",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "How to version control in a team",
+    "description": "How to build beautiful wireframes",
     "githubRepo":""
   },
   "cal27": {
+    "title": "Github Projects",
+    "start": "September 4, 2018 19:00:00",
+    "end": "September 4, 2018 20:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-projects.md",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to write tickets",
+    "githubRepo":""
+  },
+  "cal28": {
+    "title": "Git for teams",
+    "start": "September 4, 2018 20:00:00",
+    "end": "September 4, 2018 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/advanced-git.md  ",
+    "instructor": "Zoe, Callan, Lauren",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to embrace Gitcidents.",
+    "githubRepo":""
+  },
+  "cal29": {
     "title": "Week 4 HW",
     "start": "September 5, 2018 2:00:00",
     "end": "September 6, 2018 23:30:00",
@@ -285,10 +307,150 @@
     "description": "HW #4",
     "githubRepo":""
   },
-  "cal28": {
-    "title": "Exercises",
+  "cal30": {
+    "title": "Markdown",
     "start": "September 8, 2018 9:00:00",
+    "end": "September 8, 2018 10:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/markdown.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "What is markdown and how/why do we use it.",
+    "githubRepo":""
+  },
+  "cal31": {
+    "title": "Exercises",
+    "start": "September 8, 2018 10:00:00",
     "end": "September 8, 2018 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal32": {
+    "title": "What to Expect",
+    "start": "September 10, 2018 18:00:00",
+    "end": "September 10, 2018 19:00:00",
+    "resourceUrl": "",
+    "instructor": "Kristin McKinney",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "What to Expect in your job search.",
+    "githubRepo":""
+  },
+  "cal33": {
+    "title": "Group Project",
+    "start": "September 10, 2018 19:00:00",
+    "end": "September 15, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Group Project: See Github Project",
+    "githubRepo":""
+  },
+  "cal34": {
+    "title": "Group Project Demos",
+    "start": "September 17, 2018 18:00:00",
+    "end": "September 17, 2018 20:00:00",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell!",
+    "githubRepo":""
+  },
+  "cal35": {
+    "title": "Event Listeners",
+    "start": "September 17, 2018 20:00:00",
+    "end": "September 17, 2018 21:30:00",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Event Listeners",
+    "githubRepo":""
+  },
+  "cal36": {
+    "title": "Bootstrap 4",
+    "start": "September 18, 2018 18:00:00",
+    "end": "September 18, 2018 21:30:00",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to install and use.",
+    "githubRepo":""
+  },
+  "cal37": {
+    "title": "Week 6 HW",
+    "start": "September 19, 2018 2:00:00",
+    "end": "September 20, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week06.md",
+    "eventType": "study",
+    "description": "HW #6",
+    "githubRepo":""
+  },
+  "cal38": {
+    "title": "Exercises",
+    "start": "September 22, 2018 10:00:00",
+    "end": "September 22, 2018 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal39": {
+    "title": "Networking",
+    "start": "September 22, 2018 10:00:00",
+    "end": "September 22, 2018 11:30:00",
+    "resourceUrl": "",
+    "instructor": "Kristin McKinney",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to Network",
+    "githubRepo":""
+  },
+  "cal40": {
+    "title": "ES6 Modules Part 1",
+    "start": "September 24, 2018 18:00:00",
+    "end": "September 24, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "ES6 Modules",
+    "githubRepo":""
+  },
+  "cal41": {
+    "title": "ES6 Modules Part 2",
+    "start": "September 25, 2018 18:00:00",
+    "end": "September 25, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "ES6 Modules",
+    "githubRepo":""
+  },
+  "cal42": {
+    "title": "Week 7 HW",
+    "start": "September 26, 2018 2:00:00",
+    "end": "September 27, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week07.md",
+    "eventType": "study",
+    "description": "HW #7",
+    "githubRepo":""
+  },
+  "cal43": {
+    "title": "Exercises",
+    "start": "September 29, 2018 10:00:00",
+    "end": "September 29, 2018 14:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
