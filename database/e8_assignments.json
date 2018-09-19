@@ -48,5 +48,25 @@
     "assignedNumber": 5,
     "topic": "JS",
     "notes": "*** STUDY GROUP ASSIGNMENT ***"
+  },
+  "assignment06": {
+    "title": "Sorting Hat",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/EVENTS_sorting_hat.md",
+    "dueDate": "2018-09-25",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 6,
+    "topic": "Events",
+    "notes": "*** STUDY GROUP ASSIGNMENT ***"
+  },
+  "assignment07": {
+    "title": "Personal Site Part 2",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions",
+    "dueDate": "2018-09-25",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 7,
+    "topic": "JS",
+    "notes": "Add this to the same repo you made for part 1"
   }
 }
