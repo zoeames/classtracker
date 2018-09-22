@@ -91,12 +91,12 @@
     "title": "HTML and CSS",
     "start": "August 14, 2018 20:00:00",
     "end": "August 14, 2018 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/tree/master/book-1-foundations",
     "instructor": "Callan",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Refresher of HTML and CSS",
-    "githubRepo":"https://github.com/nss-nightclass-projects/Night-Class-Resources/tree/master/book-1-foundations"
+    "githubRepo":"https://github.com/nss-evening-cohort-8/HTML-CSS101"
   },
   "cal11": {
     "title": "Week 1 HW",
@@ -121,28 +121,50 @@
     "githubRepo":""
   },
   "cal13": {
-    "title": "Command Line",
-    "start": "August 20, 2018 20:00:00",
-    "end": "August 20, 2018 21:30:00",
+    "title": "Github Installs",
+    "start": "August 18, 2018 20:00:00",
+    "end": "August 18, 2018 21:30:00",
     "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Getting your machine talking to github",
+    "githubRepo":"https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-setup.md"
+  },
+  "cal14": {
+    "title": "Command Line",
+    "start": "August 20, 2018 18:00:00",
+    "end": "August 20, 2018 19:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/command-line.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to use your computer's terminal.",
     "githubRepo":""
   },
-  "cal14": {
-    "title": "Github",
-    "start": "August 21, 2018 20:00:00",
-    "end": "August 21, 2018 21:30:00",
-    "resourceUrl": "",
+  "cal15": {
+    "title": "Intro to Github",
+    "start": "August 20, 2018 20:00:00",
+    "end": "August 20, 2018 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-and-github.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Version Control",
     "githubRepo":""
   },
-  "cal15": {
+  "cal16": {
+    "title": "Github",
+    "start": "August 21, 2018 20:00:00",
+    "end": "August 21, 2018 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-branching.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Version Control",
+    "githubRepo":""
+  },
+  "cal17": {
     "title": "Week 2 HW",
     "start": "August 22, 2018 2:00:00",
     "end": "August 23, 2018 23:30:00",
@@ -153,40 +175,62 @@
     "description": "HW #2",
     "githubRepo":""
   },
-  "cal16": {
-    "title": "JS Functions, ES6 vs ES5",
-    "start": "August 25, 2018 9:00:00",
-    "end": "August 25, 2018 14:00:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "First day of JS",
-    "githubRepo":""
-  },
-  "cal17": {
-    "title": "JS Arrays and Strings",
-    "start": "August 27, 2018 20:00:00",
-    "end": "August 27, 2018 21:30:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "Array and string methods",
-    "githubRepo":""
-  },
   "cal18": {
-    "title": "JS Objects and advanced arrays",
-    "start": "August 28, 2018 20:00:00",
-    "end": "August 28, 2018 21:30:00",
-    "resourceUrl": "",
+    "title": "ES6 vs ES5",
+    "start": "August 25, 2018 9:00:00",
+    "end": "August 25, 2018 1:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/es6-vs-es5.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "JS objects and advanced array methods.",
-    "githubRepo":""
+    "description": "Difference between ES6 and ES5",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/js-functions"
   },
   "cal19": {
+    "title": "JS Functions",
+    "start": "August 25, 2018 12:00:00",
+    "end": "August 25, 2018 14:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-functions.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS Functions",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/js-functions"
+  },
+  "cal20": {
+    "title": "JS Strings",
+    "start": "August 27, 2018 20:00:00",
+    "end": "August 27, 2018 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-strings.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS string methods",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/js-part-deux"
+  },
+  "cal21": {
+    "title": "JS Objects",
+    "start": "August 27, 2018 22:00:00",
+    "end": "August 27, 2018 23:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-objects.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS objects",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/js-part-deux"
+  },
+  "cal22": {
+    "title": "JS Arrays",
+    "start": "August 28, 2018 20:00:00",
+    "end": "August 28, 2018 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-arrays.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Arrays",
+    "githubRepo":""
+  },
+  "cal23": {
     "title": "Week 3 HW",
     "start": "August 29, 2018 2:00:00",
     "end": "August 30, 2018 23:30:00",
@@ -197,40 +241,62 @@
     "description": "HW #3",
     "githubRepo":""
   },
-  "cal20": {
-    "title": "Advanced CSS",
+  "cal24": {
+    "title": "It's Not Dark Magic - Pulling Back the Curtains From Your Stylesheets",
     "start": "September 1, 2018 9:00:00",
     "end": "September 1, 2018 12:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://www.youtube.com/watch?v=eajyNEsdx4k&feature=youtu.be",
     "instructor": "Aimee Knight",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Aimee Knight will talk about advanced CSS",
-    "githubRepo":""
+    "description": "Aimee Knight will talk about how CSS works under the covers.",
+    "githubRepo":"https://github.com/AimeeKnight/Dark-Magic"
   },
-  "cal21": {
+  "cal25": {
     "title": "Developer Tools",
     "start": "September 1, 2018 12:00:00",
     "end": "September 1, 2018 14:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/dev-tools.md",
     "instructor": "Lauren",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to debug using the chrome developer tools",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/debugging-intro"
+  },
+  "cal26": {
+    "title": "Wireframes",
+    "start": "September 4, 2018 18:00:00",
+    "end": "September 4, 2018 19:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/wireframes.md",
+    "instructor": "Lauren",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to build beautiful wireframes",
     "githubRepo":""
   },
-  "cal22": {
+  "cal27": {
+    "title": "Github Projects",
+    "start": "September 4, 2018 19:00:00",
+    "end": "September 4, 2018 20:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-projects.md",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to write tickets",
+    "githubRepo":""
+  },
+  "cal28": {
     "title": "Git for teams",
     "start": "September 4, 2018 20:00:00",
     "end": "September 4, 2018 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/advanced-git.md  ",
     "instructor": "Zoe, Callan, Lauren",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "How to version control in a team",
-    "githubRepo":""
+    "description": "How to embrace Gitcidents.",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/DinoMate"
   },
-  "cal23": {
+  "cal29": {
     "title": "Week 4 HW",
     "start": "September 5, 2018 2:00:00",
     "end": "September 6, 2018 23:30:00",
@@ -241,9 +307,20 @@
     "description": "HW #4",
     "githubRepo":""
   },
-  "cal24": {
-    "title": "Exercises",
+  "cal30": {
+    "title": "Markdown",
     "start": "September 8, 2018 9:00:00",
+    "end": "September 8, 2018 10:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/markdown.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "What is markdown and how/why do we use it.",
+    "githubRepo":""
+  },
+  "cal31": {
+    "title": "Exercises",
+    "start": "September 8, 2018 10:00:00",
     "end": "September 8, 2018 14:00:00",
     "resourceUrl": "",
     "instructor": "",
@@ -252,15 +329,136 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal25": {
-    "title": "Github Installs",
-    "start": "August 18, 2018 20:00:00",
-    "end": "August 18, 2018 21:30:00",
+  "cal32": {
+    "title": "What to Expect",
+    "start": "September 10, 2018 18:00:00",
+    "end": "September 10, 2018 19:00:00",
+    "resourceUrl": "",
+    "instructor": "Kristin McKinney",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "What to Expect in your job search.",
+    "githubRepo":""
+  },
+  "cal33": {
+    "title": "Group Project - Bandz",
+    "start": "September 10, 2018 19:00:00",
+    "end": "September 15, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Group Project: See Github Project",
+    "githubRepo":""
+  },
+  "cal34": {
+    "title": "Bandz Demos",
+    "start": "September 17, 2018 18:00:00",
+    "end": "September 17, 2018 20:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell!",
+    "githubRepo":""
+  },
+  "cal35": {
+    "title": "Event Listeners",
+    "start": "September 17, 2018 20:00:00",
+    "end": "September 17, 2018 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-events.md",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Event Listeners",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/event-listeners"
+  },
+  "cal36": {
+    "title": "Bootstrap 4",
+    "start": "September 18, 2018 18:00:00",
+    "end": "September 18, 2018 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/bootstrap.md",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to install and use.",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/event-listeners"
+  },
+  "cal37": {
+    "title": "Week 6 HW",
+    "start": "September 19, 2018 2:00:00",
+    "end": "September 20, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week06.md",
+    "eventType": "study",
+    "description": "HW #6",
+    "githubRepo":""
+  },
+  "cal38": {
+    "title": "Exercises",
+    "start": "September 22, 2018 10:00:00",
+    "end": "September 22, 2018 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal39": {
+    "title": "Networking",
+    "start": "September 22, 2018 10:00:00",
+    "end": "September 22, 2018 11:30:00",
+    "resourceUrl": "",
+    "instructor": "Kristin McKinney",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to Network",
+    "githubRepo":""
+  },
+  "cal40": {
+    "title": "ES6 Modules Part 1",
+    "start": "September 24, 2018 18:00:00",
+    "end": "September 24, 2018 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Getting your machine talkign to github",
-    "githubRepo":"https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-setup.md"
+    "description": "ES6 Modules",
+    "githubRepo":""
+  },
+  "cal41": {
+    "title": "ES6 Modules Part 2",
+    "start": "September 25, 2018 18:00:00",
+    "end": "September 25, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "ES6 Modules",
+    "githubRepo":""
+  },
+  "cal42": {
+    "title": "Week 7 HW",
+    "start": "September 26, 2018 2:00:00",
+    "end": "September 27, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week07.md",
+    "eventType": "study",
+    "description": "HW #7",
+    "githubRepo":""
+  },
+  "cal43": {
+    "title": "Exercises",
+    "start": "September 29, 2018 10:00:00",
+    "end": "September 29, 2018 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
   }
 }
