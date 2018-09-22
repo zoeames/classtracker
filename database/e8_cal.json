@@ -341,7 +341,7 @@
     "githubRepo":""
   },
   "cal33": {
-    "title": "Group Project",
+    "title": "Group Project - Bandz",
     "start": "September 10, 2018 19:00:00",
     "end": "September 15, 2018 21:30:00",
     "resourceUrl": "",
@@ -352,9 +352,10 @@
     "githubRepo":""
   },
   "cal34": {
-    "title": "Group Project Demos",
+    "title": "Bandz Demos",
     "start": "September 17, 2018 18:00:00",
     "end": "September 17, 2018 20:00:00",
+    "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
     "eventType": "demo",
@@ -365,21 +366,23 @@
     "title": "Event Listeners",
     "start": "September 17, 2018 20:00:00",
     "end": "September 17, 2018 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-events.md",
     "instructor": "Callan",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Event Listeners",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/event-listeners"
   },
   "cal36": {
     "title": "Bootstrap 4",
     "start": "September 18, 2018 18:00:00",
     "end": "September 18, 2018 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/bootstrap.md",
     "instructor": "Callan",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to install and use.",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/event-listeners"
   },
   "cal37": {
     "title": "Week 6 HW",
