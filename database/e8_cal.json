@@ -418,6 +418,17 @@
     "githubRepo":""
   },
   "cal40": {
+    "title": "Code Maker Breaker",
+    "start": "September 24, 2018 16:00:00",
+    "end": "September 24, 2018 18:00:00",
+    "resourceUrl": "",
+    "instructor": "Lauren",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/code-maker-and-breaker-rousell"
+  },
+  "cal41": {
     "title": "Intro to ES6 Modules",
     "start": "September 24, 2018 18:00:00",
     "end": "September 24, 2018 21:30:00",
@@ -428,7 +439,7 @@
     "description": "ES6 Modules",
     "githubRepo":""
   },
-  "cal41": {
+  "cal42": {
     "title": "ES6 Modules",
     "start": "September 25, 2018 18:00:00",
     "end": "September 25, 2018 21:30:00",
@@ -439,7 +450,7 @@
     "description": "ES6 Modules",
     "githubRepo":""
   },
-  "cal42": {
+  "cal43": {
     "title": "Week 7 HW",
     "start": "September 26, 2018 2:00:00",
     "end": "September 27, 2018 23:30:00",
@@ -450,7 +461,7 @@
     "description": "HW #7",
     "githubRepo":""
   },
-  "cal43": {
+  "cal44": {
     "title": "Exercises",
     "start": "September 29, 2018 10:00:00",
     "end": "September 29, 2018 14:00:00",
@@ -461,7 +472,7 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal44": {
+  "cal45": {
     "title": "XHR and JSON",
     "start": "October 1, 2018 18:00:00",
     "end": "October 1, 2018 21:30:00",
@@ -472,7 +483,7 @@
     "description": "ES6 Modules",
     "githubRepo":""
   },
-  "cal45": {
+  "cal46": {
     "title": "ES6 Modules and Event Listeners",
     "start": "October 2, 2018 18:00:00",
     "end": "October 2, 2018 21:30:00",
@@ -483,7 +494,7 @@
     "description": "ES6 Modules",
     "githubRepo":""
   },
-  "cal46": {
+  "cal47": {
     "title": "Week 8 HW",
     "start": "October 3, 2018 2:00:00",
     "end": "October 4, 2018 23:30:00",
@@ -494,7 +505,7 @@
     "description": "HW #8",
     "githubRepo":""
   },
-  "cal47": {
+  "cal48": {
     "title": "Exercises",
     "start": "October 6, 2018 10:00:00",
     "end": "October 6, 2018 14:00:00",
@@ -505,7 +516,7 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal48": {
+  "cal49": {
     "title": "Group Project",
     "start": "October 8, 2018 19:00:00",
     "end": "October 14, 2018 21:30:00",
@@ -516,7 +527,7 @@
     "description": "Group Project: See Github Project",
     "githubRepo":""
   },
-  "cal49": {
+  "cal50": {
     "title": "Group Project Demos",
     "start": "October 15, 2018 18:00:00",
     "end": "October 15, 2018 20:00:00",
@@ -527,7 +538,7 @@
     "description": "Show and tell!",
     "githubRepo":""
   },
-  "cal50": {
+  "cal51": {
     "title": "Intro to Jquery",
     "start": "October 15, 2018 20:00:00",
     "end": "October 15, 2018 21:30:00",
@@ -538,7 +549,7 @@
     "description": "Jquery",
     "githubRepo":""
   },
-  "cal51": {
+  "cal52": {
     "title": "Jquery Ajax",
     "start": "October 16, 2018 18:00:00",
     "end": "October 16, 2018 21:30:00",
@@ -549,7 +560,7 @@
     "description": "ES6 Modules",
     "githubRepo":""
   },
-  "cal52": {
+  "cal53": {
     "title": "Week 10 HW",
     "start": "October 17, 2018 2:00:00",
     "end": "October 18, 2018 23:30:00",
@@ -560,7 +571,7 @@
     "description": "HW #10",
     "githubRepo":""
   },
-  "cal53": {
+  "cal54": {
     "title": "Task Runners",
     "start": "October 20, 2018 18:00:00",
     "end": "October 20, 2018 21:30:00",
@@ -571,13 +582,7 @@
     "description": "ES6 Modules",
     "githubRepo":""
   },
-
-
-
-
-
-
-  "cal54": {
+  "cal55": {
     "title": "Promises",
     "start": "October 22, 2018 20:00:00",
     "end": "October 22, 2018 21:30:00",
@@ -588,7 +593,7 @@
     "description": "Promises",
     "githubRepo":""
   },
-  "cal55": {
+  "cal56": {
     "title": "Intro to APIs",
     "start": "October 23, 2018 18:00:00",
     "end": "October 23, 2018 21:30:00",
@@ -599,7 +604,7 @@
     "description": "Intro to APIs.  Using Promises with APIs",
     "githubRepo":""
   },
-  "cal56": {
+  "cal57": {
     "title": "Week 11 HW",
     "start": "October 24, 2018 2:00:00",
     "end": "October 25, 2018 23:30:00",
@@ -610,7 +615,7 @@
     "description": "HW #11",
     "githubRepo":""
   },
-  "cal57": {
+  "cal58": {
     "title": "Exercises",
     "start": "October 27, 2018 18:00:00",
     "end": "October 27, 2018 21:30:00",
@@ -621,7 +626,7 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal58": {
+  "cal59": {
     "title": "Axios",
     "start": "October 29, 2018 20:00:00",
     "end": "October 29, 2018 21:30:00",
@@ -632,7 +637,7 @@
     "description": "Axios",
     "githubRepo":""
   },
-  "cal59": {
+  "cal60": {
     "title": "Axios",
     "start": "October 30, 2018 18:00:00",
     "end": "October 30, 2018 21:30:00",
@@ -643,7 +648,7 @@
     "description": "Axios",
     "githubRepo":""
   },
-  "cal60": {
+  "cal61": {
     "title": "Week 12 HW",
     "start": "October 31, 2018 2:00:00",
     "end": "November 1, 2018 23:30:00",
@@ -654,7 +659,7 @@
     "description": "HW #12",
     "githubRepo":""
   },
-  "cal61": {
+  "cal62": {
     "title": "Exercises",
     "start": "November 3, 2018 18:00:00",
     "end": "November 3, 2018 21:30:00",
