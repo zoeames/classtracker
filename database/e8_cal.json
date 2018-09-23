@@ -418,7 +418,7 @@
     "githubRepo":""
   },
   "cal40": {
-    "title": "ES6 Modules Part 1",
+    "title": "Intro to ES6 Modules",
     "start": "September 24, 2018 18:00:00",
     "end": "September 24, 2018 21:30:00",
     "resourceUrl": "",
@@ -429,7 +429,7 @@
     "githubRepo":""
   },
   "cal41": {
-    "title": "ES6 Modules Part 2",
+    "title": "ES6 Modules",
     "start": "September 25, 2018 18:00:00",
     "end": "September 25, 2018 21:30:00",
     "resourceUrl": "",
@@ -454,6 +454,210 @@
     "title": "Exercises",
     "start": "September 29, 2018 10:00:00",
     "end": "September 29, 2018 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal44": {
+    "title": "XHR and JSON",
+    "start": "October 1, 2018 18:00:00",
+    "end": "October 1, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "ES6 Modules",
+    "githubRepo":""
+  },
+  "cal45": {
+    "title": "ES6 Modules and Event Listeners",
+    "start": "October 2, 2018 18:00:00",
+    "end": "October 2, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "ES6 Modules",
+    "githubRepo":""
+  },
+  "cal46": {
+    "title": "Week 8 HW",
+    "start": "October 3, 2018 2:00:00",
+    "end": "October 4, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week08.md",
+    "eventType": "study",
+    "description": "HW #8",
+    "githubRepo":""
+  },
+  "cal47": {
+    "title": "Exercises",
+    "start": "October 6, 2018 10:00:00",
+    "end": "October 6, 2018 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal48": {
+    "title": "Group Project",
+    "start": "October 8, 2018 19:00:00",
+    "end": "October 14, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Group Project: See Github Project",
+    "githubRepo":""
+  },
+  "cal49": {
+    "title": "Group Project Demos",
+    "start": "October 15, 2018 18:00:00",
+    "end": "October 15, 2018 20:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell!",
+    "githubRepo":""
+  },
+  "cal50": {
+    "title": "Intro to Jquery",
+    "start": "October 15, 2018 20:00:00",
+    "end": "October 15, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Jquery",
+    "githubRepo":""
+  },
+  "cal51": {
+    "title": "Jquery Ajax",
+    "start": "October 16, 2018 18:00:00",
+    "end": "October 16, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "ES6 Modules",
+    "githubRepo":""
+  },
+  "cal52": {
+    "title": "Week 10 HW",
+    "start": "October 17, 2018 2:00:00",
+    "end": "October 18, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week10.md",
+    "eventType": "study",
+    "description": "HW #10",
+    "githubRepo":""
+  },
+  "cal53": {
+    "title": "Task Runners",
+    "start": "October 20, 2018 18:00:00",
+    "end": "October 20, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "ES6 Modules",
+    "githubRepo":""
+  },
+
+
+
+
+
+
+  "cal54": {
+    "title": "Promises",
+    "start": "October 22, 2018 20:00:00",
+    "end": "October 22, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Lauren",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Promises",
+    "githubRepo":""
+  },
+  "cal55": {
+    "title": "Intro to APIs",
+    "start": "October 23, 2018 18:00:00",
+    "end": "October 23, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Lauren",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Intro to APIs.  Using Promises with APIs",
+    "githubRepo":""
+  },
+  "cal56": {
+    "title": "Week 11 HW",
+    "start": "October 24, 2018 2:00:00",
+    "end": "October 25, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week11.md",
+    "eventType": "study",
+    "description": "HW #11",
+    "githubRepo":""
+  },
+  "cal57": {
+    "title": "Exercises",
+    "start": "October 27, 2018 18:00:00",
+    "end": "October 27, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal58": {
+    "title": "Axios",
+    "start": "October 29, 2018 20:00:00",
+    "end": "October 29, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Axios",
+    "githubRepo":""
+  },
+  "cal59": {
+    "title": "Axios",
+    "start": "October 30, 2018 18:00:00",
+    "end": "October 30, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Axios",
+    "githubRepo":""
+  },
+  "cal60": {
+    "title": "Week 12 HW",
+    "start": "October 31, 2018 2:00:00",
+    "end": "November 1, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week12.md",
+    "eventType": "study",
+    "description": "HW #12",
+    "githubRepo":""
+  },
+  "cal61": {
+    "title": "Exercises",
+    "start": "November 3, 2018 18:00:00",
+    "end": "November 3, 2018 21:30:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
