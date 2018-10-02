@@ -68,5 +68,25 @@
     "assignedNumber": 7,
     "topic": "JS",
     "notes": "Add this to the same repo you made for part 1"
+  },
+  "assignment08": {
+    "title": "Almost Amazon",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/MODULES_almost_amazon.md",
+    "dueDate": "2018-10-02",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 8,
+    "topic": "Modules",
+    "notes": ""
+  },
+  "assignment09": {
+    "title": "Adoption Website",
+    "URL": "https://github.com/nss-nightclass-projects/adoption-website",
+    "dueDate": "2018-10-09",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 9,
+    "topic": "XHR",
+    "notes": ""
   }
 }
