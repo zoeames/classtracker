@@ -88,5 +88,38 @@
     "assignedNumber": 9,
     "topic": "XHR",
     "notes": ""
+  },
+  "assignment10": {
+    "title": "Shotz Part 1",
+    "URL": "https://github.com/nss-nightclass-projects/shotz/blob/master/README.md",
+    "dueDate": "2018-10-23",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 10,
+    "topic": "Jquery",
+    "notes": ""
+  },
+  "assignment11": {
+    "title": "Shotz Part 2",
+    "URL": "https://github.com/nss-nightclass-projects/shotz/blob/master/README.md",
+    "dueDate": "2018-10-30",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 11,
+    "topic": "Promises",
+    "notes": ""
+  },
+  "assignment12": {
+    "title": "Personal Site Part 3",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-03.md",
+    "dueDate": "2018-11-06",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 12,
+    "topic": "Promises",
+    "notes": ""
   }
 }
+
+
+

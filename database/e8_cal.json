@@ -459,7 +459,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "ES6 Modules",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/thrones"
   },
   "cal44": {
     "title": "XHR and JSON",
@@ -470,7 +470,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "ES6 Modules",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/thrones"
   },
   "cal45": {
     "title": "Week 8 HW",
@@ -495,7 +495,7 @@
     "githubRepo":""
   },
   "cal47": {
-    "title": "Group Project",
+    "title": "Group Project - Chatty",
     "start": "October 8, 2018 19:00:00",
     "end": "October 14, 2018 21:30:00",
     "resourceUrl": "",
@@ -506,7 +506,7 @@
     "githubRepo":""
   },
   "cal48": {
-    "title": "Group Project Demos",
+    "title": "Chatty Demos",
     "start": "October 15, 2018 18:00:00",
     "end": "October 15, 2018 20:00:00",
     "resourceUrl": "",
@@ -520,23 +520,23 @@
     "title": "Intro to Jquery",
     "start": "October 15, 2018 20:00:00",
     "end": "October 15, 2018 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/jquery.md",
     "instructor": "Callan",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Jquery",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/fish-store"
   },
   "cal50": {
     "title": "Jquery Ajax",
     "start": "October 16, 2018 18:00:00",
     "end": "October 16, 2018 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/jquery.md",
     "instructor": "Callan",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "ES6 Modules",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/fish-store"
   },
   "cal51": {
     "title": "Week 10 HW",
@@ -550,36 +550,36 @@
     "githubRepo":""
   },
   "cal52": {
-    "title": "Task Runners",
+    "title": "BREAK",
     "start": "October 20, 2018 18:00:00",
     "end": "October 20, 2018 21:30:00",
     "resourceUrl": "",
-    "instructor": "Zoe",
+    "instructor": "",
     "hwUrl": "",
-    "eventType": "lecture",
-    "description": "ES6 Modules",
+    "eventType": "vacation",
+    "description": "Ditch Day",
     "githubRepo":""
   },
   "cal53": {
     "title": "Promises",
     "start": "October 22, 2018 20:00:00",
     "end": "October 22, 2018 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/promises.md",
     "instructor": "Lauren",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Promises",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/simple-pinterest"
   },
   "cal54": {
-    "title": "Intro to APIs",
+    "title": "Exercises",
     "start": "October 23, 2018 18:00:00",
     "end": "October 23, 2018 21:30:00",
     "resourceUrl": "",
-    "instructor": "Lauren",
+    "instructor": "",
     "hwUrl": "",
-    "eventType": "lecture",
-    "description": "Intro to APIs.  Using Promises with APIs",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
     "githubRepo":""
   },
   "cal55": {
@@ -594,8 +594,30 @@
     "githubRepo":""
   },
   "cal56": {
+    "title": "Intro to APIs",
+    "start": "October 27, 2018 09:00:00",
+    "end": "October 27, 2018 10:00:00",
+    "resourceUrl": "",
+    "instructor": "Lauren",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Intro to APIs.  Using Promises with APIs",
+    "githubRepo":""
+  },
+  "cal57": {
+    "title": "How to Write a Resume",
+    "start": "October 27, 2018 10:00:00",
+    "end": "October 27, 2018 11:00:00",
+    "resourceUrl": "",
+    "instructor": "Kristin McKinney",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Resume dos and don'ts",
+    "githubRepo":""
+  },
+  "cal58": {
     "title": "Exercises",
-    "start": "October 27, 2018 18:00:00",
+    "start": "October 27, 2018 11:00:00",
     "end": "October 27, 2018 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -604,29 +626,29 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal57": {
-    "title": "Axios",
+  "cal59": {
+    "title": "Task Runners",
     "start": "October 29, 2018 20:00:00",
     "end": "October 29, 2018 21:30:00",
     "resourceUrl": "",
-    "instructor": "Callan",
+    "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Axios",
-    "githubRepo":""
+    "description": "Linters, modules, and bears - oh my!",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/webpack-intro"
   },
-  "cal58": {
-    "title": "Axios",
-    "start": "October 30, 2018 18:00:00",
+  "cal60": {
+    "title": "Shotz HW Review",
+    "start": "October 30, 2018 20:00:00",
     "end": "October 30, 2018 21:30:00",
     "resourceUrl": "",
-    "instructor": "Callan",
+    "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Axios",
-    "githubRepo":""
+    "description": "Review of Shotz HW",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/webpack-shotz"
   },
-  "cal59": {
+  "cal61": {
     "title": "Week 12 HW",
     "start": "October 31, 2018 2:00:00",
     "end": "November 1, 2018 23:30:00",
@@ -637,7 +659,18 @@
     "description": "HW #12",
     "githubRepo":""
   },
-  "cal60": {
+  "cal62": {
+    "title": "Axios",
+    "start": "November 3, 2018 10:00:00",
+    "end": "November 3, 2018 18:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/webpack%2Bimages%2Baxios.md",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Axios",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/cats-vs-dogs"
+  },
+  "cal63": {
     "title": "Exercises",
     "start": "November 3, 2018 18:00:00",
     "end": "November 3, 2018 21:30:00",
@@ -646,6 +679,207 @@
     "hwUrl": "",
     "eventType": "study",
     "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal64": {
+    "title": "SASS Part 1",
+    "start": "November 5, 2018 20:00:00",
+    "end": "November 5, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal65": {
+    "title": "SASS Part 2",
+    "start": "November 6, 2018 20:00:00",
+    "end": "November 6, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal66": {
+    "title": "Week 13 HW",
+    "start": "November 7, 2018 2:00:00",
+    "end": "November 8, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week13.md",
+    "eventType": "study",
+    "description": "HW #13",
+    "githubRepo":""
+  },
+  "cal67": {
+    "title": "Intro to Firebase",
+    "start": "November 10, 2018 09:00:00",
+    "end": "November 10, 2018 11:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal68": {
+    "title": "Exercises",
+    "start": "November 10, 2018 18:00:00",
+    "end": "November 10, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+
+
+
+  "cal69": {
+    "title": "Firebase Auth Part 1",
+    "start": "November 12, 2018 20:00:00",
+    "end": "November 12, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal70": {
+    "title": "Firebase Auth Part 2",
+    "start": "November 13, 2018 20:00:00",
+    "end": "November 13, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal71": {
+    "title": "Week 14 HW",
+    "start": "November 14, 2018 2:00:00",
+    "end": "November 15, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week14.md",
+    "eventType": "study",
+    "description": "HW #14",
+    "githubRepo":""
+  },
+  "cal72": {
+    "title": "Exercises",
+    "start": "November 17, 2018 18:00:00",
+    "end": "November 17, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal73": {
+    "title": "Firebase CRUD Part 1",
+    "start": "November 19, 2018 20:00:00",
+    "end": "November 19, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal74": {
+    "title": "Firebase CRUD Part 2",
+    "start": "November 20, 2018 20:00:00",
+    "end": "November 20, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal75": {
+    "title": "Week 15 HW",
+    "start": "November 21, 2018 2:00:00",
+    "end": "November 22, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week15.md",
+    "eventType": "study",
+    "description": "HW #15, No Studygroup - all individual",
+    "githubRepo":""
+  },
+  "cal76": {
+    "title": "Firebase Cont.",
+    "start": "November 26, 2018 20:00:00",
+    "end": "November 26, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal77": {
+    "title": "Firebase Cont.",
+    "start": "November 27, 2018 20:00:00",
+    "end": "November 27, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal78": {
+    "title": "Week 16 HW",
+    "start": "November 28, 2018 2:00:00",
+    "end": "November 29, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week16.md",
+    "eventType": "study",
+    "description": "HW #16, No Studygroup - all individual",
+    "githubRepo":""
+  },
+  "cal79": {
+    "title": "Group Project",
+    "start": "December 1, 2018 19:00:00",
+    "end": "December 9, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Group Project: See Github Project",
+    "githubRepo":""
+  },
+  "cal80": {
+    "title": "Group Project Demos",
+    "start": "December 10, 2018 18:00:00",
+    "end": "December 10, 2018 20:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell!",
+    "githubRepo":""
+  },
+  "cal81": {
+    "title": "REACT",
+    "start": "December 10, 2018 20:00:00",
+    "end": "December 18, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
     "githubRepo":""
   }
 }
