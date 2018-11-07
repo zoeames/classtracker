@@ -118,6 +118,16 @@
     "assignedNumber": 12,
     "topic": "Promises",
     "notes": ""
+  },
+  "assignment13": {
+    "title": "Lego Builder",
+    "URL": "https://github.com/nss-nightclass-projects/lego-builder",
+    "dueDate": "2018-11-13",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 13,
+    "topic": "Axios",
+    "notes": ""
   }
 }
 
