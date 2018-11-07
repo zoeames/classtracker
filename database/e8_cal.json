@@ -682,26 +682,26 @@
     "githubRepo":""
   },
   "cal64": {
-    "title": "SASS Part 1",
-    "start": "November 5, 2018 20:00:00",
+    "title": "Exercises",
+    "start": "November 5, 2018 18:00:00",
     "end": "November 5, 2018 21:30:00",
     "resourceUrl": "",
-    "instructor": "Zoe",
+    "instructor": "",
     "hwUrl": "",
-    "eventType": "lecture",
-    "description": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
     "githubRepo":""
   },
   "cal65": {
-    "title": "SASS Part 2",
+    "title": "SASS",
     "start": "November 6, 2018 20:00:00",
     "end": "November 6, 2018 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/sass.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/quidditch-roster"
   },
   "cal66": {
     "title": "Week 13 HW",

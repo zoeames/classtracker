@@ -32,17 +32,6 @@
     "isStudent": false,
     "uid": "ZHfDJR2oDsPRX9RdzRKVIBpK3GD3"
   },
-  "student1": {
-    "firstName": "Raymond",
-    "lastName": "Arcenaux",
-    "email": "rla.arceneaux@gmail.com",
-    "githubUsername": "rarceneaux",
-    "treehouse": "https://teamtreehouse.com/raymondarceneaux",
-    "biosite": "",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "V4DceQwi0HSegQUozYm5gGSMNJ92"
-  },
   "student3": {
     "firstName": "Michelle",
     "lastName": "Beshears",
@@ -174,17 +163,6 @@
     "treehouseComplete": true,
     "isStudent": true,
     "uid": "t4Gapmo7x8h4Oxuslt9yHoBR3bo2"
-  },
-  "student18": {
-    "firstName": "Ryan",
-    "lastName": "Nelson",
-    "email": "ryannelson881995@gmail.com",
-    "githubUsername": "dragonxrage88",
-    "treehouse": "https://teamtreehouse.com/ryannelson7",
-    "biosite": "",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": ""
   },
   "student19": {
     "firstName": "Marshall",
