@@ -410,7 +410,7 @@
     "title": "Networking",
     "start": "September 22, 2018 10:00:00",
     "end": "September 22, 2018 11:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://drive.google.com/open?id=1Kw-NQDoRdmd4JQN_2MC2wC6kLv76Df4H",
     "instructor": "Kristin McKinney",
     "hwUrl": "",
     "eventType": "lecture",
@@ -608,7 +608,7 @@
     "title": "How to Write a Resume",
     "start": "October 27, 2018 10:00:00",
     "end": "October 27, 2018 11:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://drive.google.com/open?id=1fc6svEBZvIx6z7nznhpXPST0SORvGUtQ",
     "instructor": "Kristin McKinney",
     "hwUrl": "",
     "eventType": "lecture",
@@ -616,8 +616,19 @@
     "githubRepo":""
   },
   "cal58": {
-    "title": "Exercises",
+    "title": "LinkedIn",
     "start": "October 27, 2018 11:00:00",
+    "end": "October 27, 2018 12:00:00",
+    "resourceUrl": "https://drive.google.com/open?id=1Hosoo3GmykPwO6I5kiZfQp2VP5vnD9Zy",
+    "instructor": "Kristin McKinney",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "What to put in your linkedin profile",
+    "githubRepo":""
+  },
+  "cal59": {
+    "title": "Exercises",
+    "start": "October 27, 2018 12:00:00",
     "end": "October 27, 2018 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -626,7 +637,7 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal59": {
+  "cal60": {
     "title": "Task Runners",
     "start": "October 29, 2018 20:00:00",
     "end": "October 29, 2018 21:30:00",
@@ -637,7 +648,7 @@
     "description": "Linters, modules, and bears - oh my!",
     "githubRepo":"https://github.com/nss-evening-cohort-8/webpack-intro"
   },
-  "cal60": {
+  "cal61": {
     "title": "Shotz HW Review",
     "start": "October 30, 2018 20:00:00",
     "end": "October 30, 2018 21:30:00",
@@ -648,7 +659,7 @@
     "description": "Review of Shotz HW",
     "githubRepo":"https://github.com/nss-evening-cohort-8/webpack-shotz"
   },
-  "cal61": {
+  "cal62": {
     "title": "Week 12 HW",
     "start": "October 31, 2018 2:00:00",
     "end": "November 1, 2018 23:30:00",
@@ -659,7 +670,7 @@
     "description": "HW #12",
     "githubRepo":""
   },
-  "cal62": {
+  "cal63": {
     "title": "Axios",
     "start": "November 3, 2018 10:00:00",
     "end": "November 3, 2018 18:00:00",
@@ -670,7 +681,7 @@
     "description": "Axios",
     "githubRepo":"https://github.com/nss-evening-cohort-8/cats-vs-dogs"
   },
-  "cal63": {
+  "cal64": {
     "title": "Exercises",
     "start": "November 3, 2018 18:00:00",
     "end": "November 3, 2018 21:30:00",
@@ -681,7 +692,7 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal64": {
+  "cal65": {
     "title": "Exercises",
     "start": "November 5, 2018 18:00:00",
     "end": "November 5, 2018 21:30:00",
@@ -692,7 +703,7 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal65": {
+  "cal66": {
     "title": "SASS",
     "start": "November 6, 2018 20:00:00",
     "end": "November 6, 2018 21:30:00",
@@ -703,7 +714,7 @@
     "description": "",
     "githubRepo":"https://github.com/nss-evening-cohort-8/quidditch-roster"
   },
-  "cal66": {
+  "cal67": {
     "title": "Week 13 HW",
     "start": "November 7, 2018 2:00:00",
     "end": "November 8, 2018 23:30:00",
@@ -714,7 +725,7 @@
     "description": "HW #13",
     "githubRepo":""
   },
-  "cal67": {
+  "cal68": {
     "title": "Intro to Firebase",
     "start": "November 10, 2018 09:00:00",
     "end": "November 10, 2018 11:30:00",
@@ -722,10 +733,10 @@
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "",
-    "githubRepo":""
+    "description": "Converting Quidditch roster to firebase",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/quidditch-roster"
   },
-  "cal68": {
+  "cal69": {
     "title": "Exercises",
     "start": "November 10, 2018 18:00:00",
     "end": "November 10, 2018 21:30:00",
@@ -736,30 +747,16 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-
-
-
-  "cal69": {
-    "title": "Firebase Auth Part 1",
-    "start": "November 12, 2018 20:00:00",
-    "end": "November 12, 2018 21:30:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "",
-    "githubRepo":""
-  },
   "cal70": {
-    "title": "Firebase Auth Part 2",
-    "start": "November 13, 2018 20:00:00",
+    "title": "Firebase Auth",
+    "start": "November 12, 2018 20:00:00",
     "end": "November 13, 2018 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "",
-    "githubRepo":""
+    "description": "How to authenticate users using google auth.",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/home-for-the-holidays"
   },
   "cal71": {
     "title": "Week 14 HW",
@@ -784,28 +781,17 @@
     "githubRepo":""
   },
   "cal73": {
-    "title": "Firebase CRUD Part 1",
+    "title": "Firebase CRUD",
     "start": "November 19, 2018 20:00:00",
-    "end": "November 19, 2018 21:30:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "",
-    "githubRepo":""
-  },
-  "cal74": {
-    "title": "Firebase CRUD Part 2",
-    "start": "November 20, 2018 20:00:00",
     "end": "November 20, 2018 21:30:00",
     "resourceUrl": "",
-    "instructor": "Zoe",
+    "instructor": "Callan",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "",
-    "githubRepo":""
+    "description": "Adding CRUD functionality to Home for the Holidays",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/home-for-the-holidays"
   },
-  "cal75": {
+  "cal74": {
     "title": "Week 15 HW",
     "start": "November 21, 2018 2:00:00",
     "end": "November 22, 2018 23:30:00",
@@ -816,29 +802,18 @@
     "description": "HW #15, No Studygroup - all individual",
     "githubRepo":""
   },
-  "cal76": {
-    "title": "Firebase Cont.",
+  "cal75": {
+    "title": "Firebase Complex data",
     "start": "November 26, 2018 20:00:00",
-    "end": "November 26, 2018 21:30:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "",
-    "githubRepo":""
-  },
-  "cal77": {
-    "title": "Firebase Cont.",
-    "start": "November 27, 2018 20:00:00",
     "end": "November 27, 2018 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "",
-    "githubRepo":""
+    "description": "Adding multiple holidays",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/home-for-the-holidays"
   },
-  "cal78": {
+  "cal76": {
     "title": "Week 16 HW",
     "start": "November 28, 2018 2:00:00",
     "end": "November 29, 2018 23:30:00",
@@ -846,10 +821,10 @@
     "instructor": "",
     "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week16.md",
     "eventType": "study",
-    "description": "HW #16, No Studygroup - all individual",
+    "description": "HW #16",
     "githubRepo":""
   },
-  "cal79": {
+  "cal77": {
     "title": "Group Project",
     "start": "December 1, 2018 19:00:00",
     "end": "December 9, 2018 21:30:00",
@@ -860,7 +835,7 @@
     "description": "Group Project: See Github Project",
     "githubRepo":""
   },
-  "cal80": {
+  "cal78": {
     "title": "Group Project Demos",
     "start": "December 10, 2018 18:00:00",
     "end": "December 10, 2018 20:00:00",
@@ -871,7 +846,7 @@
     "description": "Show and tell!",
     "githubRepo":""
   },
-  "cal81": {
+  "cal79": {
     "title": "REACT",
     "start": "December 10, 2018 20:00:00",
     "end": "December 18, 2018 21:30:00",
