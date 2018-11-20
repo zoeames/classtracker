@@ -786,7 +786,7 @@
     "end": "November 20, 2018 21:30:00",
     "resourceUrl": "",
     "instructor": "Callan",
-    "hwUrl": "",
+    "hwUrl": "https://docs.google.com/presentation/d/1mb-N-kuHOvylF_PgESezKaUeznklAtMRCGHyjqpV6T8/edit?usp=sharing",
     "eventType": "lecture",
     "description": "Adding CRUD functionality to Home for the Holidays",
     "githubRepo":"https://github.com/nss-evening-cohort-8/home-for-the-holidays"
