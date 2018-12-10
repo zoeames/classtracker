@@ -836,6 +836,17 @@
     "githubRepo":""
   },
   "cal78": {
+    "title": "Firebase Deployment",
+    "start": "December 8, 2018 20:00:00",
+    "end": "December 8, 2018 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/firebase-deploy.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to deploy a project to firebase",
+    "githubRepo":""
+  },
+  "cal79": {
     "title": "Group Project Demos",
     "start": "December 10, 2018 18:00:00",
     "end": "December 10, 2018 20:00:00",
@@ -846,11 +857,11 @@
     "description": "Show and tell!",
     "githubRepo":""
   },
-  "cal79": {
-    "title": "REACT",
+  "cal80": {
+    "title": "Intro to React",
     "start": "December 10, 2018 20:00:00",
-    "end": "December 18, 2018 21:30:00",
-    "resourceUrl": "",
+    "end": "December 10, 2018 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/react-setup.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
