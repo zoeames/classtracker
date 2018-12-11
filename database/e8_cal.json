@@ -866,6 +866,17 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/intro-react"
+  },
+  "cal81": {
+    "title": "React Part 1",
+    "start": "December 11, 2018 20:00:00",
+    "end": "December 11, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "SPA React and Auth",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/zillone"
   }
 }
