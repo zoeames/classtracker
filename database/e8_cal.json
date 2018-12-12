@@ -869,7 +869,7 @@
     "githubRepo":"https://github.com/nss-evening-cohort-8/intro-react"
   },
   "cal81": {
-    "title": "React Part 1",
+    "title": "React - Auth for SPA",
     "start": "December 11, 2018 20:00:00",
     "end": "December 11, 2018 21:30:00",
     "resourceUrl": "",
@@ -878,5 +878,71 @@
     "eventType": "lecture",
     "description": "SPA React and Auth",
     "githubRepo":"https://github.com/nss-evening-cohort-8/zillone"
+  },
+  "cal82": {
+    "title": "Week 18 HW",
+    "start": "December 12, 2018 2:00:00",
+    "end": "December 13, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week18.md",
+    "eventType": "study",
+    "description": "HW #18 - Auth for SPA React",
+    "githubRepo":""
+  },
+  "cal83": {
+    "title": "React - Read and Delete",
+    "start": "December 15, 2018 9:00:00",
+    "end": "December 15, 2018 12:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/zillone"
+  },
+  "cal84": {
+    "title": "Exercises",
+    "start": "December 15, 2018 12:00:00",
+    "end": "December 15, 2018 14:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal85": {
+    "title": "Exercises",
+    "start": "December 17, 2018 18:00:00",
+    "end": "December 17, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal86": {
+    "title": "React - Add and Update",
+    "start": "December 18, 2018 20:00:00",
+    "end": "December 18, 2018 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":"https://github.com/nss-evening-cohort-8/zillone"
+  },
+  "cal87": {
+    "title": "Week 19 HW",
+    "start": "December 19, 2018 2:00:00",
+    "end": "December 20, 2018 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week19.md",
+    "eventType": "study",
+    "description": "HW #19 - SPA React FULL CRUD",
+    "githubRepo":""
   }
 }
