@@ -179,15 +179,25 @@
     "topic": "React",
     "notes": "React SPA"
   },
-  "assignment19": {
+  "assignment20": {
     "title": "Capstone Proposal",
     "URL": "https://github.com/nss-nightclass-projects/capstone-central/blob/master/02_initial-proposal.md",
     "dueDate": "2019-01-07",
     "isAssigned": "true",
     "isGithub": "true",
-    "assignedNumber": 19,
+    "assignedNumber": 20,
     "topic": "Capstone",
     "notes": "You can submit this early"
+  },
+  "assignment19": {
+    "title": "Final Personal Site",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-05.md",
+    "dueDate": "2019-01-07",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 19,
+    "topic": "Capstone",
+    "notes": "Must be completed to start working on capstone"
   }
 }
 
