@@ -33,8 +33,8 @@
     "githubRepo":""
   },
   "cal04": {
-    "title": "Spring Break",
-    "start": "February 11, 2019 8:00:00",
+    "title": "Intersession Break",
+    "start": "February 10, 2019 8:00:00",
     "end": "February 16, 2019 23:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -924,6 +924,17 @@
     "githubRepo":""
   },
   "cal86": {
+    "title": "Capstone Instructions",
+    "start": "December 18, 2018 18:00:00",
+    "end": "December 18, 2018 20:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/capstone-central/blob/master/README.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Everything you always wanted to know about capstones",
+    "githubRepo":""
+  },
+  "cal87": {
     "title": "React - Add and Update",
     "start": "December 18, 2018 20:00:00",
     "end": "December 18, 2018 21:30:00",
@@ -934,7 +945,7 @@
     "description": "",
     "githubRepo":"https://github.com/nss-evening-cohort-8/zillone"
   },
-  "cal87": {
+  "cal88": {
     "title": "Week 19 HW",
     "start": "December 19, 2018 2:00:00",
     "end": "December 20, 2018 23:30:00",
@@ -943,6 +954,129 @@
     "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week19.md",
     "eventType": "study",
     "description": "HW #19 - SPA React FULL CRUD",
+    "githubRepo":""
+  },
+  "cal89": {
+    "title": "React Routing and Auth",
+    "start": "January 7, 2019 20:00:00",
+    "end": "January 8, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Lauren",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React Routing and Auth",
+    "githubRepo":""
+  },
+  "cal90": {
+    "title": "Week 22 HW",
+    "start": "January 9, 2019 2:00:00",
+    "end": "January 10, 2019 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week22.md",
+    "eventType": "study",
+    "description": "HW #22 - React Routing and Auth",
+    "githubRepo":""
+  },
+  "cal91": {
+    "title": "Exercises",
+    "start": "January 12, 2019 9:00:00",
+    "end": "January 12, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+
+
+  "cal92": {
+    "title": "Final React Week",
+    "start": "January 14, 2019 20:00:00",
+    "end": "January 15, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React Routing and CRUD",
+    "githubRepo":""
+  },
+  "cal93": {
+    "title": "Week 23 HW",
+    "start": "January 16, 2019 2:00:00",
+    "end": "January 17, 2019 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e8-homework/blob/master/week23.md",
+    "eventType": "study",
+    "description": "HW #23",
+    "githubRepo":""
+  },
+  "cal94": {
+    "title": "Exercises",
+    "start": "January 19, 2019 9:00:00",
+    "end": "January 19, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal95": {
+    "title": "Capstone Checkin #1",
+    "start": "January 19, 2019 9:00:00",
+    "end": "January 19, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe, Callan, Lauren",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Define MVP with your mentor",
+    "githubRepo":"https://github.com/nss-nightclass-projects/capstone-central/blob/master/03_mentor-1on1s.md"
+  },
+  "cal96": {
+    "title": "Capstone Checkin #2",
+    "start": "January 26, 2019 9:00:00",
+    "end": "January 26, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe, Callan, Lauren",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "2nd capstone checkin",
+    "githubRepo":"https://github.com/nss-nightclass-projects/capstone-central/blob/master/03_mentor-1on1s.md"
+  },
+  "cal97": {
+    "title": "Capstone Checkin #3",
+    "start": "February 2, 2019 9:00:00",
+    "end": "February 2, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe, Callan, Lauren",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Final Checkin",
+    "githubRepo":"https://github.com/nss-nightclass-projects/capstone-central/blob/master/03_mentor-1on1s.md"
+  },
+  "cal98": {
+    "title": "Capstones",
+    "start": "January 21, 2019 18:00:00",
+    "end": "February 9, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on capstones",
+    "githubRepo":""
+  },
+  "cal99": {
+    "title": "Capstone Soft Demo",
+    "start": "February 6, 2019 18:00:00",
+    "end": "February 6, 2019 22:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Demo capstone MVP to instructors",
     "githubRepo":""
   }
 }

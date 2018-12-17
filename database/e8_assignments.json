@@ -158,6 +158,36 @@
     "assignedNumber": 16,
     "topic": "Firebase",
     "notes": "Completely finish this app"
+  },
+  "assignment17": {
+    "title": "Developer++ Part 1",
+    "URL": "https://github.com/nss-nightclass-projects/developerPlusPlus/blob/master/part1.md",
+    "dueDate": "2018-12-18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 17,
+    "topic": "React",
+    "notes": "React setup and Auth"
+  },
+  "assignment18": {
+    "title": "Developer++ Part 2",
+    "URL": "https://github.com/nss-nightclass-projects/developerPlusPlus/blob/master/part2.md",
+    "dueDate": "2019-01-07",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 18,
+    "topic": "React",
+    "notes": "React SPA"
+  },
+  "assignment19": {
+    "title": "Capstone Proposal",
+    "URL": "https://github.com/nss-nightclass-projects/capstone-central/blob/master/02_initial-proposal.md",
+    "dueDate": "2019-01-07",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 19,
+    "topic": "Capstone",
+    "notes": "You can submit this early"
   }
 }
 
