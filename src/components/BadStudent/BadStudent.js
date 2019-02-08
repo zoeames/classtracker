@@ -2,7 +2,7 @@ import React from 'react';
 
 import studentRequests from '../../firebaseRequests/students';
 
-import './BadStudent.css';
+import './BadStudent.scss';
 
 class BadStudentTable extends React.Component {
   state = {
@@ -11,27 +11,27 @@ class BadStudentTable extends React.Component {
   }
 
   componentDidMount() {
-    const {student} = this.props;
+    const { student } = this.props;
     if (student.treehouse.length > 0) {
       studentRequests
         .getTreehouseProfilePoints(student.treehouse)
-        .then(treehouse => {
+        .then((treehouse) => {
           if (treehouse > 3000) {
             treehouse = 'done';
           }
-          this.setState({student: student, treehousePoints: treehouse});
+          this.setState({ student, treehousePoints: treehouse });
         })
-        .catch(err => {
+        .catch((err) => {
           console.error('error with get treehouse points request', err);
         });
     } else {
-      this.setState({student: student, treehousePoints: 'missing'});
+      this.setState({ student, treehousePoints: 'missing' });
     }
-
   }
+
   render() {
-    const {student} = this.state;
-    const treehouseImage = require(`./img/treehouse.png`);
+    const { student } = this.state;
+    const treehouseImage = require('./img/treehouse.png');
     const points = this.state.treehousePoints;
     const githubLink = `https://github.com/${student.githubUsername}`;
     return (
@@ -68,10 +68,8 @@ class BadStudentTable extends React.Component {
         >
           {
             points === 'done'
-              ?
-              <i className="fa fa-check-square fa-2x treehouse-check" aria-hidden="true"></i>
-              :
-              <span>{points}</span>
+              ? <i className="fa fa-check-square fa-2x treehouse-check" aria-hidden="true"></i>
+              : <span>{points}</span>
           }
         </td>
       </tr>

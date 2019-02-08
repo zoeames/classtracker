@@ -1,11 +1,11 @@
 import React from 'react';
 import moment from 'moment';
 
-import './AssignmentListGroup.css';
+import './AssignmentListGroup.scss';
 
 class AssignmentListGroup extends React.Component {
   render() {
-    const {assignments, dueDate} = this.props;
+    const { assignments, dueDate } = this.props;
     const assignmentList = assignments.map((assignment) => {
       return (
         <div key={assignment.id} className="list-group-item list-group-item-action flex-column align-items-start">
@@ -15,7 +15,7 @@ class AssignmentListGroup extends React.Component {
             </div>
             <div className="col-8 text-left">
               <p>{assignment.notes}</p>
-              <small><a href={assignment.URL} target="_blank">View Assignment</a></small>
+              <small><a href={assignment.URL} target="_blank" rel="noopener noreferrer">View Assignment</a></small>
             </div>
             <div className="col text-right">
               <small>{assignment.topic}</small>

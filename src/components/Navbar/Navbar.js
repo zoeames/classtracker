@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 import authRequests from '../../firebaseRequests/auth';
-import './Navbar.css';
+import './Navbar.scss';
 
 class Navbar extends React.Component {
   static propTypes = {
@@ -16,12 +16,10 @@ class Navbar extends React.Component {
   githubAuth = () => {
     authRequests
       .authenticateGithub()
-      .then(result => {
+      .then((result) => {
         this.props.setStudent(result);
       })
-      .catch(err => {
-        console.error('error in authenticate', err);
-      });
+      .catch(err => console.error('error in authenticate', err));
   };
 
   logoutClickEvent = () => {
@@ -68,7 +66,8 @@ class Navbar extends React.Component {
             </li>
           </ul>
         );
-      } else if (authed) {
+      }
+      if (authed) {
         return (
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
@@ -98,32 +97,31 @@ class Navbar extends React.Component {
             </li>
           </ul>
         );
-      } else {
-        return (
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <Link className="nav-link" to="/students">
-                Students
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/Calendar">
-                Calendar
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/assignments">
-                Assignments
-              </Link>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" onClick={this.githubAuth}>
-                <i className="fab fa-github" /> Login
-              </a>
-            </li>
-          </ul>
-        );
       }
+      return (
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+            <Link className="nav-link" to="/students">
+              Students
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Calendar">
+              Calendar
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/assignments">
+              Assignments
+            </Link>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" onClick={this.githubAuth}>
+              <i className="fab fa-github" /> Login
+            </a>
+          </li>
+        </ul>
+      );
     };
 
     return (

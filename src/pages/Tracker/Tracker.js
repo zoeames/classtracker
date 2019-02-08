@@ -1,10 +1,9 @@
 import React from 'react';
 
-import './Tracker.css';
+import './Tracker.scss';
+
 class Tracker extends React.Component {
-
   render() {
-
     return (
       <div className="Tracker">
         <h1>Tracker</h1>

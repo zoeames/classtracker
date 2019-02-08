@@ -1,9 +1,10 @@
 import React from 'react';
 
-import './Assignments.css';
+import './Assignments.scss';
 
 import assignmentRequests from '../../firebaseRequests/assignments';
 import AssignmentListGroup from '../../components/AssignmentListGroup/AssignmentListGroup';
+
 class Assignments extends React.Component {
   state = {
     assignments: [],
@@ -12,13 +13,11 @@ class Assignments extends React.Component {
   componentDidMount() {
     assignmentRequests
       .getAssignmentList()
-      .then(fbAssignments => {
+      .then((fbAssignments) => {
         fbAssignments.sort((a, b) => new Date(b.dueDate) - new Date(a.dueDate));
         this.setState({ assignments: fbAssignments });
       })
-      .catch(err => {
-        console.error('error with get assignments request', err);
-      });
+      .catch(err => console.error('error with get assignments request', err));
   }
 
   render() {
@@ -28,10 +27,8 @@ class Assignments extends React.Component {
           this.state.assignments.map(assignment => assignment.dueDate)
         ),
       ].sort().reverse();
-      return dates.map(date => {
-        const selectedAssignments = this.state.assignments.filter(
-          assignment => assignment.dueDate === date
-        );
+      return dates.map((date) => {
+        const selectedAssignments = this.state.assignments.filter(assignment => assignment.dueDate === date);
         if (selectedAssignments.length > 0) {
           return (
             <AssignmentListGroup

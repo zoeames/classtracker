@@ -3,7 +3,7 @@ import moment from 'moment';
 
 import githubRequests from '../../firebaseRequests/github';
 
-import './GoodStudent.css';
+import './GoodStudent.scss';
 
 class GoodStudent extends React.Component {
   state = {
@@ -16,7 +16,7 @@ class GoodStudent extends React.Component {
   componentDidMount() {
     githubRequests
       .getRecentActivityRequest(this.props.student.githubUsername)
-      .then(githubRes => {
+      .then((githubRes) => {
         const pullRequests = [];
         const pushEvents = [];
         let todaysCommits = 0;
@@ -28,29 +28,31 @@ class GoodStudent extends React.Component {
             pushEvents.push(event);
             if (moment(event.created_at).isSame(moment(), 'day')) {
               todaysCommits += event.payload.commits.length;
-            } else  if (moment(event.created_at).isSame(moment().subtract(1, 'days'), 'day')) {
+            } else if (moment(event.created_at).isSame(moment().subtract(1, 'days'), 'day')) {
               yesterdaysCommits += event.payload.commits.length;
             }
           }
         });
-        this.setState({pullRequests, pushEvents, todaysCommits, yesterdaysCommits});
+        this.setState({
+          pullRequests,
+          pushEvents,
+          todaysCommits,
+          yesterdaysCommits,
+        });
       })
-      .catch(err => {
-        console.error('error with get commits request', err);
-      });
+      .catch(err => console.error('error with get commits request', err));
   }
 
   render() {
-    const {student} = this.props;
-    const {pullRequests, todaysCommits, yesterdaysCommits} = this.state;
-    const treehouseImage = require(`./img/treehouse.png`);
+    const { student } = this.props;
+    const { pullRequests, todaysCommits, yesterdaysCommits } = this.state;
+    const treehouseImage = require('./img/treehouse.png');
     const githubLink = `https://github.com/${student.githubUsername}`;
     const lastPr = () => {
       if (pullRequests[0]) {
         return (<h3>Last Merged PR: <a target="_blank" href={pullRequests[0].payload.pull_request.html_url}>{moment(pullRequests[0].created_at).format('lll')}</a></h3>);
-      } else {
-        return ('');
       }
+      return '';
     };
     return (
       <div className="GoodStudent col-md-4">

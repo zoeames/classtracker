@@ -5,7 +5,8 @@ import studentRequests from '../../firebaseRequests/students';
 import GoodStudent from '../../components/GoodStudent/GoodStudent';
 import BadStudentTable from '../../components/BadStudentTable/BadStudentTable';
 
-import './Students.css';
+import './Students.scss';
+
 class Students extends React.Component {
   state = {
     badStudents: [],
@@ -15,10 +16,10 @@ class Students extends React.Component {
   componentDidMount() {
     studentRequests
       .getRequest()
-      .then(fbStudents => {
+      .then((fbStudents) => {
         const tempGoodStudents = [];
         const tempBadStudents = [];
-        fbStudents.forEach(student => {
+        fbStudents.forEach((student) => {
           if (student.treehouseComplete && student.isStudent) {
             tempGoodStudents.push(student);
           } else if (!student.treehouseComplete && student.isStudent) {
@@ -37,25 +38,16 @@ class Students extends React.Component {
           return 0;
         });
 
-        this.setState({badStudents: tempBadStudents, goodStudents: tempGoodStudents});
+        this.setState({ badStudents: tempBadStudents, goodStudents: tempGoodStudents });
       })
-      .catch(err => {
-        console.error('error with get students request', err);
-      });
+      .catch(err => console.error('error with get students request', err));
   }
 
   render() {
     const badStudentComponents = (
       <BadStudentTable students={this.state.badStudents}/>
     );
-    const goodStudentComponents = this.state.goodStudents.map((student) => {
-      return (
-        <GoodStudent
-          key={student.id}
-          student={student}
-        />
-      );
-    });
+    const goodStudentComponents = this.state.goodStudents.map(student => <GoodStudent key={student.id} student={student} />);
     return (
       <div className="Students">
         <h1>Students</h1>

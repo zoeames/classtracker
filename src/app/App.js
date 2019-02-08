@@ -1,5 +1,10 @@
-import React, { Component } from 'react';
-import { Route, BrowserRouter, Switch, Redirect } from 'react-router-dom';
+import React from 'react';
+import {
+  Route,
+  BrowserRouter,
+  Switch,
+  Redirect,
+} from 'react-router-dom';
 import firebase from 'firebase';
 
 import Navbar from '../components/Navbar/Navbar';
@@ -10,47 +15,26 @@ import Calendar from '../pages/Calendar/Calendar';
 import SingleStudent from '../pages/SingleStudent/SingleStudent';
 import Submit from '../pages/Submit/Submit';
 
-import './App.css';
+import './App.scss';
 
 import studentRequests from '../firebaseRequests/students';
-import fbConection from '../firebaseRequests/connection';
-fbConection();
-
-const PrivateRoute = ({ component: Component, authed, ...rest }) => {
-  return (
-    <Route
-      {...rest}
-      render={props =>
-        authed === true ? (
-          <Component {...props} />
-        ) : (
-          <Redirect
-            to={{ pathname: '/login', state: { from: props.location } }}
-          />
-        )
-      }
-    />
-  );
-};
+import fbConnection from '../firebaseRequests/connection';
 
 const PrivateAdminRoute = ({ component: Component, admin, ...rest }) => {
-  return (
-    <Route
-      {...rest}
-      render={props =>
-        admin === true ? (
-          <Component {...props} />
-        ) : (
-          <Redirect
-            to={{ pathname: '/assignments', state: { from: props.location } }}
-          />
-        )
-      }
-    />
-  );
+  const routeChecker = props => (admin === true
+    ? (<Component {...props} />)
+    : (<Redirect to={{ pathname: '/assignments', state: { from: props.location } }} />));
+  return <Route {...rest} render={props => routeChecker(props)} />;
 };
 
-class App extends Component {
+const PrivateRoute = ({ component: Component, authed, ...rest }) => {
+  const routeChecker = props => (authed === true
+    ? (<Component {...props} />)
+    : (<Redirect to={{ pathname: '/login', state: { from: props.location } }} />));
+  return <Route {...rest} render={props => routeChecker(props)} />;
+};
+
+class App extends React.Component {
   state = {
     authed: false,
     admin: false,
@@ -59,10 +43,11 @@ class App extends Component {
   };
 
   componentDidMount() {
-    this.removeListener = firebase.auth().onAuthStateChanged(user => {
+    fbConnection();
+    this.removeListener = firebase.auth().onAuthStateChanged((user) => {
       if (user) {
         studentRequests.getSingleStudent(user.uid)
-          .then(fbStudent => {
+          .then((fbStudent) => {
             this.setState({
               authed: true,
               loading: false,
@@ -73,7 +58,6 @@ class App extends Component {
           .catch((err) => {
             console.error('error with user', err);
           });
-
       } else {
         this.setState({
           authed: false,
@@ -98,7 +82,7 @@ class App extends Component {
   }
 
   setStudent = (student) => {
-    this.setState({student});
+    this.setState({ student });
   }
 
   render() {
