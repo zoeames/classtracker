@@ -960,12 +960,12 @@
     "title": "React Routing and Auth",
     "start": "January 7, 2019 20:00:00",
     "end": "January 8, 2019 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://reacttraining.com/react-router/",
     "instructor": "Lauren",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "React Routing and Auth",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/react-nutshell"
   },
   "cal90": {
     "title": "Week 22 HW",
@@ -989,8 +989,6 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-
-
   "cal92": {
     "title": "Final React Week",
     "start": "January 14, 2019 20:00:00",
@@ -1000,7 +998,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "React Routing and CRUD",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-8/react-nutshell"
   },
   "cal93": {
     "title": "Week 23 HW",

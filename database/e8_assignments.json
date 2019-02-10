@@ -198,8 +198,25 @@
     "assignedNumber": 19,
     "topic": "Capstone",
     "notes": "Must be completed to start working on capstone"
+  },
+  "assignment21": {
+    "title": "Home for the Holidays - Part 1",
+    "URL": "https://github.com/nss-nightclass-projects/home-for-the-holidays/blob/master/part1.md",
+    "dueDate": "2019-01-12",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 21,
+    "topic": "react routing",
+    "notes": "this is due on a saturday"
+  },
+  "assignment22": {
+    "title": "Home for the Holidays - Part 2",
+    "URL": "https://github.com/nss-nightclass-projects/home-for-the-holidays/blob/master/part2.md",
+    "dueDate": "2019-01-21",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 22,
+    "topic": "react",
+    "notes": "FINAL HW!!"
   }
 }
-
-
-
