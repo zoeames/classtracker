@@ -1,0 +1,13 @@
+{
+  "cal01": {
+    "title": "Capstone Soft Demo",
+    "start": "February 6, 2019 18:00:00",
+    "end": "February 6, 2019 22:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "vacation",
+    "description": "Demo capstone MVP to instructors",
+    "githubRepo":""
+  }
+}
