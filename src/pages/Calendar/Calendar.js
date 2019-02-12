@@ -114,7 +114,7 @@ class Calendar extends React.Component {
               {event.resourceUrl.length > 0 ? (
                 <div>
                   Resource{' '}
-                  <a href={event.resourceUrl} target="_blank">
+                  <a href={event.resourceUrl} target="_blank" rel="noopener noreferrer">
                     Here
                   </a>
                 </div>
@@ -124,7 +124,7 @@ class Calendar extends React.Component {
               {event.githubRepo.length > 0 ? (
                 <div>
                   Github{' '}
-                  <a href={event.githubRepo} target="_blank">
+                  <a href={event.githubRepo} target="_blank" rel="noopener noreferrer">
                     Here
                   </a>
                 </div>
@@ -134,7 +134,7 @@ class Calendar extends React.Component {
               {event.hwUrl.length > 0 ? (
                 <div>
                   HW{' '}
-                  <a href={event.hwUrl} target="_blank">
+                  <a href={event.hwUrl} target="_blank" rel="noopener noreferrer">
                     Here
                   </a>
                 </div>

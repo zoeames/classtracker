@@ -50,7 +50,7 @@ class GoodStudent extends React.Component {
     const githubLink = `https://github.com/${student.githubUsername}`;
     const lastPr = () => {
       if (pullRequests[0]) {
-        return (<h3>Last Merged PR: <a target="_blank" href={pullRequests[0].payload.pull_request.html_url}>{moment(pullRequests[0].created_at).format('lll')}</a></h3>);
+        return (<h3>Last Merged PR: <a target="_blank" rel="noopener noreferrer" href={pullRequests[0].payload.pull_request.html_url}>{moment(pullRequests[0].created_at).format('lll')}</a></h3>);
       }
       return '';
     };
@@ -63,17 +63,17 @@ class GoodStudent extends React.Component {
           <div className="card-body">
             <div className="row justify-content-md-center">
               <div className="col col-lg-2">
-                <a className="treehouse-link" href={student.treehouse} target="_blank">
+                <a className="treehouse-link" href={student.treehouse} target="_blank" rel="noopener noreferrer">
                   <img className="treehouse-img" src={treehouseImage} alt="treehouse logo"/>
                 </a>
               </div>
               <div className="col-md-auto">
-                <a className="github-link" href={githubLink} target="_blank">
+                <a className="github-link" href={githubLink} target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github fa-2x"></i>
                 </a>
               </div>
               <div className="col col-lg-2">
-                <a className="website-link" href={student.biosite} target="_blank">
+                <a className="website-link" href={student.biosite} target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-address-book fa-2x"></i>
                 </a>
               </div>

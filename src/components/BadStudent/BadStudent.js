@@ -43,7 +43,7 @@ class BadStudentTable extends React.Component {
           <a
             className="logo"
             href={student.treehouse}
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
           >
             <img
               className="treehouse-img"
@@ -51,10 +51,10 @@ class BadStudentTable extends React.Component {
               alt="treehouse logo"
             />
           </a>
-          <a className="logo" href={githubLink} target="_blank">
+          <a className="logo" href={githubLink} target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github fa-2x" />
           </a>
-          <a className="logo website-link" href={student.biosite} target="_blank">
+          <a className="logo website-link" href={student.biosite} target="_blank" rel="noopener noreferrer">
             <i className="fas fa-address-book fa-2x" />
           </a>
         </td>

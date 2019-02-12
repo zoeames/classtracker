@@ -10,17 +10,17 @@
             </div>
             <div class="col-xs-3">
               <div class="col-xs-4">
-                <a class="treehouse-link" href="{{$ctrl.student.treehouse}}" target="_blank">
+                <a class="treehouse-link" href="{{$ctrl.student.treehouse}}" target="_blank" rel="noopener noreferrer">
                   <img class="treehouse-img" src="./img/treehouse.png">
                 </a>
               </div>
               <div class="col-xs-4">
-                <a class="github-link" href="{{$ctrl.student.github}}" target="_blank">
+                <a class="github-link" href="{{$ctrl.student.github}}" target="_blank" rel="noopener noreferrer">
                   <i class="fab fa-github fa-2x"></i>
                 </a>
               </div>
               <div class="col-xs-4">
-                <a class="website-link" href="{{$ctrl.student.biosite}}" target="_blank">
+                <a class="website-link" href="{{$ctrl.student.biosite}}" target="_blank" rel="noopener noreferrer">
                   <i class="fas fa-address-book fa-2x"></i>
                 </a>
               </div>
@@ -60,13 +60,13 @@
           <tbody>
             <tr ng-repeat="assignment in $ctrl.assignments | orderBy:'assignedNumber'" ng-class='{"success": assignment.status === "done", "warning": assignment.status === "inProgress" , "danger": assignment.status === "backlog", "royal": assignment.status === "excused"}'>
               <th scope="row" class='text-nowrap'>
-                <a ng-href="{{assignment.URL}}" target="_blank">{{assignment.title}}</a>
+                <a ng-href="{{assignment.URL}}" target="_blank" rel="noopener noreferrer">{{assignment.title}}</a>
               </th>
               <th scope="row">{{assignment.dueDate}}</th>
               <th scope="row">{{assignment.status}}</th>
               <th scope="row">{{assignment.submissionDate | date:'M/d/yy h:mm a'}}</th>
               <th scope="row" class="text-center">
-                <a ng-if="assignment.githubUrl" target="_blank" href="{{assignment.githubUrl}}">
+                <a ng-if="assignment.githubUrl" target="_blank" rel="noopener noreferrer" href="{{assignment.githubUrl}}">
                   <i class="fab fa-github fa-lg"></i>
                 </a>
               </th>

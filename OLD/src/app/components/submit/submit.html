@@ -58,7 +58,7 @@
           <h3>Done</h3>
           <div class="panel panel-success" ng-repeat="assignment in $ctrl.assignments | filter: {isAssigned: 'true', status: 'done' }">
             <div class="panel-heading">{{assignment.title}}
-              <a class="pull-right btn btn-success" target="_blank" href="{{assignment.githubUrl}}">
+              <a class="pull-right btn btn-success" target="_blank" rel="noopener noreferrer" href="{{assignment.githubUrl}}">
                 <i class="fab fa-github"></i>
               </a>
             </div>
@@ -72,7 +72,7 @@
 
           <div class="panel panel-royal" ng-repeat="assignment in $ctrl.assignments | filter: {isAssigned: 'true', status: 'excused' }">
             <div class="panel-heading">{{assignment.title}}
-              <a ng-if="assignment.githubUrl" class="pull-right btn btn-success" target="_blank" href="{{assignment.githubUrl}}">
+              <a ng-if="assignment.githubUrl" class="pull-right btn btn-success" target="_blank" rel="noopener noreferrer" href="{{assignment.githubUrl}}">
                 <i class="fab fa-github"></i>
               </a>
               <button class="pull-right btn btn-default" ng-click="$ctrl.acceptExcused(assignment)">

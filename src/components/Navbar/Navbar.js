@@ -116,9 +116,9 @@ class Navbar extends React.Component {
             </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" onClick={this.githubAuth}>
+            <button className="nav-link" onClick={this.githubAuth}>
               <i className="fab fa-github" /> Login
-            </a>
+            </button>
           </li>
         </ul>
       );
