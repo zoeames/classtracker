@@ -3,10 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.2.1",
+    "firebase": "^5.7.2",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "moment": "^2.22.2",
     "node-sass": "^4.11.0",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
-    "react-scripts": "2.1.5"
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-big-calendar": "^0.19.2",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.2",
+    "reactstrap": "^7.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
