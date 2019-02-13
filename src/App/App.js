@@ -9,27 +9,60 @@ import {
 } from 'react-router-dom';
 
 import connection from '../helpers/data/connection';
+import studentRequests from '../helpers/data/studentRequests';
 
-import Auth from '../components/components/Auth/Auth';
-import MyNavBar from '../components/components/MyNavbar/MyNavbar';
+import MyNavbar from '../components/components/MyNavbar/MyNavbar';
+import Students from '../components/pages/Students/Students';
+import Tracker from '../components/pages/Tracker/Tracker';
+import Assignments from '../components/pages/Assignments/Assignments';
+import Calendar from '../components/pages/Calendar/Calendar';
+import SingleStudent from '../components/pages/SingleStudent/SingleStudent';
+import Submit from '../components/pages/Submit/Submit';
+
 import './App.scss';
-import authRequests from '../helpers/data/authRequests';
+
+
+const PrivateAdminRoute = ({ component: Component, admin, ...rest }) => {
+  const routeChecker = props => (admin === true
+    ? (<Component {...props} />)
+    : (<Redirect to={{ pathname: '/assignments', state: { from: props.location } }} />));
+  return <Route {...rest} render={props => routeChecker(props)} />;
+};
+
+const PrivateRoute = ({ component: Component, authed, ...rest }) => {
+  const routeChecker = props => (authed === true
+    ? (<Component {...props} />)
+    : (<Redirect to={{ pathname: '/login', state: { from: props.location } }} />));
+  return <Route {...rest} render={props => routeChecker(props)} />;
+};
 
 class App extends React.Component {
   state = {
     authed: false,
+    admin: false,
+    loading: false,
+    student: {},
   }
 
   componentDidMount() {
     connection();
     this.removeListener = firebase.auth().onAuthStateChanged((user) => {
       if (user) {
-        this.setState({
-          authed: true,
-        });
+        studentRequests.getSingleStudent(user.uid)
+          .then((fbStudent) => {
+            this.setState({
+              authed: true,
+              loading: false,
+              admin: !fbStudent.isStudent,
+              student: fbStudent,
+            });
+          })
+          .catch(err => console.error('error with user', err));
       } else {
         this.setState({
           authed: false,
+          loading: false,
+          student: {},
         });
       }
     });
@@ -39,30 +72,61 @@ class App extends React.Component {
     this.removeListener();
   }
 
+  runAway = () => {
+    this.setState({
+      authed: false,
+      admin: false,
+      loading: false,
+      student: {},
+    });
+  }
+
+  setStudent = (student) => {
+    this.setState({ student });
+  }
+
   isAuthenticated = () => {
     this.setState({ authed: true });
   }
 
   render() {
-    const { authed } = this.state;
-    const logoutClickEvent = () => {
-      authRequests.logoutUser();
-      this.setState({ authed: false });
-    };
-
-    if (!authed) {
-      return (
+    return this.state.loading === true ? (
+      <h1>Loading</h1>
+    ) : (
+      <BrowserRouter>
         <div className="App">
-          <MyNavBar isAuthed={authed} logoutClickEvent={logoutClickEvent}/>
-          <Auth isAuthenticated={this.isAuthenticated} />
+          <MyNavbar
+            authed={this.state.authed}
+            admin={this.state.admin}
+            runAway={this.runAway}
+            setStudent={this.setStudent}
+          />
+          <div className="body-container">
+            <Switch>
+              <Route path="/students" exact component={Students} />
+              <Route path="/assignments" exact component={Assignments} />
+              <Route path="/calendar" exact component={Calendar} />
+              <PrivateRoute
+                authed={this.state.authed}
+                path="/student/:id"
+                component={SingleStudent}
+              />
+              <PrivateRoute
+                authed={this.state.authed}
+                path="/submit"
+                component={Submit}
+              />
+              <PrivateAdminRoute
+                authed={this.state.authed}
+                admin={this.state.admin}
+                path="/tracker"
+                component={Tracker}
+              />
+              <Redirect from="*" to="/students"/>
+            </Switch>
+          </div>
         </div>
-      );
-    }
-    return (
-      <div className="App">
-        <MyNavBar isAuthed={authed} logoutClickEvent={logoutClickEvent}/>
-        You are authenticated.
-      </div>
+      </BrowserRouter>
     );
   }
 }

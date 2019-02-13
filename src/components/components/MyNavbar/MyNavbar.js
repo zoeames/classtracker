@@ -40,8 +40,14 @@ class MyNavbar extends React.Component {
       .catch(err => console.error('error in authenticate', err));
   };
 
+  logoutClickEvent = (e) => {
+    e.preventDefault();
+    authRequests.logoutUser();
+    this.props.runAway();
+  }
+
   render() {
-    const { isAuthed, isAdmin, logoutClickEvent } = this.props;
+    const { authed, isAdmin } = this.props;
     const buildNavbar = () => {
       if (isAdmin) {
         return (
@@ -62,12 +68,12 @@ class MyNavbar extends React.Component {
               <NavLink to='/assignments'>Assignments</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={logoutClickEvent}>Logout</NavLink>
+              <NavLink onClick={this.logoutClickEvent}>Logout</NavLink>
             </NavItem>
           </Nav>
         );
       }
-      if (isAuthed) {
+      if (authed) {
         return (
           <Nav className="ml-auto" navbar>
             <NavItem>
@@ -83,7 +89,7 @@ class MyNavbar extends React.Component {
               <NavLink to='/assignments'>Assignments</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={logoutClickEvent}>Logout</NavLink>
+              <NavLink onClick={this.logoutClickEvent}>Logout</NavLink>
             </NavItem>
           </Nav>
         );
