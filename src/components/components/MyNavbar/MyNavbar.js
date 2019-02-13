@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import {
   Collapse,
   Navbar,
@@ -47,25 +48,25 @@ class MyNavbar extends React.Component {
   }
 
   render() {
-    const { authed, isAdmin } = this.props;
+    const { authed, admin } = this.props;
     const buildNavbar = () => {
-      if (isAdmin) {
+      if (admin) {
         return (
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink to='/tracker'>Tracker</NavLink>
+              <NavLink tag={ Link } to='/tracker'>Tracker</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to='/submit'>Submit</NavLink>
+              <NavLink tag={ Link } to='/submit'>Submit</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to='/students'>Student</NavLink>
+              <NavLink tag={ Link } to='/students'>Student</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to='/calendar'>Calendar</NavLink>
+              <NavLink tag={ Link } to='/calendar'>Calendar</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to='/assignments'>Assignments</NavLink>
+              <NavLink tag={ Link } to='/assignments'>Assignments</NavLink>
             </NavItem>
             <NavItem>
               <NavLink onClick={this.logoutClickEvent}>Logout</NavLink>
@@ -77,16 +78,16 @@ class MyNavbar extends React.Component {
         return (
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink to='/submit'>Submit</NavLink>
+              <NavLink tag={ Link } to='/submit'>Submit</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to='/students'>Student</NavLink>
+              <NavLink tag={ Link } to='/students'>Student</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to='/calendar'>Calendar</NavLink>
+              <NavLink tag={ Link } to='/calendar'>Calendar</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to='/assignments'>Assignments</NavLink>
+              <NavLink tag={ Link } to='/assignments'>Assignments</NavLink>
             </NavItem>
             <NavItem>
               <NavLink onClick={this.logoutClickEvent}>Logout</NavLink>
@@ -97,13 +98,13 @@ class MyNavbar extends React.Component {
       return (
         <Nav className="ml-auto" navbar>
           <NavItem>
-            <NavLink to='/students'>Student</NavLink>
+            <NavLink tag={ Link } to='/students'>Student</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to='/calendar'>Calendar</NavLink>
+            <NavLink tag={ Link } to='/calendar'>Calendar</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to='/assignments'>Assignments</NavLink>
+            <NavLink tag={ Link } to='/assignments'>Assignments</NavLink>
           </NavItem>
           <NavItem>
             <NavLink onClick={this.githubAuth}>Login</NavLink>
