@@ -11,11 +11,15 @@ import {
 } from 'reactstrap';
 import './MyNavbar.scss';
 
+import authRequests from '../../../helpers/data/authRequests';
+
 class MyNavbar extends React.Component {
   static propTypes = {
-    isAuthed: PropTypes.bool,
-    logoutClickEvent: PropTypes.func,
-  }
+    authed: PropTypes.bool,
+    admin: PropTypes.bool,
+    runAway: PropTypes.func,
+    setStudent: PropTypes.func,
+  };
 
   state = {
     isOpen: false,
@@ -27,19 +31,88 @@ class MyNavbar extends React.Component {
     });
   }
 
+  githubAuth = () => {
+    authRequests
+      .authenticate()
+      .then((result) => {
+        this.props.setStudent(result);
+      })
+      .catch(err => console.error('error in authenticate', err));
+  };
+
   render() {
-    const { isAuthed, logoutClickEvent } = this.props;
+    const { isAuthed, isAdmin, logoutClickEvent } = this.props;
+    const buildNavbar = () => {
+      if (isAdmin) {
+        return (
+          <Nav className="ml-auto" navbar>
+            <NavItem>
+              <NavLink to='/tracker'>Tracker</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to='/submit'>Submit</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to='/students'>Student</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to='/calendar'>Calendar</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to='/assignments'>Assignments</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink onClick={logoutClickEvent}>Logout</NavLink>
+            </NavItem>
+          </Nav>
+        );
+      }
+      if (isAuthed) {
+        return (
+          <Nav className="ml-auto" navbar>
+            <NavItem>
+              <NavLink to='/submit'>Submit</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to='/students'>Student</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to='/calendar'>Calendar</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to='/assignments'>Assignments</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink onClick={logoutClickEvent}>Logout</NavLink>
+            </NavItem>
+          </Nav>
+        );
+      }
+      return (
+        <Nav className="ml-auto" navbar>
+          <NavItem>
+            <NavLink to='/students'>Student</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to='/calendar'>Calendar</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to='/assignments'>Assignments</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink onClick={this.githubAuth}>Login</NavLink>
+          </NavItem>
+        </Nav>
+      );
+    };
+
     return (
       <div className="my-navbar">
       <Navbar color="dark" dark expand="md">
           <NavbarBrand href="/">React Nutshell</NavbarBrand>
           <NavbarToggler onClick={e => this.toggle(e)} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                { isAuthed ? <NavLink onClick={logoutClickEvent}>Logout</NavLink> : ''}
-              </NavItem>
-            </Nav>
+            {buildNavbar()}
           </Collapse>
         </Navbar>
       </div>
