@@ -1,8 +1,10 @@
 import React from 'react';
 
-import studentRequests from '../../firebaseRequests/students';
+import studentRequests from '../../../helpers/data/studentRequests';
 
 import './BadStudent.scss';
+
+import treehouseImage from './img/treehouse.png';
 
 class BadStudentTable extends React.Component {
   state = {
@@ -16,9 +18,6 @@ class BadStudentTable extends React.Component {
       studentRequests
         .getTreehouseProfilePoints(student.treehouse)
         .then((treehouse) => {
-          if (treehouse > 3000) {
-            treehouse = 'done';
-          }
           this.setState({ student, treehousePoints: treehouse });
         })
         .catch((err) => {
@@ -31,7 +30,6 @@ class BadStudentTable extends React.Component {
 
   render() {
     const { student } = this.state;
-    const treehouseImage = require('./img/treehouse.png');
     const points = this.state.treehousePoints;
     const githubLink = `https://github.com/${student.githubUsername}`;
     return (
