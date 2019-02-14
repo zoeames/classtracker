@@ -1,0 +1,27 @@
+@import '../../../styles/_colors';
+
+.Calendar {
+  text-align: center;
+  .cal-holder {
+    margin-top: 25px;
+    background-color: $white;
+    padding: 15px;
+    height: 65vh;
+  }
+  .rbc-toolbar-label {
+    font-size: 30px;
+  }
+  .bg-purple{
+    background-color: $cal-purple !important;
+  }
+
+  .border-purple {
+      border-color: $cal-purple !important;
+  }
+
+  .event{
+    a {
+      color: $bootstrap-primary;
+    }
+  }
+}

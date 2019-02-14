@@ -1,5 +1,7 @@
+@import './_colors';
+
 body {
-  background-color: #e1f5fe;
+  background-color: $background !important;
   // padding-top: 70px;
 }
 
@@ -13,7 +15,7 @@ body h6 {
 }
 
 a {
-  color: #ffffff;
+  color: $white;
 }
 
 .main-container {
@@ -33,29 +35,29 @@ a {
 .table > thead > tr.royal > th,
 .table > thead > tr > td.royal,
 .table > thead > tr > th.royal {
-  background-color: #d6c5db;
+  background-color: $royal-light;
 }
 
 .panel-royal > .panel-heading {
-  color: #91669c;
-  background-color: #d6c5db;
+  color: $royal;
+  background-color: $royal-light;
   border-color: #f0eaf1;
 }
 
 /* default button */
 
 .btn-default {
-  background-color: #ffc107;
-  color: #ffffff;
-  border-color: #adadad;
+  background-color: $default;
+  color: $white;
+  border-color: $border-one;
 }
 
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active {
-  background-color: #e6a800;
-  color: #ffffff;
-  border-color: #adadad;
+  background-color: $default-active;
+  color: $white;
+  border-color: $border-one;
 }
 
 .panel-default {
@@ -100,7 +102,7 @@ a {
   }
   .navbar-fixed-side .navbar-collapse {
     width: 100%;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid $navbar-eggshell1;
   }
   .navbar-fixed-side .navbar-nav {
     float: none;
@@ -112,14 +114,14 @@ a {
   .navbar-fixed-side .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #e7e7e7;
+    border-bottom: 1px solid $navbar-eggshell1;
   }
   .navbar-fixed-side .navbar-form {
     margin: 0;
     margin-left: -15px;
     margin-right: -15px;
     padding: 10px 15px;
-    border-bottom: 1px solid #e7e7e7;
+    border-bottom: 1px solid $navbar-eggshell1;
   }
   .navbar-fixed-side .navbar-text {
     float: none;
@@ -138,7 +140,7 @@ a {
     background-color: transparent;
     border: 0;
     box-shadow: none;
-    border-bottom: 1px solid #e7e7e7;
+    border-bottom: 1px solid $navbar-eggshell1;
   }
   .navbar-fixed-side .navbar-nav .dropdown-menu > li > a,
   .navbar-fixed-side .navbar-nav .dropdown-menu .dropdown-header {
@@ -146,27 +148,27 @@ a {
   }
   .navbar-fixed-side .navbar-nav .dropdown-menu > li > a {
     line-height: 20px;
-    color: #777;
+    color: $navbar-lightest-grey;
   }
   .navbar-fixed-side .navbar-nav .dropdown-menu > li > a:hover,
   .navbar-fixed-side .navbar-nav .dropdown-menu > li > a:focus {
     background-image: none;
   }
   .navbar-fixed-side .navbar-nav .dropdown-menu > .active > a {
-    background-color: #e7e7e7;
-    color: #555;
+    background-color: $navbar-eggshell1;
+    color: $grey2;
   }
   .navbar-fixed-side .navbar-nav > li > a:hover,
   .navbar-fixed-side .navbar-nav > li > a:focus,
   .navbar-fixed-side .navbar-nav .dropdown-menu > li > a:hover,
   .navbar-fixed-side .navbar-nav .dropdown-menu > li > a:focus {
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: $navbar-eggshell2;
+    color: $grey1;
   }
   .navbar-fixed-side .dropdown > .dropdown-toggle,
   .navbar-fixed-side .dropdown-menu > .dropdown-header {
     background-color: transparent !important;
-    color: #9d9d9d !important;
+    color: $navbar-light-grey !important;
     cursor: default;
     font-size: 0.8em;
     text-transform: uppercase;
@@ -183,17 +185,17 @@ a {
   .navbar-fixed-side.navbar-inverse .navbar-nav > li > a,
   .navbar-fixed-side.navbar-inverse .navbar-form,
   .navbar-fixed-side.navbar-inverse .navbar-nav .dropdown-menu {
-    border-color: #363636;
+    border-color: $navbar-medium-grey;
   }
   .navbar-fixed-side.navbar-inverse .divider {
-    background-color: #363636;
+    background-color: $navbar-medium-grey;
   }
   .navbar-fixed-side.navbar-inverse .navbar-nav .dropdown-menu > li > a {
-    color: #9d9d9d;
+    color: $navbar-light-grey;
   }
   .navbar-fixed-side.navbar-inverse .navbar-nav .dropdown-menu > .active > a {
-    background-color: #090909;
-    color: #fff;
+    background-color: $black;
+    color:  $white;
   }
   .navbar-fixed-side.navbar-inverse .navbar-nav > li:not(.active) > a:hover,
   .navbar-fixed-side.navbar-inverse .navbar-nav > li:not(.active) > a:focus,
@@ -207,16 +209,16 @@ a {
     .dropdown-menu
     > li:not(.active)
     > a:focus {
-    background-color: #2f2f2f;
-    color: #fff;
+    background-color: $navbar-dark-grey;
+    color:  $white;
   }
   .navbar-fixed-side.navbar-inverse .dropdown > .dropdown-toggle {
-    color: #777777 !important;
+    color: $navbar-lightest-grey !important;
   }
 }
 
 .day {
-  border: 2px solid black;
+  border: 2px solid $black;
 }
 
 .nextWeek {
@@ -228,11 +230,11 @@ td h3 {
 }
 
 td a {
-  color: black;
+  color: $black;
 }
 
 table {
-  background-color: white;
+  background-color: $white;
 }
 
 .crap {
@@ -250,24 +252,24 @@ table {
 }
 
 #calendar-dashboard a {
-  color: blue;
+  color: $blue;
   text-decoration: underline;
 }
 
 mwl-calendar .cal-year-box .row {
-  border-color: black;
+  border-color: $black;
 }
 
 mwl-calendar .cal-month-box .cal-row-fluid {
-  border-color: black;
+  border-color: $black;
 }
 
 .cal-cell {
-  border: solid black 1px;
+  border: solid $black 1px;
 }
 
 .github-link {
-  color: black;
+  color: $black;
 }
 
 #submit-dashboard .panel-heading {
@@ -276,7 +278,7 @@ mwl-calendar .cal-month-box .cal-row-fluid {
 
 .github-url-box {
   padding-top: 5px;
-  border: 2px dotted #adadad;
+  border: 2px dotted $border-one;
   height: 34px;
   overflow-x: scroll;
   white-space: nowrap;
@@ -291,7 +293,7 @@ mwl-calendar .cal-month-box .cal-row-fluid {
 }
 
 tr a {
-  color: black;
+  color: $black;
 }
 
 /* Tracker table student names */
@@ -306,7 +308,7 @@ th.rotate > div {
   width: 30px;
 }
 th.rotate > div > a {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid $border-two;
   padding: 5px 10px;
 }
 #tracker-table {
@@ -315,5 +317,5 @@ th.rotate > div > a {
 }
 
 td{
-  border-right: 2px solid #ccc;
+  border-right: 2px solid $border-two;
 }
