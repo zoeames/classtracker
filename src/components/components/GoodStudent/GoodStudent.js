@@ -16,33 +16,43 @@ class GoodStudent extends React.Component {
   }
 
   componentDidMount() {
-    githubRequests
-      .getRecentActivityRequest(this.props.student.githubUsername)
-      .then((githubRes) => {
-        const pullRequests = [];
-        const pushEvents = [];
-        let todaysCommits = 0;
-        let yesterdaysCommits = 0;
-        githubRes.forEach((event) => {
-          if (event.type === 'PullRequestEvent' && event.payload.action === 'closed') {
-            pullRequests.push(event);
-          } else if (event.type === 'PushEvent') {
-            pushEvents.push(event);
-            if (moment(event.created_at).isSame(moment(), 'day')) {
-              todaysCommits += event.payload.commits.length;
-            } else if (moment(event.created_at).isSame(moment().subtract(1, 'days'), 'day')) {
-              yesterdaysCommits += event.payload.commits.length;
+    const username = this.props.student.githubUsername;
+    const pullRequests = [];
+    const pushEvents = [];
+    let todaysCommits = 0;
+    let yesterdaysCommits = 0;
+    if (username.length > 0) {
+      githubRequests
+        .getRecentActivityRequest(username)
+        .then((githubRes) => {
+          githubRes.forEach((event) => {
+            if (event.type === 'PullRequestEvent' && event.payload.action === 'closed') {
+              pullRequests.push(event);
+            } else if (event.type === 'PushEvent') {
+              pushEvents.push(event);
+              if (moment(event.created_at).isSame(moment(), 'day')) {
+                todaysCommits += event.payload.commits.length;
+              } else if (moment(event.created_at).isSame(moment().subtract(1, 'days'), 'day')) {
+                yesterdaysCommits += event.payload.commits.length;
+              }
             }
-          }
-        });
-        this.setState({
-          pullRequests,
-          pushEvents,
-          todaysCommits,
-          yesterdaysCommits,
-        });
-      })
-      .catch(err => console.error('error with get commits request', err));
+          });
+          this.setState({
+            pullRequests,
+            pushEvents,
+            todaysCommits,
+            yesterdaysCommits,
+          });
+        })
+        .catch(err => console.error('error with get commits request', err));
+    } else {
+      this.setState({
+        pullRequests: [],
+        pushEvents: [],
+        todaysCommits: 0,
+        yesterdaysCommits: 0,
+      });
+    }
   }
 
   render() {
