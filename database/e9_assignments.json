@@ -1,0 +1,22 @@
+{
+  "assignment01": {
+    "title": "Treehouse Prework",
+    "URL": "https://github.com/nss-nightclass-projects/prework",
+    "dueDate": "2019-02-18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 1,
+    "topic": "prework",
+    "notes": "Treehouse sections only - should be about 3000 points"
+  },
+  "assignment02": {
+    "title": "Reading Prework",
+    "URL": "https://github.com/nss-nightclass-projects/prework",
+    "dueDate": "2019-02-18",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 2,
+    "topic": "prework",
+    "notes": "Prework reading sections"
+  }
+}

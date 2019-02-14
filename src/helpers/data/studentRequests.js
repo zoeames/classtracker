@@ -19,19 +19,6 @@ const getRequest = () => new Promise((resolve, reject) => {
     .catch(err => reject(err));
 });
 
-const getTreehouseProfilePoints = url => new Promise((resolve, reject) => {
-  axios
-    .get(`${url}.json`)
-    .then((treehouseProfile) => {
-      let points = treehouseProfile.data.points.total;
-      if (points > 3000) {
-        points = 'done';
-      }
-      resolve(points);
-    })
-    .catch(err => reject(err));
-});
-
 const getSingleStudent = uid => new Promise((resolve, reject) => {
   axios
     .get(`${apiKeys.firebaseConfig.databaseURL}/students.json?orderBy="uid"&equalTo="${uid}"`)
@@ -48,4 +35,4 @@ const getSingleStudent = uid => new Promise((resolve, reject) => {
     .catch(err => reject(err));
 });
 
-export default { getRequest, getTreehouseProfilePoints, getSingleStudent };
+export default { getRequest, getSingleStudent };

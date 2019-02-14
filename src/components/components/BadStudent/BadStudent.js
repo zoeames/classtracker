@@ -1,6 +1,6 @@
 import React from 'react';
 
-import studentRequests from '../../../helpers/data/studentRequests';
+import treehouseRequests from '../../../helpers/data/treehouseRequests';
 
 import './BadStudent.scss';
 
@@ -14,8 +14,8 @@ class BadStudentTable extends React.Component {
 
   componentDidMount() {
     const { student } = this.props;
-    if (student.treehouse.length > 0) {
-      studentRequests
+    if (student.treehouse.length > 0 && student.treehouse !== 'https://teamtreehouse.com/') {
+      treehouseRequests
         .getTreehouseProfilePoints(student.treehouse)
         .then((treehouse) => {
           this.setState({ student, treehousePoints: treehouse });
