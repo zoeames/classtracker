@@ -1,6 +1,8 @@
 @import '../../../styles/_colors';
 
 .Submit {
+  text-align: center;
+
   .App {
     text-align: center;
     width: 95%;
@@ -9,7 +11,7 @@
 
   .backlog {
     background-color: $submit-white;
-    border: 5px dotted pink;
+    border: 5px dotted $submit-pink;
   }
 
   .inProgress {
