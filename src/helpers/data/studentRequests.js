@@ -19,10 +19,18 @@ const getRequest = () => new Promise((resolve, reject) => {
     .catch(err => reject(err));
 });
 
-const getTreehouseProfilePoints = url => axios
-  .get(`${url}.json`)
-  .then(treehouseProfile => treehouseProfile.data.points.total)
-  .catch(error => error);
+const getTreehouseProfilePoints = url => new Promise((resolve, reject) => {
+  axios
+    .get(`${url}.json`)
+    .then((treehouseProfile) => {
+      let points = treehouseProfile.data.points.total;
+      if (points > 3000) {
+        points = 'done';
+      }
+      resolve(points);
+    })
+    .catch(err => reject(err));
+});
 
 const getSingleStudent = uid => new Promise((resolve, reject) => {
   axios

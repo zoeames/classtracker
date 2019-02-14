@@ -1,7 +1,9 @@
 import React from 'react';
 import moment from 'moment';
 
-import githubRequests from '../../firebaseRequests/github';
+import githubRequests from '../../../helpers/data/githubRequests';
+
+import treehouseImage from './img/treehouse.png';
 
 import './GoodStudent.scss';
 
@@ -46,7 +48,6 @@ class GoodStudent extends React.Component {
   render() {
     const { student } = this.props;
     const { pullRequests, todaysCommits, yesterdaysCommits } = this.state;
-    const treehouseImage = require('./img/treehouse.png');
     const githubLink = `https://github.com/${student.githubUsername}`;
     const lastPr = () => {
       if (pullRequests[0]) {
