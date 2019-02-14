@@ -1,0 +1,40 @@
+@import '../../../styles/_colors';
+
+.Submit {
+  text-align: center;
+
+  .App {
+    text-align: center;
+    width: 95%;
+    margin: 15px auto;
+  }
+
+  .backlog {
+    background-color: $submit-white;
+    border: 5px dotted $submit-pink;
+  }
+
+  .inProgress {
+    background-color: $submit-white;
+    border: 5px dotted $submit-green;
+  }
+
+  .done {
+    background-color: $submit-white;
+    border: 5px dotted $submit-orange;
+  }
+
+  .task-header {
+    display: inline-block;
+    background-color: $submit-blue;
+    width:100%;
+  }
+
+  .draggable {
+    width: 100px;
+    height: 100px;
+    background-color: $submit-yellow;
+    margin: 5px auto;
+    line-height: 5em;
+  }
+}

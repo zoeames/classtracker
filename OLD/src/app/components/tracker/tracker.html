@@ -18,11 +18,11 @@
       <tbody>
         <tr ng-repeat="assignment in $ctrl.assignments">
           <td class='text-nowrap'>
-            <a ng-href="{{assignment.details.URL}}" target="_blank">{{assignment.details.title}}</a>
+            <a ng-href="{{assignment.details.URL}}" target="_blank" rel="noopener noreferrer">{{assignment.details.title}}</a>
           </td>
           <td ng-repeat="stat in assignment.studentStats track by $index" ng-class='{"success": stat === "D", "warning": stat === "P" , "danger": stat === "X", "royal": stat === "E"}'>{{stat}}</td>
           <td class='text-nowrap'>
-            <a ng-href="{{assignment.details.URL}}" target="_blank">{{assignment.details.title}}</a>
+            <a ng-href="{{assignment.details.URL}}" target="_blank" rel="noopener noreferrer">{{assignment.details.title}}</a>
           </td>
         </tr>
       </tbody>
