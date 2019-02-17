@@ -7,6 +7,7 @@ const apiKeys = {
     storageBucket: '',
     messagingSenderId: '',
   },
+  githubProxyUrl: '',
 };
 
- export default apiKeys;
+export default apiKeys;
