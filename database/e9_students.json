@@ -94,7 +94,7 @@
     "githubUsername": "",
     "treehouse": "https://teamtreehouse.com/matthewgill4",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -127,7 +127,7 @@
     "githubUsername": "",
     "treehouse": "https://teamtreehouse.com/andrewtiller",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -149,7 +149,7 @@
     "githubUsername": "",
     "treehouse": "https://teamtreehouse.com/heathmoore",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -248,7 +248,7 @@
     "githubUsername": "",
     "treehouse": "https://teamtreehouse.com/matthewbell5",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -259,7 +259,7 @@
     "githubUsername": "",
     "treehouse": "https://teamtreehouse.com/silvestreluna",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -290,7 +290,7 @@
     "lastName": "Lipps",
     "email": "jjlipps@gmail.com",
     "githubUsername": "",
-    "treehouse": "https://teamtreehouse.com/",
+    "treehouse": "https://teamtreehouse.com/jenniferlipps",
     "biosite": "",
     "treehouseComplete": false,
     "isStudent": true,
@@ -319,11 +319,11 @@
     "uid": ""
   },
   "student27": {
-    "firstName": "Saul",
-    "lastName": "Solano",
-    "email": "saul3d@yahoo.com",
+    "firstName": "Mark",
+    "lastName": "Okafor",
+    "email": "okaformark@gmail.com",
     "githubUsername": "",
-    "treehouse": "https://teamtreehouse.com/saul3d",
+    "treehouse": "https://teamtreehouse.com/markokafor",
     "biosite": "",
     "treehouseComplete": false,
     "isStudent": true,
