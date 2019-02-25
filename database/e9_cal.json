@@ -47,7 +47,7 @@
     "title": "Class Expectations and Overview",
     "start": "February 18, 2019 19:00:00",
     "end": "February 18, 2019 20:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://docs.google.com/presentation/d/1EtmTorQ7fd9GK6PoaK666Mt0LKmuWuS1k1Acvn9sJ10/edit?usp=sharing",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
@@ -71,15 +71,26 @@
     "end": "February 21, 2019 23:30:00",
     "resourceUrl": "",
     "instructor": "",
-    "hwUrl": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week01.md",
     "eventType": "study",
     "description": "HW #1",
     "githubRepo":""
   },
   "cal08": {
+    "title": "Great Flood of 2019",
+    "start": "February 23, 2019 8:00:00",
+    "end": "February 23, 2019 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "vacation",
+    "description": "No Classes",
+    "githubRepo":""
+  },
+  "cal09": {
     "title": "Installs",
-    "start": "February 23, 2019 9:00:00",
-    "end": "February 23, 2019 11:30:00",
+    "start": "February 25, 2019 18:00:00",
+    "end": "February 25, 2019 19:30:00",
     "resourceUrl": "",
     "instructor": "Zoe, Greg",
     "hwUrl": "",
@@ -87,22 +98,11 @@
     "description": "Mac and PC Installs",
     "githubRepo":"https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/setup.md"
   },
-  "cal09": {
-    "title": "HTML and CSS",
-    "start": "February 23, 2019 12:00:00",
-    "end": "February 23, 2019 14:00:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "Review of HTML and CSS",
-    "githubRepo":""
-  },
   "cal10": {
     "title": "Command Line",
-    "start": "February 25, 2019 18:00:00",
-    "end": "February 25, 2019 19:00:00",
-    "resourceUrl": "",
+    "start": "February 25, 2019 19:30:00",
+    "end": "February 25, 2019 20:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/command-line.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
@@ -110,21 +110,21 @@
     "githubRepo":""
   },
   "cal11": {
-    "title": "VS Code",
-    "start": "February 25, 2019 19:00:00",
-    "end": "February 25, 2019 20:00:00",
-    "resourceUrl": "",
+    "title": "Github Setup",
+    "start": "February 25, 2019 20:00:00",
+    "end": "February 25, 2019 21:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-setup.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Cool things in VS Code",
+    "description": "Configuring your machine to authenticate to github",
     "githubRepo":""
   },
   "cal12": {
     "title": "Intro to Github",
     "start": "February 25, 2019 21:00:00",
     "end": "February 25, 2019 22:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-and-github.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
@@ -135,7 +135,7 @@
     "title": "Git Branching",
     "start": "February 26, 2019 21:00:00",
     "end": "February 26, 2019 22:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-branching.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
@@ -148,14 +148,25 @@
     "end": "February 28, 2019 23:30:00",
     "resourceUrl": "",
     "instructor": "",
-    "hwUrl": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week02.md",
     "eventType": "study",
     "description": "HW #2",
     "githubRepo":""
   },
   "cal15": {
-    "title": "JS Functions",
+    "title": "VS Code",
     "start": "March 2, 2019 9:00:00",
+    "end": "March 2, 2019 10:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Cool things in VS Code",
+    "githubRepo":""
+  },
+  "cal16": {
+    "title": "JS Functions",
+    "start": "March 2, 2019 10:00:00",
     "end": "March 2, 2019 14:00:00",
     "resourceUrl": "",
     "instructor": "Zoe",
@@ -164,7 +175,7 @@
     "description": "All about JS Functions",
     "githubRepo":""
   },
-  "cal16": {
+  "cal17": {
     "title": "JS Arrays and Strings",
     "start": "March 4, 2019 18:00:00",
     "end": "March 4, 2019 22:00:00",
@@ -175,7 +186,7 @@
     "description": "All about JS Arrays and Strings",
     "githubRepo":""
   },
-  "cal17": {
+  "cal18": {
     "title": "JS Objects and a advanced array methods",
     "start": "March 5, 2019 18:00:00",
     "end": "March 5, 2019 22:00:00",
@@ -186,18 +197,18 @@
     "description": "All about JS Objects and advanced array methods",
     "githubRepo":""
   },
-  "cal18": {
+  "cal19": {
     "title": "Week 3 HW",
     "start": "March 6, 2019 2:00:00",
     "end": "March 7, 2019 23:30:00",
     "resourceUrl": "",
     "instructor": "",
-    "hwUrl": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week03.md",
     "eventType": "study",
     "description": "HW #3",
     "githubRepo":""
   },
-  "cal19": {
+  "cal20": {
     "title": "Exercises",
     "start": "March 9, 2019 9:00:00",
     "end": "March 9, 2019 14:00:00",
@@ -208,10 +219,10 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal20": {
+  "cal21": {
     "title": "Chrome Dev Tools",
     "start": "March 11, 2019 18:00:00",
-    "end": "March 11, 2019 22:00:00",
+    "end": "March 11, 2019 20:00:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -219,34 +230,23 @@
     "description": "How to use the chrome dev tools",
     "githubRepo":""
   },
-  "cal21": {
-    "title": "Git for teams",
-    "start": "March 12, 2019 18:00:00",
-    "end": "March 12, 2019 22:00:00",
+  "cal22": {
+    "title": "THE DOM",
+    "start": "March 11, 2019 20:00:00",
+    "end": "March 11, 2019 22:00:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Using git for teams",
-    "githubRepo":""
-  },
-  "cal22": {
-    "title": "Week 4 HW",
-    "start": "March 13, 2019 2:00:00",
-    "end": "March 14, 2019 23:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "",
-    "eventType": "study",
-    "description": "HW #4",
+    "description": "How to use css, html, and JS together",
     "githubRepo":""
   },
   "cal23": {
     "title": "Markdown",
-    "start": "March 16, 2019 9:00:00",
-    "end": "March 16, 2019 10:00:00",
+    "start": "March 12, 2019 9:00:00",
+    "end": "March 12, 2019 10:00:00",
     "resourceUrl": "",
-    "instructor": "Zoe",
+    "instructor": "Greg",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to make a README.md",
@@ -254,8 +254,8 @@
   },
   "cal24": {
     "title": "Exercises",
-    "start": "March 16, 2019 10:00:00",
-    "end": "March 16, 2019 14:00:00",
+    "start": "March 12, 2019 10:00:00",
+    "end": "March 12, 2019 14:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -264,6 +264,28 @@
     "githubRepo":""
   },
   "cal25": {
+    "title": "Week 4 HW",
+    "start": "March 13, 2019 2:00:00",
+    "end": "March 14, 2019 23:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week04.md",
+    "eventType": "study",
+    "description": "HW #4",
+    "githubRepo":""
+  },
+  "cal26": {
+    "title": "Git for teams",
+    "start": "March 16, 2019 9:00:00",
+    "end": "March 16, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe,Greg,Michael",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Using git for teams",
+    "githubRepo":""
+  },
+  "cal27": {
     "title": "Group Project",
     "start": "March 18, 2019 19:00:00",
     "end": "March 23, 2019 21:30:00",
@@ -274,18 +296,18 @@
     "description": "Group Project: See Github Project",
     "githubRepo":""
   },
-  "cal26": {
+  "cal28": {
     "title": "Week 5 HW",
     "start": "March 20, 2019 2:00:00",
     "end": "March 21, 2019 23:30:00",
     "resourceUrl": "",
     "instructor": "",
-    "hwUrl": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week05.md",
     "eventType": "study",
     "description": "HW #5",
     "githubRepo":""
   },
-  "cal27": {
+  "cal29": {
     "title": "Group Project Demos",
     "start": "March 25, 2019 18:00:00",
     "end": "March 25, 2019 19:00:00",
@@ -296,7 +318,7 @@
     "description": "Show and tell!",
     "githubRepo":""
   },
-  "cal28": {
+  "cal30": {
     "title": "Event Listeners",
     "start": "March 25, 2019 18:00:00",
     "end": "March 25, 2019 22:00:00",
@@ -307,7 +329,7 @@
     "description": "How to make buttons click",
     "githubRepo":""
   },
-  "cal29": {
+  "cal31": {
     "title": "Bootstrap 4",
     "start": "March 26, 2019 18:00:00",
     "end": "March 16, 2019 22:00:00",
@@ -318,18 +340,18 @@
     "description": "One grid to rule them all",
     "githubRepo":""
   },
-  "cal30": {
+  "cal32": {
     "title": "Week 6 HW",
     "start": "March 27, 2019 2:00:00",
     "end": "March 28, 2019 23:30:00",
     "resourceUrl": "",
     "instructor": "",
-    "hwUrl": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week06.md",
     "eventType": "study",
     "description": "HW #6",
     "githubRepo":""
   },
-  "cal31": {
+  "cal33": {
     "title": "Exercises",
     "start": "March 30, 2019 10:00:00",
     "end": "March 30, 2019 14:00:00",
