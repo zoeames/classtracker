@@ -281,7 +281,7 @@
     "githubUsername": "",
     "treehouse": "https://teamtreehouse.com/lwamtekie",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -292,7 +292,7 @@
     "githubUsername": "",
     "treehouse": "https://teamtreehouse.com/jenniferlipps",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
