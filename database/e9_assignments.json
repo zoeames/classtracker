@@ -18,5 +18,15 @@
     "assignedNumber": 2,
     "topic": "prework",
     "notes": "Prework reading sections"
+  },
+  "assignment03": {
+    "title": "Product Cards",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/HTML_CSS_product_cards.md",
+    "dueDate": "2019-03-05",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 3,
+    "topic": "HTML/CSS",
+    "notes": "Use flexbox"
   }
 }
