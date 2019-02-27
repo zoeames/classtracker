@@ -28,7 +28,6 @@ class SubmitDropColumn extends React.Component {
 
   render() {
     const { droppableId, items } = this.props;
-    console.log('items', items);
     return (
       <Droppable droppableId={droppableId}>
         {(provided1, snapshot1) => (

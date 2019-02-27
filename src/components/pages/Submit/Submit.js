@@ -37,16 +37,14 @@ const move = (source, destination, droppableSource, droppableDestination) => {
 
 class Submit extends React.Component {
   state = {
-    items: [],
-    selected: [],
+    backlog: [],
+    inProgress: [],
   };
 
   componentDidMount() {
-    const items = getItems(10);
-    const selected = getItems(5, 10);
-    console.log('items', items);
-    console.log('selected', selected);
-    this.setState({ items, selected });
+    const backlog = getItems(10);
+    const inProgress = getItems(5, 10);
+    this.setState({ backlog, inProgress });
   }
 
   /**
@@ -55,14 +53,15 @@ class Submit extends React.Component {
    * source arrays stored in the state.
    */
   id2List = {
-    droppable: 'items',
-    droppable2: 'selected',
+    droppable: 'backlog',
+    droppable2: 'inProgress',
   };
 
   getList = id => this.state[this.id2List[id]];
 
   onDragEnd = (result) => {
     const { source, destination } = result;
+    console.log(result);
 
     // dropped outside the list
     if (!destination) {
@@ -70,21 +69,21 @@ class Submit extends React.Component {
     }
 
     if (source.droppableId === destination.droppableId) {
-      const items = reorder(
+      const backlog = reorder(
         this.getList(source.droppableId),
         source.index,
         destination.index,
       );
 
-      let state = { items };
+      let state = { backlog };
 
       if (source.droppableId === 'droppable2') {
-        state = { selected: items };
+        state = { inProgress: backlog };
       }
 
       this.setState(state);
     } else {
-      const result = move(
+      const result2 = move(
         this.getList(source.droppableId),
         this.getList(destination.droppableId),
         source,
@@ -92,23 +91,35 @@ class Submit extends React.Component {
       );
 
       this.setState({
-        items: result.droppable,
-        selected: result.droppable2,
+        backlog: result2.droppable,
+        inProgress: result2.droppable2,
       });
     }
   };
 
   render() {
-    const { items, selected } = this.state;
-    console.log('items', items);
-    console.log('selected', selected);
+    const { backlog, inProgress } = this.state;
     return (
       <div className="Submit">
         <h1>Submit Page</h1>
-        <DragDropContext onDragEnd={this.onDragEnd}>
-          <SubmitDropColumn droppableId="droppable" items={items} />
-          <SubmitDropColumn droppableId="droppable2" items={selected} />
-        </DragDropContext>
+        <div className="container">
+          <div className="row">
+            <DragDropContext onDragEnd={this.onDragEnd}>
+              <div className="col-sm">
+                <h3>Backlog</h3>
+                <SubmitDropColumn droppableId="droppable" items={backlog} />
+              </div>
+              <div className="col-sm">
+                <h3>In Progress</h3>
+                <SubmitDropColumn droppableId="droppable2" items={inProgress} />
+              </div>
+              <div className="col-sm">
+                <h3>Done</h3>
+                {/* <SubmitDropColumn droppableId="droppable2" items={done} /> */}
+              </div>
+            </DragDropContext>
+          </div>
+        </div>
       </div>
     );
   }
