@@ -39,12 +39,14 @@ class Submit extends React.Component {
   state = {
     backlog: [],
     inProgress: [],
+    done: [],
   };
 
   componentDidMount() {
     const backlog = getItems(10);
     const inProgress = getItems(5, 10);
-    this.setState({ backlog, inProgress });
+    const done = getItems(3, 15);
+    this.setState({ backlog, inProgress, done });
   }
 
   /**
@@ -55,6 +57,7 @@ class Submit extends React.Component {
   id2List = {
     droppable: 'backlog',
     droppable2: 'inProgress',
+    droppable3: 'done',
   };
 
   getList = id => this.state[this.id2List[id]];
@@ -93,12 +96,13 @@ class Submit extends React.Component {
       this.setState({
         backlog: result2.droppable,
         inProgress: result2.droppable2,
+        done: result2.droppable3,
       });
     }
   };
 
   render() {
-    const { backlog, inProgress } = this.state;
+    const { backlog, inProgress, done } = this.state;
     return (
       <div className="Submit">
         <h1>Submit Page</h1>
@@ -115,7 +119,7 @@ class Submit extends React.Component {
               </div>
               <div className="col-sm">
                 <h3>Done</h3>
-                {/* <SubmitDropColumn droppableId="droppable2" items={done} /> */}
+                <SubmitDropColumn droppableId="droppable3" items={done} />
               </div>
             </DragDropContext>
           </div>
