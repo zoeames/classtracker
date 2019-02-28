@@ -13,16 +13,16 @@ class SubmitController {
     this.getGithubAssignments();
   }
 
-  getGithubAssignments() {
-    this.assignmentService.getGithubAssignmentList().then(fbAssignments => {
-      
-      this.submitAssignmentService.getSubmitAssignmentsByUid(this.uid).then((myAssignments) =>{
-        let combinedAssignments = this.submitAssignmentService.smashLists(fbAssignments, myAssignments);
-        combinedAssignments.sort((a, b) => new Date(a.dueDate) - new Date(b.dueDate));
-        this.assignments = combinedAssignments;
-      })
-    });
-  }
+  // getGithubAssignments() {
+  //   this.assignmentService.getGithubAssignmentList().then(fbAssignments => {
+
+  //     this.submitAssignmentService.getSubmitAssignmentsByUid(this.uid).then((myAssignments) =>{
+  //       let combinedAssignments = this.submitAssignmentService.smashLists(fbAssignments, myAssignments);
+  //       combinedAssignments.sort((a, b) => new Date(a.dueDate) - new Date(b.dueDate));
+  //       this.assignments = combinedAssignments;
+  //     })
+  //   });
+  // }
 
   startAssignment(assignment) {
     let newSumitAssignment = {

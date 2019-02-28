@@ -1,6 +1,9 @@
 import React from 'react';
 import { DragDropContext } from 'react-beautiful-dnd';
 import SubmitDropColumn from '../../components/SubmitDropColumn/SubmitDropColumn';
+
+import assignmentRequests from '../../../helpers/data/assignmentRequests';
+import submitAssignmentRequests from '../../../helpers/data/submitAssignmentRequests';
 import './Submit.scss';
 
 // fake data generator
@@ -40,13 +43,31 @@ class Submit extends React.Component {
     backlog: [],
     inProgress: [],
     done: [],
+    assignments: [],
   };
+
+  getGithubAssignments() {
+    assignmentRequests.getGithubAssignmentList().then((fbAssignments) => {
+      submitAssignmentRequests.getSubmitAssignmentsByUid(this.uid)
+        .then((myAssignments) => {
+          const combinedAssignments = submitAssignmentRequests.smashLists(
+            fbAssignments,
+            myAssignments,
+          );
+          combinedAssignments.sort(
+            (a, b) => new Date(a.dueDate) - new Date(b.dueDate),
+          );
+          this.setState({ assignments: combinedAssignments });
+        });
+    });
+  }
 
   componentDidMount() {
     const backlog = getItems(10);
     const inProgress = getItems(5, 10);
     const done = getItems(3, 15);
     this.setState({ backlog, inProgress, done });
+    this.getGithubAssignments();
   }
 
   /**
@@ -62,7 +83,7 @@ class Submit extends React.Component {
 
   getList = id => this.state[this.id2List[id]];
 
-  onDragEnd = (result) => {
+  onDragEnd = result => {
     const { source, destination } = result;
     console.log(result);
 
