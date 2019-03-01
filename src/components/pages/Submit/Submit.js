@@ -6,12 +6,6 @@ import assignmentRequests from '../../../helpers/data/assignmentRequests';
 import submitAssignmentRequests from '../../../helpers/data/submitAssignmentRequests';
 import './Submit.scss';
 
-// fake data generator
-const getItems = (count, offset = 0) => Array.from({ length: count }, (v, k) => k).map(k => ({
-  id: `item-${k + offset}`,
-  content: `item ${k + offset}`,
-}));
-
 // a little function to help us with reordering the result
 const reorder = (list, startIndex, endIndex) => {
   const result = Array.from(list);
@@ -57,16 +51,21 @@ class Submit extends React.Component {
           combinedAssignments.sort(
             (a, b) => new Date(a.dueDate) - new Date(b.dueDate),
           );
-          this.setState({ assignments: combinedAssignments });
+          const backlog = combinedAssignments.filter(x => x.status === 'backlog');
+          const inProgress = combinedAssignments.filter(x => x.status === 'inProgress');
+          const done = combinedAssignments.filter(x => x.status === 'done');
+          console.log('combinedAssignments', combinedAssignments);
+          this.setState({
+            assignments: combinedAssignments,
+            backlog,
+            inProgress,
+            done,
+          });
         });
     });
   }
 
   componentDidMount() {
-    const backlog = getItems(10);
-    const inProgress = getItems(5, 10);
-    const done = getItems(3, 15);
-    this.setState({ backlog, inProgress, done });
     this.getGithubAssignments();
   }
 
@@ -83,7 +82,7 @@ class Submit extends React.Component {
 
   getList = id => this.state[this.id2List[id]];
 
-  onDragEnd = result => {
+  onDragEnd = (result) => {
     const { source, destination } = result;
     console.log(result);
 

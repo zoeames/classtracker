@@ -1,18 +1,16 @@
 import React from 'react';
 import { Droppable } from 'react-beautiful-dnd';
+import PropTypes from 'prop-types';
+
 import SubmitDropCard from '../SubmitDropCard/SubmitDropCard';
+
 import './SubmitDropColumn.scss';
 
 class SubmitDropColumn extends React.Component {
-  state={
-    grid: 8,
-  }
-
-  getListStyle = isDraggingOver => ({
-    background: isDraggingOver ? 'lightblue' : 'lightgrey',
-    padding: this.state.grid,
-    width: 250,
-  });
+  static propTypes = {
+    droppableId: PropTypes.string,
+    items: PropTypes.array,
+  };
 
   render() {
     const { droppableId, items } = this.props;
@@ -25,7 +23,8 @@ class SubmitDropColumn extends React.Component {
         {(provided1, snapshot1) => (
           <div
             ref={provided1.innerRef}
-            style={this.getListStyle(snapshot1.isDraggingOver)}
+            style={{ background: snapshot1.isDraggingOver ? 'lightblue' : 'lightgrey' }}
+            className="submit-drop-column"
           >
             {makeCards}
             {provided1.placeholder}

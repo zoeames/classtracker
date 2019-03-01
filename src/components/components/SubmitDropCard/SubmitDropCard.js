@@ -1,41 +1,30 @@
 import React from 'react';
 import { Draggable } from 'react-beautiful-dnd';
+import PropTypes from 'prop-types';
+
 import './SubmitDropCard.scss';
 
 class SubmitDropCard extends React.Component {
-  state={
-    grid: 8,
-  }
-
-  getItemStyle = (isDragging, draggableStyle) => ({
-    // some basic styles to make the items look a bit nicer
-    userSelect: 'none',
-    padding: this.state.grid * 2,
-    margin: `0 0 ${this.state.grid}px 0`,
-
-    // change background colour if dragging
-    background: isDragging ? 'lightgreen' : 'grey',
-
-    // styles we need to apply on draggables
-    ...draggableStyle,
-  });
+  static propTypes = {
+    item: PropTypes.object,
+    index: PropTypes.number,
+  };
 
   render() {
     const { item, index } = this.props;
+    const itemId = `item${item.assignedNumber}`;
 
     return (
-      <Draggable key={item.id} draggableId={item.id} index={index}>
+      <Draggable key={itemId} draggableId={itemId} index={index}>
         {(provided, snapshot) => (
           <div
             ref={provided.innerRef}
             {...provided.draggableProps}
             {...provided.dragHandleProps}
-            style={this.getItemStyle(
-              snapshot.isDragging,
-              provided.draggableProps.style,
-            )}
+            style={{ border: snapshot.isDragging ? '5px solid greenyellow' : '1px solid grey', ...provided.draggableProps.style }}
+            className="submit-drop-card"
           >
-            {item.content}
+            {item.title}
           </div>
         )}
       </Draggable>
