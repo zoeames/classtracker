@@ -9,9 +9,9 @@ class SubmitController {
     this.uid = this.authService.getCurrentUid();
   }
 
-  $onInit() {
-    this.getGithubAssignments();
-  }
+  // $onInit() {
+  //   this.getGithubAssignments();
+  // }
 
   // getGithubAssignments() {
   //   this.assignmentService.getGithubAssignmentList().then(fbAssignments => {

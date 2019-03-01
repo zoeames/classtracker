@@ -29,7 +29,7 @@ class SubmitDropCard extends React.Component {
               {item.title}
             </div>
             <div className="card-body">
-              <h5 class="card-title">Due Date: {moment(item.dueDate).format('LL')}</h5>
+              <h5 className="card-title">Due Date: {moment(item.dueDate).format('LL')}</h5>
               <div>Get the assignment <a href={item.URL} target="_blank" rel="noopener noreferrer">HERE</a></div>
               <div>Topic: {item.topic}</div>
               <div>Notes: {item.notes}</div>

@@ -90,35 +90,60 @@ class Submit extends React.Component {
     if (!destination) {
       return;
     }
+    if (destination.droppableId === 'droppable' && source.droppableId !== 'droppable') {
+      // assignment is in backlog
+      console.log('backlog');
+    } else if (source.droppableId === 'droppable' && destination.droppableId === 'droppable2') {
+      // assignment moving from backlog to inProgress
+      // const newSubmitAssignment = {
+      //   assignmentId: assignment.assignmentId,
+      //   uid: this.authService.getCurrentUid(),
+      //   githubUrl: "",
+      //   status: "inProgress"
+      // };
 
-    if (source.droppableId === destination.droppableId) {
-      const backlog = reorder(
-        this.getList(source.droppableId),
-        source.index,
-        destination.index,
-      );
-
-      let state = { backlog };
-
-      if (source.droppableId === 'droppable2') {
-        state = { inProgress: backlog };
-      }
-
-      this.setState(state);
-    } else {
-      const result2 = move(
-        this.getList(source.droppableId),
-        this.getList(destination.droppableId),
-        source,
-        destination,
-      );
-
-      this.setState({
-        backlog: result2.droppable,
-        inProgress: result2.droppable2,
-        done: result2.droppable3,
-      });
+      // this.submitAssignmentService.postNewAssignment(newSumitAssignment)
+      //   .then(result => {
+      //     this.getGithubAssignments();
+      //   })
+      //   .catch(err => {
+      //     console.log("err", err);
+      //   });
+      console.log('inProgress');
+    } else if (destination.droppableId === 'droppable3' && source.droppableId !== 'droppable3') {
+      // assignment is done
+      console.log('done');
     }
+
+
+    // if (source.droppableId === destination.droppableId) {
+    //   const backlog = reorder(
+    //     this.getList(source.droppableId),
+    //     source.index,
+    //     destination.index,
+    //   );
+
+    //   let state = { backlog };
+
+    //   if (source.droppableId === 'droppable2') {
+    //     state = { inProgress: backlog };
+    //   }
+
+    //   this.setState(state);
+    // } else {
+    //   const result2 = move(
+    //     this.getList(source.droppableId),
+    //     this.getList(destination.droppableId),
+    //     source,
+    //     destination,
+    //   );
+
+    //   this.setState({
+    //     backlog: result2.droppable,
+    //     inProgress: result2.droppable2,
+    //     done: result2.droppable3,
+    //   });
+    // }
   };
 
   render() {
