@@ -168,12 +168,12 @@
     "title": "JS Functions",
     "start": "March 2, 2019 10:00:00",
     "end": "March 2, 2019 14:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-functions.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "All about JS Functions",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/js-functions"
   },
   "cal17": {
     "title": "JS Arrays and Strings",
