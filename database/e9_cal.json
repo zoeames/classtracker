@@ -154,17 +154,6 @@
     "githubRepo":""
   },
   "cal15": {
-    "title": "VS Code",
-    "start": "March 2, 2019 9:00:00",
-    "end": "March 2, 2019 10:00:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "Cool things in VS Code",
-    "githubRepo":""
-  },
-  "cal16": {
     "title": "JS Functions",
     "start": "March 2, 2019 10:00:00",
     "end": "March 2, 2019 14:00:00",
@@ -175,19 +164,30 @@
     "description": "All about JS Functions",
     "githubRepo":""
   },
-  "cal17": {
-    "title": "JS Arrays and Strings",
+  "cal16": {
+    "title": "JS Strings",
     "start": "March 4, 2019 18:00:00",
+    "end": "March 4, 2019 20:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "All about JS Strings",
+    "githubRepo":""
+  },
+  "cal17": {
+    "title": "JS Objects",
+    "start": "March 4, 2019 20:00:00",
     "end": "March 4, 2019 22:00:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "All about JS Arrays and Strings",
+    "description": "All about JS Objects",
     "githubRepo":""
   },
   "cal18": {
-    "title": "JS Objects and a advanced array methods",
+    "title": "JS Arrays",
     "start": "March 5, 2019 18:00:00",
     "end": "March 5, 2019 22:00:00",
     "resourceUrl": "",
@@ -219,9 +219,20 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
+  "cal22": {
+    "title": "VS Code",
+    "start": "March 11, 2019 18:00:00",
+    "end": "March 11, 2019 19:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Cool things in VS Code",
+    "githubRepo":""
+  },
   "cal21": {
     "title": "Chrome Dev Tools",
-    "start": "March 11, 2019 18:00:00",
+    "start": "March 11, 2019 19:00:00",
     "end": "March 11, 2019 20:00:00",
     "resourceUrl": "",
     "instructor": "Zoe",
@@ -230,7 +241,7 @@
     "description": "How to use the chrome dev tools",
     "githubRepo":""
   },
-  "cal22": {
+  "cal23": {
     "title": "THE DOM",
     "start": "March 11, 2019 20:00:00",
     "end": "March 11, 2019 22:00:00",
@@ -241,7 +252,7 @@
     "description": "How to use css, html, and JS together",
     "githubRepo":""
   },
-  "cal23": {
+  "cal24": {
     "title": "Markdown",
     "start": "March 12, 2019 9:00:00",
     "end": "March 12, 2019 10:00:00",
@@ -252,7 +263,7 @@
     "description": "How to make a README.md",
     "githubRepo":""
   },
-  "cal24": {
+  "cal25": {
     "title": "Exercises",
     "start": "March 12, 2019 10:00:00",
     "end": "March 12, 2019 14:00:00",
@@ -263,7 +274,7 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal25": {
+  "cal26": {
     "title": "Week 4 HW",
     "start": "March 13, 2019 2:00:00",
     "end": "March 14, 2019 23:30:00",
@@ -274,7 +285,7 @@
     "description": "HW #4",
     "githubRepo":""
   },
-  "cal26": {
+  "cal27": {
     "title": "Git for teams",
     "start": "March 16, 2019 9:00:00",
     "end": "March 16, 2019 14:00:00",
@@ -285,7 +296,7 @@
     "description": "Using git for teams",
     "githubRepo":""
   },
-  "cal27": {
+  "cal28": {
     "title": "Group Project",
     "start": "March 18, 2019 19:00:00",
     "end": "March 23, 2019 21:30:00",
@@ -296,7 +307,7 @@
     "description": "Group Project: See Github Project",
     "githubRepo":""
   },
-  "cal28": {
+  "cal29": {
     "title": "Week 5 HW",
     "start": "March 20, 2019 2:00:00",
     "end": "March 21, 2019 23:30:00",
@@ -307,7 +318,7 @@
     "description": "HW #5",
     "githubRepo":""
   },
-  "cal29": {
+  "cal30": {
     "title": "Group Project Demos",
     "start": "March 25, 2019 18:00:00",
     "end": "March 25, 2019 19:00:00",
@@ -318,7 +329,7 @@
     "description": "Show and tell!",
     "githubRepo":""
   },
-  "cal30": {
+  "cal31": {
     "title": "Event Listeners",
     "start": "March 25, 2019 18:00:00",
     "end": "March 25, 2019 22:00:00",
@@ -329,7 +340,7 @@
     "description": "How to make buttons click",
     "githubRepo":""
   },
-  "cal31": {
+  "cal32": {
     "title": "Bootstrap 4",
     "start": "March 26, 2019 18:00:00",
     "end": "March 16, 2019 22:00:00",
@@ -340,7 +351,7 @@
     "description": "One grid to rule them all",
     "githubRepo":""
   },
-  "cal32": {
+  "cal33": {
     "title": "Week 6 HW",
     "start": "March 27, 2019 2:00:00",
     "end": "March 28, 2019 23:30:00",
@@ -351,7 +362,7 @@
     "description": "HW #6",
     "githubRepo":""
   },
-  "cal33": {
+  "cal34": {
     "title": "Exercises",
     "start": "March 30, 2019 10:00:00",
     "end": "March 30, 2019 14:00:00",

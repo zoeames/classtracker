@@ -138,7 +138,7 @@
     "githubUsername": "MCaldwell-42",
     "treehouse": "https://teamtreehouse.com/matthewcaldwell3",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -201,10 +201,10 @@
     "firstName": "Austin",
     "lastName": "Casey",
     "email": "thepoast@gmail.com",
-    "githubUsername": "",
+    "githubUsername": "matthewaustinbell",
     "treehouse": "https://teamtreehouse.com/austincasey",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -314,7 +314,7 @@
     "githubUsername": "lindseyemaddox",
     "treehouse": "https://teamtreehouse.com/lindseyemaddox",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
@@ -325,7 +325,7 @@
     "githubUsername": "okaformark",
     "treehouse": "https://teamtreehouse.com/markokafor",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   },
