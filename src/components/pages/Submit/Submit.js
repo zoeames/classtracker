@@ -3,7 +3,9 @@ import { DragDropContext } from 'react-beautiful-dnd';
 import SubmitDropColumn from '../../components/SubmitDropColumn/SubmitDropColumn';
 
 import assignmentRequests from '../../../helpers/data/assignmentRequests';
+import authRequests from '../../../helpers/data/authRequests';
 import submitAssignmentRequests from '../../../helpers/data/submitAssignmentRequests';
+
 import './Submit.scss';
 
 // a little function to help us with reordering the result
@@ -41,8 +43,9 @@ class Submit extends React.Component {
   };
 
   getGithubAssignments() {
+    const uid = authRequests.getCurrentUid();
     assignmentRequests.getGithubAssignmentList().then((fbAssignments) => {
-      submitAssignmentRequests.getSubmitAssignmentsByUid(this.uid)
+      submitAssignmentRequests.getSubmitAssignmentsByUid(uid)
         .then((myAssignments) => {
           const combinedAssignments = submitAssignmentRequests.smashLists(
             fbAssignments,
@@ -54,7 +57,6 @@ class Submit extends React.Component {
           const backlog = combinedAssignments.filter(x => x.status === 'backlog');
           const inProgress = combinedAssignments.filter(x => x.status === 'inProgress');
           const done = combinedAssignments.filter(x => x.status === 'done');
-          console.log('combinedAssignments', combinedAssignments);
           this.setState({
             assignments: combinedAssignments,
             backlog,
@@ -84,7 +86,6 @@ class Submit extends React.Component {
 
   onDragEnd = (result) => {
     const { source, destination } = result;
-    console.log(result);
 
     // dropped outside the list
     if (!destination) {
@@ -95,21 +96,15 @@ class Submit extends React.Component {
       console.log('backlog');
     } else if (source.droppableId === 'droppable' && destination.droppableId === 'droppable2') {
       // assignment moving from backlog to inProgress
-      // const newSubmitAssignment = {
-      //   assignmentId: assignment.assignmentId,
-      //   uid: this.authService.getCurrentUid(),
-      //   githubUrl: "",
-      //   status: "inProgress"
-      // };
-
-      // this.submitAssignmentService.postNewAssignment(newSumitAssignment)
-      //   .then(result => {
-      //     this.getGithubAssignments();
-      //   })
-      //   .catch(err => {
-      //     console.log("err", err);
-      //   });
-      console.log('inProgress');
+      const newSubmitAssignment = {
+        assignmentId: result.draggableId,
+        uid: authRequests.getCurrentUid(),
+        githubUrl: '',
+        status: 'inProgress',
+      };
+      submitAssignmentRequests.postNewAssignment(newSubmitAssignment)
+        .then(() => this.getGithubAssignments())
+        .catch(err => console.error('err', err));
     } else if (destination.droppableId === 'droppable3' && source.droppableId !== 'droppable3') {
       // assignment is done
       console.log('done');

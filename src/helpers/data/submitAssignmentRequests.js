@@ -36,14 +36,13 @@ const smashLists = (assignments, myAssignments) => {
   return assignments;
 };
 
+const postNewAssignment = newAssignment => axios.post(`${baseUrl}/submitAssignments.json`, newAssignment);
+
 export default {
   getSubmitAssignmentsByUid,
+  postNewAssignment,
   smashLists,
 };
-
-// postNewAssignment(data) {
-//   return this.$http.post(`${this.FB.databaseURL}/submitAssignments.json`, JSON.stringify(data));
-// }
 
 // updateGithub(assignment){
 //   const githubUrl = assignment.githubUrl;

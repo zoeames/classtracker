@@ -14,10 +14,9 @@ class SubmitDropCard extends React.Component {
 
   render() {
     const { item, index } = this.props;
-    const itemId = `item${item.assignedNumber}`;
 
     return (
-      <Draggable key={itemId} draggableId={itemId} index={index}>
+      <Draggable key={item.assignmentId} draggableId={item.assignmentId} index={index}>
         {(provided, snapshot) => (
           <div className="card submit-drop-card"
             ref={provided.innerRef}
