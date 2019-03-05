@@ -187,14 +187,14 @@
     "githubRepo":"https://github.com/nss-evening-cohort-9/js-strings-objects"
   },
   "cal18": {
-    "title": "JS Arrays",
+    "title": "JS Arrays and Loops",
     "start": "March 5, 2019 18:00:00",
     "end": "March 5, 2019 22:00:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "All about JS Objects and advanced array methods",
+    "description": "All about JS arrays and how to loop over them",
     "githubRepo":""
   },
   "cal19": {
@@ -209,6 +209,17 @@
     "githubRepo":""
   },
   "cal20": {
+    "title": "Advanced Array Methods",
+    "start": "March 9, 2019 9:00:00",
+    "end": "March 9, 2019 10:00:00",
+    "resourceUrl": "",
+    "instructor": "Michael",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Advanced array methods",
+    "githubRepo":""
+  },
+  "cal21": {
     "title": "Exercises",
     "start": "March 9, 2019 9:00:00",
     "end": "March 9, 2019 14:00:00",
@@ -230,7 +241,7 @@
     "description": "Cool things in VS Code",
     "githubRepo":""
   },
-  "cal21": {
+  "cal23": {
     "title": "Chrome Dev Tools",
     "start": "March 11, 2019 19:00:00",
     "end": "March 11, 2019 20:00:00",
@@ -241,7 +252,7 @@
     "description": "How to use the chrome dev tools",
     "githubRepo":""
   },
-  "cal23": {
+  "cal24": {
     "title": "THE DOM",
     "start": "March 11, 2019 20:00:00",
     "end": "March 11, 2019 22:00:00",
@@ -252,10 +263,21 @@
     "description": "How to use css, html, and JS together",
     "githubRepo":""
   },
-  "cal24": {
+  "cal25": {
+    "title": "What to Expect",
+    "start": "March 12, 2019 18:00:00",
+    "end": "March 12, 2019 19:00:00",
+    "resourceUrl": "",
+    "instructor": "Kristin, Ashley",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "What to expect with the job search process",
+    "githubRepo":""
+  },
+  "cal26": {
     "title": "Markdown",
-    "start": "March 12, 2019 9:00:00",
-    "end": "March 12, 2019 10:00:00",
+    "start": "March 12, 2019 19:00:00",
+    "end": "March 12, 2019 20:00:00",
     "resourceUrl": "",
     "instructor": "Greg",
     "hwUrl": "",
@@ -263,10 +285,10 @@
     "description": "How to make a README.md",
     "githubRepo":""
   },
-  "cal25": {
+  "cal27": {
     "title": "Exercises",
-    "start": "March 12, 2019 10:00:00",
-    "end": "March 12, 2019 14:00:00",
+    "start": "March 12, 2019 20:00:00",
+    "end": "March 12, 2019 22:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -274,7 +296,7 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal26": {
+  "cal28": {
     "title": "Week 4 HW",
     "start": "March 13, 2019 2:00:00",
     "end": "March 14, 2019 23:30:00",
@@ -285,7 +307,7 @@
     "description": "HW #4",
     "githubRepo":""
   },
-  "cal27": {
+  "cal29": {
     "title": "Git for teams",
     "start": "March 16, 2019 9:00:00",
     "end": "March 16, 2019 14:00:00",
@@ -296,7 +318,7 @@
     "description": "Using git for teams",
     "githubRepo":""
   },
-  "cal28": {
+  "cal30": {
     "title": "Group Project",
     "start": "March 18, 2019 19:00:00",
     "end": "March 23, 2019 21:30:00",
@@ -307,7 +329,7 @@
     "description": "Group Project: See Github Project",
     "githubRepo":""
   },
-  "cal29": {
+  "cal31": {
     "title": "Week 5 HW",
     "start": "March 20, 2019 2:00:00",
     "end": "March 21, 2019 23:30:00",
@@ -318,7 +340,7 @@
     "description": "HW #5",
     "githubRepo":""
   },
-  "cal30": {
+  "cal32": {
     "title": "Group Project Demos",
     "start": "March 25, 2019 18:00:00",
     "end": "March 25, 2019 19:00:00",
@@ -329,7 +351,7 @@
     "description": "Show and tell!",
     "githubRepo":""
   },
-  "cal31": {
+  "cal33": {
     "title": "Event Listeners",
     "start": "March 25, 2019 18:00:00",
     "end": "March 25, 2019 22:00:00",
@@ -340,7 +362,7 @@
     "description": "How to make buttons click",
     "githubRepo":""
   },
-  "cal32": {
+  "cal34": {
     "title": "Bootstrap 4",
     "start": "March 26, 2019 18:00:00",
     "end": "March 16, 2019 22:00:00",
@@ -351,7 +373,7 @@
     "description": "One grid to rule them all",
     "githubRepo":""
   },
-  "cal33": {
+  "cal35": {
     "title": "Week 6 HW",
     "start": "March 27, 2019 2:00:00",
     "end": "March 28, 2019 23:30:00",
@@ -362,7 +384,7 @@
     "description": "HW #6",
     "githubRepo":""
   },
-  "cal34": {
+  "cal36": {
     "title": "Exercises",
     "start": "March 30, 2019 10:00:00",
     "end": "March 30, 2019 14:00:00",
@@ -371,6 +393,39 @@
     "hwUrl": "",
     "eventType": "study",
     "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal97": {
+    "title": "Networking/Linkedin",
+    "start": "April 13, 2019 18:00:00",
+    "end": "April 13, 2019 19:00:00",
+    "resourceUrl": "",
+    "instructor": "Kristin, Ashley",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to network and build your linkedin profile",
+    "githubRepo":""
+  },
+  "cal98": {
+    "title": "Resume Talk",
+    "start": "May 14, 2019 18:00:00",
+    "end": "May 14, 2019 19:00:00",
+    "resourceUrl": "",
+    "instructor": "Kristin, Ashley",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to build your resume",
+    "githubRepo":""
+  },
+  "cal99": {
+    "title": "Recruiter Talk",
+    "start": "June 12, 2019 18:00:00",
+    "end": "June 12, 2019 19:00:00",
+    "resourceUrl": "",
+    "instructor": "Kristin, Ashley",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to talk with recruiters",
     "githubRepo":""
   }
 }
