@@ -8,23 +8,38 @@ import {
 } from 'reactstrap';
 
 import './GithubModal.scss';
+import submitAssignmentRequests from '../../helpers/data/submitAssignmentRequests';
 
 class GithubModal extends React.Component {
   state={
     githubUrl: '',
+    assignmentTitle: '',
   }
 
+  componentDidUpdate(prevProps) {
+    const { submitAssignmentId } = this.props;
+    if (prevProps.submitAssignmentId !== this.props.submitAssignmentId && submitAssignmentId !== '-1') {
+      submitAssignmentRequests.getAssignmentTitleFromSubmitAssignmentId(submitAssignmentId)
+        .then((response) => {
+          this.setState({ assignmentTitle: response.title });
+        })
+        .catch(err => console.error('err', err));
+    }
+  }
+
+
   render() {
-    const { toggle, toggleModal, submitAssignmentId } = this.props;
+    const { toggle, toggleModal } = this.props;
+    const { assignmentTitle } = this.state;
     return (
       <Modal isOpen={toggle} toggle={toggleModal} className='GithubModal'>
         <ModalHeader toggle={toggleModal}>Github Repository</ModalHeader>
         <ModalBody>
           <strong>Assignment:</strong>
-          <p>{submitAssignmentId}</p>
+          <p>{assignmentTitle}</p>
           <strong>Github Repo URL:</strong>
           <br />
-          <input id="githubUrl" class="col" type="text" placeholder="https://github.com/zoeames/class-deadlines" />
+          <input id="githubUrl" className="col" type="text" placeholder="https://github.com/zoeames/class-deadlines" />
         </ModalBody>
         <ModalFooter>
           <Button color="primary" onClick={toggleModal}>Save</Button>

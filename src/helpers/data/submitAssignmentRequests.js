@@ -1,5 +1,6 @@
 import axios from 'axios';
 import apiKeys from '../apiKeys';
+import assignmentRequests from './assignmentRequests';
 
 const baseUrl = apiKeys.firebaseConfig.databaseURL;
 
@@ -36,9 +37,23 @@ const smashLists = (assignments, myAssignments) => {
   return assignments;
 };
 
+const getSingleSubmitAssignment = submitAssignmentId => axios.get(`${baseUrl}/submitAssignments/${submitAssignmentId}.json`);
+
+const getAssignmentTitleFromSubmitAssignmentId = submitAssignmentId => new Promise((resolve, reject) => {
+  getSingleSubmitAssignment(submitAssignmentId)
+    .then((submitAssignment) => {
+      const { assignmentId } = submitAssignment.data;
+      assignmentRequests.getSingleAssignmentById(assignmentId).then((assignment) => {
+        resolve(assignment.data);
+      });
+    })
+    .catch(err => reject(err));
+});
+
 const postNewAssignment = newAssignment => axios.post(`${baseUrl}/submitAssignments.json`, newAssignment);
 
 export default {
+  getAssignmentTitleFromSubmitAssignmentId,
   getSubmitAssignmentsByUid,
   postNewAssignment,
   smashLists,
