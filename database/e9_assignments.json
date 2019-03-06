@@ -30,16 +30,16 @@
     "notes": "Use flexbox"
   },
   "assignment04": {
-    "title": "test assignment",
-    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/HTML_CSS_product_cards.md",
-    "dueDate": "2019-03-15",
+    "title": "Personal Site Part 1",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-01.md",
+    "dueDate": "2019-03-12",
     "isAssigned": "true",
     "isGithub": "true",
     "assignedNumber": 4,
-    "topic": "test",
-    "notes": "test"
+    "topic": "JS",
+    "notes": "This is a good space for you to mess around with styling.  We aren't expecting the styling to be completely done when this is due.  You will change that a few times over the next few months."
   },
-    "assignment05": {
+  "assignment05": {
     "title": "test assignment2",
     "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/HTML_CSS_product_cards.md",
     "dueDate": "2019-03-15",
@@ -78,5 +78,15 @@
     "assignedNumber": 8,
     "topic": "test5",
     "notes": "test5"
+  },
+  "assignment09": {
+    "title": "test assignment",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/HTML_CSS_product_cards.md",
+    "dueDate": "2019-04-27",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 4,
+    "topic": "test",
+    "notes": "test"
   }
 }
