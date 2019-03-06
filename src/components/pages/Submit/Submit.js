@@ -1,12 +1,5 @@
 import React from 'react';
 import { DragDropContext } from 'react-beautiful-dnd';
-import {
-  Button,
-  Modal,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
-} from 'reactstrap';
 
 import SubmitDropColumn from '../../components/SubmitDropColumn/SubmitDropColumn';
 
@@ -15,6 +8,7 @@ import authRequests from '../../../helpers/data/authRequests';
 import submitAssignmentRequests from '../../../helpers/data/submitAssignmentRequests';
 
 import './Submit.scss';
+import GithubModal from '../../GithubModal/GithubModal';
 
 // a little function to help us with reordering the result
 const reorder = (list, startIndex, endIndex) => {
@@ -49,10 +43,16 @@ class Submit extends React.Component {
     done: [],
     assignments: [],
     githubModal: false,
+    submitAssignmentId: '-1',
   };
 
   toggleModal = () => {
-    this.setState(prevState => ({ githubModal: !prevState.githubModal }));
+    const { githubModal } = this.state;
+    if (githubModal) {
+      this.setState({ githubModal: false, submitAssignmentId: '-1' });
+    } else {
+      this.setState({ githubModal: true });
+    }
   }
 
   getGithubAssignments = () => {
@@ -116,7 +116,8 @@ class Submit extends React.Component {
         status: 'inProgress',
       };
       submitAssignmentRequests.postNewAssignment(newSubmitAssignment)
-        .then(() => {
+        .then((resp) => {
+          this.setState({ submitAssignmentId: resp.data.name });
           this.getGithubAssignments();
           this.toggleModal();
         })
@@ -160,9 +161,10 @@ class Submit extends React.Component {
   render() {
     const {
       backlog,
-      inProgress,
       done,
       githubModal,
+      inProgress,
+      submitAssignmentId,
     } = this.state;
     return (
       <div className="Submit">
@@ -185,16 +187,7 @@ class Submit extends React.Component {
             </DragDropContext>
           </div>
         </div>
-        <Modal isOpen={githubModal} toggle={this.toggleModal} className={this.props.className}>
-          <ModalHeader toggle={this.toggleModal}>Modal title</ModalHeader>
-          <ModalBody>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </ModalBody>
-          <ModalFooter>
-            <Button color="primary" onClick={this.toggleModal}>Do Something</Button>{' '}
-            <Button color="secondary" onClick={this.toggleModal}>Cancel</Button>
-          </ModalFooter>
-        </Modal>
+        <GithubModal toggle={githubModal} toggleModal={this.toggleModal} submitAssignmentId={submitAssignmentId}/>
       </div>
     );
   }
