@@ -52,14 +52,17 @@ const getAssignmentTitleFromSubmitAssignmentId = submitAssignmentId => new Promi
 
 const postNewAssignment = newAssignment => axios.post(`${baseUrl}/submitAssignments.json`, newAssignment);
 
+const updateGithub = assignment => axios.patch(`${baseUrl}/submitAssignments/${assignment.submitAssignmentId}.json`, { githubUrl: assignment.githubUrl });
+
 export default {
   getAssignmentTitleFromSubmitAssignmentId,
   getSubmitAssignmentsByUid,
   postNewAssignment,
   smashLists,
+  updateGithub,
 };
 
-// updateGithub(assignment){
+// (assignment){
 //   const githubUrl = assignment.githubUrl;
 //   return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignment.submitAssignmentId}.json`, JSON.stringify({ githubUrl }));
 // }

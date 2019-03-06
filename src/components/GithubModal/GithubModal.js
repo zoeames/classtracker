@@ -27,10 +27,29 @@ class GithubModal extends React.Component {
     }
   }
 
+  urlChange = (e) => {
+    e.preventDefault();
+    const tempUrl = { ...this.state.githubUrl };
+    tempUrl.githubUrl = e.target.value;
+    this.setState({ githubUrl: tempUrl.githubUrl });
+  }
+
+  saveUrl = () => {
+    const { githubUrl } = this.state;
+    const { submitAssignmentId, toggleModal } = this.props;
+    const updateAssignment = {
+      githubUrl,
+      submitAssignmentId,
+    };
+
+    submitAssignmentRequests.updateGithub(updateAssignment)
+      .then(() => toggleModal())
+      .catch(err => console.error('err', err));
+  }
 
   render() {
     const { toggle, toggleModal } = this.props;
-    const { assignmentTitle } = this.state;
+    const { assignmentTitle, githubUrl } = this.state;
     return (
       <Modal isOpen={toggle} toggle={toggleModal} className='GithubModal'>
         <ModalHeader toggle={toggleModal}>Github Repository</ModalHeader>
@@ -39,10 +58,17 @@ class GithubModal extends React.Component {
           <p>{assignmentTitle}</p>
           <strong>Github Repo URL:</strong>
           <br />
-          <input id="githubUrl" className="col" type="text" placeholder="https://github.com/zoeames/class-deadlines" />
+          <input
+            id="githubUrl"
+            className="col"
+            type="text"
+            aria-describedby="githuburl"
+            value={githubUrl}
+            onChange={this.urlChange}
+            placeholder="https://github.com/zoeames/class-deadlines" />
         </ModalBody>
         <ModalFooter>
-          <Button color="primary" onClick={toggleModal}>Save</Button>
+          <Button color="primary" onClick={this.saveUrl}>Save</Button>
           <Button color="secondary" onClick={toggleModal}>Cancel</Button>
         </ModalFooter>
       </Modal>
