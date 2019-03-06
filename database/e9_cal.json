@@ -190,12 +190,12 @@
     "title": "JS Arrays and Loops",
     "start": "March 5, 2019 18:00:00",
     "end": "March 5, 2019 22:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-array-looping.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "All about JS arrays and how to loop over them",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/js-arrays"
   },
   "cal19": {
     "title": "Week 3 HW",
@@ -212,7 +212,7 @@
     "title": "Advanced Array Methods",
     "start": "March 9, 2019 9:00:00",
     "end": "March 9, 2019 10:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-array-methods.md",
     "instructor": "Michael",
     "hwUrl": "",
     "eventType": "lecture",
