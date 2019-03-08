@@ -24,22 +24,22 @@ class SubmitController {
   //   });
   // }
 
-  startAssignment(assignment) {
-    let newSumitAssignment = {
-      assignmentId: assignment.assignmentId,
-      uid: this.authService.getCurrentUid(),
-      githubUrl: "",
-      status: "inProgress"
-    };
+  // startAssignment(assignment) {
+  //   let newSumitAssignment = {
+  //     assignmentId: assignment.assignmentId,
+  //     uid: this.authService.getCurrentUid(),
+  //     githubUrl: "",
+  //     status: "inProgress"
+  //   };
 
-    this.submitAssignmentService.postNewAssignment(newSumitAssignment)
-      .then(result => {
-        this.getGithubAssignments();
-      })
-      .catch(err => {
-        console.log("err", err);
-      });
-  }
+  //   this.submitAssignmentService.postNewAssignment(newSumitAssignment)
+  //     .then(result => {
+  //       this.getGithubAssignments();
+  //     })
+  //     .catch(err => {
+  //       console.log("err", err);
+  //     });
+  // }
 
 
 
@@ -54,15 +54,15 @@ class SubmitController {
   }
 
 
-  updateGithub(assignment){
-    this.submitAssignmentService.updateGithub(assignment)
-    .then(result => {
-      this.getGithubAssignments();
-    })
-    .catch(err => {
-      console.log("err", err);
-    });
-  }
+  // updateGithub(assignment){
+  //   this.submitAssignmentService.updateGithub(assignment)
+  //   .then(result => {
+  //     this.getGithubAssignments();
+  //   })
+  //   .catch(err => {
+  //     console.log("err", err);
+  //   });
+  // }
 
   acceptExcused(assignment){
     this.submitAssignmentService

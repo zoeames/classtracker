@@ -62,11 +62,6 @@ export default {
   updateGithub,
 };
 
-// (assignment){
-//   const githubUrl = assignment.githubUrl;
-//   return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignment.submitAssignmentId}.json`, JSON.stringify({ githubUrl }));
-// }
-
 // completeAssignment(assignment){
 //   return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignment.submitAssignmentId}.json`, JSON.stringify({ status: "done", submissionDate: Date.now() }));
 // }
