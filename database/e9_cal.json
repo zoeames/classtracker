@@ -217,7 +217,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Advanced array methods",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/js-array-methods"
   },
   "cal21": {
     "title": "Exercises",
