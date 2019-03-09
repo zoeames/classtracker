@@ -18,11 +18,9 @@ class GithubModal extends React.Component {
 
   componentDidUpdate(prevProps) {
     const { submitAssignmentId } = this.props;
-    // if (!submitAssignmentId || submitAssignmentId !== '-1') {
     if (prevProps.submitAssignmentId !== this.props.submitAssignmentId && submitAssignmentId !== '-1') {
       submitAssignmentRequests.getAssignmentTitleFromSubmitAssignmentId(submitAssignmentId)
         .then((response) => {
-          console.log(response);
           this.setState({ assignmentTitle: response.title, githubUrl: response.githubUrl });
         })
         .catch(err => console.error('err', err));

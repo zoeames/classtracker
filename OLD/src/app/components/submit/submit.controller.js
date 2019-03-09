@@ -1,14 +1,4 @@
 class SubmitController {
-  constructor(authService, assignmentService, submitAssignmentService) {
-    "ngInject";
-
-    this.assignmentService = assignmentService;
-    this.submitAssignmentService = submitAssignmentService;
-    this.authService = authService;
-    this.assignments = [];
-    this.uid = this.authService.getCurrentUid();
-  }
-
   // $onInit() {
   //   this.getGithubAssignments();
   // }
@@ -41,17 +31,15 @@ class SubmitController {
   //     });
   // }
 
-
-
-  completeAssignment(assignment) {
-    this.submitAssignmentService.completeAssignment(assignment)
-      .then(result => {
-        this.getGithubAssignments();
-      })
-      .catch(err => {
-        console.log("err", err);
-      });
-  }
+  // completeAssignment(assignment) {
+  //   this.submitAssignmentService.completeAssignment(assignment)
+  //     .then(result => {
+  //       this.getGithubAssignments();
+  //     })
+  //     .catch(err => {
+  //       console.log("err", err);
+  //     });
+  // }
 
 
   // updateGithub(assignment){

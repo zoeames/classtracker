@@ -1,4 +1,5 @@
 import React from 'react';
+import { Alert } from 'reactstrap';
 import { DragDropContext } from 'react-beautiful-dnd';
 
 import SubmitDropColumn from '../../components/SubmitDropColumn/SubmitDropColumn';
@@ -8,33 +9,33 @@ import authRequests from '../../../helpers/data/authRequests';
 import submitAssignmentRequests from '../../../helpers/data/submitAssignmentRequests';
 
 import './Submit.scss';
-import GithubModal from '../../GithubModal/GithubModal';
+import GithubModal from '../../components/GithubModal/GithubModal';
 
 // a little function to help us with reordering the result
-const reorder = (list, startIndex, endIndex) => {
-  const result = Array.from(list);
-  const [removed] = result.splice(startIndex, 1);
-  result.splice(endIndex, 0, removed);
+// const reorder = (list, startIndex, endIndex) => {
+//   const result = Array.from(list);
+//   const [removed] = result.splice(startIndex, 1);
+//   result.splice(endIndex, 0, removed);
 
-  return result;
-};
+//   return result;
+// };
 
 /**
  * Moves an item from one list to another list.
  */
-const move = (source, destination, droppableSource, droppableDestination) => {
-  const sourceClone = Array.from(source);
-  const destClone = Array.from(destination);
-  const [removed] = sourceClone.splice(droppableSource.index, 1);
+// const move = (source, destination, droppableSource, droppableDestination) => {
+//   const sourceClone = Array.from(source);
+//   const destClone = Array.from(destination);
+//   const [removed] = sourceClone.splice(droppableSource.index, 1);
 
-  destClone.splice(droppableDestination.index, 0, removed);
+//   destClone.splice(droppableDestination.index, 0, removed);
 
-  const result = {};
-  result[droppableSource.droppableId] = sourceClone;
-  result[droppableDestination.droppableId] = destClone;
+//   const result = {};
+//   result[droppableSource.droppableId] = sourceClone;
+//   result[droppableDestination.droppableId] = destClone;
 
-  return result;
-};
+//   return result;
+// };
 
 class Submit extends React.Component {
   state = {
@@ -44,6 +45,7 @@ class Submit extends React.Component {
     assignments: [],
     githubModal: false,
     submitAssignmentId: '-1',
+    visible: false,
   };
 
   toggleModal = () => {
@@ -81,6 +83,22 @@ class Submit extends React.Component {
     });
   }
 
+  displayAlert = (alertType, alertTxt) => {
+    this.setState({
+      alertVisible: true,
+      alertText: alertTxt,
+      alertColor: alertType,
+    }, () => {
+      window.setTimeout(() => {
+        this.setState({
+          alertVisible: false,
+          alertText: '',
+          alertColor: '',
+        });
+      }, 3000);
+    });
+  }
+
   componentDidMount() {
     this.getGithubAssignments();
   }
@@ -105,10 +123,7 @@ class Submit extends React.Component {
     if (!destination) {
       return;
     }
-    if (destination.droppableId === 'droppable' && source.droppableId !== 'droppable') {
-      // assignment is in backlog
-      console.log('backlog');
-    } else if (source.droppableId === 'droppable' && destination.droppableId === 'droppable2') {
+    if (source.droppableId === 'droppable' && destination.droppableId === 'droppable2') {
       // assignment moving from backlog to inProgress
       const newSubmitAssignment = {
         assignmentId: result.draggableId,
@@ -125,8 +140,24 @@ class Submit extends React.Component {
         .catch(err => console.error('err', err));
     } else if (destination.droppableId === 'droppable3' && source.droppableId !== 'droppable3') {
       // assignment is done
-      console.log('done');
+      const assignment = this.state.inProgress.find(x => x.assignmentId === result.draggableId);
+      if (assignment.githubUrl.length < 1) {
+        this.displayAlert('danger', 'Assignments MUST have a github url in order to submit');
+      } else {
+        console.log('done', assignment);
+      }
     }
+
+
+    // completeAssignment(assignment) {
+    //   this.submitAssignmentService.completeAssignment(assignment)
+    //     .then(result => {
+    //       this.getGithubAssignments();
+    //     })
+    //     .catch(err => {
+    //       console.log("err", err);
+    //     });
+    // }
 
 
     // if (source.droppableId === destination.droppableId) {
@@ -161,6 +192,9 @@ class Submit extends React.Component {
 
   render() {
     const {
+      alertText,
+      alertColor,
+      alertVisible,
       backlog,
       done,
       githubModal,
@@ -187,6 +221,9 @@ class Submit extends React.Component {
           </DragDropContext>
         </div>
         <GithubModal toggle={githubModal} toggleModal={this.toggleModal} submitAssignmentId={submitAssignmentId}/>
+        <Alert color={alertColor} isOpen={ alertVisible } >
+          <h3>{ alertText }</h3>
+        </Alert>
       </div>
     );
   }
