@@ -8,7 +8,7 @@ import {
 } from 'reactstrap';
 
 import './GithubModal.scss';
-import submitAssignmentRequests from '../../helpers/data/submitAssignmentRequests';
+import submitAssignmentRequests from '../../../helpers/data/submitAssignmentRequests';
 
 class GithubModal extends React.Component {
   state={
@@ -18,10 +18,12 @@ class GithubModal extends React.Component {
 
   componentDidUpdate(prevProps) {
     const { submitAssignmentId } = this.props;
+    // if (!submitAssignmentId || submitAssignmentId !== '-1') {
     if (prevProps.submitAssignmentId !== this.props.submitAssignmentId && submitAssignmentId !== '-1') {
       submitAssignmentRequests.getAssignmentTitleFromSubmitAssignmentId(submitAssignmentId)
         .then((response) => {
-          this.setState({ assignmentTitle: response.title, githubUrl: response.URL });
+          console.log(response);
+          this.setState({ assignmentTitle: response.title, githubUrl: response.githubUrl });
         })
         .catch(err => console.error('err', err));
     }
@@ -64,8 +66,7 @@ class GithubModal extends React.Component {
             type="text"
             aria-describedby="githuburl"
             value={githubUrl}
-            onChange={this.urlChange}
-            placeholder="https://github.com/zoeames/class-deadlines" />
+            onChange={this.urlChange} />
         </ModalBody>
         <ModalFooter>
           <Button color="primary" onClick={this.saveUrl}>Save</Button>

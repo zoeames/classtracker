@@ -50,6 +50,7 @@ class Submit extends React.Component {
     const { githubModal } = this.state;
     if (githubModal) {
       this.setState({ githubModal: false, submitAssignmentId: '-1' });
+      this.getGithubAssignments();
     } else {
       this.setState({ githubModal: true });
     }
@@ -84,11 +85,6 @@ class Submit extends React.Component {
     this.getGithubAssignments();
   }
 
-  /**
-   * A semi-generic way to handle multiple lists. Matches
-   * the IDs of the droppable container to the names of the
-   * source arrays stored in the state.
-   */
   id2List = {
     droppable: 'backlog',
     droppable2: 'inProgress',
@@ -174,23 +170,21 @@ class Submit extends React.Component {
     return (
       <div className="Submit">
         <h1>Submit Page</h1>
-        <div className="container">
-          <div className="row">
-            <DragDropContext onDragEnd={this.onDragEnd}>
-              <div className="col-sm">
-                <h3>Backlog</h3>
-                <SubmitDropColumn droppableId="droppable" items={backlog} editUrlFunc={this.ditUrlFunc}/>
-              </div>
-              <div className="col-sm">
-                <h3>In Progress</h3>
-                <SubmitDropColumn droppableId="droppable2" items={inProgress} editUrlFunc={this.editUrlFunc}/>
-              </div>
-              <div className="col-sm">
-                <h3>Done</h3>
-                <SubmitDropColumn droppableId="droppable3" items={done} editUrlFunc={this.editUrlFunc}/>
-              </div>
-            </DragDropContext>
-          </div>
+        <div className="row">
+          <DragDropContext onDragEnd={this.onDragEnd}>
+            <div className="col-sm">
+              <h3>Backlog</h3>
+              <SubmitDropColumn droppableId="droppable" items={backlog} editUrlFunc={this.ditUrlFunc}/>
+            </div>
+            <div className="col-sm">
+              <h3>In Progress</h3>
+              <SubmitDropColumn droppableId="droppable2" items={inProgress} editUrlFunc={this.editUrlFunc}/>
+            </div>
+            <div className="col-sm">
+              <h3>Done</h3>
+              <SubmitDropColumn droppableId="droppable3" items={done} editUrlFunc={this.editUrlFunc}/>
+            </div>
+          </DragDropContext>
         </div>
         <GithubModal toggle={githubModal} toggleModal={this.toggleModal} submitAssignmentId={submitAssignmentId}/>
       </div>
