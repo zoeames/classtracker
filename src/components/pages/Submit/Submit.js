@@ -97,6 +97,11 @@ class Submit extends React.Component {
 
   getList = id => this.state[this.id2List[id]];
 
+  editUrlFunc = (submitAssignmentId) => {
+    this.setState({ submitAssignmentId });
+    this.toggleModal();
+  }
+
   onDragEnd = (result) => {
     const { source, destination } = result;
 
@@ -174,15 +179,15 @@ class Submit extends React.Component {
             <DragDropContext onDragEnd={this.onDragEnd}>
               <div className="col-sm">
                 <h3>Backlog</h3>
-                <SubmitDropColumn droppableId="droppable" items={backlog} />
+                <SubmitDropColumn droppableId="droppable" items={backlog} editUrlFunc={this.ditUrlFunc}/>
               </div>
               <div className="col-sm">
                 <h3>In Progress</h3>
-                <SubmitDropColumn droppableId="droppable2" items={inProgress} />
+                <SubmitDropColumn droppableId="droppable2" items={inProgress} editUrlFunc={this.editUrlFunc}/>
               </div>
               <div className="col-sm">
                 <h3>Done</h3>
-                <SubmitDropColumn droppableId="droppable3" items={done} />
+                <SubmitDropColumn droppableId="droppable3" items={done} editUrlFunc={this.editUrlFunc}/>
               </div>
             </DragDropContext>
           </div>

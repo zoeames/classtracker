@@ -10,12 +10,13 @@ class SubmitDropColumn extends React.Component {
   static propTypes = {
     droppableId: PropTypes.string,
     items: PropTypes.array,
+    editUrlFunc: PropTypes.func,
   };
 
   render() {
-    const { droppableId, items } = this.props;
+    const { droppableId, items, editUrlFunc } = this.props;
     const makeCards = items.map((item, index) => (
-      <SubmitDropCard key={`item${index}`} item={item} index={index} />
+      <SubmitDropCard key={`item${index}`} item={item} index={index} editUrlFunc={editUrlFunc}/>
     ));
 
     return (

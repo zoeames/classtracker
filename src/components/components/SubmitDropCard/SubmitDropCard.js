@@ -11,6 +11,7 @@ class SubmitDropCard extends React.Component {
   static propTypes = {
     item: PropTypes.object,
     index: PropTypes.number,
+    editUrlFunc: PropTypes.func,
   };
 
   state={
@@ -22,8 +23,8 @@ class SubmitDropCard extends React.Component {
   }
 
   editButton = () => {
-    this.setState({ tooltipOpen: true });
-    console.log('you clicked the edit button');
+    const { editUrlFunc, item } = this.props;
+    editUrlFunc(item.submitAssignmentId);
   }
 
 
