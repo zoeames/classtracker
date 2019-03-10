@@ -56,7 +56,10 @@ const postNewAssignment = newAssignment => axios.post(`${baseUrl}/submitAssignme
 
 const updateGithub = assignment => axios.patch(`${baseUrl}/submitAssignments/${assignment.submitAssignmentId}.json`, { githubUrl: assignment.githubUrl });
 
+const completeAssignment = submitAssignmentId => axios.patch(`${baseUrl}/submitAssignments/${submitAssignmentId}.json`, { status: 'done', submissionDate: Date.now() });
+
 export default {
+  completeAssignment,
   getAssignmentTitleFromSubmitAssignmentId,
   getSingleSubmitAssignmentById,
   getSubmitAssignmentsByUid,

@@ -11,32 +11,6 @@ import submitAssignmentRequests from '../../../helpers/data/submitAssignmentRequ
 import './Submit.scss';
 import GithubModal from '../../components/GithubModal/GithubModal';
 
-// a little function to help us with reordering the result
-// const reorder = (list, startIndex, endIndex) => {
-//   const result = Array.from(list);
-//   const [removed] = result.splice(startIndex, 1);
-//   result.splice(endIndex, 0, removed);
-
-//   return result;
-// };
-
-/**
- * Moves an item from one list to another list.
- */
-// const move = (source, destination, droppableSource, droppableDestination) => {
-//   const sourceClone = Array.from(source);
-//   const destClone = Array.from(destination);
-//   const [removed] = sourceClone.splice(droppableSource.index, 1);
-
-//   destClone.splice(droppableDestination.index, 0, removed);
-
-//   const result = {};
-//   result[droppableSource.droppableId] = sourceClone;
-//   result[droppableDestination.droppableId] = destClone;
-
-//   return result;
-// };
-
 class Submit extends React.Component {
   state = {
     backlog: [],
@@ -72,7 +46,11 @@ class Submit extends React.Component {
           );
           const backlog = combinedAssignments.filter(x => x.status === 'backlog');
           const inProgress = combinedAssignments.filter(x => x.status === 'inProgress');
-          const done = combinedAssignments.filter(x => x.status === 'done');
+          const complete = combinedAssignments.filter(x => x.status === 'done').sort(
+            (a, b) => new Date(b.submissionDate) - new Date(a.submissionDate),
+          );
+          const excused = combinedAssignments.filter(x => x.status === 'excused');
+          const done = [...complete, ...excused];
           this.setState({
             assignments: combinedAssignments,
             backlog,
@@ -118,7 +96,6 @@ class Submit extends React.Component {
 
   onDragEnd = (result) => {
     const { source, destination } = result;
-
     // dropped outside the list
     if (!destination) {
       return;
@@ -144,50 +121,13 @@ class Submit extends React.Component {
       if (assignment.githubUrl.length < 1) {
         this.displayAlert('danger', 'Assignments MUST have a github url in order to submit');
       } else {
-        console.log('done', assignment);
+        submitAssignmentRequests.completeAssignment(assignment.submitAssignmentId)
+          .then(() => {
+            this.getGithubAssignments();
+          })
+          .catch(err => console.error('err', err));
       }
     }
-
-
-    // completeAssignment(assignment) {
-    //   this.submitAssignmentService.completeAssignment(assignment)
-    //     .then(result => {
-    //       this.getGithubAssignments();
-    //     })
-    //     .catch(err => {
-    //       console.log("err", err);
-    //     });
-    // }
-
-
-    // if (source.droppableId === destination.droppableId) {
-    //   const backlog = reorder(
-    //     this.getList(source.droppableId),
-    //     source.index,
-    //     destination.index,
-    //   );
-
-    //   let state = { backlog };
-
-    //   if (source.droppableId === 'droppable2') {
-    //     state = { inProgress: backlog };
-    //   }
-
-    //   this.setState(state);
-    // } else {
-    //   const result2 = move(
-    //     this.getList(source.droppableId),
-    //     this.getList(destination.droppableId),
-    //     source,
-    //     destination,
-    //   );
-
-    //   this.setState({
-    //     backlog: result2.droppable,
-    //     inProgress: result2.droppable2,
-    //     done: result2.droppable3,
-    //   });
-    // }
   };
 
   render() {

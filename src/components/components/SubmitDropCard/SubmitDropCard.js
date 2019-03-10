@@ -37,6 +37,12 @@ class SubmitDropCard extends React.Component {
         case 'inProgress':
           headerStyles += ' bg-warning';
           break;
+        case 'done':
+          headerStyles += ' bg-success';
+          break;
+        case 'excused':
+          headerStyles += ' bg-light';
+          break;
         default:
           headerStyles += ' bg-secondary';
       }
@@ -49,6 +55,12 @@ class SubmitDropCard extends React.Component {
         case 'inProgress':
           bodyStyles += ' border-warning';
           break;
+        case 'done':
+          bodyStyles += ' border-success';
+          break;
+        case 'excused':
+          bodyStyles += ' border-light';
+          break;
         default:
           bodyStyles += ' border-secondary';
       }
@@ -56,7 +68,7 @@ class SubmitDropCard extends React.Component {
     };
 
     const githubLink = () => {
-      if (item.status !== 'backlog') {
+      if (item.status === 'inProgress') {
         return (
           <div>
             <button className="btn btn-primary" href={item.githubUrl}><i className="fab fa-github"></i></button>
@@ -64,6 +76,14 @@ class SubmitDropCard extends React.Component {
             <Tooltip placement="top" className="github-tooltip" isOpen={tooltipOpen} target={`github-link-${item.assignmentId}`} toggle={this.toggle}>
               { item.githubUrl }
             </Tooltip>
+          </div>
+        );
+      }
+      if (item.status === 'done') {
+        return (
+          <div>
+            <button className="btn btn-primary" href={item.githubUrl}><i className="fab fa-github"></i></button>
+            <div>Submitted: { moment(item.submissionDate).format('LLL') }</div>
           </div>
         );
       }
@@ -80,7 +100,7 @@ class SubmitDropCard extends React.Component {
             style={{ border: snapshot.isDragging ? '5px solid greenyellow' : '1px solid grey', ...provided.draggableProps.style }}
           >
             <div className={cardHeaderColor()}>
-              {item.title}
+              {item.status === 'excused' ? `${item.title} (excused)` : `${item.title}`}
             </div>
             <div className={cardBodyColor()}>
               <h5 className="card-title">Due Date: {moment(item.dueDate).format('LL')}</h5>
