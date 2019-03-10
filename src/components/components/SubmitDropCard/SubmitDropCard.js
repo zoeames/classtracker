@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 
 import './SubmitDropCard.scss';
-import assignmentRequests from '../../../helpers/data/assignmentRequests';
 
 class SubmitDropCard extends React.Component {
   static propTypes = {

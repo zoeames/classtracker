@@ -50,12 +50,15 @@ const getAssignmentTitleFromSubmitAssignmentId = submitAssignmentId => new Promi
     .catch(err => reject(err));
 });
 
+const getSingleSubmitAssignmentById = assignmentId => axios.get(`${baseUrl}/submitAssignments/${assignmentId}.json`);
+
 const postNewAssignment = newAssignment => axios.post(`${baseUrl}/submitAssignments.json`, newAssignment);
 
 const updateGithub = assignment => axios.patch(`${baseUrl}/submitAssignments/${assignment.submitAssignmentId}.json`, { githubUrl: assignment.githubUrl });
 
 export default {
   getAssignmentTitleFromSubmitAssignmentId,
+  getSingleSubmitAssignmentById,
   getSubmitAssignmentsByUid,
   postNewAssignment,
   smashLists,
