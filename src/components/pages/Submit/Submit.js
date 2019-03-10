@@ -138,7 +138,7 @@ class Submit extends React.Component {
           this.toggleModal();
         })
         .catch(err => console.error('err', err));
-    } else if (destination.droppableId === 'droppable3' && source.droppableId !== 'droppable3') {
+    } else if (destination.droppableId === 'droppable3' && source.droppableId !== 'droppable3' && source.droppableId !== 'droppable') {
       // assignment is done
       const assignment = this.state.inProgress.find(x => x.assignmentId === result.draggableId);
       if (assignment.githubUrl.length < 1) {
