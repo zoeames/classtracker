@@ -32,4 +32,11 @@ const getGithubAssignmentList = () => new Promise((resolve, reject) => {
     })
     .catch(err => reject(err));
 });
-export default { getAssignmentList, getGithubAssignmentList };
+
+const getSingleAssignmentById = assignmentId => axios.get(`${baseUrl}/assignments/${assignmentId}.json`);
+
+export default {
+  getAssignmentList,
+  getGithubAssignmentList,
+  getSingleAssignmentById,
+};

@@ -46,18 +46,18 @@ a {
 
 /* default button */
 
-.btn-default {
-  background-color: $default;
-  color: $white;
-  border-color: $border-one;
+.btn-primary {
+  background-color: $default !important;
+  color: $white !important;
+  border-color: $border-one !important;
 }
 
-.btn-default:hover,
-.btn-default:focus,
-.btn-default:active {
-  background-color: $default-active;
-  color: $white;
-  border-color: $border-one;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: $default-active !important;
+  color: $white !important;
+  border-color: $border-one !important;
 }
 
 .panel-default {

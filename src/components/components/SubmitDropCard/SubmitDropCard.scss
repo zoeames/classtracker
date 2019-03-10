@@ -1,0 +1,16 @@
+.submit-drop-card{
+  userSelect: 'none';
+  padding: 16px;
+  margin: 0 0 8px 0;
+
+  .card-body{
+    border: 2px solid;
+    border-top: 0px;
+  }
+}
+
+.github-tooltip{
+  .tooltip-inner{
+    max-width: 100vw;
+  }
+}
