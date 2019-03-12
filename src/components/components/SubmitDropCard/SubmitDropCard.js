@@ -71,7 +71,7 @@ class SubmitDropCard extends React.Component {
       if (item.status === 'inProgress') {
         return (
           <div>
-            <button className="btn btn-primary" href={item.githubUrl}><i className="fab fa-github"></i></button>
+            <a className="btn btn-primary" href={item.githubUrl} target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
             <button className="btn btn-light" onClick={this.editButton} id={`github-link-${item.assignmentId}`}><i className="fas fa-pencil-alt"></i></button>
             <Tooltip placement="top" className="github-tooltip" isOpen={tooltipOpen} target={`github-link-${item.assignmentId}`} toggle={this.toggle}>
               { item.githubUrl }
@@ -82,7 +82,7 @@ class SubmitDropCard extends React.Component {
       if (item.status === 'done') {
         return (
           <div>
-            <button className="btn btn-primary" href={item.githubUrl}><i className="fab fa-github"></i></button>
+            <a className="btn btn-primary" href={item.githubUrl} target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
             <div>Submitted: { moment(item.submissionDate).format('LLL') }</div>
           </div>
         );

@@ -19,7 +19,9 @@ class Submit extends React.Component {
     assignments: [],
     githubModal: false,
     submitAssignmentId: '-1',
-    visible: false,
+    alertVisible: false,
+    alertText: '',
+    alertColor: '',
   };
 
   toggleModal = () => {
