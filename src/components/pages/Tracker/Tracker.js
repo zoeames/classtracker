@@ -117,23 +117,23 @@ class Tracker extends React.Component {
         </div>
       </th>
     ));
-    // const createTH = () => {
 
+    // {/* <td ng-repeat="stat in assignment.studentStats track by $index" ng-class='{"success": stat === "D", "warning": stat === "P" , "danger": stat === "X", "royal": stat === "E"}'>{{stat}}</td> */}
+    const createAssignmentTD = assignmentRow => assignmentRow.map((a, index) => <td key={ `assignment${Math.floor(Math.random() * 6000) + 1}` }>{a}</td>);
 
-    //   return (
-    //     <th class="rotate" ng-repeat="student in $ctrl.students">
-    //       <div>
-    //         <a>
-    //           {/* ui-sref="student_progress({id: student.uid})" */}
-    //           <span>{{student.firstName}} {{student.lastName}}</span>
-    //         </a>
-    //       </div>
-    //     </th>
-    //   );
-    // };
-
-
-
+    const createTR = this.state.assignments.map(assignment => (
+      <tr>
+        <td className='text-nowrap'>
+          <a href="{assignment.details.URL}" target="_blank" rel="noopener noreferrer">{assignment.details.title}</a>
+        </td>
+        {createAssignmentTD(assignment.studentStats)}
+        {/* <td ng-repeat="stat in assignment.studentStats track by $index" >{{stat}}</td> */}
+        {/* <td ng-repeat="stat in assignment.studentStats track by $index" ng-class='{"success": stat === "D", "warning": stat === "P" , "danger": stat === "X", "royal": stat === "E"}'>{{stat}}</td> */}
+        <td className='text-nowrap'>
+          <a href="{assignment.details.URL}" target="_blank" rel="noopener noreferrer">{assignment.details.title}</a>
+        </td>
+      </tr>
+    ));
 
   // <tr ng-repeat="assignment in $ctrl.assignments">
   //               <td class='text-nowrap'>
@@ -154,11 +154,11 @@ class Tracker extends React.Component {
               <tr>
                 <th>Assignments</th>
                   {createTH}
-                {/* <th className="text-right">Assignments</th> */}
+                <th className="text-right">Assignments</th>
               </tr>
             </thead>
             <tbody>
-
+              {createTR}
             </tbody>
           </table>
         </div>
