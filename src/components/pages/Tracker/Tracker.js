@@ -111,7 +111,7 @@ class Tracker extends React.Component {
     const createTH = this.state.students.map(student => (
       <th className="rotate" key={student.id}>
         <div>
-          <a> {/* ui-sref="student_progress({id: student.uid})" */}
+          <a href> {/* ui-sref="student_progress({id: student.uid})" */}
             <span>{student.firstName} {student.lastName}</span>
           </a>
         </div>
@@ -119,10 +119,10 @@ class Tracker extends React.Component {
     ));
 
     // {/* <td ng-repeat="stat in assignment.studentStats track by $index" ng-class='{"success": stat === "D", "warning": stat === "P" , "danger": stat === "X", "royal": stat === "E"}'>{{stat}}</td> */}
-    const createAssignmentTD = assignmentRow => assignmentRow.map((a, index) => <td key={ `assignment${Math.floor(Math.random() * 6000) + 1}` }>{a}</td>);
+    const createAssignmentTD = assignmentRow => assignmentRow.map((a, index) => <td key={ `student-assignment-${Math.floor(Math.random() * 6000) + 1}` }>{a}</td>);
 
     const createTR = this.state.assignments.map(assignment => (
-      <tr>
+      <tr key={assignment.id}>
         <td className='text-nowrap'>
           <a href="{assignment.details.URL}" target="_blank" rel="noopener noreferrer">{assignment.details.title}</a>
         </td>
