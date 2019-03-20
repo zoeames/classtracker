@@ -22,28 +22,6 @@ a {
   text-align: center;
 }
 
-/* royal class for tables */
-.table > tbody > tr.royal > td,
-.table > tbody > tr.royal > th,
-.table > tbody > tr > td.royal,
-.table > tbody > tr > th.royal,
-.table > tfoot > tr.royal > td,
-.table > tfoot > tr.royal > th,
-.table > tfoot > tr > td.royal,
-.table > tfoot > tr > th.royal,
-.table > thead > tr.royal > td,
-.table > thead > tr.royal > th,
-.table > thead > tr > td.royal,
-.table > thead > tr > th.royal {
-  background-color: $royal-light;
-}
-
-.panel-royal > .panel-heading {
-  color: $royal;
-  background-color: $royal-light;
-  border-color: #f0eaf1;
-}
-
 /* default button */
 
 .btn-primary {
@@ -225,18 +203,6 @@ a {
   margin-top: 10px;
 }
 
-td h3 {
-  margin: 0px;
-}
-
-td a {
-  color: $black;
-}
-
-table {
-  background-color: $white;
-}
-
 .crap {
   position: relative !important;
 }
@@ -290,32 +256,4 @@ mwl-calendar .cal-month-box .cal-row-fluid {
 
 .no-pad {
   padding: 0px;
-}
-
-tr a {
-  color: $black;
-}
-
-/* Tracker table student names */
-th.rotate {
-  /* Something you can count on */
-  height: 140px;
-  white-space: nowrap;
-}
-
-th.rotate > div {
-  transform: translate(30px) rotate(315deg);
-  width: 30px;
-}
-th.rotate > div > a {
-  border-bottom: 1px solid $border-two;
-  padding: 5px 10px;
-}
-#tracker-table {
-  margin: 2%;
-  background-color: transparent;
-}
-
-td{
-  border-right: 2px solid $border-two;
 }

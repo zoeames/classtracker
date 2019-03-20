@@ -22,32 +22,23 @@ class Tracker extends React.Component {
         }
         this.setState({ students });
 
-        // console.log('studentPromises', studentPromises);
         Promise.all(studentPromises).then((data) => {
-          // console.log('data', data);
-          let finalSmash = [];
-          for (let b = 0; b < data.length; b += 1) {
-            const newAssignments = submitAssignmentRequests.smashLists(
-              this.state.assignments,
-              data[b].assignments,
-            );
-            // console.log('MEGA SMASH', this.megaSmash(newAssignments));
-            finalSmash = this.megaSmash(newAssignments);
-          }
-          this.setState({ assignments: finalSmash });
+          const finalAssignmentList = [...this.state.assignments];
+          finalAssignmentList.forEach((a) => {
+            const { assignmentId } = a.details;
+            data.forEach((d) => {
+              const studentAssignment = d.assignments.find(x => x.assignmentId === assignmentId);
+              if (!studentAssignment) {
+                a.studentStats.push(this.getStatus('backlog'));
+              } else {
+                a.studentStats.push(this.getStatus(studentAssignment.status));
+              }
+            });
+          });
+          this.setState({ assignments: finalAssignmentList });
         });
       })
       .catch(err => console.error('error in students', err));
-  }
-
-
-  megaSmash(studentAssignments) {
-    const assignmentCopy = [...this.state.assignments];
-    for (let y = 0; y < assignmentCopy.length; y += 1) {
-      const status = this.getStatus(studentAssignments[y].status);
-      assignmentCopy[y].studentStats.push(status);
-    }
-    return assignmentCopy;
   }
 
   getAllTheStudentStuff(student) {
@@ -69,7 +60,7 @@ class Tracker extends React.Component {
       case 'excused':
         return 'E';
       case 'done':
-        return 'E';
+        return 'D';
       default:
         return 'X';
     }
@@ -100,57 +91,49 @@ class Tracker extends React.Component {
   }
 
   render() {
-  // <th class="rotate" ng-repeat="student in $ctrl.students">
-    // <div>
-    //   <a>
-  //       {/* ui-sref="student_progress({id: student.uid})" */}
-  //       <span>{{student.firstName}} {{student.lastName}}</span>
-  //     </a>
-  //   </div>
-  // </th>
+    const addClass = (status) => {
+      switch (status) {
+        case 'D':
+          return 'table-success';
+        case 'P':
+          return 'table-warning';
+        case 'E':
+          return 'table-royal';
+        default:
+          return 'table-danger';
+      }
+    };
+
     const createTH = this.state.students.map(student => (
       <th className="rotate" key={student.id}>
         <div>
-          <a href> {/* ui-sref="student_progress({id: student.uid})" */}
+          <a href={`/student/${student.id}`}> {/* ui-sref="student_progress({id: student.uid})" */}
             <span>{student.firstName} {student.lastName}</span>
           </a>
         </div>
       </th>
     ));
 
-    // {/* <td ng-repeat="stat in assignment.studentStats track by $index" ng-class='{"success": stat === "D", "warning": stat === "P" , "danger": stat === "X", "royal": stat === "E"}'>{{stat}}</td> */}
-    const createAssignmentTD = assignmentRow => assignmentRow.map((a, index) => <td key={ `student-assignment-${Math.floor(Math.random() * 6000) + 1}` }>{a}</td>);
+    const createAssignmentTD = assignmentRow => assignmentRow.map((a, index) => <td key={ `student-assignment-${Math.floor(Math.random() * 6000) + 1}`} className={addClass(a)}>{a}</td>);
 
     const createTR = this.state.assignments.map(assignment => (
-      <tr key={assignment.id}>
+      <tr key={`row-label-${assignment.details.assignmentId}`}>
         <td className='text-nowrap'>
-          <a href="{assignment.details.URL}" target="_blank" rel="noopener noreferrer">{assignment.details.title}</a>
+          <a href={assignment.details.URL} target="_blank" rel="noopener noreferrer">{assignment.details.title}</a>
         </td>
         {createAssignmentTD(assignment.studentStats)}
-        {/* <td ng-repeat="stat in assignment.studentStats track by $index" >{{stat}}</td> */}
-        {/* <td ng-repeat="stat in assignment.studentStats track by $index" ng-class='{"success": stat === "D", "warning": stat === "P" , "danger": stat === "X", "royal": stat === "E"}'>{{stat}}</td> */}
         <td className='text-nowrap'>
-          <a href="{assignment.details.URL}" target="_blank" rel="noopener noreferrer">{assignment.details.title}</a>
+          <a href={assignment.details.URL} target="_blank" rel="noopener noreferrer">{assignment.details.title}</a>
         </td>
       </tr>
     ));
 
-  // <tr ng-repeat="assignment in $ctrl.assignments">
-  //               <td class='text-nowrap'>
-  //                 <a ng-href="{{assignment.details.URL}}" target="_blank" rel="noopener noreferrer">{{assignment.details.title}}</a>
-  //               </td>
-  //               <td ng-repeat="stat in assignment.studentStats track by $index" ng-class='{"success": stat === "D", "warning": stat === "P" , "danger": stat === "X", "royal": stat === "E"}'>{{stat}}</td>
-  //               <td class='text-nowrap'>
-  //                 <a ng-href="{{assignment.details.URL}}" target="_blank" rel="noopener noreferrer">{{assignment.details.title}}</a>
-  //               </td>
-  //             </tr>
-
     return (
       <div className="Tracker">
-        <div className="main-container ">
-          <h1>Assignment Tracker</h1>
+        <h1>Assignment Tracker</h1>
+        <div className="overflow-auto">
           <table className="table table-hover" id="tracker-table">
-            <thead>
+            <thead className="thead-dark">
               <tr>
                 <th>Assignments</th>
                   {createTH}

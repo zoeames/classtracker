@@ -1,3 +1,58 @@
+@import '../../../styles/_colors';
+
 .Tracker {
   text-align: center;
+
+  /* Tracker table student names */
+  th.rotate {
+    /* Something you can count on */
+    height: 150px;
+    white-space: nowrap;
+  }
+
+  th.rotate > div {
+    transform: translate(30px) rotate(315deg);
+    width: 30px;
+  }
+  th.rotate > div > a {
+    border-bottom: 1px solid $border-two;
+    padding: 5px 10px;
+  }
+
+  td {
+    border-right: 2px solid $border-two;
+  }
+
+  table {
+    background-color: $white;
+  }
+
+  /* royal class for tables */
+  .table > tbody > tr.royal > td,
+  .table > tbody > tr.royal > th,
+  .table > tbody > tr > td.royal,
+  .table > tbody > tr > th.royal,
+  .table > tfoot > tr.royal > td,
+  .table > tfoot > tr.royal > th,
+  .table > tfoot > tr > td.royal,
+  .table > tfoot > tr > th.royal,
+  .table > thead > tr.royal > td,
+  .table > thead > tr.royal > th,
+  .table > thead > tr > td.royal,
+  .table > thead > tr > th.royal {
+    background-color: $royal-light;
+  }
+
+  .table-royal {
+    background-color: $royal-light;
+  }
+
+
+  .panel-royal > .panel-heading {
+    color: $royal;
+    background-color: $royal-light;
+    border-color: #f0eaf1;
+  }
+
+
 }
