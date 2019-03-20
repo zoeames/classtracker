@@ -52,11 +52,31 @@
   "assignment06": {
     "title": "Temperature Converter",
     "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/JS_temp_converter.md",
-    "dueDate": "2019-03-19",
+    "dueDate": "2019-03-23",
     "isAssigned": "true",
     "isGithub": "true",
     "assignedNumber": 6,
     "topic": "JS",
     "notes": ""
+  },
+  "assignment07": {
+    "title": "Sorting Hat",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/EVENTS_sorting_hat.md",
+    "dueDate": "2019-03-26",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 7,
+    "topic": "Bootstrap",
+    "notes": ""
+  },
+  "assignment08": {
+    "title": "Personal Site Part 2",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-02.md",
+    "dueDate": "2019-03-26",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 8,
+    "topic": "JS",
+    "notes": "This should be a short assignment"
   }
 }
