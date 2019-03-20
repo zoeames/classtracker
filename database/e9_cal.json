@@ -245,7 +245,7 @@
     "title": "Chrome Dev Tools",
     "start": "March 11, 2019 19:00:00",
     "end": "March 11, 2019 20:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/dev-tools.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
@@ -261,7 +261,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to use css, html, and JS together",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/pie"
   },
   "cal25": {
     "title": "What to Expect",
@@ -278,12 +278,12 @@
     "title": "Markdown",
     "start": "March 12, 2019 19:00:00",
     "end": "March 12, 2019 20:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/markdown.md",
     "instructor": "Greg",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to make a README.md",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/markdown/blob/master/main.md"
   },
   "cal27": {
     "title": "Exercises",
@@ -308,28 +308,61 @@
     "githubRepo":""
   },
   "cal29": {
-    "title": "Git for teams",
+    "title": "Wireframes",
     "start": "March 16, 2019 9:00:00",
+    "end": "March 16, 2019 12:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/wireframes.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to create wireframes",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/temperature-converter"
+  },
+  "cal30": {
+    "title": "Github Projects",
+    "start": "March 16, 2019 12:00:00",
+    "end": "March 16, 2019 13:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-projects.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to make a github projects board",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/temperature-converter/projects/1"
+  },
+  "cal31": {
+    "title": "Exercises",
+    "start": "March 16, 2019 13:00:00",
     "end": "March 16, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal32": {
+    "title": "Git for teams",
+    "start": "March 18, 2019 18:00:00",
+    "end": "March 18, 2019 22:00:00",
     "resourceUrl": "",
     "instructor": "Zoe,Greg,Michael",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Using git for teams",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/DinoMate"
   },
-  "cal30": {
-    "title": "Group Project",
-    "start": "March 18, 2019 19:00:00",
-    "end": "March 23, 2019 21:30:00",
+  "cal33": {
+    "title": "Bootstrap",
+    "start": "March 19, 2019 18:00:00",
+    "end": "March 19, 2019 22:00:00",
     "resourceUrl": "",
-    "instructor": "",
+    "instructor": "Zoe",
     "hwUrl": "",
-    "eventType": "study",
-    "description": "Group Project: See Github Project",
-    "githubRepo":""
+    "eventType": "lecture",
+    "description": "Using git for teams",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/bootstrap-product-cards"
   },
-  "cal31": {
+  "cal34": {
     "title": "Week 5 HW",
     "start": "March 20, 2019 2:00:00",
     "end": "March 21, 2019 23:30:00",
@@ -340,92 +373,15 @@
     "description": "HW #5",
     "githubRepo":""
   },
-  "cal32": {
-    "title": "Group Project Demos",
-    "start": "March 25, 2019 18:00:00",
-    "end": "March 25, 2019 19:00:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "",
-    "eventType": "demo",
-    "description": "Show and tell!",
-    "githubRepo":""
-  },
-  "cal33": {
-    "title": "Event Listeners",
-    "start": "March 25, 2019 18:00:00",
-    "end": "March 25, 2019 22:00:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "How to make buttons click",
-    "githubRepo":""
-  },
-  "cal34": {
-    "title": "Bootstrap 4",
-    "start": "March 26, 2019 18:00:00",
-    "end": "March 16, 2019 22:00:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "One grid to rule them all",
-    "githubRepo":""
-  },
   "cal35": {
-    "title": "Week 6 HW",
-    "start": "March 27, 2019 2:00:00",
-    "end": "March 28, 2019 23:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week06.md",
-    "eventType": "study",
-    "description": "HW #6",
-    "githubRepo":""
-  },
-  "cal36": {
     "title": "Exercises",
-    "start": "March 30, 2019 10:00:00",
-    "end": "March 30, 2019 14:00:00",
+    "start": "March 23, 2019 9:00:00",
+    "end": "March 23, 2019 14:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
     "eventType": "study",
     "description": "Open time to work on exercises",
-    "githubRepo":""
-  },
-  "cal97": {
-    "title": "Networking/Linkedin",
-    "start": "April 13, 2019 18:00:00",
-    "end": "April 13, 2019 19:00:00",
-    "resourceUrl": "",
-    "instructor": "Kristin, Ashley",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "How to network and build your linkedin profile",
-    "githubRepo":""
-  },
-  "cal98": {
-    "title": "Resume Talk",
-    "start": "May 14, 2019 18:00:00",
-    "end": "May 14, 2019 19:00:00",
-    "resourceUrl": "",
-    "instructor": "Kristin, Ashley",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "How to build your resume",
-    "githubRepo":""
-  },
-  "cal99": {
-    "title": "Recruiter Talk",
-    "start": "June 12, 2019 18:00:00",
-    "end": "June 12, 2019 19:00:00",
-    "resourceUrl": "",
-    "instructor": "Kristin, Ashley",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "How to talk with recruiters",
     "githubRepo":""
   }
 }

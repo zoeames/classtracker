@@ -40,53 +40,23 @@
     "notes": "This is a good space for you to mess around with styling.  We aren't expecting the styling to be completely done when this is due.  You will change that a few times over the next few months."
   },
   "assignment05": {
-    "title": "test assignment2",
-    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/test2.md",
-    "dueDate": "2019-03-15",
+    "title": "Pet Adoption",
+    "URL": "https://github.com/nss-nightclass-projects/pet-adoption",
+    "dueDate": "2019-03-19",
     "isAssigned": "true",
     "isGithub": "true",
     "assignedNumber": 5,
-    "topic": "test2",
-    "notes": "test2"
+    "topic": "DOM",
+    "notes": ""
   },
-    "assignment06": {
-    "title": "test assignment3",
-    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/test3.md",
-    "dueDate": "2019-03-20",
+  "assignment06": {
+    "title": "Temperature Converter",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/JS_temp_converter.md",
+    "dueDate": "2019-03-19",
     "isAssigned": "true",
     "isGithub": "true",
     "assignedNumber": 6,
-    "topic": "test3",
-    "notes": "test3"
-  },
-    "assignment07": {
-    "title": "test assignment4",
-    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/test4.md",
-    "dueDate": "2019-03-21",
-    "isAssigned": "true",
-    "isGithub": "true",
-    "assignedNumber": 7,
-    "topic": "test4",
-    "notes": "test4"
-  },
-    "assignment08": {
-    "title": "test assignment5",
-    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/test5.md",
-    "dueDate": "2019-03-25",
-    "isAssigned": "true",
-    "isGithub": "true",
-    "assignedNumber": 8,
-    "topic": "test5",
-    "notes": "test5"
-  },
-  "assignment09": {
-    "title": "test assignment 6",
-    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/test6.md",
-    "dueDate": "2019-04-27",
-    "isAssigned": "true",
-    "isGithub": "true",
-    "assignedNumber": 4,
-    "topic": "test",
-    "notes": "test"
+    "topic": "JS",
+    "notes": ""
   }
 }
