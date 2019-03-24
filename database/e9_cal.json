@@ -33,42 +33,9 @@
     "githubRepo":""
   },
   "cal04": {
-    "title": "Don't be an Asshole!",
-    "start": "February 18, 2019 18:00:00",
-    "end": "February 18, 2019 19:00:00",
-    "resourceUrl": "",
-    "instructor": "John Wark",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "Rules and policies at NSS",
-    "githubRepo":""
-  },
-  "cal05": {
-    "title": "Class Expectations and Overview",
-    "start": "February 18, 2019 19:00:00",
-    "end": "February 18, 2019 20:00:00",
-    "resourceUrl": "https://docs.google.com/presentation/d/1EtmTorQ7fd9GK6PoaK666Mt0LKmuWuS1k1Acvn9sJ10/edit?usp=sharing",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "What we are going to do for the next six months",
-    "githubRepo":""
-  },
-  "cal06": {
-    "title": "E8 Front End Capstone Demo Day",
-    "start": "February 19, 2019 9:00:00",
-    "end": "February 19, 2019 14:00:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "",
-    "eventType": "demo",
-    "description": "See what you are going to be able to do in 6 months",
-    "githubRepo":""
-  },
-  "cal07": {
     "title": "Week 1 HW",
-    "start": "February 20, 2019 2:00:00",
-    "end": "February 21, 2019 23:30:00",
+    "start": "February 20, 2019 18:00:00",
+    "end": "February 20, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week01.md",
@@ -76,10 +43,560 @@
     "description": "HW #1",
     "githubRepo":""
   },
+  "cal05": {
+    "title": "Week 1 HW",
+    "start": "February 21, 2019 18:00:00",
+    "end": "February 21, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week01.md",
+    "eventType": "study",
+    "description": "HW #1",
+    "githubRepo":""
+  },
+  "cal06": {
+    "title": "Week 2 HW",
+    "start": "February 27, 2019 18:00:00",
+    "end": "February 27, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week02.md",
+    "eventType": "study",
+    "description": "HW #2",
+    "githubRepo":""
+  },
+  "cal07": {
+    "title": "Week 2 HW",
+    "start": "February 28, 2019 18:00:00",
+    "end": "February 28, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week02.md",
+    "eventType": "study",
+    "description": "HW #2",
+    "githubRepo":""
+  },
   "cal08": {
+    "title": "Week 3 HW",
+    "start": "March 6, 2019 18:00:00",
+    "end": "March 6, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week03.md",
+    "eventType": "study",
+    "description": "HW #3",
+    "githubRepo":""
+  },
+  "cal09": {
+    "title": "Week 3 HW",
+    "start": "March 7, 2019 18:00:00",
+    "end": "March 7, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week03.md",
+    "eventType": "study",
+    "description": "HW #3",
+    "githubRepo":""
+  },
+  "cal10": {
+    "title": "Week 4 HW",
+    "start": "March 13, 2019 18:00:00",
+    "end": "March 13, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week04.md",
+    "eventType": "study",
+    "description": "HW #4",
+    "githubRepo":""
+  },
+  "cal11": {
+    "title": "Week 4 HW",
+    "start": "March 14, 2019 18:00:00",
+    "end": "March 14, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week04.md",
+    "eventType": "study",
+    "description": "HW #4",
+    "githubRepo":""
+  },
+  "cal12": {
+    "title": "Week 5 HW",
+    "start": "March 20, 2019 18:00:00",
+    "end": "March 20, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week05.md",
+    "eventType": "study",
+    "description": "HW #5",
+    "githubRepo":""
+  },
+  "cal13": {
+    "title": "Week 5 HW",
+    "start": "March 21, 2019 18:00:00",
+    "end": "March 21, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week05.md",
+    "eventType": "study",
+    "description": "HW #5",
+    "githubRepo":""
+  },
+  "cal14": {
+    "title": "Week 6 HW",
+    "start": "March 27, 2019 18:00:00",
+    "end": "March 27, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week06.md",
+    "eventType": "study",
+    "description": "HW #6",
+    "githubRepo":""
+  },
+  "cal15": {
+    "title": "Week 6 HW",
+    "start": "March 28, 2019 18:00:00",
+    "end": "March 28, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week06.md",
+    "eventType": "study",
+    "description": "HW #6",
+    "githubRepo":""
+  },
+  "cal16": {
+    "title": "Week 7 HW",
+    "start": "April 3, 2019 18:00:00",
+    "end": "April 3, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week07.md",
+    "eventType": "study",
+    "description": "HW #7",
+    "githubRepo":""
+  },
+  "cal17": {
+    "title": "Week 7 HW",
+    "start": "April 4, 2019 18:00:00",
+    "end": "April 4, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week07.md",
+    "eventType": "study",
+    "description": "HW #7",
+    "githubRepo":""
+  },
+  "cal18": {
+    "title": "Week 8 HW",
+    "start": "April 10, 2019 18:00:00",
+    "end": "April 10, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week08.md",
+    "eventType": "study",
+    "description": "HW #8",
+    "githubRepo":""
+  },
+  "cal19": {
+    "title": "Week 8 HW",
+    "start": "April 11, 2019 18:00:00",
+    "end": "April 11, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week08.md",
+    "eventType": "study",
+    "description": "HW #8",
+    "githubRepo":""
+  },
+  "cal20": {
+    "title": "Week 9 HW",
+    "start": "April 17, 2019 18:00:00",
+    "end": "April 17, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week09.md",
+    "eventType": "study",
+    "description": "HW #9",
+    "githubRepo":""
+  },
+  "cal21": {
+    "title": "Week 9 HW",
+    "start": "April 18, 2019 18:00:00",
+    "end": "April 18, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week09.md",
+    "eventType": "study",
+    "description": "HW #9",
+    "githubRepo":""
+  },
+  "cal22": {
+    "title": "Week 10 HW",
+    "start": "April 24, 2019 18:00:00",
+    "end": "April 24, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week10.md",
+    "eventType": "study",
+    "description": "HW #10",
+    "githubRepo":""
+  },
+  "cal23": {
+    "title": "Week 10 HW",
+    "start": "April 25, 2019 18:00:00",
+    "end": "April 25, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week10.md",
+    "eventType": "study",
+    "description": "HW #10",
+    "githubRepo":""
+  },
+  "cal24": {
+    "title": "Week 11 HW",
+    "start": "May 1, 2019 18:00:00",
+    "end": "May 1, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week11.md",
+    "eventType": "study",
+    "description": "HW #11",
+    "githubRepo":""
+  },
+  "cal25": {
+    "title": "Week 11 HW",
+    "start": "May 2, 2019 18:00:00",
+    "end": "May 2, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week11.md",
+    "eventType": "study",
+    "description": "HW #11",
+    "githubRepo":""
+  },
+  "cal26": {
+    "title": "Week 12 HW",
+    "start": "May 8, 2019 18:00:00",
+    "end": "May 8, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week12.md",
+    "eventType": "study",
+    "description": "HW #12",
+    "githubRepo":""
+  },
+  "cal27": {
+    "title": "Week 12 HW",
+    "start": "May 9, 2019 18:00:00",
+    "end": "May 9, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week12.md",
+    "eventType": "study",
+    "description": "HW #12",
+    "githubRepo":""
+  },
+  "cal28": {
+    "title": "Week 13 HW",
+    "start": "May 15, 2019 18:00:00",
+    "end": "May 15, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week13.md",
+    "eventType": "study",
+    "description": "HW #13",
+    "githubRepo":""
+  },
+  "cal29": {
+    "title": "Week 13 HW",
+    "start": "May 16, 2019 18:00:00",
+    "end": "May 16, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week13.md",
+    "eventType": "study",
+    "description": "HW #13",
+    "githubRepo":""
+  },
+  "cal30": {
+    "title": "Week 14 HW",
+    "start": "May 22, 2019 18:00:00",
+    "end": "May 22, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week14.md",
+    "eventType": "study",
+    "description": "HW #14",
+    "githubRepo":""
+  },
+  "cal31": {
+    "title": "Week 14 HW",
+    "start": "May 23, 2019 18:00:00",
+    "end": "May 23, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week14.md",
+    "eventType": "study",
+    "description": "HW #14",
+    "githubRepo":""
+  },
+  "cal32": {
+    "title": "Week 15 HW",
+    "start": "May 29, 2019 18:00:00",
+    "end": "May 29, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week15.md",
+    "eventType": "study",
+    "description": "HW #15",
+    "githubRepo":""
+  },
+  "cal33": {
+    "title": "Week 15 HW",
+    "start": "May 30, 2019 18:00:00",
+    "end": "May 30, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week15.md",
+    "eventType": "study",
+    "description": "HW #15",
+    "githubRepo":""
+  },
+  "cal34": {
+    "title": "Week 16 HW",
+    "start": "June 5, 2019 18:00:00",
+    "end": "June 5, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week16.md",
+    "eventType": "study",
+    "description": "HW #16",
+    "githubRepo":""
+  },
+  "cal35": {
+    "title": "Week 16 HW",
+    "start": "June 6, 2019 18:00:00",
+    "end": "June 6, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week16.md",
+    "eventType": "study",
+    "description": "HW #16",
+    "githubRepo":""
+  },
+  "cal36": {
+    "title": "Week 17 HW",
+    "start": "June 12, 2019 18:00:00",
+    "end": "June 12, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week17.md",
+    "eventType": "study",
+    "description": "HW #17",
+    "githubRepo":""
+  },
+  "cal37": {
+    "title": "Week 17 HW",
+    "start": "June 13, 2019 18:00:00",
+    "end": "June 13, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week17.md",
+    "eventType": "study",
+    "description": "HW #17",
+    "githubRepo":""
+  },
+  "cal38": {
+    "title": "Week 18 HW",
+    "start": "June 19, 2019 18:00:00",
+    "end": "June 19, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week18.md",
+    "eventType": "study",
+    "description": "HW #18",
+    "githubRepo":""
+  },
+  "cal39": {
+    "title": "Week 18 HW",
+    "start": "June 20, 2019 18:00:00",
+    "end": "June 20, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week18.md",
+    "eventType": "study",
+    "description": "HW #18",
+    "githubRepo":""
+  },
+  "cal40": {
+    "title": "Week 19 HW",
+    "start": "June 26, 2019 18:00:00",
+    "end": "June 26, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week19.md",
+    "eventType": "study",
+    "description": "HW #19",
+    "githubRepo":""
+  },
+  "cal41": {
+    "title": "Week 19 HW",
+    "start": "June 27, 2019 18:00:00",
+    "end": "June 27, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week19.md",
+    "eventType": "study",
+    "description": "HW #19",
+    "githubRepo":""
+  },
+  "cal42": {
+    "title": "Week 20 HW",
+    "start": "July 3, 2019 18:00:00",
+    "end": "July 3, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week20.md",
+    "eventType": "study",
+    "description": "HW #20",
+    "githubRepo":""
+  },
+  "cal43": {
+    "title": "Week 20 HW",
+    "start": "July 4, 2019 18:00:00",
+    "end": "July 4, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week20.md",
+    "eventType": "study",
+    "description": "HW #20",
+    "githubRepo":""
+  },
+  "cal44": {
+    "title": "Week 21 HW",
+    "start": "July 10, 2019 18:00:00",
+    "end": "July 10, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week21.md",
+    "eventType": "study",
+    "description": "HW #21",
+    "githubRepo":""
+  },
+  "cal45": {
+    "title": "Week 21 HW",
+    "start": "July 11, 2019 18:00:00",
+    "end": "July 11, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week21.md",
+    "eventType": "study",
+    "description": "HW #21",
+    "githubRepo":""
+  },
+  "cal46": {
+    "title": "Week 22 HW",
+    "start": "July 17, 2019 18:00:00",
+    "end": "July 17, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week22.md",
+    "eventType": "study",
+    "description": "HW #22",
+    "githubRepo":""
+  },
+  "cal47": {
+    "title": "Week 22 HW",
+    "start": "July 18, 2019 18:00:00",
+    "end": "July 18, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week22.md",
+    "eventType": "study",
+    "description": "HW #22",
+    "githubRepo":""
+  },
+  "cal48": {
+    "title": "Week 23 HW",
+    "start": "July 24, 2019 18:00:00",
+    "end": "July 24, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week23.md",
+    "eventType": "study",
+    "description": "HW #23",
+    "githubRepo":""
+  },
+  "cal49": {
+    "title": "Week 23 HW",
+    "start": "July 25, 2019 18:00:00",
+    "end": "July 25, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week23.md",
+    "eventType": "study",
+    "description": "HW #23",
+    "githubRepo":""
+  },
+  "cal50": {
+    "title": "Week 24 HW",
+    "start": "July 31, 2019 18:00:00",
+    "end": "July 31, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week24.md",
+    "eventType": "study",
+    "description": "HW #24",
+    "githubRepo":""
+  },
+  "cal51": {
+    "title": "Week 24 HW",
+    "start": "August 1, 2019 18:00:00",
+    "end": "August 1, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week24.md",
+    "eventType": "study",
+    "description": "HW #24",
+    "githubRepo":""
+  },
+  "cal52": {
+    "title": "Don't be an Asshole!",
+    "start": "February 18, 2019 18:00:00",
+    "end": "February 18, 2019 20:30:00",
+    "resourceUrl": "",
+    "instructor": "John Wark",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Rules and policies at NSS",
+    "githubRepo":""
+  },
+  "cal53": {
+    "title": "Class Expectations and Overview",
+    "start": "February 18, 2019 20:30:00",
+    "end": "February 18, 2019 21:30:00",
+    "resourceUrl": "https://docs.google.com/presentation/d/1EtmTorQ7fd9GK6PoaK666Mt0LKmuWuS1k1Acvn9sJ10/edit?usp=sharing",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "What we are going to do for the next six months",
+    "githubRepo":""
+  },
+  "cal54": {
+    "title": "E8 Front End Capstone Demo Day",
+    "start": "February 19, 2019 18:00:00",
+    "end": "February 19, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "See what you are going to be able to do in 6 months",
+    "githubRepo":""
+  },
+  "cal55": {
     "title": "Great Flood of 2019",
-    "start": "February 23, 2019 8:00:00",
-    "end": "February 23, 2019 23:30:00",
+    "start": "February 23, 2019 9:00:00",
+    "end": "February 23, 2019 14:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -87,10 +604,10 @@
     "description": "No Classes",
     "githubRepo":""
   },
-  "cal09": {
+  "cal56": {
     "title": "Installs",
     "start": "February 25, 2019 18:00:00",
-    "end": "February 25, 2019 19:30:00",
+    "end": "February 25, 2019 19:00:00",
     "resourceUrl": "",
     "instructor": "Zoe, Greg",
     "hwUrl": "",
@@ -98,9 +615,9 @@
     "description": "Mac and PC Installs",
     "githubRepo":"https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/setup.md"
   },
-  "cal10": {
+  "cal57": {
     "title": "Command Line",
-    "start": "February 25, 2019 19:30:00",
+    "start": "February 25, 2019 19:00:00",
     "end": "February 25, 2019 20:00:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/command-line.md",
     "instructor": "Zoe",
@@ -109,7 +626,7 @@
     "description": "How to use the command line",
     "githubRepo":""
   },
-  "cal11": {
+  "cal58": {
     "title": "Github Setup",
     "start": "February 25, 2019 20:00:00",
     "end": "February 25, 2019 21:00:00",
@@ -120,10 +637,10 @@
     "description": "Configuring your machine to authenticate to github",
     "githubRepo":""
   },
-  "cal12": {
+  "cal59": {
     "title": "Intro to Github",
     "start": "February 25, 2019 21:00:00",
-    "end": "February 25, 2019 22:00:00",
+    "end": "February 25, 2019 21:30:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-and-github.md",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -131,10 +648,10 @@
     "description": "Make your first repo",
     "githubRepo":""
   },
-  "cal13": {
+  "cal60": {
     "title": "Git Branching",
-    "start": "February 26, 2019 21:00:00",
-    "end": "February 26, 2019 22:00:00",
+    "start": "February 26, 2019 18:00:00",
+    "end": "February 26, 2019 21:30:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-branching.md",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -142,20 +659,9 @@
     "description": "Gitflow",
     "githubRepo":""
   },
-  "cal14": {
-    "title": "Week 2 HW",
-    "start": "February 27, 2019 2:00:00",
-    "end": "February 28, 2019 23:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week02.md",
-    "eventType": "study",
-    "description": "HW #2",
-    "githubRepo":""
-  },
-  "cal15": {
+  "cal61": {
     "title": "JS Functions",
-    "start": "March 2, 2019 10:00:00",
+    "start": "March 2, 2019 9:00:00",
     "end": "March 2, 2019 14:00:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-functions.md",
     "instructor": "Zoe",
@@ -164,10 +670,10 @@
     "description": "All about JS Functions",
     "githubRepo":"https://github.com/nss-evening-cohort-9/js-functions"
   },
-  "cal16": {
+  "cal62": {
     "title": "JS Strings",
     "start": "March 4, 2019 18:00:00",
-    "end": "March 4, 2019 20:00:00",
+    "end": "March 4, 2019 19:00:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-strings.md",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -175,10 +681,10 @@
     "description": "All about JS Strings",
     "githubRepo": "https://github.com/nss-evening-cohort-9/js-strings-objects"
   },
-  "cal17": {
+  "cal63": {
     "title": "JS Objects",
-    "start": "March 4, 2019 20:00:00",
-    "end": "March 4, 2019 22:00:00",
+    "start": "March 4, 2019 19:00:00",
+    "end": "March 4, 2019 21:30:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-objects.md",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -186,10 +692,10 @@
     "description": "All about JS Objects",
     "githubRepo":"https://github.com/nss-evening-cohort-9/js-strings-objects"
   },
-  "cal18": {
+  "cal64": {
     "title": "JS Arrays and Loops",
     "start": "March 5, 2019 18:00:00",
-    "end": "March 5, 2019 22:00:00",
+    "end": "March 5, 2019 21:30:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-array-looping.md",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -197,21 +703,10 @@
     "description": "All about JS arrays and how to loop over them",
     "githubRepo":"https://github.com/nss-evening-cohort-9/js-arrays"
   },
-  "cal19": {
-    "title": "Week 3 HW",
-    "start": "March 6, 2019 2:00:00",
-    "end": "March 7, 2019 23:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week03.md",
-    "eventType": "study",
-    "description": "HW #3",
-    "githubRepo":""
-  },
-  "cal20": {
+  "cal65": {
     "title": "Advanced Array Methods",
     "start": "March 9, 2019 9:00:00",
-    "end": "March 9, 2019 10:00:00",
+    "end": "March 9, 2019 11:00:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-array-methods.md",
     "instructor": "Michael",
     "hwUrl": "",
@@ -219,9 +714,9 @@
     "description": "Advanced array methods",
     "githubRepo":"https://github.com/nss-evening-cohort-9/js-array-methods"
   },
-  "cal21": {
+  "cal66": {
     "title": "Exercises",
-    "start": "March 9, 2019 9:00:00",
+    "start": "March 9, 2019 11:00:00",
     "end": "March 9, 2019 14:00:00",
     "resourceUrl": "",
     "instructor": "",
@@ -230,7 +725,7 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal22": {
+  "cal67": {
     "title": "VS Code",
     "start": "March 11, 2019 18:00:00",
     "end": "March 11, 2019 19:00:00",
@@ -241,7 +736,7 @@
     "description": "Cool things in VS Code",
     "githubRepo":""
   },
-  "cal23": {
+  "cal68": {
     "title": "Chrome Dev Tools",
     "start": "March 11, 2019 19:00:00",
     "end": "March 11, 2019 20:00:00",
@@ -252,10 +747,10 @@
     "description": "How to use the chrome dev tools",
     "githubRepo":""
   },
-  "cal24": {
+  "cal69": {
     "title": "THE DOM",
     "start": "March 11, 2019 20:00:00",
-    "end": "March 11, 2019 22:00:00",
+    "end": "March 11, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -263,7 +758,7 @@
     "description": "How to use css, html, and JS together",
     "githubRepo":"https://github.com/nss-evening-cohort-9/pie"
   },
-  "cal25": {
+  "cal70": {
     "title": "What to Expect",
     "start": "March 12, 2019 18:00:00",
     "end": "March 12, 2019 19:00:00",
@@ -274,7 +769,7 @@
     "description": "What to expect with the job search process",
     "githubRepo":""
   },
-  "cal26": {
+  "cal71": {
     "title": "Markdown",
     "start": "March 12, 2019 19:00:00",
     "end": "March 12, 2019 20:00:00",
@@ -285,10 +780,10 @@
     "description": "How to make a README.md",
     "githubRepo":"https://github.com/nss-evening-cohort-9/markdown/blob/master/main.md"
   },
-  "cal27": {
+  "cal72": {
     "title": "Exercises",
     "start": "March 12, 2019 20:00:00",
-    "end": "March 12, 2019 22:00:00",
+    "end": "March 12, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -296,21 +791,10 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal28": {
-    "title": "Week 4 HW",
-    "start": "March 13, 2019 2:00:00",
-    "end": "March 14, 2019 23:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week04.md",
-    "eventType": "study",
-    "description": "HW #4",
-    "githubRepo":""
-  },
-  "cal29": {
+  "cal73": {
     "title": "Wireframes",
     "start": "March 16, 2019 9:00:00",
-    "end": "March 16, 2019 12:00:00",
+    "end": "March 16, 2019 11:30:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/wireframes.md",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -318,9 +802,9 @@
     "description": "How to create wireframes",
     "githubRepo":"https://github.com/nss-evening-cohort-9/temperature-converter"
   },
-  "cal30": {
+  "cal74": {
     "title": "Github Projects",
-    "start": "March 16, 2019 12:00:00",
+    "start": "March 16, 2019 11:30:00",
     "end": "March 16, 2019 13:00:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-projects.md",
     "instructor": "Zoe",
@@ -329,7 +813,7 @@
     "description": "How to make a github projects board",
     "githubRepo":"https://github.com/nss-evening-cohort-9/temperature-converter/projects/1"
   },
-  "cal31": {
+  "cal75": {
     "title": "Exercises",
     "start": "March 16, 2019 13:00:00",
     "end": "March 16, 2019 14:00:00",
@@ -340,10 +824,10 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal32": {
+  "cal76": {
     "title": "Git for teams",
     "start": "March 18, 2019 18:00:00",
-    "end": "March 18, 2019 22:00:00",
+    "end": "March 18, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe,Greg,Michael",
     "hwUrl": "",
@@ -351,10 +835,10 @@
     "description": "Using git for teams",
     "githubRepo":"https://github.com/nss-evening-cohort-9/DinoMate"
   },
-  "cal33": {
+  "cal77": {
     "title": "Bootstrap",
     "start": "March 19, 2019 18:00:00",
-    "end": "March 19, 2019 22:00:00",
+    "end": "March 19, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -362,18 +846,7 @@
     "description": "Using git for teams",
     "githubRepo":"https://github.com/nss-evening-cohort-9/bootstrap-product-cards"
   },
-  "cal34": {
-    "title": "Week 5 HW",
-    "start": "March 20, 2019 2:00:00",
-    "end": "March 21, 2019 23:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week05.md",
-    "eventType": "study",
-    "description": "HW #5",
-    "githubRepo":""
-  },
-  "cal35": {
+  "cal78": {
     "title": "Exercises",
     "start": "March 23, 2019 9:00:00",
     "end": "March 23, 2019 14:00:00",
@@ -384,10 +857,10 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal36": {
+  "cal79": {
     "title": "Dynamic Event Listeners",
     "start": "March 25, 2019 18:00:00",
-    "end": "March 25, 2019 22:00:00",
+    "end": "March 25, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -395,18 +868,7 @@
     "description": "How to add events to dynamically added elements",
     "githubRepo":""
   },
-  "cal37": {
-    "title": "Week 6 HW",
-    "start": "March 27, 2019 2:00:00",
-    "end": "March 28, 2019 23:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week06.md",
-    "eventType": "study",
-    "description": "HW #6",
-    "githubRepo":""
-  },
-  "cal38": {
+  "cal80": {
     "title": "Group Project",
     "start": "March 26, 2019 19:00:00",
     "end": "April 1, 2019 21:30:00",
@@ -417,10 +879,10 @@
     "description": "Group Project: See Github Project",
     "githubRepo":""
   },
-  "cal39": {
+  "cal81": {
     "title": "Demo Group Project",
     "start": "April 2, 2019 18:00:00",
-    "end": "April 2, 2019 19:00:00",
+    "end": "April 2, 2019 20:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -428,10 +890,10 @@
     "description": "Show and tell!",
     "githubRepo":""
   },
-  "cal40": {
+  "cal82": {
     "title": "JSON",
-    "start": "April 2, 2019 19:00:00",
-    "end": "April 2, 2019 20:00:00",
+    "start": "April 2, 2019 20:00:00",
+    "end": "April 2, 2019 20:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -439,10 +901,10 @@
     "description": "JSON Data",
     "githubRepo":""
   },
-  "cal41": {
+  "cal83": {
     "title": "XHR Requests",
-    "start": "April 2, 2019 20:00:00",
-    "end": "April 2, 2019 21:00:00",
+    "start": "April 2, 2019 20:30:00",
+    "end": "April 2, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -450,18 +912,7 @@
     "description": "How to write a vanilla XHR request",
     "githubRepo":""
   },
-  "cal42": {
-    "title": "Week 7 HW",
-    "start": "April 3, 2019 2:00:00",
-    "end": "April 4, 2019 23:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week07.md",
-    "eventType": "study",
-    "description": "HW #7",
-    "githubRepo":""
-  },
-  "cal43": {
+  "cal84": {
     "title": "Exercises",
     "start": "April 6, 2019 9:00:00",
     "end": "April 6, 2019 14:00:00",
@@ -472,10 +923,10 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal44": {
+  "cal85": {
     "title": "Intro to ES6 Modules",
-    "start": "April 8, 2019 20:00:00",
-    "end": "April 8, 2019 21:00:00",
+    "start": "April 8, 2019 18:00:00",
+    "end": "April 8, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -483,10 +934,10 @@
     "description": "How to set up a project with es6 modules",
     "githubRepo":""
   },
-  "cal45": {
+  "cal86": {
     "title": "Simple ES6 Module",
-    "start": "April 9, 2019 20:00:00",
-    "end": "April 9, 2019 21:00:00",
+    "start": "April 9, 2019 18:00:00",
+    "end": "April 9, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -494,18 +945,7 @@
     "description": "Simple module project",
     "githubRepo":""
   },
-  "cal46": {
-    "title": "Week 8 HW",
-    "start": "April 10, 2019 2:00:00",
-    "end": "April 11, 2019 23:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week08.md",
-    "eventType": "study",
-    "description": "HW #8",
-    "githubRepo":""
-  },
-  "cal47": {
+  "cal87": {
     "title": "Exercises",
     "start": "April 13, 2019 9:00:00",
     "end": "April 13, 2019 14:00:00",
@@ -516,10 +956,10 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal48": {
+  "cal88": {
     "title": "Task Runners",
-    "start": "April 15, 2019 20:00:00",
-    "end": "April 15, 2019 21:00:00",
+    "start": "April 15, 2019 18:00:00",
+    "end": "April 15, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -527,10 +967,10 @@
     "description": "Adding task runners to a project",
     "githubRepo":""
   },
-  "cal49": {
+  "cal89": {
     "title": "SASS",
-    "start": "April 16, 2019 20:00:00",
-    "end": "April 16, 2019 21:00:00",
+    "start": "April 16, 2019 18:00:00",
+    "end": "April 16, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "Saul",
     "hwUrl": "",
@@ -538,18 +978,7 @@
     "description": "Up your CSS game",
     "githubRepo":""
   },
-  "cal50": {
-    "title": "Week 9 HW",
-    "start": "April 17, 2019 2:00:00",
-    "end": "April 18, 2019 23:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week09.md",
-    "eventType": "study",
-    "description": "HW #9",
-    "githubRepo":""
-  },
-  "cal51": {
+  "cal90": {
     "title": "Complex Modules",
     "start": "April 20, 2019 9:00:00",
     "end": "April 20, 2019 12:00:00",
@@ -560,7 +989,7 @@
     "description": "More complex module project",
     "githubRepo":""
   },
-  "cal52": {
+  "cal91": {
     "title": "Exercises",
     "start": "April 20, 2019 12:00:00",
     "end": "April 20, 2019 14:00:00",
@@ -571,10 +1000,10 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal53": {
+  "cal92": {
     "title": "Complex Modules Part 2",
     "start": "April 22, 2019 18:00:00",
-    "end": "April 22, 2019 22:00:00",
+    "end": "April 22, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -582,10 +1011,10 @@
     "description": "More complex module project",
     "githubRepo":""
   },
-  "cal54": {
+  "cal93": {
     "title": "Exercises",
     "start": "April 23, 2019 18:00:00",
-    "end": "April 23, 2019 22:00:00",
+    "end": "April 23, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -593,18 +1022,7 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal55": {
-    "title": "Week 10 HW",
-    "start": "April 24, 2019 2:00:00",
-    "end": "April 25, 2019 23:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week10.md",
-    "eventType": "study",
-    "description": "HW #10",
-    "githubRepo":""
-  },
-  "cal56": {
+  "cal94": {
     "title": "Group Project",
     "start": "April 27, 2019 19:00:00",
     "end": "May 4, 2019 21:30:00",
@@ -615,37 +1033,16 @@
     "description": "Group Project: See Github Project",
     "githubRepo":""
   },
-  "cal57": {
-    "title": "Week 11 HW",
-    "start": "May 1, 2019 2:00:00",
-    "end": "May 2, 2019 23:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week11.md",
-    "eventType": "study",
-    "description": "HW #11",
-    "githubRepo":""
-  },
-  "cal58": {
+  "cal95": {
     "title": "Demo Group Project",
     "start": "May 13, 2019 18:00:00",
-    "end": "May 13, 2019 19:00:00",
+    "end": "May 13, 2019 120:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
     "eventType": "demo",
     "description": "Show and tell!",
     "githubRepo":""
-  },
-  "cal59": {
-    "title": "Week 12 HW",
-    "start": "May 8, 2019 2:00:00",
-    "end": "May 9, 2019 23:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-nightclass-projects/e9-homework/blob/master/week12.md",
-    "eventType": "study",
-    "description": "HW #12",
-    "githubRepo":""
   }
 }
+
