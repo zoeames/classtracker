@@ -60,7 +60,7 @@ class MyNavbar extends React.Component {
               <NavLink tag={ Link } to='/submit'>Submit</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={ Link } to='/students'>Student</NavLink>
+              <NavLink tag={ Link } to='/students'>Students</NavLink>
             </NavItem>
             <NavItem>
               <NavLink tag={ Link } to='/calendar'>Calendar</NavLink>
@@ -81,7 +81,7 @@ class MyNavbar extends React.Component {
               <NavLink tag={ Link } to='/submit'>Submit</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={ Link } to='/students'>Student</NavLink>
+              <NavLink tag={ Link } to='/students'>Students</NavLink>
             </NavItem>
             <NavItem>
               <NavLink tag={ Link } to='/calendar'>Calendar</NavLink>
@@ -98,7 +98,7 @@ class MyNavbar extends React.Component {
       return (
         <Nav className="ml-auto" navbar>
           <NavItem>
-            <NavLink tag={ Link } to='/students'>Student</NavLink>
+            <NavLink tag={ Link } to='/students'>Students</NavLink>
           </NavItem>
           <NavItem>
             <NavLink tag={ Link } to='/calendar'>Calendar</NavLink>

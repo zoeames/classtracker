@@ -7,7 +7,13 @@ import calRequests from '../../../helpers/data/calRequests';
 
 import './Calendar.scss';
 
-moment.locale('en-GB');
+// moment.locale('en-GB');
+moment.locale('ko', {
+  week: {
+    dow: 1,
+    doy: 1,
+  },
+});
 const localizer = BigCalendar.momentLocalizer(moment);
 
 class Calendar extends React.Component {
@@ -20,7 +26,23 @@ class Calendar extends React.Component {
     calRequests
       .getCalEventsRequest()
       .then((events) => {
-        this.setState({ events });
+        const newEvents = [];
+        events.forEach((event) => {
+          const newEvent = {
+            description: event.description,
+            eventType: event.eventType,
+            githubRepo: event.githubRepo,
+            hwUrl: event.hwUrl,
+            id: event.id,
+            instructor: event.instructor,
+            resourceUrl: event.resourceUrl,
+            title: event.title,
+          };
+          newEvent.start = new Date(event.start);
+          newEvent.end = new Date(event.end);
+          newEvents.push(newEvent);
+        });
+        this.setState({ events: newEvents });
       })
       .catch(err => console.error('error with get events request', err));
   }
@@ -57,24 +79,28 @@ class Calendar extends React.Component {
   };
 
   selectDate = (slotInfo) => {
-    const startDate = new Date(slotInfo.end);
-    const startTime = startDate.getTime();
-    const endTime = startTime + 60 * 60 * 24 * 1000;
+    const startDate = new Date(slotInfo.start);
+    const endDate = new Date(slotInfo.start);
+    startDate.setHours(0, 0, 0);
+    endDate.setHours(23, 59, 0);
     const events = this.state.events.filter((event) => {
-      const eventStartDate = new Date(event.start);
-      const eventStartTime = eventStartDate.getTime();
-      const eventEndDate = new Date(event.end);
-      const eventEndTime = eventEndDate.getTime();
+      const eventStartTime = event.start.getTime();
+      const eventEndTime = event.end.getTime();
       return (
-        (startTime > eventStartTime && startTime < eventEndTime)
-        || (endTime > eventStartTime && endTime < eventEndTime)
-        || (eventStartTime >= startTime && eventStartTime <= endTime)
+        (startDate.getTime() > eventStartTime && startDate.getTime() < eventEndTime)
+        || (endDate.getTime() > eventStartTime && endDate.getTime() < eventEndTime)
+        || (eventStartTime >= startDate.getTime() && eventStartTime <= endDate.getTime())
       );
     });
     this.setState({ selectedEvents: events });
   };
 
   render() {
+    const minTime = new Date();
+    const maxTime = new Date();
+    minTime.setHours(9, 0, 0);
+    maxTime.setHours(22, 0, 0);
+
     const displaySelectedEvents = this.state.selectedEvents.map((event) => {
       let backgroundClass = '';
       switch (event.eventType) {
@@ -155,9 +181,10 @@ class Calendar extends React.Component {
             selectable
             events={this.state.events}
             step={60}
-            defaultView="month"
-            views={['month']}
-            defaultDate={new Date()}
+            defaultView="week"
+            views={['week']}
+            min = {minTime}
+            max = {maxTime}
             eventPropGetter={this.eventStyleGetter}
             onSelectSlot={this.selectDate}
           />
