@@ -20,7 +20,23 @@ class Calendar extends React.Component {
     calRequests
       .getCalEventsRequest()
       .then((events) => {
-        this.setState({ events });
+        const newEvents = [];
+        events.forEach((event) => {
+          const newEvent = {
+            description: event.description,
+            eventType: event.eventType,
+            githubRepo: event.githubRepo,
+            hwUrl: event.hwUrl,
+            id: event.id,
+            instructor: event.instructor,
+            resourceUrl: event.resourceUrl,
+            title: event.title,
+          };
+          newEvent.start = new Date(event.start);
+          newEvent.end = new Date(event.end);
+          newEvents.push(newEvent);
+        });
+        this.setState({ events: newEvents });
       })
       .catch(err => console.error('error with get events request', err));
   }
@@ -75,6 +91,11 @@ class Calendar extends React.Component {
   };
 
   render() {
+    const minTime = new Date();
+    const maxTime = new Date();
+    minTime.setHours(9, 0, 0);
+    maxTime.setHours(22, 0, 0);
+
     const displaySelectedEvents = this.state.selectedEvents.map((event) => {
       let backgroundClass = '';
       switch (event.eventType) {
@@ -155,9 +176,10 @@ class Calendar extends React.Component {
             selectable
             events={this.state.events}
             step={60}
-            defaultView="month"
-            views={['month']}
-            defaultDate={new Date()}
+            defaultView="week"
+            views={['week']}
+            min = {minTime}
+            max = {maxTime}
             eventPropGetter={this.eventStyleGetter}
             onSelectSlot={this.selectDate}
           />
