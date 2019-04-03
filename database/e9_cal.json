@@ -778,7 +778,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to make a README.md",
-    "githubRepo":"https://github.com/nss-evening-cohort-9/markdown/blob/master/main.md"
+    "githubRepo":"https://github.com/nss-evening-cohort-9/markdown"
   },
   "cal72": {
     "title": "Exercises",
@@ -866,7 +866,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to add events to dynamically added elements",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/pie-builder"
   },
   "cal80": {
     "title": "Group Project",
@@ -880,39 +880,28 @@
     "githubRepo":""
   },
   "cal81": {
-    "title": "Demo Group Project",
-    "start": "April 2, 2019 18:00:00",
-    "end": "April 2, 2019 20:00:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "",
-    "eventType": "demo",
-    "description": "Show and tell!",
-    "githubRepo":""
-  },
-  "cal82": {
     "title": "JSON",
-    "start": "April 2, 2019 20:00:00",
-    "end": "April 2, 2019 20:30:00",
+    "start": "April 2, 2019 18:00:00",
+    "end": "April 2, 2019 19:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JSON Data",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/theme-park"
   },
-  "cal83": {
+  "cal82": {
     "title": "XHR Requests",
-    "start": "April 2, 2019 20:30:00",
+    "start": "April 2, 2019 19:30:00",
     "end": "April 2, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to write a vanilla XHR request",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/theme-park"
   },
-  "cal84": {
+  "cal83": {
     "title": "Exercises",
     "start": "April 6, 2019 9:00:00",
     "end": "April 6, 2019 14:00:00",
@@ -923,9 +912,20 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
+  "cal84": {
+    "title": "Demo Group Project",
+    "start": "April 8, 2019 18:00:00",
+    "end": "April 8, 2019 20:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell!",
+    "githubRepo":""
+  },
   "cal85": {
     "title": "Intro to ES6 Modules",
-    "start": "April 8, 2019 18:00:00",
+    "start": "April 8, 2019 20:00:00",
     "end": "April 8, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",

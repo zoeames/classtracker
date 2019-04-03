@@ -78,5 +78,15 @@
     "assignedNumber": 8,
     "topic": "JS",
     "notes": "This should be a short assignment"
+  },
+  "assignment09": {
+    "title": "Favorite Places",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/xhr_favorite_places.md",
+    "dueDate": "2019-04-09",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 9,
+    "topic": "XHR",
+    "notes": "Very close to the assignment we did in class"
   }
 }
