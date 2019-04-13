@@ -88,5 +88,15 @@
     "assignedNumber": 9,
     "topic": "XHR",
     "notes": "Very close to the assignment we did in class"
+  },
+  "assignment10": {
+    "title": "Sandwich Maker",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/MODULES_sandwhich.md",
+    "dueDate": "2019-04-16",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 10,
+    "topic": "Modules",
+    "notes": ""
   }
 }
