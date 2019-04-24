@@ -98,5 +98,25 @@
     "assignedNumber": 10,
     "topic": "Modules",
     "notes": ""
+  },
+  "assignment11": {
+    "title": "Tamagotchi",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/MODULES_tamagotchi.md",
+    "dueDate": "2019-04-23",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 11,
+    "topic": "Modules",
+    "notes": ""
+  },
+  "assignment12": {
+    "title": "Shotz",
+    "URL": "https://github.com/nss-nightclass-projects/shotz",
+    "dueDate": "2019-04-27",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 12,
+    "topic": "Modules",
+    "notes": "Most of this assignment was done in class - finish any parts we didn't get to"
   }
 }

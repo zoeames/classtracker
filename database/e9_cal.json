@@ -960,23 +960,23 @@
     "title": "Task Runners",
     "start": "April 15, 2019 18:00:00",
     "end": "April 15, 2019 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/task-runners.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Adding task runners to a project",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/webpack-intro"
   },
   "cal89": {
     "title": "SASS",
     "start": "April 16, 2019 18:00:00",
     "end": "April 16, 2019 21:30:00",
-    "resourceUrl": "",
-    "instructor": "Saul",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/sass.md",
+    "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Up your CSS game",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/thrones"
   },
   "cal90": {
     "title": "Complex Modules",
@@ -987,7 +987,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "More complex module project",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/shotz"
   },
   "cal91": {
     "title": "Exercises",
@@ -1009,7 +1009,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "More complex module project",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/shotz"
   },
   "cal93": {
     "title": "Exercises",
