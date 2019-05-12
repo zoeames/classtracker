@@ -11,9 +11,9 @@
     "githubRepo":""
   },
   "cal02": {
-    "title": "Memorial Day",
-    "start": "May 27, 2019 8:00:00",
-    "end": "May 27, 2019 23:30:00",
+    "title": "Holiday - Memorial Day",
+    "start": "May 27, 2019 18:00:00",
+    "end": "May 27, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -1023,7 +1023,7 @@
     "githubRepo":""
   },
   "cal94": {
-    "title": "Group Project",
+    "title": "Group Project - Chatty",
     "start": "April 27, 2019 19:00:00",
     "end": "May 4, 2019 21:30:00",
     "resourceUrl": "",
@@ -1034,9 +1034,119 @@
     "githubRepo":""
   },
   "cal95": {
-    "title": "Demo Group Project",
+    "title": "Chatty Demo",
     "start": "May 13, 2019 18:00:00",
-    "end": "May 13, 2019 120:00:00",
+    "end": "May 13, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell!",
+    "githubRepo":""
+  },
+  "cal96": {
+    "title": "Promises",
+    "start": "May 14, 2019 18:00:00",
+    "end": "May 14, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Calbacks 2.0",
+    "githubRepo":""
+  },
+  "cal97": {
+    "title": "Exercises",
+    "start": "May 18, 2019 9:00:00",
+    "end": "May 18, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal98": {
+    "title": "Firebase Auth",
+    "start": "May 20, 2019 18:00:00",
+    "end": "May 20, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Login/Register a user",
+    "githubRepo":""
+  },
+  "cal99": {
+    "title": "ERDs",
+    "start": "May 21, 2019 18:00:00",
+    "end": "May 21, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Database Relationships",
+    "githubRepo":""
+  },
+  "cal100": {
+    "title": "Firebase Create/Read",
+    "start": "May 25, 2019 9:00:00",
+    "end": "May 25, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Firebase CRUD",
+    "githubRepo":""
+  },
+  "cal101": {
+    "title": "Exercises",
+    "start": "May 28, 2019 18:00:00",
+    "end": "May 28, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal102": {
+    "title": "Firebase Update/Delete",
+    "start": "June 1, 2019 9:00:00",
+    "end": "June 1, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Firebase CRUD",
+    "githubRepo":""
+  },
+  "cal103": {
+    "title": "Exercises",
+    "start": "June 3, 2019 18:00:00",
+    "end": "June 3, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal104": {
+    "title": "Group Project",
+    "start": "June 4, 2019 18:00:00",
+    "end": "June 13, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Group Project: See Github Project",
+    "githubRepo":""
+  },
+  "cal105": {
+    "title": "Demo Group Project",
+    "start": "June 15, 2019 9:00:00",
+    "end": "June 15, 2019 14:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
