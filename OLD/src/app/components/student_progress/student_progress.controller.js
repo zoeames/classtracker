@@ -1,32 +1,5 @@
 class StudentProgressController {
-  constructor(
-    $stateParams,
-    assignmentService,
-    studentService,
-    submitAssignmentService
-  ) {
-    "ngInject";
 
-    this.$stateParams = $stateParams;
-
-    this.assignmentService = assignmentService;
-    this.studentService = studentService;
-    this.submitAssignmentService = submitAssignmentService;
-    this.assignments = [];
-    this.studentId = "";
-    this.student = {};
-
-    this.completedAssignmentNum = 0;
-    this.progressAssignmentNum = 0;
-    this.freshAssignmentNum = 0;
-    this.excusedAssignmentNum = 0;
-  }
-
-  $onInit() {
-    this.studentId = this.$stateParams.id;
-    this.getStudent(this.studentId);
-    this.getGithubAssignments();
-  }
 
   assignmentTotals() {
     this.assignments.forEach(a => {
@@ -47,16 +20,7 @@ class StudentProgressController {
     });
   }
 
-  getStudent(uid) {
-    this.studentService
-      .getSingleStudent(uid)
-      .then(fbStudent => {
-        this.student = fbStudent;
-      })
-      .catch(err => {
-        console.error("error in get single student", err);
-      });
-  }
+
 
   getGithubAssignments() {
     this.assignmentService.getGithubAssignmentList().then(fbAssignments => {

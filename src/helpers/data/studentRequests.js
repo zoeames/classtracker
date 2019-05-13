@@ -19,7 +19,7 @@ const getRequest = () => new Promise((resolve, reject) => {
     .catch(err => reject(err));
 });
 
-const getSingleStudent = uid => new Promise((resolve, reject) => {
+const getSingleStudentByUid = uid => new Promise((resolve, reject) => {
   axios
     .get(`${apiKeys.firebaseConfig.databaseURL}/students.json?orderBy="uid"&equalTo="${uid}"`)
     .then((res) => {
@@ -35,4 +35,17 @@ const getSingleStudent = uid => new Promise((resolve, reject) => {
     .catch(err => reject(err));
 });
 
-export default { getRequest, getSingleStudent };
+const getSingleStudentById = id => new Promise((resolve, reject) => {
+  axios
+    .get(`${apiKeys.firebaseConfig.databaseURL}/students/${id}.json`)
+    .then((res) => {
+      let student = {};
+      if (res.data !== null) {
+        student = res.data;
+      }
+      resolve(student);
+    })
+    .catch(err => reject(err));
+});
+
+export default { getRequest, getSingleStudentByUid, getSingleStudentById };

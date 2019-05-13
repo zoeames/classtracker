@@ -48,7 +48,7 @@ class App extends React.Component {
     connection();
     this.removeListener = firebase.auth().onAuthStateChanged((user) => {
       if (user) {
-        studentRequests.getSingleStudent(user.uid)
+        studentRequests.getSingleStudentByUid(user.uid)
           .then((fbStudent) => {
             this.setState({
               authed: true,
