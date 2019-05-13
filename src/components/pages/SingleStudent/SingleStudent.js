@@ -1,7 +1,10 @@
 import React from 'react';
-import './SingleStudent.scss';
-import studentRequests from '../../../helpers/data/studentRequests';
 
+import './SingleStudent.scss';
+
+import assignmentRequests from '../../../helpers/data/assignmentRequests';
+import studentRequests from '../../../helpers/data/studentRequests';
+import submitAssignmentRequests from '../../../helpers/data/submitAssignmentRequests';
 
 class SingleStudent extends React.Component {
   state = {
@@ -17,18 +20,60 @@ class SingleStudent extends React.Component {
     studentRequests
       .getSingleStudentById(id)
       .then((fbStudent) => {
-        console.error('fbStudent', fbStudent);
+        this.getGithubAssignments(fbStudent.uid);
         this.setState({ student: fbStudent });
       })
       .catch(err => console.error('error in get single student', err));
   }
 
+  assignmentTotals() {
+    const tempTotals = { ...this.state };
+    this.state.assignments.forEach((a) => {
+      switch (a.status) {
+        case 'done':
+          tempTotals.completedAssignmentNum += 1;
+          break;
+        case 'inProgress':
+          tempTotals.progressAssignmentNum += 1;
+          break;
+        case 'backlog':
+          tempTotals.freshAssignmentNum += 1;
+          break;
+        case 'excused':
+          tempTotals.excusedAssignmentNum += 1;
+          break;
+        default:
+          break;
+      }
+    });
+    this.setState({
+      completedAssignmentNum: tempTotals.completedAssignmentNum,
+      progressAssignmentNum: tempTotals.progressAssignmentNum,
+      freshAssignmentNum: tempTotals.freshAssignmentNum,
+      excusedAssignmentNum: tempTotals.excusedAssignmentNum,
+    });
+  }
+
+  getGithubAssignments(uid) {
+    assignmentRequests.getGithubAssignmentList().then((fbAssignments) => {
+      submitAssignmentRequests.getSubmitAssignmentsByUid(uid)
+        .then((myAssignments) => {
+          const combinedAssignments = submitAssignmentRequests.smashLists(
+            fbAssignments,
+            myAssignments,
+          );
+          combinedAssignments.sort(
+            (a, b) => new Date(a.dueDate) - new Date(b.dueDate),
+          );
+          this.setState({ assignments: combinedAssignments });
+          this.assignmentTotals();
+        });
+    });
+  }
+
   componentDidMount() {
     const studentId = this.props.match.params.id;
-    console.error('id from single', studentId);
-    // this.studentId = this.$stateParams.id;
     this.getStudent(studentId);
-    // this.getGithubAssignments();
   }
 
   render() {
@@ -97,6 +142,9 @@ class SingleStudent extends React.Component {
                 <th scope="col">Reset</th>
               </tr>
             </thead>
+            <tbody>
+
+            </tbody>
           </table>
         </div>
       </div>
