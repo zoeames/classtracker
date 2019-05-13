@@ -103,14 +103,15 @@ class App extends React.Component {
           />
           <div className="body-container">
             <Switch>
-              <Route path="/students" exact component={Students} />
-              <Route path="/assignments" exact component={Assignments} />
-              <Route path="/calendar" exact component={Calendar} />
-              <PrivateRoute
+              <PrivateAdminRoute
                 authed={this.state.authed}
+                admin={this.state.admin}
                 path="/student/:id"
                 component={SingleStudent}
               />
+              <Route path="/students" exact component={Students} />
+              <Route path="/assignments" exact component={Assignments} />
+              <Route path="/calendar" exact component={Calendar} />
               <PrivateRoute
                 authed={this.state.authed}
                 path="/submit"
