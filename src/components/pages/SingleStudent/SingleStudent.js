@@ -1,5 +1,7 @@
 import React from 'react';
+import moment from 'moment';
 
+import treehouseLogo from './treehouse.png';
 import './SingleStudent.scss';
 
 import assignmentRequests from '../../../helpers/data/assignmentRequests';
@@ -85,33 +87,100 @@ class SingleStudent extends React.Component {
       progressAssignmentNum,
       freshAssignmentNum,
     } = this.state;
+
+    const assignmentClass = (status) => {
+      let className = '';
+      switch (status) {
+        case 'done':
+          className = 'bg-success';
+          break;
+        case 'inProgress':
+          className = 'bg-warning';
+          break;
+        case 'backlog':
+          className = 'bg-danger';
+          break;
+        case 'excused':
+          className = 'bg-royal';
+          break;
+        default:
+          break;
+      }
+      return className;
+    };
+
+    // excuseAssignment(assignment) {
+    //   this.submitAssignmentService
+    //     .excuseAssignment(assignment.submitAssignmentId)
+    //     .then(result => {
+    //       this.getGithubAssignments();
+    //     })
+    //     .catch(err => {
+    //       console.error("err", err);
+    //     });
+    // }
+
+    // resetAssignment(assignment) {
+    //   this.submitAssignmentService
+    //     .resetAssignment(assignment.submitAssignmentId)
+    //     .then(result => {
+    //       this.getGithubAssignments();
+    //     })
+    //     .catch(err => {
+    //       console.error("err", err);
+    //     });
+    // }
+
+
+    const studentAssignmentRows = assignments.map(a => (
+      <tr key={a.assignmentId} className={assignmentClass(a.status)}>
+        <th scope="row" className='text-nowrap'>
+          <a href={a.URL} target="_blank" rel="noopener noreferrer">{a.title}</a>
+        </th>
+        <th scope="row">{moment(a.dueDate).format('LL')}</th>
+        <th scope="row">{a.status}</th>
+        <th scope="row">{a.submissionDate ? moment(a.submissionDate).format('LLL') : ''}</th>
+        <th scope="row" className="text-center">
+          {a.githubUrl ? <a target="_blank" rel="noopener noreferrer" href={a.githubUrl}><i className="fab fa-github fa-lg"></i></a> : ''}
+        </th>
+        <th scope="row">
+          {(!(a.status === 'done') && !(a.status === 'excused')) ? <button className="btn btn-default" ng-click="excuseAssignment(a)"><i className="fas fa-pause"></i></button> : ''}
+        </th>
+        <th scope="row">
+          { a.status === 'done' ? <button className="btn btn-danger" ng-click="resetAssignment(a)"><i className="fas fa-undo"></i></button> : ''}
+        </th>
+      </tr>
+    ));
+
     return (
       <div className="SingleStudent">
         <div className="row">
-          <div className="jumbotron">
+          <div className="jumbotron col">
             <div className="row">
-              <div className="col-xs-9">
+              <div className="col-9">
                 <h1>Student: {student.firstName} {student.lastName}</h1>
               </div>
-              <div className="col-xs-3">
-                <div className="col-xs-4">
-                  <a className="treehouse-link" href="{student.treehouse}" target="_blank" rel="noopener noreferrer">
-                    <img className="treehouse-img" src="./img/treehouse.png" alt="treehouse logo" />
-                  </a>
-                </div>
-                <div className="col-xs-4">
-                  <a className="github-link" href="{student.github}" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-github fa-2x"></i>
-                  </a>
-                </div>
-                <div className="col-xs-4">
-                  <a className="website-link" href="{student.biosite}" target="_blank" rel="noopener noreferrer">
-                    <i className="fas fa-address-book fa-2x"></i>
-                  </a>
+              <div className="col-3">
+                <div class="row">
+                  <div className="col-4">
+                    <a className="treehouse-link" href={student.treehouse} target="_blank" rel="noopener noreferrer">
+                      <img className="treehouse-img" src={treehouseLogo} alt="treehouse logo" />
+                    </a>
+                  </div>
+                  <div className="col-4">
+                    <a className="github-link" href={`https://github.com/${student.githubUsername}`} target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-github fa-2x"></i>
+                    </a>
+                  </div>
+                  <div className="col-4">
+                    <a className="website-link" href={student.biosite} target="_blank" rel="noopener noreferrer">
+                      <i className="fas fa-address-book fa-2x"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-xs-12">
+            <div className="col-9">
               <div className="col-xs-4">
                 Completed Assignments:
                 <br/> {completedAssignmentNum} / {assignments.length - excusedAssignmentNum} = {(completedAssignmentNum / (assignments.length - excusedAssignmentNum) * 100).toFixed('0')}%
@@ -143,7 +212,7 @@ class SingleStudent extends React.Component {
               </tr>
             </thead>
             <tbody>
-
+              { studentAssignmentRows }
             </tbody>
           </table>
         </div>
