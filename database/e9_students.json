@@ -39,8 +39,8 @@
     "githubUsername": "saul3d",
     "treehouse": "https://teamtreehouse.com/saul3d",
     "biosite": "",
-    "treehouseComplete": false,
-    "isStudent": false,
+    "treehouseComplete": true,
+    "isStudent": true,
     "uid": "txI3Q1eknUfq1447nOAcyLmrZBx1"
   },
   "student01": {
@@ -229,17 +229,6 @@
     "treehouseComplete": true,
     "isStudent": true,
     "uid": "bfXACdGJJCZexA0ir2UNEciX9LN2"
-  },
-  "student19": {
-    "firstName": "Woody",
-    "lastName": "Maddox",
-    "email": "woody.e.maddox@gmail.com",
-    "githubUsername": "woodymaddox",
-    "treehouse": "https://teamtreehouse.com/woodstonmaddox",
-    "biosite": "",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "tPgMjmCu5Yfha6HHVMmZuP14uCJ2"
   },
   "student20": {
     "firstName": "Matthew",

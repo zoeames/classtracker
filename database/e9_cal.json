@@ -1048,12 +1048,12 @@
     "title": "Promises",
     "start": "May 14, 2019 18:00:00",
     "end": "May 14, 2019 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/promises.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Calbacks 2.0",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/pinterest"
   },
   "cal97": {
     "title": "Exercises",
@@ -1075,7 +1075,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Login/Register a user",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/birfday"
   },
   "cal99": {
     "title": "ERDs",
@@ -1097,7 +1097,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Firebase CRUD",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/birfday"
   },
   "cal101": {
     "title": "Exercises",
@@ -1119,7 +1119,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Firebase CRUD",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/birfday"
   },
   "cal103": {
     "title": "Exercises",
@@ -1153,6 +1153,17 @@
     "eventType": "demo",
     "description": "Show and tell!",
     "githubRepo":""
+  },
+  "cal106": {
+    "title": "Firebase Deploy",
+    "start": "June 10, 2019 20:00:00",
+    "end": "June 10, 2019 21:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/firebase-deploy.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Firebase Deployment",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/birfday"
   }
 }
 
