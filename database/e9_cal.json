@@ -1144,9 +1144,9 @@
     "githubRepo":""
   },
   "cal105": {
-    "title": "Demo Group Project",
+    "title": "Demo Nutshell Group Project",
     "start": "June 15, 2019 9:00:00",
-    "end": "June 15, 2019 14:00:00",
+    "end": "June 15, 2019 12:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -1164,6 +1164,226 @@
     "eventType": "lecture",
     "description": "Firebase Deployment",
     "githubRepo":"https://github.com/nss-evening-cohort-9/birfday"
+  },
+  "cal107": {
+    "title": "React Installs",
+    "start": "June 15, 2019 12:00:00",
+    "end": "June 15, 2019 13:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-setup.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to set up a react project",
+    "githubRepo":""
+  },
+  "cal108": {
+    "title": "Intro to React",
+    "start": "June 15, 2019 13:00:00",
+    "end": "June 15, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React 101",
+    "githubRepo":""
+  },
+  "cal109": {
+    "title": "React State and Props",
+    "start": "June 17, 2019 18:00:00",
+    "end": "June 17, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Passing variables in react",
+    "githubRepo":""
+  },
+  "cal110": {
+    "title": "Recruiters",
+    "start": "June 18, 2019 18:00:00",
+    "end": "June 18, 2019 19:00:00",
+    "resourceUrl": "",
+    "instructor": "Kristin, Ashley",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to deal with Recruiters",
+    "githubRepo":""
+  },
+  "cal111": {
+    "title": "Resumes",
+    "start": "June 18, 2019 19:00:00",
+    "end": "June 18, 2019 20:00:00",
+    "resourceUrl": "",
+    "instructor": "Kristin, Ashley",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to write a good resume",
+    "githubRepo":""
+  },
+  "cal112": {
+    "title": "Exercises",
+    "start": "June 18, 2019 20:00:00",
+    "end": "June 18, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal113": {
+    "title": "Exercises",
+    "start": "June 22, 2019 9:00:00",
+    "end": "June 22, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal114": {
+    "title": "React + Firebase CRUD",
+    "start": "June 24, 2019 18:00:00",
+    "end": "June 24, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal115": {
+    "title": "React + Firebase CRUD",
+    "start": "June 25, 2019 18:00:00",
+    "end": "June 25, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal116": {
+    "title": "CAPSTONE REQUIREMENTS",
+    "start": "June 29, 2019 9:00:00",
+    "end": "June 29, 2019 10:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal117": {
+    "title": "Exercises",
+    "start": "June 29, 2019 10:00:00",
+    "end": "June 29, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal118": {
+    "title": "React routing + CRUD",
+    "start": "July 1, 2019 18:00:00",
+    "end": "July 1, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal119": {
+    "title": "React routing + CRUD",
+    "start": "July 2, 2019 18:00:00",
+    "end": "July 2, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal120": {
+    "title": "Exercises",
+    "start": "July 6, 2019 9:00:00",
+    "end": "July 6, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal121": {
+    "title": "React routing + CRUD",
+    "start": "July 8, 2019 18:00:00",
+    "end": "July 8, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal122": {
+    "title": "React routing + CRUD",
+    "start": "July 9, 2019 18:00:00",
+    "end": "July 9, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "",
+    "githubRepo":""
+  },
+  "cal123": {
+    "title": "Exercises",
+    "start": "July 13, 2019 9:00:00",
+    "end": "July 13, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal124": {
+    "title": "Capstone Checkins",
+    "start": "July 13, 2019 9:00:00",
+    "end": "July 13, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe, Michael, Greg",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal125": {
+    "title": "Capstones",
+    "start": "July 15, 2019 9:00:00",
+    "end": "August 3, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on capstones",
+    "githubRepo":""
+  },
+  "cal126": {
+    "title": "Capstone Soft Demos",
+    "start": "July 31, 2019 18:00:00",
+    "end": "July 31, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Demo your capstone MVP to instructors",
+    "githubRepo":""
   }
 }
 
