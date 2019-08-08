@@ -28,6 +28,18 @@ class SingleStudent extends React.Component {
       .catch(err => console.error('error in get single student', err));
   }
 
+  excuseAssignment = (submitAssignmentId) => {
+    submitAssignmentRequests.excuseAssignment(submitAssignmentId)
+      .then(() => this.getStudent(this.props.match.params.id))
+      .catch(err => console.error('error in get single student', err));
+  }
+
+  resetAssignment = (submitAssignmentId) => {
+    submitAssignmentRequests.resetAssignment(submitAssignmentId)
+      .then(() => this.getStudent(this.props.match.params.id))
+      .catch(err => console.error('error in get single student', err));
+  }
+
   assignmentTotals() {
     const tempTotals = { ...this.state };
     this.state.assignments.forEach((a) => {
@@ -109,29 +121,6 @@ class SingleStudent extends React.Component {
       return className;
     };
 
-    // excuseAssignment(assignment) {
-    //   this.submitAssignmentService
-    //     .excuseAssignment(assignment.submitAssignmentId)
-    //     .then(result => {
-    //       this.getGithubAssignments();
-    //     })
-    //     .catch(err => {
-    //       console.error("err", err);
-    //     });
-    // }
-
-    // resetAssignment(assignment) {
-    //   this.submitAssignmentService
-    //     .resetAssignment(assignment.submitAssignmentId)
-    //     .then(result => {
-    //       this.getGithubAssignments();
-    //     })
-    //     .catch(err => {
-    //       console.error("err", err);
-    //     });
-    // }
-
-
     const studentAssignmentRows = assignments.map(a => (
       <tr key={a.assignmentId} className={assignmentClass(a.status)}>
         <th scope="row" className='text-nowrap'>
@@ -144,10 +133,10 @@ class SingleStudent extends React.Component {
           {a.githubUrl ? <a target="_blank" rel="noopener noreferrer" href={a.githubUrl}><i className="fab fa-github fa-lg"></i></a> : ''}
         </th>
         <th scope="row">
-          {(!(a.status === 'done') && !(a.status === 'excused')) ? <button className="btn btn-default" ng-click="excuseAssignment(a)"><i className="fas fa-pause"></i></button> : ''}
+          {(!(a.status === 'done') && !(a.status === 'excused')) ? <button className="btn btn-default" onClick={() => this.excuseAssignment(a.submitAssignmentId)}><i className="fas fa-pause"></i></button> : ''}
         </th>
         <th scope="row">
-          { a.status === 'done' ? <button className="btn btn-danger" ng-click="resetAssignment(a)"><i className="fas fa-undo"></i></button> : ''}
+          { a.status === 'done' ? <button className="btn btn-danger" onClick={() => this.resetAssignment(a.submitAssignmentId)}><i className="fas fa-undo"></i></button> : ''}
         </th>
       </tr>
     ));
@@ -161,7 +150,7 @@ class SingleStudent extends React.Component {
                 <h1>Student: {student.firstName} {student.lastName}</h1>
               </div>
               <div className="col-3">
-                <div class="row">
+                <div className="row">
                   <div className="col-4">
                     <a className="treehouse-link" href={student.treehouse} target="_blank" rel="noopener noreferrer">
                       <img className="treehouse-img" src={treehouseLogo} alt="treehouse logo" />
@@ -194,7 +183,6 @@ class SingleStudent extends React.Component {
                 <br/> {freshAssignmentNum} / {assignments.length - excusedAssignmentNum} = {(freshAssignmentNum / (assignments.length - excusedAssignmentNum) * 100).toFixed('0')}%
               </div>
             </div>
-
           </div>
         </div>
         <div className="row">

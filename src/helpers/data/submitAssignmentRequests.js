@@ -58,24 +58,18 @@ const updateGithub = assignment => axios.patch(`${baseUrl}/submitAssignments/${a
 
 const completeAssignment = submitAssignmentId => axios.patch(`${baseUrl}/submitAssignments/${submitAssignmentId}.json`, { status: 'done', submissionDate: Date.now() });
 
+const excuseAssignment = submitAssignmentId => axios.patch(`${baseUrl}/submitAssignments/${submitAssignmentId}.json`, { status: 'excused' });
+
+const resetAssignment = submitAssignmentId => axios.patch(`${baseUrl}/submitAssignments/${submitAssignmentId}.json`, { status: 'inProgress' });
+
 export default {
   completeAssignment,
+  excuseAssignment,
   getAssignmentTitleFromSubmitAssignmentId,
   getSingleSubmitAssignmentById,
   getSubmitAssignmentsByUid,
   postNewAssignment,
+  resetAssignment,
   smashLists,
   updateGithub,
 };
-
-// completeAssignment(assignment){
-//   return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignment.submitAssignmentId}.json`, JSON.stringify({ status: "done", submissionDate: Date.now() }));
-// }
-
-// excuseAssignment(assignmentId){
-//   return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignmentId}.json`, JSON.stringify({ status: "excused" }));
-// }
-
-// resetAssignment(assignmentId){
-//   return this.$http.patch(`${this.FB.databaseURL}/submitAssignments/${assignmentId}.json`, JSON.stringify({ status: "inProgress" }));
-// }
