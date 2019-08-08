@@ -1,0 +1,46 @@
+{
+  "cal01": {
+    "title": "Memorial Day",
+    "start": "September 02, 2019 18:00:00",
+    "end": "September 02, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "vacation",
+    "description": "No Classes",
+    "githubRepo":""
+  },
+  "cal02": {
+    "title": "Thanksgiving",
+    "start": "November 27, 2019 18:00:00",
+    "end": "November 30, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "vacation",
+    "description": "No Classes",
+    "githubRepo":""
+  },
+  "cal03": {
+    "title": "Winter Break",
+    "start": "December 23, 2019 18:00:00",
+    "end": "January 03, 2020 23:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "vacation",
+    "description": "No Classes",
+    "githubRepo":""
+  },
+  "cal04": {
+    "title": "Spring Break",
+    "start": "February 10, 2020 18:00:00",
+    "end": "February 15, 2020 23:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "vacation",
+    "description": "No Classes",
+    "githubRepo":""
+  }
+}
