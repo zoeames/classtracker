@@ -1048,12 +1048,12 @@
     "title": "Promises",
     "start": "May 14, 2019 18:00:00",
     "end": "May 14, 2019 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/promises.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Calbacks 2.0",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/pinterest"
   },
   "cal97": {
     "title": "Exercises",
@@ -1075,7 +1075,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Login/Register a user",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/birfday"
   },
   "cal99": {
     "title": "ERDs",
@@ -1097,7 +1097,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Firebase CRUD",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/birfday"
   },
   "cal101": {
     "title": "Exercises",
@@ -1119,7 +1119,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Firebase CRUD",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/birfday"
   },
   "cal103": {
     "title": "Exercises",
@@ -1144,14 +1144,256 @@
     "githubRepo":""
   },
   "cal105": {
-    "title": "Demo Group Project",
+    "title": "Demo Nutshell Group Project",
     "start": "June 15, 2019 9:00:00",
-    "end": "June 15, 2019 14:00:00",
+    "end": "June 15, 2019 12:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
     "eventType": "demo",
     "description": "Show and tell!",
+    "githubRepo":""
+  },
+  "cal106": {
+    "title": "Firebase Deploy",
+    "start": "June 10, 2019 20:00:00",
+    "end": "June 10, 2019 21:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/firebase-deploy.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Firebase Deployment",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/birfday"
+  },
+  "cal107": {
+    "title": "React Installs",
+    "start": "June 15, 2019 12:00:00",
+    "end": "June 15, 2019 13:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-setup.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to set up a react project",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/intro-react"
+  },
+  "cal108": {
+    "title": "Intro to React",
+    "start": "June 15, 2019 13:00:00",
+    "end": "June 15, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React 101",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/goats"
+  },
+  "cal109": {
+    "title": "React State and Props",
+    "start": "June 17, 2019 18:00:00",
+    "end": "June 17, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Passing variables in react",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/goats"
+  },
+  "cal110": {
+    "title": "Recruiters",
+    "start": "June 18, 2019 18:00:00",
+    "end": "June 18, 2019 19:00:00",
+    "resourceUrl": "",
+    "instructor": "Kristin, Ashley",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to deal with Recruiters",
+    "githubRepo":""
+  },
+  "cal111": {
+    "title": "Resumes",
+    "start": "June 18, 2019 19:00:00",
+    "end": "June 18, 2019 20:00:00",
+    "resourceUrl": "",
+    "instructor": "Kristin, Ashley",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to write a good resume",
+    "githubRepo":""
+  },
+  "cal112": {
+    "title": "Exercises",
+    "start": "June 18, 2019 20:00:00",
+    "end": "June 18, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal113": {
+    "title": "Exercises",
+    "start": "June 22, 2019 9:00:00",
+    "end": "June 22, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal114": {
+    "title": "React + Firebase CRUD",
+    "start": "June 24, 2019 18:00:00",
+    "end": "June 24, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "SPA React and Firebase Project",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/fishstore"
+  },
+  "cal115": {
+    "title": "React + Firebase CRUD",
+    "start": "June 25, 2019 18:00:00",
+    "end": "June 25, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "SPA React and Firebase Project",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/fishstore"
+  },
+  "cal116": {
+    "title": "Exercises",
+    "start": "June 29, 2019 9:00:00",
+    "end": "June 29, 2019 12:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal117": {
+    "title": "React + Firebase CRUD",
+    "start": "June 29, 2019 12:00:00",
+    "end": "June 29, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "SPA React and Firebase Project",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/fishstore"
+  },
+  "cal118": {
+    "title": "React + Firebase CRUD",
+    "start": "July 1, 2019 18:00:00",
+    "end": "July 1, 2019 20:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "SPA React and Firebase Project",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/fishstore"
+  },
+  "cal119": {
+    "title": "CAPSTONE REQUIREMENTS",
+    "start": "July 1, 2019 20:30:00",
+    "end": "July 1, 2019 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/capstone-central",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Everything you need to know about capstones",
+    "githubRepo":""
+  },
+  "cal120": {
+    "title": "React Routing",
+    "start": "July 2, 2019 18:00:00",
+    "end": "July 2, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React Routing",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/scat-surprise"
+  },
+  "cal121": {
+    "title": "NO CLASS - 4th of July",
+    "start": "July 6, 2019 9:00:00",
+    "end": "July 6, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "vacation",
+    "description": "Enjoy your weekend",
+    "githubRepo":""
+  },
+  "cal122": {
+    "title": "React routing + CRUD",
+    "start": "July 8, 2019 18:00:00",
+    "end": "July 8, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React and Firebase Project with Routing",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/scat-surprise"
+  },
+  "cal123": {
+    "title": "React routing + CRUD",
+    "start": "July 9, 2019 18:00:00",
+    "end": "July 9, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React and Firebase Project with Routing",
+    "githubRepo":"https://github.com/nss-evening-cohort-9/scat-surprise"
+  },
+  "cal124": {
+    "title": "Exercises",
+    "start": "July 13, 2019 9:00:00",
+    "end": "July 13, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal125": {
+    "title": "1st Capstone Checkin",
+    "start": "July 13, 2019 9:00:00",
+    "end": "July 13, 2019 14:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/capstone-central/blob/master/03_mentor-1on1s.md",
+    "instructor": "Zoe, Michael, Greg",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Capstone planning with your mentor",
+    "githubRepo":""
+  },
+  "cal126": {
+    "title": "Capstones",
+    "start": "July 15, 2019 9:00:00",
+    "end": "August 3, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on capstones",
+    "githubRepo":""
+  },
+  "cal127": {
+    "title": "Capstone Soft Demos",
+    "start": "July 31, 2019 18:00:00",
+    "end": "July 31, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Demo your capstone MVP to instructors",
     "githubRepo":""
   }
 }

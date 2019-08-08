@@ -118,5 +118,125 @@
     "assignedNumber": 12,
     "topic": "Modules",
     "notes": "Most of this assignment was done in class - finish any parts we didn't get to"
+  },
+  "assignment13": {
+    "title": "Acme Explosives",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/PROMISES_acme_explosives.md",
+    "dueDate": "2019-05-21",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 13,
+    "topic": "Modules",
+    "notes": ""
+  },
+  "assignment14": {
+    "title": "Movie History Part 1",
+    "URL": "https://github.com/nss-nightclass-projects/movie-history/blob/master/part1.md",
+    "dueDate": "2019-05-25",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 14,
+    "topic": "ERDs",
+    "notes": ""
+  },
+  "assignment15": {
+    "title": "Movie History Part 2",
+    "URL": "https://github.com/nss-nightclass-projects/movie-history/blob/master/part2.md",
+    "dueDate": "2019-05-28",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 15,
+    "topic": "Firebase",
+    "notes": ""
+  },
+  "assignment16": {
+    "title": "Movie History Part 3",
+    "URL": "https://github.com/nss-nightclass-projects/movie-history/blob/master/part3.md",
+    "dueDate": "2019-06-01",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 16,
+    "topic": "CRUD",
+    "notes": ""
+  },
+  "assignment17": {
+    "title": "Movie History Part 4",
+    "URL": "https://github.com/nss-nightclass-projects/movie-history/blob/master/part4.md",
+    "dueDate": "2019-06-08",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 17,
+    "topic": "CRUD",
+    "notes": "We start a group project on June 4 - you will want to have this done by then if possible."
+  },
+  "assignment18": {
+    "title": "Doggie Day Care: Part 1",
+    "URL": "https://github.com/nss-nightclass-projects/react-doggie-day-care/blob/master/part1.md",
+    "dueDate": "2019-06-25",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 18,
+    "topic": "React",
+    "notes": ""
+  },
+  "assignment19": {
+    "title": "Personal Site Part 3",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-03.md",
+    "dueDate": "2019-06-25",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 19,
+    "topic": "Personal Site",
+    "notes": ""
+  },
+  "assignment20": {
+    "title": "Personal Site Part 4",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-04.md",
+    "dueDate": "2019-07-09",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 20,
+    "topic": "Personal Site",
+    "notes": ""
+  },
+  "assignment21": {
+    "title": "Doggie Day Care: Part 2",
+    "URL": "https://github.com/nss-nightclass-projects/react-doggie-day-care/blob/master/part2.md",
+    "dueDate": "2019-07-02",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 21,
+    "topic": "React",
+    "notes": "Add authentication"
+  },
+  "assignment22": {
+    "title": "Doggie Day Care: Part 3",
+    "URL": "https://github.com/nss-nightclass-projects/react-doggie-day-care/blob/master/part3.md",
+    "dueDate": "2019-07-02",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 22,
+    "topic": "React",
+    "notes": "Firebase CRUD"
+  },
+  "assignment23": {
+    "title": "React Hoarder: Part 1",
+    "URL": "https://github.com/nss-nightclass-projects/react-hoarder/blob/master/part1.md",
+    "dueDate": "2019-07-09",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 23,
+    "topic": "React Routing",
+    "notes": ""
+  },
+  "assignment24": {
+    "title": "React Hoarder: Part 2",
+    "URL": "https://github.com/nss-nightclass-projects/react-hoarder/blob/master/part2.md",
+    "dueDate": "2019-07-13",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 24,
+    "topic": "React",
+    "notes": ""
   }
 }

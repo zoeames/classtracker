@@ -103,13 +103,17 @@ class Tracker extends React.Component {
           return 'table-danger';
       }
     };
+    const goToStudentPage = (e) => {
+      const studentId = e.target.closest('th').id;
+      this.props.history.push(`/student/${studentId}`);
+    };
 
     const createTH = this.state.students.map(student => (
-      <th className="rotate" key={student.id}>
+      <th className="rotate" key={student.id} id={student.id}>
         <div>
-          <a href={`/student/${student.id}`}> {/* ui-sref="student_progress({id: student.uid})" */}
+          <button onClick={goToStudentPage}>
             <span>{student.firstName} {student.lastName}</span>
-          </a>
+          </button>
         </div>
       </th>
     ));
