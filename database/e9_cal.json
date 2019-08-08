@@ -1317,17 +1317,17 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "React Routing",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/scat-surprise"
   },
   "cal121": {
-    "title": "Exercises",
+    "title": "NO CLASS - 4th of July",
     "start": "July 6, 2019 9:00:00",
     "end": "July 6, 2019 14:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
-    "eventType": "study",
-    "description": "Open time to work on exercises",
+    "eventType": "vacation",
+    "description": "Enjoy your weekend",
     "githubRepo":""
   },
   "cal122": {
@@ -1339,7 +1339,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "React and Firebase Project with Routing",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/scat-surprise"
   },
   "cal123": {
     "title": "React routing + CRUD",
@@ -1350,7 +1350,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "React and Firebase Project with Routing",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-9/scat-surprise"
   },
   "cal124": {
     "title": "Exercises",
@@ -1367,7 +1367,7 @@
     "title": "1st Capstone Checkin",
     "start": "July 13, 2019 9:00:00",
     "end": "July 13, 2019 14:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/capstone-central/blob/master/03_mentor-1on1s.md",
     "instructor": "Zoe, Michael, Greg",
     "hwUrl": "",
     "eventType": "lecture",
