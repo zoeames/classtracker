@@ -614,5 +614,93 @@
     "eventType": "study",
     "description": "HW #26",
     "githubRepo":""
+  },
+  "cal57": {
+    "title": "Don't be an Asshole!",
+    "start": "August 12, 2019 18:00:00",
+    "end": "August 12, 2019 20:30:00",
+    "resourceUrl": "",
+    "instructor": "John Wark",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Rules and policies at NSS",
+    "githubRepo":""
+  },
+  "cal58": {
+    "title": "Class Expectations and Overview",
+    "start": "August 12, 2019 20:30:00",
+    "end": "August 12, 2019 21:30:00",
+    "resourceUrl": "https://docs.google.com/presentation/d/1hoGsNRuOQYtxFPZzNb1tGvftVKO3NLNVS7hnkA57DDw/edit?usp=sharing",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "What we are going to do for the next six months",
+    "githubRepo":""
+  },
+  "cal59": {
+    "title": "E9 Front End Capstone Demo Day",
+    "start": "August 13, 2019 18:00:00",
+    "end": "August 13, 2019 20:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "See what you are going to be able to do in 6 months",
+    "githubRepo":""
+  },
+  "cal60": {
+    "title": "Installs",
+    "start": "August 13, 2019 20:00:00",
+    "end": "August 13, 2019 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/setup.md",
+    "instructor": "Zoe, Greg",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Mac and PC Installs",
+    "githubRepo":""
+  },
+  "cal61": {
+    "title": "Command Line",
+    "start": "August 17, 2019 9:00:00",
+    "end": "August 17, 2019 10:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/command-line.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to use the command line",
+    "githubRepo":""
+  },
+  "cal62": {
+    "title": "Github Setup",
+    "start": "August 17, 2019 10:30:00",
+    "end": "August 17, 2019 11:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-setup.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Configuring your machine to authenticate to github",
+    "githubRepo":""
+  },
+  "cal63": {
+    "title": "Intro to Github",
+    "start": "August 17, 2019 11:30:00",
+    "end": "August 17, 2019 14:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-and-github.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Make your first repo",
+    "githubRepo":""
+  },
+  "cal64": {
+    "title": "Git Branching",
+    "start": "August 19, 2019 18:00:00",
+    "end": "August 19, 2019 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-branching.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Gitflow",
+    "githubRepo":""
   }
 }
