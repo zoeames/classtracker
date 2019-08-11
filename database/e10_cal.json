@@ -46,6 +46,17 @@
   "cal05": {
     "title": "Week 1 HW",
     "start": "August 14, 2019 18:00:00",
+    "end": "August 14, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week01.md",
+    "eventType": "study",
+    "description": "HW #1",
+    "githubRepo":""
+  },
+  "cal06": {
+    "title": "Week 1 HW",
+    "start": "August 15, 2019 18:00:00",
     "end": "August 15, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -54,9 +65,20 @@
     "description": "HW #1",
     "githubRepo":""
   },
-    "cal06": {
+    "cal07": {
     "title": "Week 2 HW",
     "start": "August 21, 2019 18:00:00",
+    "end": "August 21, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week02.md",
+    "eventType": "study",
+    "description": "HW #2",
+    "githubRepo":""
+  },
+  "cal08": {
+    "title": "Week 2 HW",
+    "start": "August 22, 2019 18:00:00",
     "end": "August 22, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -65,9 +87,20 @@
     "description": "HW #2",
     "githubRepo":""
   },
-    "cal07": {
+  "cal09": {
     "title": "Week 3 HW",
     "start": "August 28, 2019 18:00:00",
+    "end": "August 28, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week03.md",
+    "eventType": "study",
+    "description": "HW #3",
+    "githubRepo":""
+  },
+  "cal10": {
+    "title": "Week 3 HW",
+    "start": "August 29, 2019 18:00:00",
     "end": "August 29, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -76,9 +109,20 @@
     "description": "HW #3",
     "githubRepo":""
   },
-    "cal08": {
+  "cal11": {
     "title": "Week 4 HW",
     "start": "September 4, 2019 18:00:00",
+    "end": "September 4, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week04.md",
+    "eventType": "study",
+    "description": "HW #4",
+    "githubRepo":""
+  },
+  "cal12": {
+    "title": "Week 4 HW",
+    "start": "September 5, 2019 18:00:00",
     "end": "September 5, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -87,9 +131,20 @@
     "description": "HW #4",
     "githubRepo":""
   },
-    "cal09": {
+  "cal13": {
     "title": "Week 5 HW",
     "start": "September 11, 2019 18:00:00",
+    "end": "September 11, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week05.md",
+    "eventType": "study",
+    "description": "HW #5",
+    "githubRepo":""
+  },
+  "cal14": {
+    "title": "Week 5 HW",
+    "start": "September 12, 2019 18:00:00",
     "end": "September 12, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -98,9 +153,20 @@
     "description": "HW #5",
     "githubRepo":""
   },
-    "cal10": {
+  "cal15": {
     "title": "Week 6 HW",
     "start": "September 18, 2019 18:00:00",
+    "end": "September 18, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week06.md",
+    "eventType": "study",
+    "description": "HW #6",
+    "githubRepo":""
+  },
+  "cal16": {
+    "title": "Week 6 HW",
+    "start": "September 19, 2019 18:00:00",
     "end": "September 19, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -109,9 +175,20 @@
     "description": "HW #6",
     "githubRepo":""
   },
-    "cal11": {
+  "cal17": {
     "title": "Week 7 HW",
     "start": "September 25, 2019 18:00:00",
+    "end": "September 25, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week07.md",
+    "eventType": "study",
+    "description": "HW #7",
+    "githubRepo":""
+  },
+  "cal18": {
+    "title": "Week 7 HW",
+    "start": "September 26, 2019 18:00:00",
     "end": "September 26, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -120,9 +197,20 @@
     "description": "HW #7",
     "githubRepo":""
   },
-    "cal12": {
+  "cal19": {
     "title": "Week 8 HW",
     "start": "October 2, 2019 18:00:00",
+    "end": "October 2, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week08.md",
+    "eventType": "study",
+    "description": "HW #8",
+    "githubRepo":""
+  },
+  "cal20": {
+    "title": "Week 8 HW",
+    "start": "October 3, 2019 18:00:00",
     "end": "October 3, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -131,9 +219,20 @@
     "description": "HW #8",
     "githubRepo":""
   },
-    "cal13": {
+  "cal21": {
     "title": "Week 9 HW",
     "start": "October 9, 2019 18:00:00",
+    "end": "October 9, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week09.md",
+    "eventType": "study",
+    "description": "HW #9",
+    "githubRepo":""
+  },
+  "cal22": {
+    "title": "Week 9 HW",
+    "start": "October 10, 2019 18:00:00",
     "end": "October 10, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -142,9 +241,20 @@
     "description": "HW #9",
     "githubRepo":""
   },
-    "cal14": {
+  "cal23": {
     "title": "Week 10 HW",
     "start": "October 16, 2019 18:00:00",
+    "end": "October 16, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week10.md",
+    "eventType": "study",
+    "description": "HW #10",
+    "githubRepo":""
+  },
+  "cal24": {
+    "title": "Week 10 HW",
+    "start": "October 17, 2019 18:00:00",
     "end": "October 17, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -153,9 +263,20 @@
     "description": "HW #10",
     "githubRepo":""
   },
-    "cal15": {
+  "cal25": {
     "title": "Week 11 HW",
     "start": "October 23, 2019 18:00:00",
+    "end": "October 23, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week11.md",
+    "eventType": "study",
+    "description": "HW #11",
+    "githubRepo":""
+  },
+  "cal26": {
+    "title": "Week 11 HW",
+    "start": "October 24, 2019 18:00:00",
     "end": "October 24, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -164,9 +285,20 @@
     "description": "HW #11",
     "githubRepo":""
   },
-    "cal16": {
+  "cal27": {
     "title": "Week 12 HW",
     "start": "October 30, 2019 18:00:00",
+    "end": "October 30, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week12.md",
+    "eventType": "study",
+    "description": "HW #12",
+    "githubRepo":""
+  },
+  "cal28": {
+    "title": "Week 12 HW",
+    "start": "October 31, 2019 18:00:00",
     "end": "October 31, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -175,9 +307,20 @@
     "description": "HW #12",
     "githubRepo":""
   },
-    "cal17": {
+  "cal29": {
     "title": "Week 13 HW",
     "start": "November 6, 2019 18:00:00",
+    "end": "November 6, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week13.md",
+    "eventType": "study",
+    "description": "HW #13",
+    "githubRepo":""
+  },
+  "cal30": {
+    "title": "Week 13 HW",
+    "start": "November 7, 2019 18:00:00",
     "end": "November 7, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -186,9 +329,20 @@
     "description": "HW #13",
     "githubRepo":""
   },
-    "cal18": {
+  "cal31": {
     "title": "Week 14 HW",
     "start": "November 13, 2019 18:00:00",
+    "end": "November 13, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week14.md",
+    "eventType": "study",
+    "description": "HW #14",
+    "githubRepo":""
+  },
+  "cal32": {
+    "title": "Week 14 HW",
+    "start": "November 14, 2019 18:00:00",
     "end": "November 14, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -197,9 +351,20 @@
     "description": "HW #14",
     "githubRepo":""
   },
-    "cal19": {
+  "cal33": {
     "title": "Week 15 HW",
     "start": "November 20, 2019 18:00:00",
+    "end": "November 20, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week15.md",
+    "eventType": "study",
+    "description": "HW #15",
+    "githubRepo":""
+  },
+  "cal34": {
+    "title": "Week 15 HW",
+    "start": "November 21, 2019 18:00:00",
     "end": "November 21, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -208,9 +373,20 @@
     "description": "HW #15",
     "githubRepo":""
   },
-    "cal20": {
+  "cal35": {
     "title": "Week 16 HW",
     "start": "November 27, 2019 18:00:00",
+    "end": "November 27, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week16.md",
+    "eventType": "study",
+    "description": "HW #16",
+    "githubRepo":""
+  },
+  "cal36": {
+    "title": "Week 16 HW",
+    "start": "November 28, 2019 18:00:00",
     "end": "November 28, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -219,9 +395,20 @@
     "description": "HW #16",
     "githubRepo":""
   },
-    "cal21": {
+  "cal37": {
     "title": "Week 17 HW",
     "start": "December 4, 2019 18:00:00",
+    "end": "December 4, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week17.md",
+    "eventType": "study",
+    "description": "HW #17",
+    "githubRepo":""
+  },
+  "cal38": {
+    "title": "Week 17 HW",
+    "start": "December 5, 2019 18:00:00",
     "end": "December 5, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -230,9 +417,20 @@
     "description": "HW #17",
     "githubRepo":""
   },
-  "cal22": {
+  "cal39": {
     "title": "Week 18 HW",
     "start": "December 11, 2019 18:00:00",
+    "end": "December 11, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week18.md",
+    "eventType": "study",
+    "description": "HW #18",
+    "githubRepo":""
+  },
+  "cal40": {
+    "title": "Week 18 HW",
+    "start": "December 12, 2019 18:00:00",
     "end": "December 12, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -241,9 +439,20 @@
     "description": "HW #18",
     "githubRepo":""
   },
-  "cal23": {
+  "cal41": {
     "title": "Week 19 HW",
     "start": "December 18, 2019 18:00:00",
+    "end": "December 18, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week19.md",
+    "eventType": "study",
+    "description": "HW #19",
+    "githubRepo":""
+  },
+  "cal42": {
+    "title": "Week 19 HW",
+    "start": "December 19, 2019 18:00:00",
     "end": "December 19, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -252,9 +461,20 @@
     "description": "HW #19",
     "githubRepo":""
   },
-  "cal24": {
+  "cal43": {
     "title": "Week 20 HW",
     "start": "December 25, 2019 18:00:00",
+    "end": "December 25, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week20.md",
+    "eventType": "study",
+    "description": "HW #20",
+    "githubRepo":""
+  },
+  "cal44": {
+    "title": "Week 20 HW",
+    "start": "December 26, 2019 18:00:00",
     "end": "December 26, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -263,9 +483,20 @@
     "description": "HW #20",
     "githubRepo":""
   },
-  "cal25": {
+  "cal45": {
     "title": "Week 21 HW",
     "start": "January 1, 2020 18:00:00",
+    "end": "January 1, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week21.md",
+    "eventType": "study",
+    "description": "HW #21",
+    "githubRepo":""
+  },
+  "cal46": {
+    "title": "Week 21 HW",
+    "start": "January 2, 2020 18:00:00",
     "end": "January 2, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -274,9 +505,20 @@
     "description": "HW #21",
     "githubRepo":""
   },
-  "cal26": {
+  "cal47": {
     "title": "Week 22 HW",
     "start": "January 8, 2020 18:00:00",
+    "end": "January 8, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week22.md",
+    "eventType": "study",
+    "description": "HW #22",
+    "githubRepo":""
+  },
+  "cal48": {
+    "title": "Week 22 HW",
+    "start": "January 9, 2020 18:00:00",
     "end": "January 9, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -285,9 +527,20 @@
     "description": "HW #22",
     "githubRepo":""
   },
-  "cal27": {
+  "cal49": {
     "title": "Week 23 HW",
     "start": "January 15, 2020 18:00:00",
+    "end": "January 15, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week23.md",
+    "eventType": "study",
+    "description": "HW #23",
+    "githubRepo":""
+  },
+  "cal50": {
+    "title": "Week 23 HW",
+    "start": "January 16, 2020 18:00:00",
     "end": "January 16, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -296,9 +549,20 @@
     "description": "HW #23",
     "githubRepo":""
   },
-  "cal28": {
+  "cal51": {
     "title": "Week 24 HW",
     "start": "January 22, 2020 18:00:00",
+    "end": "January 22, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week24.md",
+    "eventType": "study",
+    "description": "HW #24",
+    "githubRepo":""
+  },
+  "cal52": {
+    "title": "Week 24 HW",
+    "start": "January 23, 2020 18:00:00",
     "end": "January 23, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -307,9 +571,20 @@
     "description": "HW #24",
     "githubRepo":""
   },
-  "cal29": {
+  "cal53": {
     "title": "Week 25 HW",
     "start": "January 29, 2020 18:00:00",
+    "end": "January 29, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week25.md",
+    "eventType": "study",
+    "description": "HW #25",
+    "githubRepo":""
+  },
+  "cal54": {
+    "title": "Week 25 HW",
+    "start": "January 30, 2020 18:00:00",
     "end": "January 30, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -318,15 +593,114 @@
     "description": "HW #25",
     "githubRepo":""
   },
-  "cal30": {
+  "cal55": {
     "title": "Week 26 HW",
     "start": "February 5, 2020 18:00:00",
+    "end": "February 5, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week26.md",
+    "eventType": "study",
+    "description": "HW #26",
+    "githubRepo":""
+  },
+  "cal56": {
+    "title": "Week 26 HW",
+    "start": "February 6, 2020 18:00:00",
     "end": "February 6, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "https://github.com/nss-evening-cohort-10/e10-homework/blob/master/week26.md",
     "eventType": "study",
     "description": "HW #26",
+    "githubRepo":""
+  },
+  "cal57": {
+    "title": "Don't be an Asshole!",
+    "start": "August 12, 2019 18:00:00",
+    "end": "August 12, 2019 20:30:00",
+    "resourceUrl": "",
+    "instructor": "John Wark",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Rules and policies at NSS",
+    "githubRepo":""
+  },
+  "cal58": {
+    "title": "Class Expectations and Overview",
+    "start": "August 12, 2019 20:30:00",
+    "end": "August 12, 2019 21:30:00",
+    "resourceUrl": "https://docs.google.com/presentation/d/1hoGsNRuOQYtxFPZzNb1tGvftVKO3NLNVS7hnkA57DDw/edit?usp=sharing",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "What we are going to do for the next six months",
+    "githubRepo":""
+  },
+  "cal59": {
+    "title": "E9 Front End Capstone Demo Day",
+    "start": "August 13, 2019 18:00:00",
+    "end": "August 13, 2019 20:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "See what you are going to be able to do in 6 months",
+    "githubRepo":""
+  },
+  "cal60": {
+    "title": "Installs",
+    "start": "August 13, 2019 20:00:00",
+    "end": "August 13, 2019 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/setup.md",
+    "instructor": "Zoe, Greg",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Mac and PC Installs",
+    "githubRepo":""
+  },
+  "cal61": {
+    "title": "Command Line",
+    "start": "August 17, 2019 9:00:00",
+    "end": "August 17, 2019 10:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/command-line.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to use the command line",
+    "githubRepo":""
+  },
+  "cal62": {
+    "title": "Github Setup",
+    "start": "August 17, 2019 10:30:00",
+    "end": "August 17, 2019 11:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-setup.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Configuring your machine to authenticate to github",
+    "githubRepo":""
+  },
+  "cal63": {
+    "title": "Intro to Github",
+    "start": "August 17, 2019 11:30:00",
+    "end": "August 17, 2019 14:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-and-github.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Make your first repo",
+    "githubRepo":""
+  },
+  "cal64": {
+    "title": "Git Branching",
+    "start": "August 19, 2019 18:00:00",
+    "end": "August 19, 2019 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-branching.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Gitflow",
     "githubRepo":""
   }
 }
