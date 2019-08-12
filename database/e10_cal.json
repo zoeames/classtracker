@@ -660,20 +660,9 @@
     "githubRepo":""
   },
   "cal61": {
-    "title": "Command Line",
-    "start": "August 17, 2019 9:00:00",
-    "end": "August 17, 2019 10:30:00",
-    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/command-line.md",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "How to use the command line",
-    "githubRepo":""
-  },
-  "cal62": {
     "title": "Github Setup",
-    "start": "August 17, 2019 10:30:00",
-    "end": "August 17, 2019 11:30:00",
+    "start": "August 17, 2019 9:00:00",
+    "end": "August 17, 2019 10:00:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-setup.md",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -681,9 +670,31 @@
     "description": "Configuring your machine to authenticate to github",
     "githubRepo":""
   },
+  "cal62": {
+    "title": "Intro to VS Code",
+    "start": "August 17, 2019 10:00:00",
+    "end": "August 17, 2019 11:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/vs_code.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Your new best friend",
+    "githubRepo":""
+  },
   "cal63": {
+    "title": "Command Line",
+    "start": "August 17, 2019 11:00:00",
+    "end": "August 17, 2019 12:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/command-line.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to use the command line",
+    "githubRepo":""
+  },
+  "cal64": {
     "title": "Intro to Github",
-    "start": "August 17, 2019 11:30:00",
+    "start": "August 17, 2019 12:00:00",
     "end": "August 17, 2019 14:00:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-and-github.md",
     "instructor": "Zoe",
@@ -692,7 +703,7 @@
     "description": "Make your first repo",
     "githubRepo":""
   },
-  "cal64": {
+  "cal65": {
     "title": "Git Branching",
     "start": "August 19, 2019 18:00:00",
     "end": "August 19, 2019 21:30:00",
