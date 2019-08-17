@@ -147,7 +147,7 @@
     "lastName": "Johnson",
     "email": "johnson.treye@yahoo.com",
     "githubUsername": "",
-    "treehouse": "https://teamtreehouse.com/",
+    "treehouse": "https://teamtreehouse.com/trayejohnson2",
     "biosite": "",
     "treehouseComplete": false,
     "isStudent": true,
@@ -337,6 +337,17 @@
     "treehouse": "https://teamtreehouse.com/yitbarekgitore",
     "biosite": "",
     "treehouseComplete": false,
+    "isStudent": true,
+    "uid": ""
+  },
+  "student29": {
+    "firstName": "John",
+    "lastName": "Johnson",
+    "email": "john.r.johnson@gmail.com",
+    "githubUsername": "John-Ryan-Johnson",
+    "treehouse": "https://teamtreehouse.com/johnjohnson23",
+    "biosite": "",
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": ""
   }
