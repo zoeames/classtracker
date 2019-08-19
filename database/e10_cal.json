@@ -734,18 +734,18 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "flexbox",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/flexbox-intro"
   },
   "cal68": {
     "title": "JS Overview",
     "start": "August 24, 2019 9:00:00",
     "end": "August 24, 2019 14:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/tree/master/book-1-foundations",
     "instructor": "Callan",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "JS",
-    "githubRepo":""
+    "description": "JS.  To get notes look at Chapter 5 section of the link",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/js-intro"
   },
   "cal69": {
     "title": "Dev Tools",
@@ -767,18 +767,18 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/dom-loops"
   },
   "cal71": {
     "title": "Basic Event Listeners",
     "start": "August 27, 2019 18:00:00",
     "end": "August 27, 2019 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-events.md",
     "instructor": "Callan",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/event-listeners"
   },
   "cal72": {
     "title": "Exercises",
@@ -795,12 +795,12 @@
     "title": "Bootstrap",
     "start": "September 3, 2019 18:00:00",
     "end": "September 3, 2019 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/bootstrap.md",
     "instructor": "Michael",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Bootstrap",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/bootstrap"
   },
   "cal74": {
     "title": "What to Expect",
