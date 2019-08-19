@@ -638,20 +638,20 @@
     "githubRepo":""
   },
   "cal59": {
-    "title": "E9 Front End Capstone Demo Day",
+    "title": "Swampgate 2019",
     "start": "August 13, 2019 18:00:00",
-    "end": "August 13, 2019 20:00:00",
+    "end": "August 13, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
-    "eventType": "demo",
-    "description": "See what you are going to be able to do in 6 months",
+    "eventType": "vacation",
+    "description": "No Classes",
     "githubRepo":""
   },
   "cal60": {
     "title": "Installs",
-    "start": "August 13, 2019 20:00:00",
-    "end": "August 13, 2019 21:30:00",
+    "start": "August 14, 2019 18:00:00",
+    "end": "August 14, 2019 19:00:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/setup.md",
     "instructor": "Zoe, Greg",
     "hwUrl": "",
@@ -660,20 +660,9 @@
     "githubRepo":""
   },
   "cal61": {
-    "title": "Command Line",
-    "start": "August 17, 2019 9:00:00",
-    "end": "August 17, 2019 10:30:00",
-    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/command-line.md",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "How to use the command line",
-    "githubRepo":""
-  },
-  "cal62": {
     "title": "Github Setup",
-    "start": "August 17, 2019 10:30:00",
-    "end": "August 17, 2019 11:30:00",
+    "start": "August 14, 2019 19:00:00",
+    "end": "August 14, 2019 20:00:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-setup.md",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -681,10 +670,43 @@
     "description": "Configuring your machine to authenticate to github",
     "githubRepo":""
   },
+  "cal62": {
+    "title": "E9 Front End Capstone Demo Day",
+    "start": "August 17, 2019 9:00:00",
+    "end": "August 17, 2019 11:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "See what you are going to be able to do in 6 months",
+    "githubRepo":""
+  },
   "cal63": {
-    "title": "Intro to Github",
-    "start": "August 17, 2019 11:30:00",
+    "title": "Intro to VS Code",
+    "start": "August 17, 2019 11:00:00",
+    "end": "August 17, 2019 12:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/vs_code.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Your new best friend",
+    "githubRepo":""
+  },
+  "cal64": {
+    "title": "Command Line",
+    "start": "August 17, 2019 12:00:00",
     "end": "August 17, 2019 14:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/command-line.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to use the command line",
+    "githubRepo":""
+  },
+  "cal65": {
+    "title": "Intro to Github",
+    "start": "August 19, 2019 18:00:00",
+    "end": "August 19, 2019 19:00:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-and-github.md",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -692,15 +714,114 @@
     "description": "Make your first repo",
     "githubRepo":""
   },
-  "cal64": {
+  "cal66": {
     "title": "Git Branching",
-    "start": "August 19, 2019 18:00:00",
+    "start": "August 19, 2019 19:00:00",
     "end": "August 19, 2019 21:30:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-branching.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Gitflow",
+    "githubRepo":""
+  },
+  "cal67": {
+    "title": "Flexbox (and some git practice)",
+    "start": "August 20, 2019 18:00:00",
+    "end": "August 20, 2019 21:30:00",
+    "resourceUrl": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+    "instructor": "Michael",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "flexbox",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/flexbox-intro"
+  },
+  "cal68": {
+    "title": "JS Overview",
+    "start": "August 24, 2019 9:00:00",
+    "end": "August 24, 2019 14:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/tree/master/book-1-foundations",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS.  To get notes look at Chapter 5 section of the link",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/js-intro"
+  },
+  "cal69": {
+    "title": "Dev Tools",
+    "start": "August 26, 2019 18:00:00",
+    "end": "August 26, 2019 19:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/dev-tools.md",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "dev tools",
+    "githubRepo":""
+  },
+  "cal70": {
+    "title": "Looping and the DOM",
+    "start": "August 26, 2019 19:00:00",
+    "end": "August 26, 2019 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-array-looping.md",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/dom-loops"
+  },
+  "cal71": {
+    "title": "Basic Event Listeners",
+    "start": "August 27, 2019 18:00:00",
+    "end": "August 27, 2019 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-events.md",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/event-listeners"
+  },
+  "cal72": {
+    "title": "Exercises",
+    "start": "August 31, 2019 9:00:00",
+    "end": "August 31, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal73": {
+    "title": "Bootstrap",
+    "start": "September 3, 2019 18:00:00",
+    "end": "September 3, 2019 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/bootstrap.md",
+    "instructor": "Michael",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Bootstrap",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/bootstrap"
+  },
+  "cal74": {
+    "title": "What to Expect",
+    "start": "September 7, 2019 9:00:00",
+    "end": "September 7, 2019 10:30:00",
+    "resourceUrl": "",
+    "instructor": "Kristin, Ashley",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "What to expect with the job search process",
+    "githubRepo":""
+  },
+  "cal75": {
+    "title": "Exercises",
+    "start": "September 7, 2019 10:30:00",
+    "end": "September 7, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
     "githubRepo":""
   }
 }

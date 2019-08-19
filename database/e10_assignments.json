@@ -8,5 +8,55 @@
     "assignedNumber": 1,
     "topic": "prework",
     "notes": "There are two possible versions of the prework - pick one and finish it"
+  },
+  "assignment02": {
+    "title": "Product Cards",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/HTML_CSS_product_cards.md",
+    "dueDate": "2019-08-27",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 2,
+    "topic": "HTML/CSS",
+    "notes": "Studygroup Assignment"
+  },
+  "assignment03": {
+    "title": "Pet Adoption",
+    "URL": "https://github.com/nss-nightclass-projects/pet-adoption",
+    "dueDate": "2019-09-03",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 3,
+    "topic": "JS",
+    "notes": "Studygroup Assignment"
+  },
+  "assignment04": {
+    "title": "Personal Bio Site 1",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-01.md",
+    "dueDate": "2019-09-07",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 4,
+    "topic": "JS",
+    "notes": "Individual Assignment"
+  },
+  "assignment05": {
+    "title": "Sorting Hat",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/EVENTS_sorting_hat.md",
+    "dueDate": "2019-09-10",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 5,
+    "topic": "Bootstrap",
+    "notes": "Studygroup Assignment"
+  },
+  "assignment06": {
+    "title": "Personal Bio Site 2",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-02.md",
+    "dueDate": "2019-09-10",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 6,
+    "topic": "JS",
+    "notes": "Individual Assignment"
   }
 }
