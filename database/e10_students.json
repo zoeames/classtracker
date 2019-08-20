@@ -153,7 +153,7 @@
     "biosite": "",
     "treehouseComplete": false,
     "isStudent": true,
-    "uid": ""
+    "uid": "FKt7O6fE9CRGQ5iNJjTVRAJIJ633"
   },
   "student11": {
     "firstName": "Treye",
@@ -171,11 +171,11 @@
     "firstName": "Isis",
     "lastName": "Christopher",
     "email": "isischristopher@gmail.com",
-    "githubUsername": "isischrist",
+    "githubUsername": "isischristopher",
     "treehouse": "https://teamtreehouse.com/",
     "freeCodeCamp": "https://www.freecodecamp.org/isischristopher",
     "biosite": "",
-    "treehouseComplete": false,
+    "treehouseComplete": true,
     "isStudent": true,
     "uid": "FKqfSC8c4pYn43g5gVcyDPr1SUt2"
   },
