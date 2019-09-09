@@ -58,5 +58,15 @@
     "assignedNumber": 6,
     "topic": "JS",
     "notes": "Individual Assignment"
+  },
+  "assignment07": {
+    "title": "Temperature Converter",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/JS_temp_converter.md",
+    "dueDate": "2019-09-17",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 7,
+    "topic": "JS",
+    "notes": "Studygroup Assignment - spend all of studygroup writing tickets and planning"
   }
 }

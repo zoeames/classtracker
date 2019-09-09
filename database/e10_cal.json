@@ -823,5 +823,38 @@
     "eventType": "study",
     "description": "Open time to work on exercises",
     "githubRepo":""
+  },
+  "cal76": {
+    "title": "Wireframes",
+    "start": "September 09, 2019 18:00:00",
+    "end": "September 09, 2019 20:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/wireframes.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to create wireframes",
+    "githubRepo":""
+  },
+  "cal77": {
+    "title": "Github Projects",
+    "start": "September 09, 2019 20:00:00",
+    "end": "September 09, 2019 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-projects.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to make a github projects board",
+    "githubRepo":""
+  },
+  "cal78": {
+    "title": "Git for teams",
+    "start": "September 10, 2019 18:00:00",
+    "end": "September 10, 2019 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-for-teams.md",
+    "instructor": "Zoe,Greg,Michael",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Using git for teams",
+    "githubRepo":""
   }
 }
