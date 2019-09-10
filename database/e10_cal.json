@@ -833,7 +833,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to create wireframes",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/dinomate/issues/11"
   },
   "cal77": {
     "title": "Github Projects",
@@ -844,7 +844,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to make a github projects board",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/dinomate/projects/1"
   },
   "cal78": {
     "title": "Git for teams",
@@ -855,6 +855,6 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Using git for teams",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/dinomate"
   }
 }
