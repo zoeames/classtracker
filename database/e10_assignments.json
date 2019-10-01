@@ -68,5 +68,15 @@
     "assignedNumber": 7,
     "topic": "JS",
     "notes": "Studygroup Assignment - spend all of studygroup writing tickets and planning"
+  },
+  "assignment08": {
+    "title": "Sandwich Maker",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/MODULES_sandwich.md",
+    "dueDate": "2019-10-01",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 8,
+    "topic": "Modules",
+    "notes": ""
   }
 }

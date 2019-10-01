@@ -871,7 +871,7 @@
   "cal80": {
     "title": "Demo Group Project",
     "start": "September 21, 2019 9:00:00",
-    "end": "September 21, 2019 12:00:00",
+    "end": "September 21, 2019 14:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -880,17 +880,6 @@
     "githubRepo":""
   },
   "cal81": {
-    "title": "Markdown",
-    "start": "September 21, 2019 12:00:00",
-    "end": "September 21, 2019 14:00:00",
-    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/markdown.md",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "How to make a README.md",
-    "githubRepo":""
-  },
-  "cal82": {
     "title": "Intro to ES6 Modules",
     "start": "September 23, 2019 18:00:00",
     "end": "September 23, 2019 21:30:00",
@@ -899,9 +888,9 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/intro-to-modules"
   },
-  "cal83": {
+  "cal82": {
     "title": "Simple ES6 Modules",
     "start": "September 24, 2019 18:00:00",
     "end": "September 24, 2019 21:30:00",
@@ -910,12 +899,12 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/pizza-maker"
   },
-  "cal84": {
+  "cal83": {
     "title": "Exercises",
     "start": "September 28, 2019 9:00:00",
-    "end": "September 28, 2019 14:00:00",
+    "end": "September 28, 2019 13:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -923,27 +912,38 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
+  "cal84": {
+    "title": "Markdown",
+    "start": "September 28, 2019 13:00:00",
+    "end": "September 28, 2019 14:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/markdown.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to make a README.md",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/pizza-maker"
+  },
   "cal85": {
     "title": "Task Runners",
     "start": "September 30, 2019 18:00:00",
     "end": "September 30, 2019 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/task-runners.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/webpack"
   },
   "cal86": {
     "title": "SASS",
     "start": "October 1, 2019 18:00:00",
     "end": "October 1, 2019 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/sass.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "CSS",
-    "githubRepo":""
+    "description": "SCSS",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/hogwarts"
   },
   "cal87": {
     "title": "Exercises",
@@ -959,37 +959,26 @@
   "cal88": {
     "title": "JQuery Selectors",
     "start": "October 7, 2019 18:00:00",
-    "end": "October 7, 2019 20:00:00",
+    "end": "October 7, 2019 21:30:00",
     "resourceUrl": "",
-    "instructor": "Zoe",
+    "instructor": "Michael",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
     "githubRepo":""
   },
   "cal89": {
-    "title": "Complex ES6 Modules",
-    "start": "October 7, 2019 20:00:00",
-    "end": "October 7, 2019 21:30:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "JS",
-    "githubRepo":""
-  },
-  "cal90": {
-    "title": "Complex ES6 Modules",
+    "title": "Exercises",
     "start": "October 8, 2019 18:00:00",
     "end": "October 8, 2019 21:30:00",
     "resourceUrl": "",
-    "instructor": "Zoe",
+    "instructor": "",
     "hwUrl": "",
-    "eventType": "lecture",
-    "description": "JS",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal91": {
+  "cal90": {
     "title": "Exercises",
     "start": "October 12, 2019 9:00:00",
     "end": "October 12, 2019 14:00:00",
@@ -1000,7 +989,7 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal92": {
+  "cal91": {
     "title": "Group Project",
     "start": "October 14, 2019 9:00:00",
     "end": "October 20, 2019 21:59:00",
@@ -1011,7 +1000,7 @@
     "description": "Group Project: See Github Project",
     "githubRepo":""
   },
-  "cal93": {
+  "cal92": {
     "title": "Demo Group Project",
     "start": "October 21, 2019 18:00:00",
     "end": "October 21, 2019 21:30:00",
