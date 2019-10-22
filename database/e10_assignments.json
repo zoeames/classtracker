@@ -78,5 +78,25 @@
     "assignedNumber": 8,
     "topic": "Modules",
     "notes": ""
+  },
+  "assignment09": {
+    "title": "Tamagotchi",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/MODULES_tamagotchi.md",
+    "dueDate": "2019-10-08",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 9,
+    "topic": "Modules",
+    "notes": ""
+  },
+  "assignment10": {
+    "title": "Solar System",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/solar_system.md",
+    "dueDate": "2019-10-14",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 10,
+    "topic": "Jquery",
+    "notes": ""
   }
 }

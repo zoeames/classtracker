@@ -935,9 +935,20 @@
     "githubRepo":"https://github.com/nss-evening-cohort-10/webpack"
   },
   "cal86": {
-    "title": "SASS",
+    "title": "Exercises",
     "start": "October 1, 2019 18:00:00",
     "end": "October 1, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal87": {
+    "title": "SASS",
+    "start": "October 5, 2019 9:00:00",
+    "end": "October 5, 2019 12:00:00",
     "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/sass.md",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -945,9 +956,9 @@
     "description": "SCSS",
     "githubRepo":"https://github.com/nss-evening-cohort-10/hogwarts"
   },
-  "cal87": {
+  "cal88": {
     "title": "Exercises",
-    "start": "October 5, 2019 9:00:00",
+    "start": "October 5, 2019 12:00:00",
     "end": "October 5, 2019 14:00:00",
     "resourceUrl": "",
     "instructor": "",
@@ -956,20 +967,31 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal88": {
-    "title": "JQuery Selectors",
+  "cal89": {
+    "title": "JQuery",
     "start": "October 7, 2019 18:00:00",
     "end": "October 7, 2019 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://oscarotero.com/jquery/",
     "instructor": "Michael",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/pixel-art"
+  },
+  "cal90": {
+    "title": "LinkedIn and Networking",
+    "start": "October 8, 2019 18:00:00",
+    "end": "October 8, 2019 19:30:00",
+    "resourceUrl": "",
+    "instructor": "Kristin, Ashley",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Your linkedin profile and how to network.",
     "githubRepo":""
   },
-  "cal89": {
+  "cal91": {
     "title": "Exercises",
-    "start": "October 8, 2019 18:00:00",
+    "start": "October 8, 2019 19:30:00",
     "end": "October 8, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
@@ -978,7 +1000,7 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal90": {
+  "cal92": {
     "title": "Exercises",
     "start": "October 12, 2019 9:00:00",
     "end": "October 12, 2019 14:00:00",
@@ -989,10 +1011,21 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal91": {
+  "cal93": {
+    "title": "JQuery, modules, array methods",
+    "start": "October 14, 2019 18:00:00",
+    "end": "October 14, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Review",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/colors"
+  },
+  "cal94": {
     "title": "Group Project",
-    "start": "October 14, 2019 9:00:00",
-    "end": "October 20, 2019 21:59:00",
+    "start": "October 15, 2019 9:00:00",
+    "end": "October 21, 2019 21:59:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -1000,10 +1033,10 @@
     "description": "Group Project: See Github Project",
     "githubRepo":""
   },
-  "cal92": {
+  "cal95": {
     "title": "Demo Group Project",
-    "start": "October 21, 2019 18:00:00",
-    "end": "October 21, 2019 21:30:00",
+    "start": "October 22, 2019 18:00:00",
+    "end": "October 22, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
