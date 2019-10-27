@@ -1043,5 +1043,71 @@
     "eventType": "demo",
     "description": "Show and tell!",
     "githubRepo":""
+  },
+  "cal96": {
+    "title": "JSON",
+    "start": "October 26, 2019 9:00:00",
+    "end": "October 26, 2019 10:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "how to write JSON data",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/cows"
+  },
+  "cal97": {
+    "title": "ERDs",
+    "start": "October 26, 2019 10:00:00",
+    "end": "October 26, 2019 12:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "What is an ERD?  How do you make them",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/cows"
+  },
+  "cal98": {
+    "title": "Axios",
+    "start": "October 26, 2019 12:00:00",
+    "end": "October 26, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Using Axios to get your data",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/cows"
+  },
+  "cal99": {
+    "title": "Promises",
+    "start": "October 28, 2019 18:00:00",
+    "end": "October 28, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "The gold standard of Asynchronous JS",
+    "githubRepo":""
+  },
+  "cal100": {
+    "title": "Intro to Firebase",
+    "start": "October 29, 2019 18:00:00",
+    "end": "October 29, 2019 19:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Firebase console",
+    "githubRepo":""
+  },
+  "cal101": {
+    "title": "Firebase Authentication",
+    "start": "October 29, 2019 19:00:00",
+    "end": "October 29, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Login/logout",
+    "githubRepo":""
   }
 }

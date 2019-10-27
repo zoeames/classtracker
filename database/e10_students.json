@@ -143,42 +143,6 @@
     "isStudent": true,
     "uid": "eKukAX9RIpQznNJm481KHy4GZfU2"
   },
-  "student10": {
-    "firstName": "Henok",
-    "lastName": "Tessema",
-    "email": "heniselie@gmail.com",
-    "githubUsername": "heniselie",
-    "treehouse": "https://teamtreehouse.com/henoktessema2",
-    "freeCodeCamp": "https://www.freecodecamp.org/",
-    "biosite": "",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "FKt7O6fE9CRGQ5iNJjTVRAJIJ633"
-  },
-  "student11": {
-    "firstName": "Treye",
-    "lastName": "Johnson",
-    "email": "johnson.treye@yahoo.com",
-    "githubUsername": "archeni",
-    "treehouse": "https://teamtreehouse.com/trayejohnson",
-    "freeCodeCamp": "https://www.freecodecamp.org/",
-    "biosite": "",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "UEAhbrrQyQb4j0TcbQqqTTN7lZJ3"
-  },
-  "student12": {
-    "firstName": "Isis",
-    "lastName": "Christopher",
-    "email": "isischristopher@gmail.com",
-    "githubUsername": "isischristopher",
-    "treehouse": "https://teamtreehouse.com/",
-    "freeCodeCamp": "https://www.freecodecamp.org/isischristopher",
-    "biosite": "",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "FKqfSC8c4pYn43g5gVcyDPr1SUt2"
-  },
   "student13": {
     "firstName": "Ivan",
     "lastName": "Phelps",
@@ -262,18 +226,6 @@
     "treehouseComplete": true,
     "isStudent": true,
     "uid": "NBqh9tPovgNEo3iDJwVs4y3we113"
-  },
-  "student20": {
-    "firstName": "Kenneth",
-    "lastName": "McEastland",
-    "email": "kenymc1@gmail.com",
-    "githubUsername": "kenymc1",
-    "treehouse": "https://teamtreehouse.com/kennethmceastland",
-    "freeCodeCamp": "https://www.freecodecamp.org/",
-    "biosite": "",
-    "treehouseComplete": true,
-    "isStudent": true,
-    "uid": "38LBes8sXfM6bq56xY9hY5sSz1m1"
   },
   "student21": {
     "firstName": "Laura",
