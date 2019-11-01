@@ -1103,11 +1103,88 @@
     "title": "Firebase Authentication",
     "start": "October 29, 2019 19:00:00",
     "end": "October 29, 2019 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://firebase.google.com/docs/auth/web/google-signin",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Login/logout",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/vending-machine"
+  },
+  "cal102": {
+    "title": "Firebase READ",
+    "start": "November 2, 2019 9:00:00",
+    "end": "November 2, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "READ",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/vending-machine"
+  },
+  "cal103": {
+    "title": "Firebase CREATE and DELETE",
+    "start": "November 4, 2019 18:00:00",
+    "end": "November 4, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "CREATE, DELETE",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/vending-machine"
+  },
+  "cal104": {
+    "title": "Firebase UPDATE",
+    "start": "November 5, 2019 18:00:00",
+    "end": "November 5, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "UPDATE",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/vending-machine"
+  },
+  "cal105": {
+    "title": "Firebase Deploy",
+    "start": "November 9, 2019 9:00:00",
+    "end": "November 9, 2019 10:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Deployment",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/vending-machine"
+  },
+  "cal106": {
+    "title": "Exercises",
+    "start": "November 9, 2019 10:00:00",
+    "end": "November 9, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal107": {
+    "title": "Group Project",
+    "start": "November 11, 2019 9:00:00",
+    "end": "November 18, 2019 21:59:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Group Project: See Github",
+    "githubRepo":""
+  },
+  "cal108": {
+    "title": "Demo Group Project",
+    "start": "November 19, 2019 9:00:00",
+    "end": "November 19, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell!",
     "githubRepo":""
   }
 }

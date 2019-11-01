@@ -98,5 +98,15 @@
     "assignedNumber": 10,
     "topic": "Jquery",
     "notes": ""
+  },
+  "assignment11": {
+    "title": "Pinterst: Part 1",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/FIREBASE_pinterest.md",
+    "dueDate": "2019-11-02",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 11,
+    "topic": "Firebase Auth",
+    "notes": ""
   }
 }
