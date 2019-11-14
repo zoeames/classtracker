@@ -1147,7 +1147,7 @@
     "title": "Firebase Deploy",
     "start": "November 9, 2019 9:00:00",
     "end": "November 9, 2019 10:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/firebase-deploy.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
@@ -1166,9 +1166,20 @@
     "githubRepo":""
   },
   "cal107": {
+    "title": "Exercises",
+    "start": "November 11, 2019 18:00:00",
+    "end": "November 11, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal108": {
     "title": "Group Project",
-    "start": "November 11, 2019 9:00:00",
-    "end": "November 18, 2019 21:59:00",
+    "start": "November 12, 2019 9:00:00",
+    "end": "November 19, 2019 21:59:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -1176,10 +1187,10 @@
     "description": "Group Project: See Github",
     "githubRepo":""
   },
-  "cal108": {
+  "cal109": {
     "title": "Demo Group Project",
-    "start": "November 19, 2019 9:00:00",
-    "end": "November 19, 2019 14:00:00",
+    "start": "November 20, 2019 18:00:00",
+    "end": "November 20, 2019 21:30:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
