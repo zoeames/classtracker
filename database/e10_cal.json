@@ -1177,7 +1177,7 @@
     "githubRepo":""
   },
   "cal108": {
-    "title": "Group Project",
+    "title": "Group Project - Nutshell",
     "start": "November 12, 2019 9:00:00",
     "end": "November 19, 2019 21:59:00",
     "resourceUrl": "",
@@ -1188,7 +1188,7 @@
     "githubRepo":""
   },
   "cal109": {
-    "title": "Demo Group Project",
+    "title": "Demo Nutshell Parat 1",
     "start": "November 20, 2019 18:00:00",
     "end": "November 20, 2019 21:30:00",
     "resourceUrl": "",
@@ -1196,6 +1196,127 @@
     "hwUrl": "",
     "eventType": "demo",
     "description": "Show and tell!",
+    "githubRepo":""
+  },
+  "cal110": {
+    "title": "Group Project - Nutshell Part 2",
+    "start": "November 20, 2019 18:00:00",
+    "end": "December 3, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Group Project: See Github",
+    "githubRepo":""
+  },
+  "cal111": {
+    "title": "Demo Nutshell Part 2",
+    "start": "December 4, 2019 18:00:00",
+    "end": "December 4, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell!",
+    "githubRepo":""
+  },
+  "cal112": {
+    "title": "Intro to React",
+    "start": "December 7, 2019 9:00:00",
+    "end": "December 7, 2019  14:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/react/book-4-react/chapters/react-setup.md",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Setting up a react project",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/intro-react"
+  },
+  "cal114": {
+    "title": "React State and Props",
+    "start": "December 9, 2019 18:00:00",
+    "end": "December 9, 2019  21:30:00",
+    "resourceUrl": "",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How react components talk to each other",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/goats"
+  },
+  "cal115": {
+    "title": "React Lecture: FB Auth",
+    "start": "December 10, 2019 18:00:00",
+    "end": "December 10, 2019  21:30:00",
+    "resourceUrl": "",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to do firebase auth inside react",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/react-pinterest"
+  },
+  "cal116": {
+    "title": "React Lecture: FB READ, FB DELETE",
+    "start": "December 14, 2019 9:00:00",
+    "end": "December 14, 2019  14:00:00",
+    "resourceUrl": "",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to do delete, and read from firebase inside react",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/react-pinterest"
+  },
+  "cal117": {
+    "title": "React Lecture: FB CREATE",
+    "start": "December 16, 2019 18:00:00",
+    "end": "December 16, 2019  21:30:00",
+    "resourceUrl": "",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to CREATE with firebase and react",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/react-pinterest"
+  },
+  "cal118": {
+    "title": "Exercises",
+    "start": "December 17, 2019 18:00:00",
+    "end": "December 17, 2019 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal119": {
+    "title": "React Lecture: FB UPDATE",
+    "start": "December 18, 2019 18:00:00",
+    "end": "December 18, 2019  21:30:00",
+    "resourceUrl": "",
+    "instructor": "Callan",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "updating a firebase react project",
+    "githubRepo":"https://github.com/nss-evening-cohort-10/react-pinterest"
+  },
+  "cal120": {
+    "title": "Capstone Discussion",
+    "start": "December 21, 2019 9:00:00",
+    "end": "December 21, 2019  10:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "updating a firebase react project",
+    "githubRepo":""
+  },
+  "cal121": {
+    "title": "Exercises",
+    "start": "December 21, 2019 10:00:00",
+    "end": "December 21, 2019 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
     "githubRepo":""
   }
 }
