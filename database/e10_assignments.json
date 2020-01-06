@@ -214,9 +214,19 @@
     "URL": "https://github.com/nss-nightclass-projects/capstone-central/blob/master/02_initial-proposal.md",
     "dueDate": "2020-01-06",
     "isAssigned": "true",
-    "isGithub": "true",
+    "isGithub": "false",
     "assignedNumber": 22,
     "topic": "Capstone",
     "notes": "You can submit this early"
+  },
+  "assignment23": {
+    "title": "React Hoarder",
+    "URL": "https://github.com/nss-nightclass-projects/react-hoarder",
+    "dueDate": "2020-01-18",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 23,
+    "topic": "React Routing",
+    "notes": "Both parts"
   }
 }

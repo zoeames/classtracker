@@ -1257,12 +1257,12 @@
     "title": "React Routing",
     "start": "January 4, 2020 9:00:00",
     "end": "January 4, 2020  14:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://reacttraining.com/react-router/web/guides/quick-start",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "adding routes in react",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/pinterest-routing"
   },
   "cal123": {
     "title": "Exercises",
@@ -1279,12 +1279,12 @@
     "title": "React Routing + CRUD",
     "start": "January 7, 2020 18:00:00",
     "end": "January 7, 2020  21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://reacttraining.com/react-router/web/guides/quick-start",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "adding routes in react",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/pinterest-routing"
   },
   "cal125": {
     "title": "Exercises",
@@ -1301,23 +1301,23 @@
     "title": "React Routing + CRUD",
     "start": "January 13, 2020 18:00:00",
     "end": "January 13, 2020  21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://reacttraining.com/react-router/web/guides/quick-start",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "routes and CRUD",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/pinterest-routing"
   },
   "cal127": {
     "title": "React Routing + CRUD",
     "start": "January 14, 2020 18:00:00",
     "end": "January 14, 2020  21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://reacttraining.com/react-router/web/guides/quick-start",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "routes and CRUD",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-10/pinterest-routing"
   },
   "cal128": {
     "title": "Capstone Checkins/Exercises",
