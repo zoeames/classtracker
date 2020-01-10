@@ -33,7 +33,7 @@ const PrivateAdminRoute = ({ component: Component, admin, ...rest }) => {
 const PrivateRoute = ({ component: Component, authed, ...rest }) => {
   const routeChecker = props => (authed === true
     ? (<Component {...props} />)
-    : (<Redirect to={{ pathname: '/login', state: { from: props.location } }} />));
+    : (<Redirect to={{ pathname: '/', state: { from: props.location } }} />));
   return <Route {...rest} render={props => routeChecker(props)} />;
 };
 
@@ -59,12 +59,6 @@ class App extends React.Component {
             });
           })
           .catch(err => console.error('error with user', err));
-      } else {
-        this.setState({
-          authed: false,
-          loading: false,
-          student: {},
-        });
       }
     });
   }
