@@ -1,0 +1,50 @@
+{
+  "instructor1": {
+    "firstName": "Zoe",
+    "lastName": "Ames",
+    "email": "zoeames@gmail.com",
+    "githubUsername": "zoeames",
+    "treehouse": "",
+    "freeCodeCamp": "https://www.freecodecamp.org/",
+    "biosite": "www.zoeames.com",
+    "treehouseComplete": true,
+    "isStudent": false,
+    "uid": "AajHMAKtOjVTW5MCCPTwHXfUdaS2"
+  },
+  "instructor2": {
+    "firstName": "Greg",
+    "lastName": "Korte",
+    "email": "gregmkorte@gmail.com",
+    "githubUsername": "gregkorte",
+    "treehouse": "",
+    "freeCodeCamp": "https://www.freecodecamp.org/",
+    "biosite": "inst",
+    "treehouseComplete": true,
+    "isStudent": false,
+    "uid": "aEDfVB22fpVkpcI0pSJP57sK5hZ2"
+  },
+  "instructor3": {
+    "firstName": "Mary",
+    "lastName": "West",
+    "email": "",
+    "githubUsername": "",
+    "treehouse": "",
+    "freeCodeCamp": "https://www.freecodecamp.org/",
+    "biosite": "inst",
+    "treehouseComplete": true,
+    "isStudent": false,
+    "uid": ""
+  },
+  "student1": {
+    "firstName": "John",
+    "lastName": "Johnson",
+    "email": "john.r.johnson@gmail.com",
+    "githubUsername": "John-Ryan-Johnson",
+    "treehouse": "https://teamtreehouse.com/johnjohnson23",
+    "freeCodeCamp": "https://www.freecodecamp.org/",
+    "biosite": "",
+    "treehouseComplete": true,
+    "isStudent": true,
+    "uid": "QqaJxKDYevgmCDRjOvNEAve9ADo1"
+  }
+}
