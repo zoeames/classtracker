@@ -15,7 +15,7 @@ import MyNavbar from '../components/components/MyNavbar/MyNavbar';
 import Students from '../components/pages/Students/Students';
 import Tracker from '../components/pages/Tracker/Tracker';
 import Assignments from '../components/pages/Assignments/Assignments';
-import Calendar from '../components/pages/Calendar/Calendar';
+import ClassCalendar from '../components/pages/ClassCalendar/ClassCalendar';
 import SingleStudent from '../components/pages/SingleStudent/SingleStudent';
 import Submit from '../components/pages/Submit/Submit';
 import ClassSelector from '../components/pages/ClassSelector/ClassSelector';
@@ -76,10 +76,6 @@ class App extends React.Component {
     });
   }
 
-  // setStudent = (student) => {
-  //   this.setState({ student });
-  // }
-
   isAuthenticated = () => {
     this.setState({ authed: true });
   }
@@ -105,7 +101,7 @@ class App extends React.Component {
               />
               <PrivateRoute authed={this.state.authed} path="/students" exact component={Students} />
               <PrivateRoute authed={this.state.authed} path="/assignments" exact component={Assignments} />
-              <PrivateRoute authed={this.state.authed} path="/calendar" exact component={Calendar} />
+              <PrivateRoute authed={this.state.authed} path="/calendar" exact component={ClassCalendar} />
               <PrivateRoute
                 authed={this.state.authed}
                 path="/submit"

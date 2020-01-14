@@ -8,9 +8,7 @@ class ClassSelector extends React.Component {
   githubAuth = () => {
     authRequests
       .authenticate()
-      .then(() => {
-        this.props.history.push('/calendar');
-      })
+      .then(() => this.props.history.push('/calendar'))
       .catch(err => console.error('error in authenticate', err));
   };
 
