@@ -14,18 +14,7 @@ class BadStudentTable extends React.Component {
 
   componentDidMount() {
     const { student } = this.props;
-    if (student.treehouse.length > 0 && student.treehouse !== 'https://teamtreehouse.com/') {
-      treehouseRequests
-        .getTreehouseProfilePoints(student.treehouse)
-        .then((treehouse) => {
-          this.setState({ student, treehousePoints: treehouse });
-        })
-        .catch((err) => {
-          console.error('error with get treehouse points request', err);
-        });
-    } else {
-      this.setState({ student, treehousePoints: 'missing' });
-    }
+    this.setState({ student, treehousePoints: 'missing' });
   }
 
   render() {
@@ -38,22 +27,8 @@ class BadStudentTable extends React.Component {
           {student.firstName} {student.lastName}
         </td>
         <td className="col-xs-4">
-          <a
-            className="logo"
-            href={student.treehouse}
-            target="_blank" rel="noopener noreferrer"
-          >
-            <img
-              className="treehouse-img"
-              src={treehouseImage}
-              alt="treehouse logo"
-            />
-          </a>
           <a className="logo" href={githubLink} target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github fa-2x" />
-          </a>
-          <a className="logo website-link" href={student.biosite} target="_blank" rel="noopener noreferrer">
-            <i className="fas fa-address-book fa-2x" />
           </a>
         </td>
         <td

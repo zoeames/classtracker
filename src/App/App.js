@@ -15,9 +15,10 @@ import MyNavbar from '../components/components/MyNavbar/MyNavbar';
 import Students from '../components/pages/Students/Students';
 import Tracker from '../components/pages/Tracker/Tracker';
 import Assignments from '../components/pages/Assignments/Assignments';
-import Calendar from '../components/pages/Calendar/Calendar';
+import ClassCalendar from '../components/pages/ClassCalendar/ClassCalendar';
 import SingleStudent from '../components/pages/SingleStudent/SingleStudent';
 import Submit from '../components/pages/Submit/Submit';
+import ClassSelector from '../components/pages/ClassSelector/ClassSelector';
 
 import './App.scss';
 
@@ -32,7 +33,7 @@ const PrivateAdminRoute = ({ component: Component, admin, ...rest }) => {
 const PrivateRoute = ({ component: Component, authed, ...rest }) => {
   const routeChecker = props => (authed === true
     ? (<Component {...props} />)
-    : (<Redirect to={{ pathname: '/login', state: { from: props.location } }} />));
+    : (<Redirect to={{ pathname: '/', state: { from: props.location } }} />));
   return <Route {...rest} render={props => routeChecker(props)} />;
 };
 
@@ -58,12 +59,6 @@ class App extends React.Component {
             });
           })
           .catch(err => console.error('error with user', err));
-      } else {
-        this.setState({
-          authed: false,
-          loading: false,
-          student: {},
-        });
       }
     });
   }
@@ -81,10 +76,6 @@ class App extends React.Component {
     });
   }
 
-  setStudent = (student) => {
-    this.setState({ student });
-  }
-
   isAuthenticated = () => {
     this.setState({ authed: true });
   }
@@ -99,7 +90,6 @@ class App extends React.Component {
             authed={this.state.authed}
             admin={this.state.admin}
             runAway={this.runAway}
-            setStudent={this.setStudent}
           />
           <div className="body-container">
             <Switch>
@@ -109,9 +99,9 @@ class App extends React.Component {
                 path="/student/:id"
                 component={SingleStudent}
               />
-              <Route path="/students" exact component={Students} />
-              <Route path="/assignments" exact component={Assignments} />
-              <Route path="/calendar" exact component={Calendar} />
+              <PrivateRoute authed={this.state.authed} path="/students" exact component={Students} />
+              <PrivateRoute authed={this.state.authed} path="/assignments" exact component={Assignments} />
+              <PrivateRoute authed={this.state.authed} path="/calendar" exact component={ClassCalendar} />
               <PrivateRoute
                 authed={this.state.authed}
                 path="/submit"
@@ -123,7 +113,8 @@ class App extends React.Component {
                 path="/tracker"
                 component={Tracker}
               />
-              <Redirect from="*" to="/students"/>
+              <Route path="/" component={ClassSelector}/>
+              <Redirect from="*" to="/"/>
             </Switch>
           </div>
         </div>

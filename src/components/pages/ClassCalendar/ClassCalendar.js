@@ -1,22 +1,15 @@
 import React from 'react';
-import BigCalendar from 'react-big-calendar';
+import { Calendar, momentLocalizer } from 'react-big-calendar';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 
 import calRequests from '../../../helpers/data/calRequests';
 
-import './Calendar.scss';
+import './ClassCalendar.scss';
 
-// moment.locale('en-GB');
-moment.locale('ko', {
-  week: {
-    dow: 1,
-    doy: 1,
-  },
-});
-const localizer = BigCalendar.momentLocalizer(moment);
+const localizer = momentLocalizer(moment);
 
-class Calendar extends React.Component {
+class ClassCalendar extends React.Component {
   state = {
     events: [],
     selectedEvents: [],
@@ -173,10 +166,10 @@ class Calendar extends React.Component {
       );
     });
     return (
-      <div className="Calendar">
+      <div className="ClassCalendar">
         <h1>Course Calendar</h1>
         <div className="cal-holder">
-          <BigCalendar
+          <Calendar
             localizer={localizer}
             selectable
             events={this.state.events}
@@ -195,4 +188,4 @@ class Calendar extends React.Component {
   }
 }
 
-export default Calendar;
+export default ClassCalendar;
