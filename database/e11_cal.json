@@ -592,5 +592,137 @@
     "eventType": "study",
     "description": "HW #25",
     "githubRepo":""
+  },
+  "cal56": {
+    "title": "Don't be an Asshole!",
+    "start": "January 6, 2020 18:00:00",
+    "end": "January 6, 2020 20:30:00",
+    "resourceUrl": "",
+    "instructor": "John Wark",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Rules and policies at NSS",
+    "githubRepo":""
+  },
+  "cal57": {
+    "title": "Class Expectations and Overview",
+    "start": "January 6, 2020 20:30:00",
+    "end": "January 6, 2020 21:30:00",
+    "resourceUrl": "https://docs.google.com/presentation/d/1XCnuPiLZTRejlI01ZvzDyYYj_4zVv5Ecx6BmtFxp8e0/edit?usp=sharing",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "What we are going to do for the next six months",
+    "githubRepo":""
+  },
+  "cal58": {
+    "title": "Installs",
+    "start": "January 7, 2020 18:00:00",
+    "end": "January 7, 2020 19:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/setup.md",
+    "instructor": "Zoe, Greg",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Mac and PC Installs",
+    "githubRepo":""
+  },
+  "cal59": {
+    "title": "Intro to VS Code",
+    "start": "January 7, 2020 19:00:00",
+    "end": "January 7, 2020 20:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/vs_code.md",
+    "instructor": "Luke",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Your new best friend",
+    "githubRepo":""
+  },
+  "cal60": {
+    "title": "Command Line",
+    "start": "January 7, 2020 20:00:00",
+    "end": "January 7, 2020 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/command-line.md",
+    "instructor": "Luke",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to use the command line",
+    "githubRepo":""
+  },
+  "cal61": {
+    "title": "Github Setup",
+    "start": "January 11, 2020 9:00:00",
+    "end": "January 11, 2020 10:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-setup.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Configuring your machine to authenticate to github",
+    "githubRepo":""
+  },
+  "cal62": {
+    "title": "Intro to Github",
+    "start": "January 11, 2020 10:00:00",
+    "end": "January 11, 2020 12:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-and-github.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Make your first repo",
+    "githubRepo":""
+  },
+  "cal63": {
+    "title": "Git Branching",
+    "start": "January 11, 2020 12:00:00",
+    "end": "January 11, 2020 14:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/git-branching.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Gitflow",
+    "githubRepo":""
+  },
+  "cal64": {
+    "title": "HTML",
+    "start": "January 13, 2020 18:00:00",
+    "end": "January 13, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Luke",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "HTML",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/html101"
+  },
+  "cal65": {
+    "title": "Flexbox",
+    "start": "January 14, 2020 18:00:00",
+    "end": "January 14, 2020 21:30:00",
+    "resourceUrl": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+    "instructor": "Luke",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "flexbox",
+    "githubRepo":""
+  },
+  "cal66": {
+    "title": "Exercises/Prework",
+    "start": "January 18, 2020 9:00:00",
+    "end": "January 18, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal100": {
+    "title": "E10 Front End Capstone Demo Day",
+    "start": "February 8, 2020 9:00:00",
+    "end": "February 8, 2020 11:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "See what you are going to be able to do in 5 months",
+    "githubRepo":""
   }
 }
