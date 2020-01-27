@@ -3,8 +3,6 @@ import moment from 'moment';
 
 import githubRequests from '../../../helpers/data/githubRequests';
 
-import treehouseImage from './img/treehouse.png';
-
 import './GoodStudent.scss';
 
 class GoodStudent extends React.Component {
@@ -73,19 +71,9 @@ class GoodStudent extends React.Component {
           </div>
           <div className="card-body">
             <div className="row justify-content-md-center">
-              <div className="col col-lg-2">
-                <a className="treehouse-link" href={student.treehouse} target="_blank" rel="noopener noreferrer">
-                  <img className="treehouse-img" src={treehouseImage} alt="treehouse logo"/>
-                </a>
-              </div>
               <div className="col-md-auto">
                 <a className="github-link" href={githubLink} target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github fa-2x"></i>
-                </a>
-              </div>
-              <div className="col col-lg-2">
-                <a className="website-link" href={student.biosite} target="_blank" rel="noopener noreferrer">
-                  <i className="fas fa-address-book fa-2x"></i>
                 </a>
               </div>
             </div>

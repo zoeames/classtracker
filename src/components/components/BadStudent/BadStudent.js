@@ -1,10 +1,6 @@
 import React from 'react';
 
-import treehouseRequests from '../../../helpers/data/treehouseRequests';
-
 import './BadStudent.scss';
-
-import treehouseImage from './img/treehouse.png';
 
 class BadStudentTable extends React.Component {
   state = {
@@ -27,9 +23,25 @@ class BadStudentTable extends React.Component {
           {student.firstName} {student.lastName}
         </td>
         <td className="col-xs-4">
-          <a className="logo" href={githubLink} target="_blank" rel="noopener noreferrer">
+          <a className="logo" href={githubLink} target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
             <i className="fab fa-github fa-2x" />
           </a>
+          {student.treehouse
+            ? (<a className="logo" href={student.treehouse} target="_blank" rel="noopener noreferrer" style={{ color: '#5FCF80' }}><i className="far fa-tree fa-2x" ></i></a>)
+            : ''
+          }
+          {student.freeCodeCamp
+            ? (<a className="logo" href={student.freeCodeCamp} target="_blank" rel="noopener noreferrer" style={{ color: '#0A0A23' }}><i className="fab fa-free-code-camp fa-2x"></i></a>)
+            : ''
+          }
+          {student.codeAcademy
+            ? (<a className="logo" href={student.freeCodeCamp} target="_blank" rel="noopener noreferrer" style={{ color: '#141C3A' }}><i className="far fa-brackets fa-2x"></i></a>)
+            : ''
+          }
+          {student.replIt
+            ? (<a className="logo" href={student.replIt} target="_blank" rel="noopener noreferrer" style={{ color: '#697D85' }}><i className="far fa-galaxy fa-2x"></i></a>)
+            : ''
+          }
         </td>
         <td
           className={`col-xs-5
