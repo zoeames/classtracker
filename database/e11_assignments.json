@@ -2,11 +2,41 @@
   "assignment01": {
     "title": "Prework",
     "URL": "https://github.com/nss-nightclass-projects/prework",
-    "dueDate": "2019-08-17",
+    "dueDate": "2020-01-13",
     "isAssigned": "true",
     "isGithub": "false",
     "assignedNumber": 1,
     "topic": "prework",
     "notes": ""
+  },
+  "assignment02": {
+    "title": "Product Cards",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/HTML_CSS_product_cards.md",
+    "dueDate": "2020-01-21",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 2,
+    "topic": "HTML/CSS",
+    "notes": "Studygroup Assignment"
+  },
+  "assignment03": {
+    "title": "Pet Adoption",
+    "URL": "https://github.com/nss-nightclass-projects/pet-adoption",
+    "dueDate": "2020-01-28",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 3,
+    "topic": "JS",
+    "notes": "Studygroup Assignment"
+  },
+  "assignment04": {
+    "title": "Personal Bio Site 1",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-01.md",
+    "dueDate": "2020-01-28",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 4,
+    "topic": "JS",
+    "notes": "Individual Assignment"
   }
 }

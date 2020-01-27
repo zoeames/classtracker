@@ -701,12 +701,89 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "flexbox",
-    "githubRepo":""
+    "githubRepo": "https://github.com/nss-evening-cohort-11/flexbox-intro"
   },
   "cal66": {
     "title": "Exercises/Prework",
     "start": "January 18, 2020 9:00:00",
     "end": "January 18, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal67": {
+    "title": "JS Overview",
+    "start": "January 20, 2020 18:00:00",
+    "end": "January 20, 2020 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/tree/master/book-1-foundations",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS.  To get notes look at Chapter 5 section of the link",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/js101"
+  },
+  "cal68": {
+    "title": "Dev Tools",
+    "start": "January 21, 2020 18:00:00",
+    "end": "January 21, 2020 19:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/dev-tools.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "dev tools",
+    "githubRepo":""
+  },
+  "cal69": {
+    "title": "Looping and the DOM",
+    "start": "January 21, 2020 19:00:00",
+    "end": "January 21, 2020 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-array-looping.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/dom-loops"
+  },
+  "cal70": {
+    "title": "Exercises",
+    "start": "January 25, 2020 9:00:00",
+    "end": "January 25, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal71": {
+    "title": "Basic Event Listeners",
+    "start": "January 27, 2020 18:00:00",
+    "end": "January 27, 2020 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/js-events.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS",
+    "githubRepo":""
+  },
+  "cal72": {
+    "title": "Bootstrap",
+    "start": "January 28, 2020 18:00:00",
+    "end": "January 28, 2020 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/bootstrap.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Bootstrap",
+    "githubRepo":""
+  },
+  "cal73": {
+    "title": "Exercises",
+    "start": "February 1, 2020 9:00:00",
+    "end": "February 1, 2020 14:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
