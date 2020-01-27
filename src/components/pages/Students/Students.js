@@ -20,9 +20,9 @@ class Students extends React.Component {
         const tempGoodStudents = [];
         const tempBadStudents = [];
         fbStudents.forEach((student) => {
-          if (student.treehouseComplete && student.isStudent) {
+          if (student.preworkComplete && student.isStudent) {
             tempGoodStudents.push(student);
-          } else if (!student.treehouseComplete && student.isStudent) {
+          } else if (!student.preworkComplete && student.isStudent) {
             tempBadStudents.push(student);
           }
         });

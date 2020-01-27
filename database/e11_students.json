@@ -7,7 +7,7 @@
     "treehouse": "",
     "freeCodeCamp": "https://www.freecodecamp.org/",
     "biosite": "www.zoeames.com",
-    "treehouseComplete": true,
+    "preworkComplete": true,
     "isStudent": false,
     "uid": "RPzf7pmkqINbZkhFm4JsQeL9OS63"
   },
@@ -21,7 +21,7 @@
     "replIt": "",
     "freeCodeCamp": "",
     "biosite": "inst",
-    "treehouseComplete": true,
+    "preworkComplete": true,
     "isStudent": false,
     "uid": ""
   },
@@ -35,7 +35,7 @@
     "replIt": "",
     "freeCodeCamp": "",
     "biosite": "inst",
-    "treehouseComplete": true,
+    "preworkComplete": true,
     "isStudent": false,
     "uid": "MH0rgDbozoa9wrWphBzvP4ZkXGw1"
   },
@@ -49,7 +49,7 @@
     "replIt": "",
     "freeCodeCamp": "",
     "biosite": "inst",
-    "treehouseComplete": true,
+    "preworkComplete": true,
     "isStudent": false,
     "uid": "9SIUdlMX6keYR3eTVMp7fSkuhUv1"
   },
@@ -63,7 +63,7 @@
     "replIt": "https://repl.it/@AJL1066",
     "freeCodeCamp": "https://www.freecodecamp.org/ajl1066",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "6lgt3dafmwcjptYSiDmEmqc8Ku53"
   },
@@ -77,7 +77,7 @@
     "replIt": "https://repl.it/@ancarsimon",
     "freeCodeCamp": "https://www.freecodecamp.org/fcc91cbab47-8801-4e35-b1d7-d5b695dee1f9",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "D9Vt3A4gCnPGKK1HXWowtExqO8j1"
   },
@@ -91,7 +91,7 @@
     "replIt": "https://repl.it/@bjoellen",
     "freeCodeCamp": "https://www.freecodecamp.org/bjoellen",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "IVe2hlSRMqQZ0ua7Y5HhbkTJJF83"
   },
@@ -101,13 +101,14 @@
     "email": "christopherjohnson1@gmail.com",
     "githubUsername": "christopherjohnson1",
     "treehouse": "",
-    "codeAcademy": "https://www.codecademy.com/profiles/arc8007731416",
+    "codeAcademy": "https://www.codecademy.com/profiles/chris.johnson1",
     "replIt": "https://repl.it/@ChristopherJoh7",
     "freeCodeCamp": "https://www.freecodecamp.org/fcc0ece6929-e87b-460c-8f51-68314c188651",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": false,
     "isStudent": true,
-    "uid": "VtCRl4VHAAby6cF5rA90XK4VCuA3"
+    "uid": "VtCRl4VHAAby6cF5rA90XK4VCuA3",
+    "notes": "2 more sections in last repl.it"
   },
   "student5": {
     "firstName": "David",
@@ -119,7 +120,7 @@
     "replIt": "https://repl.it/@initiatedrhyme",
     "freeCodeCamp": "https://www.freecodecamp.org/fcc6f76cd56-9f23-4b91-ba9d-b1c495eda117",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "SJb12jdeAgOK832Gv8a3KIUqXg83"
   },
@@ -133,9 +134,10 @@
     "replIt": "https://repl.it/@delindell",
     "freeCodeCamp": "https://www.freecodecamp.org/fccd5f15e62-fdfe-48bf-be5b-37160a2f9ab3",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": false,
     "isStudent": true,
-    "uid": "Y4TdpTYGTYhDlcS0Suppb070cq53"
+    "uid": "Y4TdpTYGTYhDlcS0Suppb070cq53",
+    "notes": "1 more sections in last repl.it"
   },
   "student7": {
     "firstName": "Dylan",
@@ -147,9 +149,10 @@
     "replIt": "https://repl.it/@GenoMcNew",
     "freeCodeCamp": "https://www.freecodecamp.org/fcc436152ab-9491-4e7a-892e-f341deec388b",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": false,
     "isStudent": true,
-    "uid": "cQ5FeyUcpKT1x7CnEnqBcXFrOi82"
+    "uid": "cQ5FeyUcpKT1x7CnEnqBcXFrOi82",
+    "notes": "2 more sections in each repl.it"
   },
   "student8": {
     "firstName": "Beth",
@@ -161,9 +164,10 @@
     "replIt": "https://repl.it/@bethh56",
     "freeCodeCamp": "https://www.freecodecamp.org/bethh_56",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": false,
     "isStudent": true,
-    "uid": "LLLJiiTrskP73dePE22wvTCnvUD3"
+    "uid": "LLLJiiTrskP73dePE22wvTCnvUD3",
+    "notes": "missing some repl.its and codeacademy not complete"
   },
   "student9": {
     "firstName": "Joey",
@@ -171,11 +175,11 @@
     "email": "joey.petrone@gmail.com",
     "githubUsername": "joeypetrone",
     "treehouse": "",
-    "codeAcademy": "https://www.codecademy.com/profiles/blog2596397476",
+    "codeAcademy": "https://www.codecademy.com/profiles/joeypetrone",
     "replIt": "https://repl.it/@joeycode",
     "freeCodeCamp": "https://www.freecodecamp.org/joeycode",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "C8Zj98NMYUaTXwFWXQJxIwI4zk12"
   },
@@ -189,7 +193,7 @@
     "replIt": "https://repl.it/@johnnyqwest",
     "freeCodeCamp": "https://www.freecodecamp.org/johnnyqwest",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "eP2NYRQ6aXOOIcOtotBrUln6nzf1"
   },
@@ -203,7 +207,7 @@
     "replIt": "https://repl.it/@Jmarquez8951",
     "freeCodeCamp": "https://www.freecodecamp.org/jmarquez",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "cYoFoKOi5uXN0hFE4CYhViWddVM2"
   },
@@ -217,7 +221,7 @@
     "replIt": "https://repl.it/@kannmelton2",
     "freeCodeCamp": "https://www.freecodecamp.org/kannmelton2",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "FcryJbgipSTeLtUTM08j0EWNPeF2"
   },
@@ -231,7 +235,7 @@
     "replIt": "",
     "freeCodeCamp": "",
     "biosite": "",
-    "treehouseComplete": true,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "KKi3Gv3c1LgMQw02xAzhasx1osL2"
   },
@@ -245,7 +249,7 @@
     "replIt": "https://repl.it/@lstar18",
     "freeCodeCamp": "https://www.freecodecamp.org/lstar18",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "L2ypuB1imnNJwc6cvecXXK925Ik1"
   },
@@ -259,9 +263,10 @@
     "replIt": "https://repl.it/@shellbop",
     "freeCodeCamp": "https://www.freecodecamp.org/mrawlins",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": false,
     "isStudent": true,
-    "uid": "Zf8vNuSMOKfiYvOXUc8GcoyuzC22"
+    "uid": "Zf8vNuSMOKfiYvOXUc8GcoyuzC22",
+    "notes": "lots of missing repl.it assignments"
   },
   "student16": {
     "firstName": "Monique",
@@ -273,9 +278,10 @@
     "replIt": "https://repl.it/@Nikababy01",
     "freeCodeCamp": "https://www.freecodecamp.org/moniquedbass",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": false,
     "isStudent": true,
-    "uid": "4eE0Zvs2Z0aeLPOBRRs2YHOhtEh1"
+    "uid": "4eE0Zvs2Z0aeLPOBRRs2YHOhtEh1",
+    "notes": "2 javascript function repl.it missing"
   },
   "student17": {
     "firstName": "Ola",
@@ -283,27 +289,29 @@
     "email": "olajide1987@gmail.com",
     "githubUsername": "olamide87",
     "treehouse": "",
-    "codeAcademy": "https://www.codecademy.com/profiles/web2952431344",
+    "codeAcademy": "https://www.codecademy.com/profiles/Ola87",
     "replIt": "https://repl.it/@OlamideO1",
     "freeCodeCamp": "https://www.freecodecamp.org/fcc1ea007dd-d7d9-4033-8915-8c51d6529a7f",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": false,
     "isStudent": true,
-    "uid": "hYfOmXVzeJfGX8b8CaLx1MP1Rfo2"
+    "uid": "hYfOmXVzeJfGX8b8CaLx1MP1Rfo2",
+    "notes": "a few repl.it assignments missing from each section"
   },
   "student18": {
     "firstName": "Sarah",
     "lastName": "Holder",
     "email": "",
-    "githubUsername": "",
+    "githubUsername": "sarahholder",
     "treehouse": "",
-    "codeAcademy": "",
+    "codeAcademy": "https://www.codecademy.com/profiles/sarahholder/",
     "replIt": "",
-    "freeCodeCamp": "",
+    "freeCodeCamp": "https://www.freecodecamp.org/sarahholder",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": false,
     "isStudent": true,
-    "uid": "bqY78YZIXvTwOyQ09rM2VZF30WV2"
+    "uid": "bqY78YZIXvTwOyQ09rM2VZF30WV2",
+    "notes": "no repl.it submitted"
   },
   "student19": {
     "firstName": "Stephen",
@@ -315,9 +323,10 @@
     "replIt": "https://repl.it/@prolific06",
     "freeCodeCamp": "https://www.freecodecamp.org/fcc6e91a6f7-a214-40d4-a91c-f0519f0a0af0",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": false,
     "isStudent": true,
-    "uid": "0cQmjv7T9IcJEOkPx0oKBw6TLhx2"
+    "uid": "0cQmjv7T9IcJEOkPx0oKBw6TLhx2",
+    "notes":"bunch of repl.it missing"
   },
   "student20": {
     "firstName": "Steven",
@@ -329,9 +338,10 @@
     "replIt": "https://repl.it/@MrSelfDestructr",
     "freeCodeCamp": "https://www.freecodecamp.org/fccf724c00e-6495-4df7-afd1-dfac7700722c",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": false,
     "isStudent": true,
-    "uid": "sX4TXSfblsUxr7HslLQ3dUdT3FP2"
+    "uid": "sX4TXSfblsUxr7HslLQ3dUdT3FP2",
+    "notes":"no repl.it submissions"
   },
   "student21": {
     "firstName": "Todd",
@@ -343,7 +353,7 @@
     "replIt": "https://repl.it/@spainhour",
     "freeCodeCamp": "https://www.freecodecamp.org/fcc9e46fc1c-d146-4b19-9119-f53667eb09a0",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "qwLUNeDolwUEx1FGBW8ty3I8X0i1"
   },
@@ -357,7 +367,7 @@
     "replIt": "",
     "freeCodeCamp": "",
     "biosite": "",
-    "treehouseComplete": true,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "XXiKh1S16ghRT5oqX9LrnH1k9882"
   },
@@ -367,12 +377,13 @@
     "email": "z.crumpton@gmail.com",
     "githubUsername": "ZacCrumpton",
     "treehouse": "",
-    "codeAcademy": "",
+    "codeAcademy": "https://www.codecademy.com/profiles/ZacofTales/",
     "replIt": "",
-    "freeCodeCamp": "",
+    "freeCodeCamp": "https://www.freecodecamp.org/ZacCrumpton",
     "biosite": "",
-    "treehouseComplete": false,
+    "preworkComplete": false,
     "isStudent": true,
-    "uid": "zywvIdUyLFMa7m9bASY2hyYD4js1"
+    "uid": "zywvIdUyLFMa7m9bASY2hyYD4js1",
+    "notes":"missing many repl.it submissions"
   }
 }

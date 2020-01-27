@@ -35,7 +35,7 @@ class BadStudentTable extends React.Component {
             : ''
           }
           {student.codeAcademy
-            ? (<a className="logo" href={student.freeCodeCamp} target="_blank" rel="noopener noreferrer" style={{ color: '#141C3A' }}><i className="far fa-brackets fa-2x"></i></a>)
+            ? (<a className="logo" href={student.codeAcademy} target="_blank" rel="noopener noreferrer" style={{ color: '#141C3A' }}><i className="far fa-brackets fa-2x"></i></a>)
             : ''
           }
           {student.replIt
