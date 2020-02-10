@@ -9,7 +9,8 @@
     "biosite": "www.zoeames.com",
     "preworkComplete": true,
     "isStudent": false,
-    "uid": "RPzf7pmkqINbZkhFm4JsQeL9OS63"
+    "uid": "RPzf7pmkqINbZkhFm4JsQeL9OS63",
+    "notes":""
   },
   "instructor2": {
     "firstName": "Greg",
@@ -23,7 +24,8 @@
     "biosite": "inst",
     "preworkComplete": true,
     "isStudent": false,
-    "uid": ""
+    "uid": "",
+    "notes":""
   },
   "instructor3": {
     "firstName": "Mary",
@@ -37,7 +39,8 @@
     "biosite": "inst",
     "preworkComplete": true,
     "isStudent": false,
-    "uid": "MH0rgDbozoa9wrWphBzvP4ZkXGw1"
+    "uid": "MH0rgDbozoa9wrWphBzvP4ZkXGw1",
+    "notes":""
   },
   "instructor4": {
     "firstName": "Luke",
@@ -51,7 +54,8 @@
     "biosite": "inst",
     "preworkComplete": true,
     "isStudent": false,
-    "uid": "9SIUdlMX6keYR3eTVMp7fSkuhUv1"
+    "uid": "9SIUdlMX6keYR3eTVMp7fSkuhUv1",
+    "notes":""
   },
   "student1": {
     "firstName": "Aaron",
@@ -65,7 +69,8 @@
     "biosite": "",
     "preworkComplete": true,
     "isStudent": true,
-    "uid": "6lgt3dafmwcjptYSiDmEmqc8Ku53"
+    "uid": "6lgt3dafmwcjptYSiDmEmqc8Ku53",
+    "notes":""
   },
   "student2": {
     "firstName": "Anca",
@@ -79,7 +84,8 @@
     "biosite": "",
     "preworkComplete": true,
     "isStudent": true,
-    "uid": "D9Vt3A4gCnPGKK1HXWowtExqO8j1"
+    "uid": "D9Vt3A4gCnPGKK1HXWowtExqO8j1",
+    "notes":""
   },
   "student3": {
     "firstName": "Bethany",
@@ -93,7 +99,8 @@
     "biosite": "",
     "preworkComplete": true,
     "isStudent": true,
-    "uid": "IVe2hlSRMqQZ0ua7Y5HhbkTJJF83"
+    "uid": "IVe2hlSRMqQZ0ua7Y5HhbkTJJF83",
+    "notes":""
   },
   "student4": {
     "firstName": "Christopher",
@@ -108,13 +115,13 @@
     "preworkComplete": true,
     "isStudent": true,
     "uid": "VtCRl4VHAAby6cF5rA90XK4VCuA3",
-    "notes": "2 more sections in last repl.it"
+    "notes":""
   },
   "student5": {
     "firstName": "David",
     "lastName": "Everett",
     "email": "davideverett1989@gmail.com",
-    "githubUsername": "David-E89",
+    "githubUsername": "davideverett89",
     "treehouse": "",
     "codeAcademy": "https://www.codecademy.com/profiles/initiatedrhyme",
     "replIt": "https://repl.it/@initiatedrhyme",
@@ -122,7 +129,8 @@
     "biosite": "",
     "preworkComplete": true,
     "isStudent": true,
-    "uid": "SJb12jdeAgOK832Gv8a3KIUqXg83"
+    "uid": "SJb12jdeAgOK832Gv8a3KIUqXg83",
+    "notes":""
   },
   "student6": {
     "firstName": "Davis ",
@@ -134,10 +142,10 @@
     "replIt": "https://repl.it/@delindell",
     "freeCodeCamp": "https://www.freecodecamp.org/fccd5f15e62-fdfe-48bf-be5b-37160a2f9ab3",
     "biosite": "",
-    "preworkComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "Y4TdpTYGTYhDlcS0Suppb070cq53",
-    "notes": "1 more sections in last repl.it"
+    "notes":""
   },
   "student7": {
     "firstName": "Dylan",
@@ -149,10 +157,10 @@
     "replIt": "https://repl.it/@GenoMcNew",
     "freeCodeCamp": "https://www.freecodecamp.org/fcc436152ab-9491-4e7a-892e-f341deec388b",
     "biosite": "",
-    "preworkComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "cQ5FeyUcpKT1x7CnEnqBcXFrOi82",
-    "notes": "2 more sections in each repl.it"
+    "notes":""
   },
   "student8": {
     "firstName": "Beth",
@@ -164,10 +172,10 @@
     "replIt": "https://repl.it/@bethh56",
     "freeCodeCamp": "https://www.freecodecamp.org/bethh_56",
     "biosite": "",
-    "preworkComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "LLLJiiTrskP73dePE22wvTCnvUD3",
-    "notes": "missing some repl.its and codeacademy not complete"
+    "notes":""
   },
   "student9": {
     "firstName": "Joey",
@@ -181,7 +189,8 @@
     "biosite": "",
     "preworkComplete": true,
     "isStudent": true,
-    "uid": "C8Zj98NMYUaTXwFWXQJxIwI4zk12"
+    "uid": "C8Zj98NMYUaTXwFWXQJxIwI4zk12",
+    "notes":""
   },
   "student10": {
     "firstName": "John",
@@ -195,7 +204,8 @@
     "biosite": "",
     "preworkComplete": true,
     "isStudent": true,
-    "uid": "eP2NYRQ6aXOOIcOtotBrUln6nzf1"
+    "uid": "eP2NYRQ6aXOOIcOtotBrUln6nzf1",
+    "notes":""
   },
   "student11": {
     "firstName": "Jose",
@@ -209,7 +219,8 @@
     "biosite": "",
     "preworkComplete": true,
     "isStudent": true,
-    "uid": "cYoFoKOi5uXN0hFE4CYhViWddVM2"
+    "uid": "cYoFoKOi5uXN0hFE4CYhViWddVM2",
+    "notes":""
   },
   "student12": {
     "firstName": "Kayla",
@@ -223,7 +234,8 @@
     "biosite": "",
     "preworkComplete": true,
     "isStudent": true,
-    "uid": "FcryJbgipSTeLtUTM08j0EWNPeF2"
+    "uid": "FcryJbgipSTeLtUTM08j0EWNPeF2",
+    "notes":""
   },
   "student13": {
     "firstName": "Kenneth",
@@ -237,13 +249,14 @@
     "biosite": "",
     "preworkComplete": true,
     "isStudent": true,
-    "uid": "KKi3Gv3c1LgMQw02xAzhasx1osL2"
+    "uid": "KKi3Gv3c1LgMQw02xAzhasx1osL2",
+    "notes":""
   },
   "student14": {
     "firstName": "Liza",
     "lastName": "Star",
     "email": "Lizadstar18@gmail.com",
-    "githubUsername": "l_star18",
+    "githubUsername": "lstar18",
     "treehouse": "",
     "codeAcademy": "https://www.codecademy.com/profiles/lstar18",
     "replIt": "https://repl.it/@lstar18",
@@ -251,7 +264,8 @@
     "biosite": "",
     "preworkComplete": true,
     "isStudent": true,
-    "uid": "L2ypuB1imnNJwc6cvecXXK925Ik1"
+    "uid": "L2ypuB1imnNJwc6cvecXXK925Ik1",
+    "notes":""
   },
   "student15": {
     "firstName": "Michele",
@@ -263,10 +277,10 @@
     "replIt": "https://repl.it/@shellbop",
     "freeCodeCamp": "https://www.freecodecamp.org/mrawlins",
     "biosite": "",
-    "preworkComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "Zf8vNuSMOKfiYvOXUc8GcoyuzC22",
-    "notes": "lots of missing repl.it assignments"
+    "notes":""
   },
   "student16": {
     "firstName": "Monique",
@@ -278,10 +292,10 @@
     "replIt": "https://repl.it/@Nikababy01",
     "freeCodeCamp": "https://www.freecodecamp.org/moniquedbass",
     "biosite": "",
-    "preworkComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "4eE0Zvs2Z0aeLPOBRRs2YHOhtEh1",
-    "notes": "2 javascript function repl.it missing"
+    "notes":""
   },
   "student17": {
     "firstName": "Ola",
@@ -293,10 +307,10 @@
     "replIt": "https://repl.it/@OlamideO1",
     "freeCodeCamp": "https://www.freecodecamp.org/fcc1ea007dd-d7d9-4033-8915-8c51d6529a7f",
     "biosite": "",
-    "preworkComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "hYfOmXVzeJfGX8b8CaLx1MP1Rfo2",
-    "notes": "a few repl.it assignments missing from each section"
+    "notes":""
   },
   "student18": {
     "firstName": "Sarah",
@@ -317,7 +331,7 @@
     "firstName": "Stephen",
     "lastName": "Castaneda",
     "email": "stephen.castaneda40@gmail.com",
-    "githubUsername": "stephen.castaneda40@gmail.com",
+    "githubUsername": "stephencastanedac",
     "treehouse": "",
     "codeAcademy": "https://www.codecademy.com/profiles/design3220598754",
     "replIt": "https://repl.it/@prolific06",
@@ -326,7 +340,7 @@
     "preworkComplete": true,
     "isStudent": true,
     "uid": "0cQmjv7T9IcJEOkPx0oKBw6TLhx2",
-    "notes":"bunch of repl.it missing"
+    "notes":""
   },
   "student20": {
     "firstName": "Steven",
@@ -341,7 +355,7 @@
     "preworkComplete": true,
     "isStudent": true,
     "uid": "sX4TXSfblsUxr7HslLQ3dUdT3FP2",
-    "notes":"no repl.it submissions"
+    "notes":""
   },
   "student21": {
     "firstName": "Todd",
@@ -355,21 +369,8 @@
     "biosite": "",
     "preworkComplete": true,
     "isStudent": true,
-    "uid": "qwLUNeDolwUEx1FGBW8ty3I8X0i1"
-  },
-  "student22": {
-    "firstName": "William",
-    "lastName": "Baker",
-    "email": "1will.baker@gmail.com",
-    "githubUsername": "tonfaman23",
-    "treehouse": "https://teamtreehouse.com/willbaker3",
-    "codeAcademy": "",
-    "replIt": "",
-    "freeCodeCamp": "",
-    "biosite": "",
-    "preworkComplete": true,
-    "isStudent": true,
-    "uid": "XXiKh1S16ghRT5oqX9LrnH1k9882"
+    "uid": "qwLUNeDolwUEx1FGBW8ty3I8X0i1",
+    "notes":""
   },
   "student23": {
     "firstName": "Zachary",
@@ -381,9 +382,9 @@
     "replIt": "",
     "freeCodeCamp": "https://www.freecodecamp.org/ZacCrumpton",
     "biosite": "",
-    "preworkComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "zywvIdUyLFMa7m9bASY2hyYD4js1",
-    "notes":"missing many repl.it submissions"
+    "notes":""
   }
 }

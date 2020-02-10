@@ -38,5 +38,15 @@
     "assignedNumber": 4,
     "topic": "JS",
     "notes": "Individual Assignment"
+  },
+  "assignment05": {
+    "title": "Sorting Hat",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/EVENTS_sorting_hat.md",
+    "dueDate": "2020-02-04",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 5,
+    "topic": "JS",
+    "notes": "Individual Assignment"
   }
 }
