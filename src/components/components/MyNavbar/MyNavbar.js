@@ -32,6 +32,15 @@ class MyNavbar extends React.Component {
     });
   }
 
+  githubAuth = () => {
+    authRequests
+      .authenticate()
+      .then((result) => {
+        this.props.setStudent(result);
+      })
+      .catch(err => console.error('error in authenticate', err));
+  };
+
   logoutClickEvent = (e) => {
     e.preventDefault();
     authRequests.logoutUser();
@@ -88,6 +97,18 @@ class MyNavbar extends React.Component {
       }
       return (
         <Nav className="ml-auto" navbar>
+          <NavItem>
+            <NavLink tag={ Link } to='/students'>Students</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={ Link } to='/calendar'>Calendar</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink tag={ Link } to='/assignments'>Assignments</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink onClick={this.githubAuth}>Login</NavLink>
+          </NavItem>
         </Nav>
       );
     };
