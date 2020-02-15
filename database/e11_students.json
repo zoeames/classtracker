@@ -322,16 +322,16 @@
     "replIt": "",
     "freeCodeCamp": "https://www.freecodecamp.org/sarahholder",
     "biosite": "",
-    "preworkComplete": false,
+    "preworkComplete": true,
     "isStudent": true,
     "uid": "bqY78YZIXvTwOyQ09rM2VZF30WV2",
-    "notes": "no repl.it submitted"
+    "notes": ""
   },
   "student19": {
     "firstName": "Stephen",
     "lastName": "Castaneda",
     "email": "stephen.castaneda40@gmail.com",
-    "githubUsername": "stephencastanedac",
+    "githubUsername": "stephencastaneda",
     "treehouse": "",
     "codeAcademy": "https://www.codecademy.com/profiles/design3220598754",
     "replIt": "https://repl.it/@prolific06",
