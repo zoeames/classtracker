@@ -5,6 +5,15 @@
   .card {
     border-width: 3px !important;
   }
+
+  .card-header:first-child {
+    border-radius: 0;
+  }
+
+  .student-image {
+    height: 64px;
+  }
+
   .treehouse-img {
     height: 28px;
   }

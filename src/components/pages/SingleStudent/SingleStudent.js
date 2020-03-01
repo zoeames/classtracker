@@ -5,6 +5,7 @@ import treehouseLogo from './treehouse.png';
 import './SingleStudent.scss';
 
 import assignmentRequests from '../../../helpers/data/assignmentRequests';
+import githubRequests from '../../../helpers/data/githubRequests';
 import studentRequests from '../../../helpers/data/studentRequests';
 import submitAssignmentRequests from '../../../helpers/data/submitAssignmentRequests';
 
@@ -24,6 +25,16 @@ class SingleStudent extends React.Component {
       .then((fbStudent) => {
         this.getGithubAssignments(fbStudent.uid);
         this.setState({ student: fbStudent });
+        return fbStudent;
+      })
+      .then((stu) => {
+        githubRequests
+          .getUser(stu.githubUsername)
+          .then((ghUser) => {
+            const { student } = this.state;
+            student.ghAvatarUrl = ghUser.avatar_url;
+            this.setState({ student });
+          });
       })
       .catch(err => console.error('error in get single student', err));
   }
@@ -133,7 +144,11 @@ class SingleStudent extends React.Component {
           {a.githubUrl ? <a target="_blank" rel="noopener noreferrer" href={a.githubUrl}><i className="fab fa-github fa-lg"></i></a> : ''}
         </th>
         <th scope="row">
-          {(!(a.status === 'done') && !(a.status === 'excused')) ? <button className="btn btn-default" onClick={() => this.excuseAssignment(a.submitAssignmentId)}><i className="fas fa-pause"></i></button> : ''}
+          {
+            (!(a.status === 'done') && !(a.status === 'excused'))
+              ? <button className="btn btn-default" onClick={() => this.excuseAssignment(a.submitAssignmentId)}><i className="fas fa-pause"></i></button>
+              : ''
+          }
         </th>
         <th scope="row">
           { a.status === 'done' ? <button className="btn btn-danger" onClick={() => this.resetAssignment(a.submitAssignmentId)}><i className="fas fa-undo"></i></button> : ''}
@@ -169,18 +184,23 @@ class SingleStudent extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="col-9">
-              <div className="col-xs-4">
-                Completed Assignments:
-                <br/> {completedAssignmentNum} / {assignments.length - excusedAssignmentNum} = {(completedAssignmentNum / (assignments.length - excusedAssignmentNum) * 100).toFixed('0')}%
+            <div className="row">
+              <div className="col-9">
+                <div className="col-xs-4">
+                  Completed Assignments:
+                  <br/> {completedAssignmentNum} / {assignments.length - excusedAssignmentNum} = {(completedAssignmentNum / (assignments.length - excusedAssignmentNum) * 100).toFixed('0')}%
+                </div>
+                <div className="col-xs-4">
+                  In Progress Assignments:
+                  <br/> {progressAssignmentNum} / {assignments.length - excusedAssignmentNum} = {(progressAssignmentNum / (assignments.length - excusedAssignmentNum) * 100).toFixed('0')}%
+                </div>
+                <div className="col-xs-4">
+                  Un-started Assignments:
+                  <br/> {freshAssignmentNum} / {assignments.length - excusedAssignmentNum} = {(freshAssignmentNum / (assignments.length - excusedAssignmentNum) * 100).toFixed('0')}%
+                </div>
               </div>
-              <div className="col-xs-4">
-                In Progress Assignments:
-                <br/> {progressAssignmentNum} / {assignments.length - excusedAssignmentNum} = {(progressAssignmentNum / (assignments.length - excusedAssignmentNum) * 100).toFixed('0')}%
-              </div>
-              <div className="col-xs-4">
-                Un-started Assignments:
-                <br/> {freshAssignmentNum} / {assignments.length - excusedAssignmentNum} = {(freshAssignmentNum / (assignments.length - excusedAssignmentNum) * 100).toFixed('0')}%
+              <div className="col-3">
+                <img className="student-image" src={student.ghAvatarUrl} alt="Github Avatar"></img>
               </div>
             </div>
           </div>
