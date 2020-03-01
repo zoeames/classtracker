@@ -1,7 +1,7 @@
 {
   "cal01": {
     "title": "Spring Break",
-    "start": "March 28, 2020 18:00:00",
+    "start": "March 30, 2020 18:00:00",
     "end": "April 05, 2020 23:00:00",
     "resourceUrl": "",
     "instructor": "",
@@ -877,29 +877,29 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to make a README.md",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-11/bootstrap"
   },
   "cal82": {
-    "title": "Milestone 1 Review",
+    "title": "Milestone 1 Review - planning",
     "start": "February 18, 2020 18:00:00",
     "end": "February 18, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "review of milestone 1",
-    "githubRepo":""
+    "description": "Project planning for Dino Kennel",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/dino-kennel"
   },
   "cal83": {
-    "title": "Exercises",
+    "title": "Milestone 1 Review - code",
     "start": "February 22, 2020 9:00:00",
     "end": "February 22, 2020 14:00:00",
     "resourceUrl": "",
-    "instructor": "",
+    "instructor": "Zoe",
     "hwUrl": "",
-    "eventType": "study",
-    "description": "Open time to work on exercises",
-    "githubRepo":""
+    "eventType": "lecture",
+    "description": "Code Dino Kennel",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/dino-kennel"
   },
   "cal84": {
     "title": "Simple ES6 Modules",
@@ -910,10 +910,10 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-11/almost-amazon"
   },
   "cal85": {
-    "title": "Jquery",
+    "title": "ES6 Modules",
     "start": "February 25, 2020 18:00:00",
     "end": "February 25, 2020 21:30:00",
     "resourceUrl": "",
@@ -921,21 +921,19 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-11/grilled-cheese"
   },
   "cal86": {
-    "title": "Exercises",
+    "title": "Jquery",
     "start": "February 29, 2020 9:00:00",
     "end": "February 29, 2020 14:00:00",
-    "resourceUrl": "",
-    "instructor": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/jquery.md",
+    "instructor": "Zoe",
     "hwUrl": "",
-    "eventType": "study",
-    "description": "Open time to work on exercises",
-    "githubRepo":""
+    "eventType": "lecture",
+    "description": "JS",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/shark-tank"
   },
-
-
   "cal87": {
     "title": "Task Runners",
     "start": "March 2, 2020 18:00:00",
@@ -962,6 +960,94 @@
     "title": "Exercises",
     "start": "March 7, 2020 9:00:00",
     "end": "March 7, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal90": {
+    "title": "Group Project",
+    "start": "March 9, 2020 9:00:00",
+    "end": "March 15, 2020 21:59:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Group Project: See Github Project",
+    "githubRepo":""
+  },
+  "cal91": {
+    "title": "Demo Group Project",
+    "start": "March 16, 2020 18:00:00",
+    "end": "March 16, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell!",
+    "githubRepo":""
+  },
+  "cal92": {
+    "title": "ERDs",
+    "start": "March 17, 2020 18:00:00",
+    "end": "March 17, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS",
+    "githubRepo":""
+  },
+  "cal93": {
+    "title": "JSON",
+    "start": "March 21, 2020 9:00:00",
+    "end": "March 21, 2020 11:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS",
+    "githubRepo":""
+  },
+  "cal94": {
+    "title": "Axios",
+    "start": "March 21, 2020 11:00:00",
+    "end": "March 21, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS",
+    "githubRepo":""
+  },
+  "cal95": {
+    "title": "Promises",
+    "start": "March 23, 2020 18:00:00",
+    "end": "March 23, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS",
+    "githubRepo":""
+  },
+  "cal96": {
+    "title": "Promises",
+    "start": "March 24, 2020 18:00:00",
+    "end": "March 24, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "JS",
+    "githubRepo":""
+  },
+  "cal97": {
+    "title": "Exercises",
+    "start": "March 28, 2020 9:00:00",
+    "end": "March 28, 2020 14:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",

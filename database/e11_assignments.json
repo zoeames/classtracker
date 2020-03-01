@@ -48,5 +48,15 @@
     "assignedNumber": 5,
     "topic": "JS",
     "notes": "Individual Assignment"
+  },
+  "assignment06": {
+    "title": "Bear Watcher",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/MODULES_bear_watcher.md",
+    "dueDate": "2020-03-03",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 6,
+    "topic": "Modules",
+    "notes": "Individual Assignment"
   }
 }
