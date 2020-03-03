@@ -58,5 +58,15 @@
     "assignedNumber": 6,
     "topic": "Modules",
     "notes": "Individual Assignment"
+  },
+  "assignment07": {
+    "title": "Tamagotchi",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/MODULES_tamagotchi.md",
+    "dueDate": "2020-03-10",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 7,
+    "topic": "Modules",
+    "notes": "Individual Assignment"
   }
 }

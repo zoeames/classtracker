@@ -938,23 +938,23 @@
     "title": "Task Runners",
     "start": "March 2, 2020 18:00:00",
     "end": "March 2, 2020 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/task-runners.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-11/webpack-intro"
   },
   "cal88": {
     "title": "SASS",
     "start": "March 3, 2020 18:00:00",
     "end": "March 3, 2020 21:30:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/sass.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-11/hogwarts"
   },
   "cal89": {
     "title": "Exercises",
