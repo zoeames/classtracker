@@ -970,7 +970,7 @@
   "cal90": {
     "title": "Group Project",
     "start": "March 9, 2020 9:00:00",
-    "end": "March 15, 2020 21:59:00",
+    "end": "March 13, 2020 21:59:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -979,6 +979,29 @@
     "githubRepo":""
   },
   "cal91": {
+    "title": "Career Talk: Resumes",
+    "start": "March 14, 2020 9:00:00",
+    "end": "March 14, 2020 10:00:00",
+    "resourceUrl": "",
+    "instructor": "Ashley",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Everything you need to know about a resume",
+    "githubRepo":"",
+    "recordings": [{"topic":"Resume Career Talk", "link":"https://zoom.us/rec/share/-PVtD7HO1VJJZ6_Oq3DxQfdmIq__aaa8hyBNq_oPzZ-2nAR1HPZKklu9BdFOnao?startTime=1584198291000"}]
+  },
+  "cal92": {
+    "title": "Group Project",
+    "start": "March 14, 2020 10:00:00",
+    "end": "March 14, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Group Project: See Github Project",
+    "githubRepo":""
+  },
+  "cal93": {
     "title": "Demo Group Project",
     "start": "March 16, 2020 18:00:00",
     "end": "March 16, 2020 21:30:00",
@@ -989,70 +1012,26 @@
     "description": "Show and tell!",
     "githubRepo":""
   },
-  "cal92": {
-    "title": "ERDs",
+  "cal94": {
+    "title": "Career Talk: LinkedIn and Networking",
     "start": "March 17, 2020 18:00:00",
+    "end": "March 17, 2020 19:00:00",
+    "resourceUrl": "",
+    "instructor": "Ashley",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Your linkedin profile and how to network.",
+    "githubRepo":""
+  },
+  "cal95": {
+    "title": "ERDs",
+    "start": "March 17, 2020 19:00:00",
     "end": "March 17, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
-    "githubRepo":""
-  },
-  "cal93": {
-    "title": "JSON",
-    "start": "March 21, 2020 9:00:00",
-    "end": "March 21, 2020 11:00:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "JS",
-    "githubRepo":""
-  },
-  "cal94": {
-    "title": "Axios",
-    "start": "March 21, 2020 11:00:00",
-    "end": "March 21, 2020 14:00:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "JS",
-    "githubRepo":""
-  },
-  "cal95": {
-    "title": "Promises",
-    "start": "March 23, 2020 18:00:00",
-    "end": "March 23, 2020 21:30:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "JS",
-    "githubRepo":""
-  },
-  "cal96": {
-    "title": "Promises",
-    "start": "March 24, 2020 18:00:00",
-    "end": "March 24, 2020 21:30:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "JS",
-    "githubRepo":""
-  },
-  "cal97": {
-    "title": "Exercises",
-    "start": "March 28, 2020 9:00:00",
-    "end": "March 28, 2020 14:00:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "",
-    "eventType": "study",
-    "description": "Open time to work on exercises",
     "githubRepo":""
   }
 }
