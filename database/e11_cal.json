@@ -902,8 +902,19 @@
     "githubRepo":"https://github.com/nss-evening-cohort-11/dino-kennel"
   },
   "cal84": {
-    "title": "Simple ES6 Modules",
+    "title": "Career Talk: What to Expect",
     "start": "February 24, 2020 18:00:00",
+    "end": "February 24, 2020 19:00:00",
+    "resourceUrl": "",
+    "instructor": "Kristin",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Everything you need to know about the Career Development team.",
+    "githubRepo":""
+  },
+  "cal85": {
+    "title": "Simple ES6 Modules",
+    "start": "February 24, 2020 19:00:00",
     "end": "February 24, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
@@ -912,7 +923,7 @@
     "description": "JS",
     "githubRepo":"https://github.com/nss-evening-cohort-11/almost-amazon"
   },
-  "cal85": {
+  "cal86": {
     "title": "ES6 Modules",
     "start": "February 25, 2020 18:00:00",
     "end": "February 25, 2020 21:30:00",
@@ -923,7 +934,7 @@
     "description": "JS",
     "githubRepo":"https://github.com/nss-evening-cohort-11/grilled-cheese"
   },
-  "cal86": {
+  "cal87": {
     "title": "Jquery",
     "start": "February 29, 2020 9:00:00",
     "end": "February 29, 2020 14:00:00",
@@ -934,7 +945,7 @@
     "description": "JS",
     "githubRepo":"https://github.com/nss-evening-cohort-11/shark-tank"
   },
-  "cal87": {
+  "cal88": {
     "title": "Task Runners",
     "start": "March 2, 2020 18:00:00",
     "end": "March 2, 2020 21:30:00",
@@ -945,7 +956,7 @@
     "description": "JS",
     "githubRepo":"https://github.com/nss-evening-cohort-11/webpack-intro"
   },
-  "cal88": {
+  "cal89": {
     "title": "SASS",
     "start": "March 3, 2020 18:00:00",
     "end": "March 3, 2020 21:30:00",
@@ -956,7 +967,7 @@
     "description": "JS",
     "githubRepo":"https://github.com/nss-evening-cohort-11/hogwarts"
   },
-  "cal89": {
+  "cal90": {
     "title": "Exercises",
     "start": "March 7, 2020 9:00:00",
     "end": "March 7, 2020 14:00:00",
@@ -967,7 +978,7 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal90": {
+  "cal91": {
     "title": "Group Project",
     "start": "March 9, 2020 9:00:00",
     "end": "March 13, 2020 21:59:00",
@@ -978,7 +989,7 @@
     "description": "Group Project: See Github Project",
     "githubRepo":""
   },
-  "cal91": {
+  "cal92": {
     "title": "Career Talk: Resumes",
     "start": "March 14, 2020 9:00:00",
     "end": "March 14, 2020 10:00:00",
@@ -990,7 +1001,7 @@
     "githubRepo":"",
     "recordings": [{"topic":"Resume Career Talk", "link":"https://zoom.us/rec/share/-PVtD7HO1VJJZ6_Oq3DxQfdmIq__aaa8hyBNq_oPzZ-2nAR1HPZKklu9BdFOnao?startTime=1584198291000"}]
   },
-  "cal92": {
+  "cal93": {
     "title": "Group Project",
     "start": "March 14, 2020 10:00:00",
     "end": "March 14, 2020 14:00:00",
@@ -1001,7 +1012,7 @@
     "description": "Group Project: See Github Project",
     "githubRepo":""
   },
-  "cal93": {
+  "cal94": {
     "title": "Demo Group Project",
     "start": "March 16, 2020 18:00:00",
     "end": "March 16, 2020 21:30:00",
@@ -1012,7 +1023,7 @@
     "description": "Show and tell!",
     "githubRepo":""
   },
-  "cal94": {
+  "cal95": {
     "title": "Career Talk: LinkedIn and Networking",
     "start": "March 17, 2020 18:00:00",
     "end": "March 17, 2020 19:00:00",
@@ -1023,7 +1034,7 @@
     "description": "Your linkedin profile and how to network.",
     "githubRepo":""
   },
-  "cal95": {
+  "cal96": {
     "title": "ERDs",
     "start": "March 17, 2020 19:00:00",
     "end": "March 17, 2020 21:30:00",
@@ -1032,6 +1043,94 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
+    "githubRepo":""
+  },
+  "cal97": {
+    "title": "Intro to Firebase",
+    "start": "March 21, 2020 9:00:00",
+    "end": "March 21, 2020 10:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Firebase console",
+    "githubRepo":""
+  },
+  "cal98": {
+    "title": "Firebase Authentication",
+    "start": "March 21, 2020 10:00:00",
+    "end": "March 21, 2020 14:00:00",
+    "resourceUrl": "https://firebase.google.com/docs/auth/web/google-signin",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Login/logout",
+    "githubRepo":""
+  },
+  "cal99": {
+    "title": "JSON",
+    "start": "March 23, 2020 19:00:00",
+    "end": "March 23, 2020 19:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "how to write JSON data",
+    "githubRepo":""
+  },
+  "cal100": {
+    "title": "Axios",
+    "start": "March 23, 2020 19:30:00",
+    "end": "March 23, 2020 20:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Using Axios to get your data",
+    "githubRepo":""
+  },
+  "cal101": {
+    "title": "Promises",
+    "start": "March 23, 2020 20:30:00",
+    "end": "March 23, 2020 21:30:00",
+    "resourceUrl": "https://fullstackjournal.wordpress.com/2018/07/06/the-promise-js-explained-i-burger-party/",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "The gold standard of Asynchronous JS",
+    "githubRepo":""
+  },
+  "cal102": {
+    "title": "Firebase READ",
+    "start": "March 24, 2020 19:00:00",
+    "end": "March 24, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "READ",
+    "githubRepo":""
+  },
+  "cal103": {
+    "title": "Firebase DELETE",
+    "start": "March 28, 2020 9:00:00",
+    "end": "March 28, 2020 10:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "DELETE",
+    "githubRepo":""
+  },
+  "cal104": {
+    "title": "Exercises",
+    "start": "March 28, 2020 10:00:00",
+    "end": "March 28, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
     "githubRepo":""
   }
 }
