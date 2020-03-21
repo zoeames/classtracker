@@ -1060,31 +1060,31 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Login/logout",
-    "githubRepo":"",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows",
     "recordings": [{"topic":"Firebase Auth", "link":"https://zoom.us/rec/share/3OErHrCo6lJLQc-S2H2cdaQoF4rXeaa8hCUX-aBcnhw93NcQRTKsI8SsDJH24eLm?startTime=1584802233000"}]
   },
   "cal98": {
     "title": "JSON",
     "start": "March 21, 2020 12:00:00",
     "end": "March 21, 2020 13:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://jsonlint.com/",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "how to write JSON data",
-    "githubRepo":"",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows",
     "recordings": [{"topic":"JSON", "link":"https://zoom.us/rec/share/3OErHrCo6lJLQc-S2H2cdaQoF4rXeaa8hCUX-aBcnhw93NcQRTKsI8SsDJH24eLm?startTime=1584810138000"}]
   },
   "cal99": {
     "title": "Axios",
     "start": "March 21, 2020 13:00:00",
     "end": "March 21, 2020 14:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://github.com/axios/axios",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Using Axios to get your data",
-    "githubRepo":"",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows",
     "recordings": [{"topic":"Axios", "link":"https://zoom.us/rec/share/3OErHrCo6lJLQc-S2H2cdaQoF4rXeaa8hCUX-aBcnhw93NcQRTKsI8SsDJH24eLm?startTime=1584813026000"}]
   },
   "cal100": {
@@ -1096,7 +1096,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "The gold standard of Asynchronous JS",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows"
   },
   "cal101": {
     "title": "Firebase READ",
@@ -1107,7 +1107,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "READ",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows"
   },
   "cal102": {
     "title": "Firebase DELETE",
@@ -1118,7 +1118,7 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "DELETE",
-    "githubRepo":""
+    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows"
   },
   "cal103": {
     "title": "Exercises",
