@@ -68,5 +68,85 @@
     "assignedNumber": 7,
     "topic": "Modules",
     "notes": "Individual Assignment"
+  },
+  "assignment08": {
+    "title": "Personal Bio Site 2",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-02.md",
+    "dueDate": "2020-03-24",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 8,
+    "topic": "JS",
+    "notes": "Individual Assignment"
+  },
+  "assignment09": {
+    "title": "Pinterst: Part 1",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/FIREBASE_pinterest.md",
+    "dueDate": "2020-03-28",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 9,
+    "topic": "Firebase Auth",
+    "notes": "no readme required for submission"
+  },
+  "assignment10": {
+    "title": "Pinterst: Part 2",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/FIREBASE_pinterest.md",
+    "dueDate": "2020-04-06",
+    "isAssigned": "false",
+    "isGithub": "true",
+    "assignedNumber": 10,
+    "topic": "Firebase READ",
+    "notes": "no readme required for submission"
+  },
+  "assignment11": {
+    "title": "Pinterst: Part 3",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/FIREBASE_pinterest.md",
+    "dueDate": "2020-04-06",
+    "isAssigned": "false",
+    "isGithub": "true",
+    "assignedNumber": 11,
+    "topic": "Firebase DELETE",
+    "notes": "no readme required for submission"
+  },
+  "assignment12": {
+    "title": "Personal Bio Site 3",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-03.md",
+    "dueDate": "2020-04-06",
+    "isAssigned": "false",
+    "isGithub": "true",
+    "assignedNumber": 12,
+    "topic": "Firebase",
+    "notes": "Individual Assignment"
+  },
+  "assignment13": {
+    "title": "Pinterst: Part 4",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/FIREBASE_pinterest.md",
+    "dueDate": "2020-04-14",
+    "isAssigned": "false",
+    "isGithub": "true",
+    "assignedNumber": 13,
+    "topic": "Firebase CREATE",
+    "notes": "no readme required for submission"
+  },
+  "assignment14": {
+    "title": "Pinterst: Part 5",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/FIREBASE_pinterest.md",
+    "dueDate": "2020-04-14",
+    "isAssigned": "false",
+    "isGithub": "true",
+    "assignedNumber": 14,
+    "topic": "Firebase UPDATE",
+    "notes": "no readme required for submission"
+  },
+  "assignment15": {
+    "title": "Pinterst: Part 6",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/FIREBASE_pinterest.md",
+    "dueDate": "2020-04-14",
+    "isAssigned": "false",
+    "isGithub": "true",
+    "assignedNumber": 15,
+    "topic": "Firebase Deploy & README",
+    "notes": ""
   }
 }

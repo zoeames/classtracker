@@ -905,7 +905,7 @@
     "title": "Career Talk: What to Expect",
     "start": "February 24, 2020 18:00:00",
     "end": "February 24, 2020 19:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://drive.google.com/file/d/1QPyLRBj50A1889VSb73QFOCEkGeIRxlk/view?usp=sharing",
     "instructor": "Kristin",
     "hwUrl": "",
     "eventType": "lecture",
@@ -993,7 +993,7 @@
     "title": "Career Talk: Resumes",
     "start": "March 14, 2020 9:00:00",
     "end": "March 14, 2020 10:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://drive.google.com/file/d/1bvxOtkbcl3sM9-FzOPLROTfz6zVDHsay/view?usp=sharing",
     "instructor": "Ashley",
     "hwUrl": "",
     "eventType": "lecture",
@@ -1027,12 +1027,13 @@
     "title": "Career Talk: LinkedIn and Networking",
     "start": "March 17, 2020 18:00:00",
     "end": "March 17, 2020 19:00:00",
-    "resourceUrl": "",
+    "resourceUrl": "https://drive.google.com/file/d/18YR5Xo5wTeMjF-jaXIop2XjL1cK7CHo_/view?usp=sharing",
     "instructor": "Ashley",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Your linkedin profile and how to network.",
-    "githubRepo":""
+    "githubRepo":"",
+    "recordings": [{"topic":"Linkedin Career Talk", "link":"https://zoom.us/rec/share/5eVYP7ParXpLaJHp7m2HZ5UrNLa-aaa81nIdqKZZyB3lS9lKf-kAI8IISZxG6MBf?startTime=1584486309000"}]
   },
   "cal96": {
     "title": "ERDs",
@@ -1043,56 +1044,53 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "JS",
-    "githubRepo":""
+    "githubRepo":"",
+    "recordings": [
+      {"topic":"Intro to ERDs", "link":"https://zoom.us/rec/share/5eVYP7ParXpLaJHp7m2HZ5UrNLa-aaa81nIdqKZZyB3lS9lKf-kAI8IISZxG6MBf?startTime=1584489488000"},
+      {"topic":"ERD Classtracker example", "link":"https://zoom.us/rec/share/5eVYP7ParXpLaJHp7m2HZ5UrNLa-aaa81nIdqKZZyB3lS9lKf-kAI8IISZxG6MBf?startTime=1584494017000"},
+      {"topic":"ERD Panera example", "link":"https://zoom.us/rec/share/5eVYP7ParXpLaJHp7m2HZ5UrNLa-aaa81nIdqKZZyB3lS9lKf-kAI8IISZxG6MBf?startTime=1584498216000"}
+    ]
   },
   "cal97": {
-    "title": "Intro to Firebase",
+    "title": "Intro to Firebase & Firebase Authentication",
     "start": "March 21, 2020 9:00:00",
-    "end": "March 21, 2020 10:00:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "Firebase console",
-    "githubRepo":""
-  },
-  "cal98": {
-    "title": "Firebase Authentication",
-    "start": "March 21, 2020 10:00:00",
-    "end": "March 21, 2020 14:00:00",
+    "end": "March 21, 2020 12:00:00",
     "resourceUrl": "https://firebase.google.com/docs/auth/web/google-signin",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Login/logout",
-    "githubRepo":""
+    "githubRepo":"",
+    "recordings": [{"topic":"Firebase Auth", "link":"https://zoom.us/rec/share/3OErHrCo6lJLQc-S2H2cdaQoF4rXeaa8hCUX-aBcnhw93NcQRTKsI8SsDJH24eLm?startTime=1584802233000"}]
   },
-  "cal99": {
+  "cal98": {
     "title": "JSON",
-    "start": "March 23, 2020 19:00:00",
-    "end": "March 23, 2020 19:30:00",
+    "start": "March 21, 2020 12:00:00",
+    "end": "March 21, 2020 13:00:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "how to write JSON data",
-    "githubRepo":""
+    "githubRepo":"",
+    "recordings": [{"topic":"JSON", "link":"https://zoom.us/rec/share/3OErHrCo6lJLQc-S2H2cdaQoF4rXeaa8hCUX-aBcnhw93NcQRTKsI8SsDJH24eLm?startTime=1584810138000"}]
   },
-  "cal100": {
+  "cal99": {
     "title": "Axios",
-    "start": "March 23, 2020 19:30:00",
-    "end": "March 23, 2020 20:30:00",
+    "start": "March 21, 2020 13:00:00",
+    "end": "March 21, 2020 14:00:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Using Axios to get your data",
-    "githubRepo":""
+    "githubRepo":"",
+    "recordings": [{"topic":"Axios", "link":"https://zoom.us/rec/share/3OErHrCo6lJLQc-S2H2cdaQoF4rXeaa8hCUX-aBcnhw93NcQRTKsI8SsDJH24eLm?startTime=1584813026000"}]
   },
-  "cal101": {
+  "cal100": {
     "title": "Promises",
-    "start": "March 23, 2020 20:30:00",
-    "end": "March 23, 2020 21:30:00",
+    "start": "March 23, 2020 18:00:00",
+    "end": "March 23, 2020 19:30:00",
     "resourceUrl": "https://fullstackjournal.wordpress.com/2018/07/06/the-promise-js-explained-i-burger-party/",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -1100,10 +1098,10 @@
     "description": "The gold standard of Asynchronous JS",
     "githubRepo":""
   },
-  "cal102": {
+  "cal101": {
     "title": "Firebase READ",
-    "start": "March 24, 2020 19:00:00",
-    "end": "March 24, 2020 21:30:00",
+    "start": "March 23, 2020 19:30:00",
+    "end": "March 23, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -1111,10 +1109,10 @@
     "description": "READ",
     "githubRepo":""
   },
-  "cal103": {
+  "cal102": {
     "title": "Firebase DELETE",
-    "start": "March 28, 2020 9:00:00",
-    "end": "March 28, 2020 10:00:00",
+    "start": "March 24, 2020 18:00:00",
+    "end": "March 24, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
@@ -1122,9 +1120,9 @@
     "description": "DELETE",
     "githubRepo":""
   },
-  "cal104": {
+  "cal103": {
     "title": "Exercises",
-    "start": "March 28, 2020 10:00:00",
+    "start": "March 28, 2020 9:00:00",
     "end": "March 28, 2020 14:00:00",
     "resourceUrl": "",
     "instructor": "",
