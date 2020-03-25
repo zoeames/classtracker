@@ -1096,7 +1096,8 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "The gold standard of Asynchronous JS",
-    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows"
+    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows",
+    "recordings": [{"topic":"Promises (READ on cows)", "link":"https://zoom.us/rec/share/3Mp8FIj93H5JTYXtq0PuX_d9IMPAT6a82nUZqPAEz0lM44voWZOLnRp1amIEUI1P?startTime=1585006383000"}]
   },
   "cal101": {
     "title": "Firebase READ",
@@ -1107,20 +1108,38 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "READ",
-    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows"
+    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows",
+    "recordings": [
+      {"topic":"READ on farmers", "link":"https://zoom.us/rec/share/3Mp8FIj93H5JTYXtq0PuX_d9IMPAT6a82nUZqPAEz0lM44voWZOLnRp1amIEUI1P?startTime=1585013482000"},
+      {"topic":"Single Farmer view (events)", "link":"https://zoom.us/rec/share/3Mp8FIj93H5JTYXtq0PuX_d9IMPAT6a82nUZqPAEz0lM44voWZOLnRp1amIEUI1P?startTime=1585014677000"},
+      {"topic":"SMASHing", "link":"https://zoom.us/rec/share/4cl3DvLW-HxJGaPi50GcGb8eP6u1aaa82iIb__ZeyhpbeDuorapqqrfd6dtO_sUW?startTime=1585091825000"}
+    ]
   },
   "cal102": {
     "title": "Firebase DELETE",
     "start": "March 24, 2020 18:00:00",
-    "end": "March 24, 2020 21:30:00",
+    "end": "March 24, 2020 20:00:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "DELETE",
-    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows"
+    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows",
+    "recordings": [{"topic":"firebase DELETE", "link":"https://zoom.us/rec/share/4cl3DvLW-HxJGaPi50GcGb8eP6u1aaa82iIb__ZeyhpbeDuorapqqrfd6dtO_sUW?startTime=1585098173000"}]
   },
   "cal103": {
+    "title": "Firebase Deploy",
+    "start": "March 24, 2020 20:00:00",
+    "end": "March 24, 2020 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/firebase-deploy.md",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Deployment",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows",
+    "recordings": [{"topic":"Firebase Deploy", "link":"https://zoom.us/rec/share/4cl3DvLW-HxJGaPi50GcGb8eP6u1aaa82iIb__ZeyhpbeDuorapqqrfd6dtO_sUW?startTime=1585100595000"}]
+  },
+  "cal104": {
     "title": "Exercises",
     "start": "March 28, 2020 9:00:00",
     "end": "March 28, 2020 14:00:00",
