@@ -11,6 +11,7 @@ class GoodStudent extends React.Component {
     pushEvents: [],
     todaysCommits: 0,
     yesterdaysCommits: 0,
+    userAvatarUrl: '',
   }
 
   componentDidMount() {
@@ -35,6 +36,13 @@ class GoodStudent extends React.Component {
               }
             }
           });
+
+          githubRequests
+            .getUser(username)
+            .then((ghubUser) => {
+              this.setState({ userAvatarUrl: ghubUser.avatar_url });
+            });
+
           this.setState({
             pullRequests,
             pushEvents,
@@ -55,7 +63,9 @@ class GoodStudent extends React.Component {
 
   render() {
     const { student } = this.props;
-    const { pullRequests, todaysCommits, yesterdaysCommits } = this.state;
+    const {
+      pullRequests, todaysCommits, yesterdaysCommits, userAvatarUrl,
+    } = this.state;
     const githubLink = `https://github.com/${student.githubUsername}`;
     const lastPr = () => {
       if (pullRequests[0]) {
@@ -70,6 +80,11 @@ class GoodStudent extends React.Component {
             {student.firstName} {student.lastName}
           </div>
           <div className="card-body">
+            <div className="row justify-content-md-center">
+              <div className="col-md-auto">
+                <img className="student-image" src={userAvatarUrl} alt="Github User Avatar"></img>
+              </div>
+            </div>
             <div className="row justify-content-md-center">
               <div className="col-md-auto">
                 <a className="github-link" href={githubLink} target="_blank" rel="noopener noreferrer">

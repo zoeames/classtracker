@@ -30,6 +30,7 @@ class ClassCalendar extends React.Component {
             instructor: event.instructor,
             resourceUrl: event.resourceUrl,
             title: event.title,
+            recordings: event.recordings || '',
           };
           newEvent.start = new Date(event.start);
           newEvent.end = new Date(event.end);
@@ -160,6 +161,19 @@ class ClassCalendar extends React.Component {
               ) : (
                 ''
               )}
+              {event.recordings && event.recordings.length > 0 ? (
+                <div class="recordings">
+                  <strong>Recording(s):</strong>
+                    {event.recordings.map((r, i) => (
+                      <a key={`recording${i}`} href={r.link} class="btn btn-outline-dark col-md-6 offset-md-3" target="_blank" rel="noopener noreferrer">
+                        {r.topic}
+                      </a>
+                    ))}
+                </div>
+              ) : (
+                ''
+              )}
+
             </div>
           </div>
         </div>

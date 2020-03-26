@@ -1,0 +1,152 @@
+{
+  "assignment01": {
+    "title": "Prework",
+    "URL": "https://github.com/nss-nightclass-projects/prework",
+    "dueDate": "2020-01-13",
+    "isAssigned": "true",
+    "isGithub": "false",
+    "assignedNumber": 1,
+    "topic": "prework",
+    "notes": ""
+  },
+  "assignment02": {
+    "title": "Product Cards",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/HTML_CSS_product_cards.md",
+    "dueDate": "2020-01-21",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 2,
+    "topic": "HTML/CSS",
+    "notes": "Studygroup Assignment"
+  },
+  "assignment03": {
+    "title": "Pet Adoption",
+    "URL": "https://github.com/nss-nightclass-projects/pet-adoption",
+    "dueDate": "2020-01-28",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 3,
+    "topic": "JS",
+    "notes": "Studygroup Assignment"
+  },
+  "assignment04": {
+    "title": "Personal Bio Site 1",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-01.md",
+    "dueDate": "2020-01-28",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 4,
+    "topic": "JS",
+    "notes": "Individual Assignment"
+  },
+  "assignment05": {
+    "title": "Sorting Hat",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/EVENTS_sorting_hat.md",
+    "dueDate": "2020-02-04",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 5,
+    "topic": "JS",
+    "notes": "Individual Assignment"
+  },
+  "assignment06": {
+    "title": "Bear Watcher",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/MODULES_bear_watcher.md",
+    "dueDate": "2020-03-03",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 6,
+    "topic": "Modules",
+    "notes": "Individual Assignment"
+  },
+  "assignment07": {
+    "title": "Tamagotchi",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/MODULES_tamagotchi.md",
+    "dueDate": "2020-03-10",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 7,
+    "topic": "Modules",
+    "notes": "Individual Assignment"
+  },
+  "assignment08": {
+    "title": "Personal Bio Site 2",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-02.md",
+    "dueDate": "2020-03-24",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 8,
+    "topic": "JS",
+    "notes": "Individual Assignment"
+  },
+  "assignment09": {
+    "title": "Pinterest: Part 1",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/FIREBASE_pinterest.md",
+    "dueDate": "2020-03-28",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 9,
+    "topic": "Firebase Auth",
+    "notes": "no readme required for submission"
+  },
+  "assignment10": {
+    "title": "Pinterest: Part 2",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/FIREBASE_pinterest.md",
+    "dueDate": "2020-04-06",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 10,
+    "topic": "Firebase READ",
+    "notes": "no readme required for submission"
+  },
+  "assignment11": {
+    "title": "Pinterest: Part 3",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/FIREBASE_pinterest.md",
+    "dueDate": "2020-04-06",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 11,
+    "topic": "Firebase DELETE",
+    "notes": "no readme required for submission"
+  },
+  "assignment12": {
+    "title": "Personal Bio Site 3",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-03.md",
+    "dueDate": "2020-04-06",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 12,
+    "topic": "Firebase",
+    "notes": "Individual Assignment"
+  },
+  "assignment13": {
+    "title": "Pinterest: Part 4",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/FIREBASE_pinterest.md",
+    "dueDate": "2020-04-14",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 13,
+    "topic": "Firebase CREATE",
+    "notes": "no readme required for submission"
+  },
+  "assignment14": {
+    "title": "Pinterest: Part 5",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/FIREBASE_pinterest.md",
+    "dueDate": "2020-04-14",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 14,
+    "topic": "Firebase UPDATE",
+    "notes": "no readme required for submission"
+  },
+  "assignment15": {
+    "title": "Pinterest: Part 6",
+    "URL": "https://github.com/nss-nightclass-projects/exercise-vault/blob/master/FIREBASE_pinterest.md",
+    "dueDate": "2020-04-14",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 15,
+    "topic": "Firebase Deploy & README",
+    "notes": ""
+  }
+}
