@@ -368,6 +368,24 @@
     "treehouse": "",
     "uid": ""
   },
+  "student26": {
+    "biosite": "inst",
+    "caPercentage": 0,
+    "codeAcademy": "https://www.codecademy.com/profiles/",
+    "email": "",
+    "fccPercentage": 0,
+    "firstName": "Matt",
+    "freeCodeCamp": "https://www.freecodecamp.org/",
+    "githubUsername": "",
+    "isStudent": true,
+    "lastName": "Logan",
+    "notes": "",
+    "preworkComplete": false,
+    "replCount": 0,
+    "replIt": "https://repl.it/",
+    "treehouse": "",
+    "uid": ""
+  },
   "student3": {
     "biosite": "inst",
     "caPercentage": 71,
