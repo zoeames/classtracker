@@ -16,8 +16,10 @@ class BadStudentTable extends React.Component {
             <thead>
               <tr className="bg-primary">
                 <th className="text-center">Name</th>
-                <th className="text-center">Links</th>
-                <th className="text-center">Treehouse Status</th>
+                <th className="text-center">GitHub</th>
+                <th className="text-center">FreeCodeCamp</th>
+                <th className="text-center">CodeCademy</th>
+                <th className="text-center">ReplIt</th>
               </tr>
             </thead>
             <tbody>{studentRows}</tbody>
