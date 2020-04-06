@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 import React from 'react';
 
 import studentRequests from '../../../helpers/data/studentRequests';
@@ -11,7 +13,7 @@ class Students extends React.Component {
   state = {
     badStudents: [],
     goodStudents: [],
-  }
+  };
 
   componentDidMount() {
     studentRequests
@@ -26,35 +28,33 @@ class Students extends React.Component {
             tempBadStudents.push(student);
           }
         });
-        tempGoodStudents.sort((a, b) => {
-          if (a.firstName < b.firstName) return -1;
-          if (a.firstName > b.firstName) return 1;
-          return 0;
-        });
 
-        tempBadStudents.sort((a, b) => {
-          if (a.firstName < b.firstName) return -1;
-          if (a.firstName > b.firstName) return 1;
-          return 0;
+        this.setState({
+          badStudents: _.sortBy(tempBadStudents, 'firstName'),
+          goodStudents: _.sortBy(tempGoodStudents, 'firstName'),
         });
-
-        this.setState({ badStudents: tempBadStudents, goodStudents: tempGoodStudents });
       })
       .catch(err => console.error('error with get students request', err));
   }
 
+  onSort = (event, sortKey, shouldReverse) => {
+    const badStudents = _.sortBy(this.state.badStudents, sortKey);
+    if (shouldReverse) badStudents.reverse();
+    this.setState({ badStudents });
+  }
+
   render() {
     const badStudentComponents = (
-      <BadStudentTable students={this.state.badStudents}/>
+      <BadStudentTable students={this.state.badStudents} sortie={this.onSort} />
     );
-    const goodStudentComponents = this.state.goodStudents.map(student => <GoodStudent key={student.id} student={student} />);
+    const goodStudentComponents = this.state.goodStudents.map(student => (
+      <GoodStudent key={student.id} student={student} />
+    ));
     return (
       <div className="Students">
         <h1>Students</h1>
         {badStudentComponents}
-        <div className="d-flex flex-wrap">
-          {goodStudentComponents}
-        </div>
+        <div className="d-flex flex-wrap">{goodStudentComponents}</div>
       </div>
     );
   }

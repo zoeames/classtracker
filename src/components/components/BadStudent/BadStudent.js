@@ -3,7 +3,7 @@ import React from 'react';
 
 import './BadStudent.scss';
 
-class BadStudentTable extends React.Component {
+class BadStudent extends React.Component {
   state = {
     student: {},
     treehousePoints: '',
@@ -51,4 +51,4 @@ class BadStudentTable extends React.Component {
   }
 }
 
-export default BadStudentTable;
+export default BadStudent;
