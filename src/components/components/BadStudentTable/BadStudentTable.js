@@ -6,6 +6,7 @@ import './BadStudentTable.scss';
 
 class BadStudentTable extends React.Component {
   state = {
+    activeSort: 'lastName',
     sorts: {
       lastName: true,
       githubUsername: false,
@@ -25,19 +26,13 @@ class BadStudentTable extends React.Component {
       }
     });
 
-    this.setState({ sorts: { [sortKey]: !this.state.sorts[sortKey] } });
+    this.setState({ sorts: { [sortKey]: !this.state.sorts[sortKey] }, activeSort: sortKey });
     sortie(event, sortKey, this.state.sorts[sortKey]);
   }
 
   render() {
     const { students } = this.props;
-    const {
-      lastName,
-      githubUsername,
-      fccPercentage,
-      caPercentage,
-      replCount,
-    } = this.state.sorts;
+    const { activeSort } = this.state;
 
     const studentRows = students.map(student => (
       <BadStudent key={student.id} student={student} />
@@ -48,11 +43,11 @@ class BadStudentTable extends React.Component {
           <table className="table table-striped table-hover border border-primary">
             <thead>
               <tr className="bg-primary bad-student__header">
-                <th onClick={e => this.onSortEvent(e, 'lastName')} className={`text-center ${lastName ? 'selected' : ''}` }>Name</th>
-                <th onClick={e => this.onSortEvent(e, 'githubUsername')} className={`text-center ${githubUsername ? 'selected' : ''}` }>GitHub</th>
-                <th onClick={e => this.onSortEvent(e, 'fccPercentage')} className={`text-center ${fccPercentage ? 'selected' : ''}` }>FreeCodeCamp</th>
-                <th onClick={e => this.onSortEvent(e, 'caPercentage')} className={`text-center ${caPercentage ? 'selected' : ''}` }>CodeCademy</th>
-                <th onClick={e => this.onSortEvent(e, 'replCount')} className={`text-center ${replCount ? 'selected' : ''}` }>ReplIt</th>
+                <th onClick={e => this.onSortEvent(e, 'lastName')} className={`text-center ${(activeSort === 'lastName') ? 'selected' : ''}` }>Name</th>
+                <th onClick={e => this.onSortEvent(e, 'githubUsername')} className={`text-center ${(activeSort === 'githubUsername') ? 'selected' : ''}` }>GitHub</th>
+                <th onClick={e => this.onSortEvent(e, 'fccPercentage')} className={`text-center ${(activeSort === 'fccPercentage') ? 'selected' : ''}` }>FreeCodeCamp</th>
+                <th onClick={e => this.onSortEvent(e, 'caPercentage')} className={`text-center ${(activeSort === 'caPercentage') ? 'selected' : ''}` }>CodeCademy</th>
+                <th onClick={e => this.onSortEvent(e, 'replCount')} className={`text-center ${(activeSort === 'replCount') ? 'selected' : ''}` }>ReplIt</th>
               </tr>
             </thead>
             <tbody>{studentRows}</tbody>
