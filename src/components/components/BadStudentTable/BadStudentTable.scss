@@ -3,4 +3,14 @@
   .table {
     border-width: 3px !important;
   }
+
+  .bad-student__header {
+    th {
+      cursor: pointer;
+    }
+
+    .selected {
+      background-color: cornflowerblue;
+    }
+  }
 }
