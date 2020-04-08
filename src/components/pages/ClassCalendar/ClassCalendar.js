@@ -162,10 +162,10 @@ class ClassCalendar extends React.Component {
                 ''
               )}
               {event.recordings && event.recordings.length > 0 ? (
-                <div class="recordings">
+                <div className="recordings">
                   <strong>Recording(s):</strong>
                     {event.recordings.map((r, i) => (
-                      <a key={`recording${i}`} href={r.link} class="btn btn-outline-dark col-md-6 offset-md-3" target="_blank" rel="noopener noreferrer">
+                      <a key={`recording${i}`} href={r.link} className="btn btn-outline-dark col-md-6 offset-md-3" target="_blank" rel="noopener noreferrer">
                         {r.topic}
                       </a>
                     ))}
