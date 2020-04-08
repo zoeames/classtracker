@@ -11,9 +11,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - uses: bahmutov/npm-install@v1
+    - run: npm t
     
     - name: Build Deps
-      run: npm i && npm run build 
+      run: npm run build
 
     - name: Firebase GitHub Action
       uses: pizzafox/firebase-action@1.0.7
