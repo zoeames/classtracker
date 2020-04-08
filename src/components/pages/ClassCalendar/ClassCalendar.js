@@ -185,7 +185,7 @@ class ClassCalendar extends React.Component {
         <div className="cal-holder">
           <Calendar
             localizer={localizer}
-            selectable
+            selectable={'ignoreEvents'}
             events={this.state.events}
             step={60}
             defaultView="week"
@@ -193,7 +193,7 @@ class ClassCalendar extends React.Component {
             min = {minTime}
             max = {maxTime}
             eventPropGetter={this.eventStyleGetter}
-            onSelectSlot={this.selectDate}
+            onSelectEvent={this.selectDate}
           />
         </div>
         <div className="d-flex flex-wrap">{displaySelectedEvents}</div>
