@@ -625,7 +625,8 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Your new best friend",
-    "githubRepo": ""
+    "githubRepo": "",
+    "recordings": [{"topic":"VS Code + CLI", "link":"https://zoom.us/rec/share/-5V5JaCt23FObonV6ED6QoMrIqbOX6a8hCEb_qcIyUo9kgAjXotwa-MaKorw9CuQ"}]
   },
   "cal60": {
     "title": "Command Line",
@@ -636,7 +637,8 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "How to use the command line",
-    "githubRepo": ""
+    "githubRepo": "",
+    "recordings": [{"topic":"VS Code + CLI", "link":"https://zoom.us/rec/share/-5V5JaCt23FObonV6ED6QoMrIqbOX6a8hCEb_qcIyUo9kgAjXotwa-MaKorw9CuQ"}]
   },
   "cal61": {
     "title": "Github Setup",
