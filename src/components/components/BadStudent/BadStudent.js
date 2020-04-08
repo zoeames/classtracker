@@ -35,13 +35,13 @@ class BadStudent extends React.Component {
         </td>
         <td className="col-xs-3">
           {student.codeAcademy
-            ? (<><p>{student.caPercentage}%</p><a className="logo" href={student.codeAcademy} target="_blank" rel="noopener noreferrer" style={{ color: '#141C3A' }}><i className="far fa-brackets fa-2x"></i></a></>)
+            ? (<><p>{student.caPercentage}%</p><a className="logo" href={student.codeAcademy} target="_blank" rel="noopener noreferrer" style={{ color: '#141C3A' }}><i className="fas fa-chalkboard-teacher fa-2x"></i></a></>)
             : ''
           }
         </td>
         <td className="col-xs-3">
           {student.replIt
-            ? (<><p>{student.replCount}</p><a className="logo" href={student.replIt} target="_blank" rel="noopener noreferrer" style={{ color: '#697D85' }}><i className="far fa-galaxy fa-2x"></i></a></>)
+            ? (<><p>{student.replCount}</p><a className="logo" href={student.replIt} target="_blank" rel="noopener noreferrer" style={{ color: '#697D85' }}><i className="fas fa-code fa-2x"></i></a></>)
             : ''
           }
         </td>
