@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: bahmutov/npm-install@v1
-    - run: npm t
+    - run: npm i
     
     - name: Build Deps
       run: npm run build
