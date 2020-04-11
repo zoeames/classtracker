@@ -26,6 +26,8 @@
   }
 
   .recordings {
+    border: 2px solid $cal-purple;
+    border-radius: 5px;
     & > *{
       display: block;
     }
