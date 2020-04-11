@@ -165,9 +165,12 @@ class ClassCalendar extends React.Component {
                 <div className="recordings">
                   <strong>Recording(s):</strong>
                     {event.recordings.map((r, i) => (
-                      <a key={`recording${i}`} href={r.link} className="btn btn-outline-dark col-md-6 offset-md-3" target="_blank" rel="noopener noreferrer">
-                        {r.topic}
-                      </a>
+                      <span>
+                        <a key={`recording${i}`} href={r.link} className="btn btn-outline-dark col-md-6" target="_blank" rel="noopener noreferrer">
+                          {r.topic}
+                        </a>
+                        {(r.password) ? <p className=""><b>Password:</b> {r.password}</p> : ''}
+                      </span>
                     ))}
                 </div>
               ) : (

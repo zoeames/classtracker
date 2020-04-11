@@ -660,7 +660,8 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Make your first repo",
-    "githubRepo": ""
+    "githubRepo": "",
+    "recordings": [{"topic":"Git", "link":"https://zoom.us/rec/share/98Z7cLCqqkNJcqvU7kb5ZvQ6Jr_DX6a80ygfrPAIzk-WHNhaZg4FdHxMoTph0uRB", "password": "R3=s$Q&R"}]
   },
   "cal63": {
     "title": "Git Branching",
@@ -671,7 +672,8 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Gitflow",
-    "githubRepo": ""
+    "githubRepo": "",
+    "recordings": [{"topic":"GitHub && Repo Setup", "link":"https://zoom.us/rec/share/98Z7cLCqqkNJcqvU7kb5ZvQ6Jr_DX6a80ygfrPAIzk-WHNhaZg4FdHxMoTph0uRB?startTime=1586618241000", "password": "R3=s$Q&R"}]
   },
   "cal64": {
     "title": "HTML",
