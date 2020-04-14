@@ -684,7 +684,8 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "HTML",
-    "githubRepo": "https://github.com/nss-evening-cohort-12/ht2l101"
+    "githubRepo": "https://github.com/nss-evening-cohort-12/html101",
+    "recordings": [{"topic":"HTML", "link":"https://zoom.us/rec/share/u_wrCLrOr2JJfK_h8EWYYKQTRKL6T6a8gXcc-fEMSpYkhpYAyZDOrWmLmiX9DQ", "password": "c4.+0UD?"}]
   },
   "cal65": {
     "title": "Flexbox",
