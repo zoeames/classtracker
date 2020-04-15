@@ -48,4 +48,11 @@ const getSingleStudentById = id => new Promise((resolve, reject) => {
     .catch(err => reject(err));
 });
 
-export default { getRequest, getSingleStudentByUid, getSingleStudentById };
+const updateStudent = (id, student) => new Promise((resolve, reject) => {
+  axios
+    .put(`${apiKeys.firebaseConfig.databaseURL}/students/${id}.json`, student)
+    .then(res => resolve(res))
+    .catch(err => reject(err));
+})
+
+export default { getRequest, getSingleStudentByUid, getSingleStudentById, updateStudent };
