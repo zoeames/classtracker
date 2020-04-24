@@ -1149,5 +1149,117 @@
     "eventType": "study",
     "description": "Open time to work on exercises",
     "githubRepo":""
+  },
+  "cal105": {
+    "title": "Exercises",
+    "start": "April 06, 2020 18:00:00",
+    "end": "April 06, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal106": {
+    "title": "Firebase CREATE",
+    "start": "April 07, 2020 18:00:00",
+    "end": "April 07, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Firebase Create",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows",
+    "recordings": [{"topic":"Firebase Create", "link":"https://zoom.us/rec/share/vMxMCa3z5nxLa8_GzhHmW7MMEb3Daaa803QZ_PZemke3YVowk3peyRQKJCVMWD4p?startTime=1586300819000"}]
+  },
+  "cal107": {
+    "title": "Firebase Update",
+    "start": "April 11, 2020 9:00:00",
+    "end": "April 11, 2020 10:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Firebase Update",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows",
+    "recordings": [{"topic":"Firebase Update", "link":"hhttps://zoom.us/rec/share/7v1cFYOgrEhLQLfpzWfWAvQPBJzIaaa81ChL__MJzhvBtVdpC2kOwi0RMPmBvUPn"}]
+  },
+  "cal108": {
+    "title": "Exercises",
+    "start": "April 11, 2020 10:00:00",
+    "end": "April 11, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal109": {
+    "title": "Group Project - Nutshell",
+    "start": "April 13, 2020 14:00:00",
+    "end": "April 19, 2020 23:50:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Group Project: See Github",
+    "githubRepo":""
+  },
+  "cal110": {
+    "title": "Demo Nutshell Group Project",
+    "start": "April 20, 2020 18:00:00",
+    "end": "April 20, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell!",
+    "githubRepo":""
+  },
+  "cal111": {
+    "title": "Group Project - Nutshell Part 2",
+    "start": "April 21, 2020 18:00:00",
+    "end": "May 5, 2020 23:50:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Group Project: See Github",
+    "githubRepo":""
+  },
+  "cal112": {
+    "title": "Demo Nutshell Part 2 Group Project",
+    "start": "May 6, 2020 18:00:00",
+    "end": "May 6, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Show and tell!",
+    "githubRepo":""
+  },
+  "cal113": {
+    "title": "Intro to React (ie installs)",
+    "start": "May 9, 2020 9:00:00",
+    "end": "May 9, 2020 10:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React Installs",
+    "githubRepo":""
+  },
+  "cal114": {
+    "title": "React State and Props",
+    "start": "May 9, 2020 10:30:00",
+    "end": "May 9, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React State and Props",
+    "githubRepo":""
   }
 }
