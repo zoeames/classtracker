@@ -148,5 +148,15 @@
     "assignedNumber": 15,
     "topic": "Firebase Deploy & README",
     "notes": ""
+  },
+  "assignment16": {
+    "title": "Personal Bio Site 4",
+    "URL": "https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-04.md",
+    "dueDate": "2020-06-02",
+    "isAssigned": "true",
+    "isGithub": "true",
+    "assignedNumber": 16,
+    "topic": "Capstone",
+    "notes": "Individual Assignment"
   }
 }
