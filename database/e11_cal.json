@@ -23,8 +23,8 @@
   },
   "cal03": {
     "title": "Intersession Break",
-    "start": "June 29, 2020 9:00:00",
-    "end": "July 5, 2020 23:00:00",
+    "start": "July 13, 2020 9:00:00",
+    "end": "July 19, 2020 23:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -34,8 +34,8 @@
   },
   "cal04": {
     "title": "First Day of Backend",
-    "start": "July 06, 2020 18:00:00",
-    "end": "July 06, 2020 21:30:00",
+    "start": "July 20, 2020 18:00:00",
+    "end": "July 20, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "Nathan",
     "hwUrl": "",
@@ -1183,7 +1183,7 @@
     "eventType": "lecture",
     "description": "Firebase Update",
     "githubRepo":"https://github.com/nss-evening-cohort-11/firebase-cows",
-    "recordings": [{"topic":"Firebase Update", "link":"hhttps://zoom.us/rec/share/7v1cFYOgrEhLQLfpzWfWAvQPBJzIaaa81ChL__MJzhvBtVdpC2kOwi0RMPmBvUPn"}]
+    "recordings": [{"topic":"Firebase Update", "link":"https://zoom.us/rec/share/7v1cFYOgrEhLQLfpzWfWAvQPBJzIaaa81ChL__MJzhvBtVdpC2kOwi0RMPmBvUPn"}]
   },
   "cal108": {
     "title": "Exercises",
@@ -1241,25 +1241,210 @@
     "githubRepo":""
   },
   "cal113": {
-    "title": "Intro to React (ie installs)",
+    "title": "React Installs",
     "start": "May 9, 2020 9:00:00",
-    "end": "May 9, 2020 10:30:00",
-    "resourceUrl": "",
+    "end": "May 9, 2020 12:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-setup.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "React Installs",
-    "githubRepo":""
+    "githubRepo":"",
+    "recordings": [{"topic":"React Installs", "link":"https://us02web.zoom.us/rec/share/6upuHZf7tVxIY6Ps5F6FQfEtBdu_X6a8hyIeqfVemkwb2homiXKyZC5l1d771u0G?startTime=1589033547000"}]
   },
   "cal114": {
-    "title": "React State and Props",
-    "start": "May 9, 2020 10:30:00",
+    "title": "Exercises",
+    "start": "May 9, 2020 12:00:00",
     "end": "May 9, 2020 14:00:00",
     "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal115": {
+    "title": "React State and Props",
+    "start": "May 11, 2020 18:00:00",
+    "end": "May 11, 2020 21:30:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-intro.md",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "React State and Props",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/goats",
+    "recordings": [
+      {"topic":"React Read", "link":"https://us02web.zoom.us/rec/share/7uZaNqjNqnxOZrf81maAfKoHJrXvT6a8hnMf_vZfnlQwwIn9TGohjeuFDPYNdfU?startTime=1589238780000"},
+      {"topic":"React Click Event", "link":"https://us02web.zoom.us/rec/share/7uZaNqjNqnxOZrf81maAfKoHJrXvT6a8hnMf_vZfnlQwwIn9TGohjeuFDPYNdfU?startTime=1589247210000"}
+    ]
+  },
+  "cal116": {
+    "title": "React PropTypes",
+    "start": "May 12, 2020 18:00:00",
+    "end": "May 12, 2020 21:30:00",
+    "resourceUrl": "https://reactjs.org/docs/typechecking-with-proptypes.html",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Using Prop Types",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/goats",
+    "recordings": [
+      {"topic":"React Buttons part 2", "link":"https://us02web.zoom.us/rec/share/xetICY3B531Obs_Ctkfye4wKB9X_aaa823ccqKFfyByG8u4NwQNmluPaPT84saLJ?startTime=1589325071000"},
+      {"topic":"React PropTypes", "link":"https://us02web.zoom.us/rec/share/xetICY3B531Obs_Ctkfye4wKB9X_aaa823ccqKFfyByG8u4NwQNmluPaPT84saLJ?startTime=1589326184000"}
+    ]
+  },
+  "cal117": {
+    "title": "Resumes",
+    "start": "May 16, 2020 9:00:00",
+    "end": "May 16, 2020 10:00:00",
+    "resourceUrl": "https://drive.google.com/file/d/1bvxOtkbcl3sM9-FzOPLROTfz6zVDHsay/view?usp=sharing",
+    "instructor": "Kristin, Ashley",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "How to write a good resume",
+    "githubRepo":"",
+    "recordings": [
+      {"topic":"Resume Talk", "link":"https://us02web.zoom.us/rec/share/29BPMbuu8mpLU53ItFCOd6AfGtrHX6a8gyUerPZZzU00Dauvp7gG8iFIWQ9TT_eH?startTime=1589637830000"}
+    ]
+  },
+  "cal118": {
+    "title": "Exercises",
+    "start": "May 16, 2020 10:00:00",
+    "end": "May 16, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal119": {
+    "title": "React + Firebase Auth",
+    "start": "May 18, 2020 18:00:00",
+    "end": "May 18, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Firebase Auth with React",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/react-pinterest",
+    "recordings": [
+      {"topic":"Auth", "link":"https://us02web.zoom.us/rec/share/5OxvK67txlxOGJHMzHyHfYM4AavBeaa82nQeqPsInRsOTIVgn0SH8--6_IEbPFkX?startTime=1589843796000"}
+    ]
+  },
+  "cal120": {
+    "title": "React + READ",
+    "start": "May 19, 2020 18:00:00",
+    "end": "May 19, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Firebase READ with React",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/react-pinterest",
+    "recordings": [
+      {"topic":"Part 1", "link":"https://us02web.zoom.us/rec/share/z8NbC5D_7l9JTbPt8EGPA_MfG5Xcaaa82idMr6IOyBlUgldfiPLmi4acFhsucNiT?startTime=1589930487000"},
+      {"topic":"Part 2", "link":"https://us02web.zoom.us/rec/share/z8NbC5D_7l9JTbPt8EGPA_MfG5Xcaaa82idMr6IOyBlUgldfiPLmi4acFhsucNiT?startTime=1589937398000"}
+    ]
+  },
+  "cal121": {
+    "title": "React + Delete",
+    "start": "May 23, 2020 9:00:00",
+    "end": "May 23, 2020 11:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Firebase DELETE with React",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/react-pinterest",
+    "recordings": [{"topic":"Delete", "link":"https://us02web.zoom.us/rec/share/xpd0Jp7x0UNLZM_S83PuGadiFNz-T6a81CYZ-PMMzRv2zlPtKAyJ8J_orpjUc8lD?startTime=1590242748000"}]
+  },
+  "cal122": {
+    "title": "Exercises",
+    "start": "May 23, 2020 11:00:00",
+    "end": "May 23, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal123": {
+    "title": "React + CREATE",
+    "start": "May 26, 2020 18:00:00",
+    "end": "May 26, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Firebase CREATE with React",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/react-pinterest"
+  },
+  "cal124": {
+    "title": "Exercises",
+    "start": "May 30, 2020 9:00:00",
+    "end": "May 30, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal125": {
+    "title": "React + UPDATE",
+    "start": "June 1, 2020 18:00:00",
+    "end": "June 1, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Firebase UPDATE with React",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/react-pinterest"
+  },
+  "cal126": {
+    "title": "Capstone Discussion",
+    "start": "June 2, 2020 18:00:00",
+    "end": "June 2, 2020 19:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Everything you need to know about your final project",
+    "githubRepo":""
+  },
+  "cal127": {
+    "title": "Exercises",
+    "start": "June 2, 2020 19:30:00",
+    "end": "June 2, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal128": {
+    "title": "REACT ROUTING + AUTH",
+    "start": "June 6, 2020 9:00:00",
+    "end": "June 6, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Start a react project that has routing and authentication",
+    "githubRepo":""
+  },
+  "cal130": {
+    "title": "4th of July",
+    "start": "July 4, 2020 9:00:00",
+    "end": "July 4, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "vacation",
+    "description": "No Classes",
     "githubRepo":""
   }
 }
