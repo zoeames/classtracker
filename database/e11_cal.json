@@ -571,28 +571,6 @@
     "description": "HW #24",
     "githubRepo":""
   },
-  "cal54": {
-    "title": "Week 25 HW",
-    "start": "June 24, 2020 18:00:00",
-    "end": "June 24, 2020 21:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-evening-cohort-11/e11-homework/blob/master/week25.md",
-    "eventType": "study",
-    "description": "HW #25",
-    "githubRepo":""
-  },
-  "cal55": {
-    "title": "Week 24 HW",
-    "start": "June 25, 2020 18:00:00",
-    "end": "June 25, 2020 21:30:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "https://github.com/nss-evening-cohort-11/e11-homework/blob/master/week25.md",
-    "eventType": "study",
-    "description": "HW #25",
-    "githubRepo":""
-  },
   "cal56": {
     "title": "Don't be an Asshole!",
     "start": "January 6, 2020 18:00:00",
@@ -1379,45 +1357,62 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Firebase CREATE with React",
-    "githubRepo":"https://github.com/nss-evening-cohort-11/react-pinterest"
+    "githubRepo":"https://github.com/nss-evening-cohort-11/react-pinterest",
+    "recordings": [{"topic":"CREATE", "link":"https://us02web.zoom.us/rec/share/9e9ZN-3y021OZc_mwljVRvMLMa25T6a8hCdN86cKmEkg2Er5TM9A4zKrofXqIjY7?startTime=1590534523000"}]
   },
   "cal124": {
-    "title": "Exercises",
+    "title": "React + UPDATE",
     "start": "May 30, 2020 9:00:00",
     "end": "May 30, 2020 14:00:00",
-    "resourceUrl": "",
-    "instructor": "",
-    "hwUrl": "",
-    "eventType": "study",
-    "description": "Open time to work on exercises",
-    "githubRepo":""
-  },
-  "cal125": {
-    "title": "React + UPDATE",
-    "start": "June 1, 2020 18:00:00",
-    "end": "June 1, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Firebase UPDATE with React",
-    "githubRepo":"https://github.com/nss-evening-cohort-11/react-pinterest"
+    "githubRepo":"https://github.com/nss-evening-cohort-11/react-pinterest",
+    "recordings": [
+      {"topic":"UPDATE Board", "link":"https://us02web.zoom.us/rec/share/vvJONq3v-k5Ja6v_5XmFd5wQXabAaaa82yYa-KYPxebz-eVhBIIJs59za7H-zZk?startTime=1590848853000"},
+      {"topic":"UPDATE Pin", "link":"https://us02web.zoom.us/rec/share/vvJONq3v-k5Ja6v_5XmFd5wQXabAaaa82yYa-KYPxebz-eVhBIIJs59za7H-zZk?startTime=1590852146000"},
+      {"topic":"Firebase Deploy", "link":"https://us02web.zoom.us/rec/share/vvJONq3v-k5Ja6v_5XmFd5wQXabAaaa82yYa-KYPxebz-eVhBIIJs59za7H-zZk?startTime=1590853691000"}
+    ]
   },
-  "cal126": {
+  "cal125": {
     "title": "Capstone Discussion",
-    "start": "June 2, 2020 18:00:00",
-    "end": "June 2, 2020 19:30:00",
-    "resourceUrl": "",
+    "start": "June 1, 2020 18:00:00",
+    "end": "June 1, 2020 19:00:00",
+    "resourceUrl": "https://github.com/nss-nightclass-projects/capstone-central",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Everything you need to know about your final project",
     "githubRepo":""
   },
+  "cal126": {
+    "title": "React Routing + AUTH",
+    "start": "June 1, 2020 19:00:00",
+    "end": "June 1, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "Everything you need to know about your final project",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise"
+  },
   "cal127": {
-    "title": "Exercises",
-    "start": "June 2, 2020 19:30:00",
+    "title": "React Routing + READ",
+    "start": "June 2, 2020 18:00:00",
     "end": "June 2, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React routing and firebase READ",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise"
+  },
+  "cal128": {
+    "title": "Exercises",
+    "start": "June 6, 2020 9:00:00",
+    "end": "June 6, 2020 14:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
@@ -1425,18 +1420,84 @@
     "description": "Open time to work on exercises",
     "githubRepo":""
   },
-  "cal128": {
-    "title": "REACT ROUTING + AUTH",
-    "start": "June 6, 2020 9:00:00",
-    "end": "June 6, 2020 14:00:00",
+  "cal129": {
+    "title": "React Routing + CREATE",
+    "start": "June 8, 2020 18:00:00",
+    "end": "June 8, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "Zoe",
     "hwUrl": "",
     "eventType": "lecture",
-    "description": "Start a react project that has routing and authentication",
-    "githubRepo":""
+    "description": "React routing and firebase CREATE",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise"
   },
   "cal130": {
+    "title": "React Routing + DELETE",
+    "start": "June 9, 2020 18:00:00",
+    "end": "June 9, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React routing and firebase DELETE",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise"
+  },
+  "cal131": {
+    "title": "Exercises",
+    "start": "June 13, 2020 9:00:00",
+    "end": "June 13, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises",
+    "githubRepo":""
+  },
+  "cal132": {
+    "title": "React Routing + UPDATE",
+    "start": "June 15, 2020 18:00:00",
+    "end": "June 15, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React routing and firebase UPDATE",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise"
+  },
+  "cal133": {
+    "title": "Exercises",
+    "start": "June 16, 2020 18:00:00",
+    "end": "June 16, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises or capstone planning",
+    "githubRepo":""
+  },
+  "cal134": {
+    "title": "Capstone Checkins/Exercises",
+    "start": "June 20, 2020 9:00:00",
+    "end": "June 20, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Open time to work on exercises or capstone planning while instructors do capstone checkins",
+    "githubRepo":""
+  },
+  "cal135": {
+    "title": "CAPSTONES",
+    "start": "June 22, 2020 18:00:00",
+    "end": "July 10, 2020 21:30:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "study",
+    "description": "Capstone Coding",
+    "githubRepo":""
+  },
+  "cal136": {
     "title": "4th of July",
     "start": "July 4, 2020 9:00:00",
     "end": "July 4, 2020 14:00:00",
@@ -1445,6 +1506,17 @@
     "hwUrl": "",
     "eventType": "vacation",
     "description": "No Classes",
+    "githubRepo":""
+  },
+  "cal137": {
+    "title": "Front end Demos to E12",
+    "start": "July 11, 2020 9:00:00",
+    "end": "July 11, 2020 11:00:00",
+    "resourceUrl": "",
+    "instructor": "",
+    "hwUrl": "",
+    "eventType": "demo",
+    "description": "Demo your front end projects!",
     "githubRepo":""
   }
 }

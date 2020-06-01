@@ -102,21 +102,6 @@
     "uid": "IVe2hlSRMqQZ0ua7Y5HhbkTJJF83",
     "notes":""
   },
-  "student4": {
-    "firstName": "Christopher",
-    "lastName": "Johnson",
-    "email": "christopherjohnson1@gmail.com",
-    "githubUsername": "christopherjohnson1",
-    "treehouse": "",
-    "codeAcademy": "https://www.codecademy.com/profiles/chris.johnson1",
-    "replIt": "https://repl.it/@ChristopherJoh7",
-    "freeCodeCamp": "https://www.freecodecamp.org/fcc0ece6929-e87b-460c-8f51-68314c188651",
-    "biosite": "https://personal-bio-site-74ad9.firebaseapp.com/",
-    "preworkComplete": true,
-    "isStudent": true,
-    "uid": "VtCRl4VHAAby6cF5rA90XK4VCuA3",
-    "notes":""
-  },
   "student5": {
     "firstName": "David",
     "lastName": "Everett",
@@ -276,7 +261,7 @@
     "codeAcademy": "https://www.codecademy.com/profiles/byte9260569574",
     "replIt": "https://repl.it/@Nikababy01",
     "freeCodeCamp": "https://www.freecodecamp.org/moniquedbass",
-    "biosite": "https://personal-bio-site-25150.firebaseapp.com/",
+    "biosite": "https://personal-portfolio-4c983.firebaseapp.com/",
     "preworkComplete": true,
     "isStudent": true,
     "uid": "4eE0Zvs2Z0aeLPOBRRs2YHOhtEh1",
