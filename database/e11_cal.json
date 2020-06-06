@@ -1385,7 +1385,8 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Everything you need to know about your final project",
-    "githubRepo":""
+    "githubRepo":"",
+    "recordings": [{"topic":"Capstones", "link":"https://us02web.zoom.us/rec/share/yOJFEKqp20BJU6fOsWfAffc5AaP8aaa80XdM__ZZzkvQuJUmJixKeV-fipDCxAue?startTime=1591053164000"}]
   },
   "cal126": {
     "title": "React Routing + AUTH",
@@ -1396,29 +1397,38 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "Everything you need to know about your final project",
-    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise"
+    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise",
+    "recordings": [
+      {"topic":"React Auth", "link":"https://us02web.zoom.us/rec/share/yOJFEKqp20BJU6fOsWfAffc5AaP8aaa80XdM__ZZzkvQuJUmJixKeV-fipDCxAue?startTime=1591057081000"},
+      {"topic":"React Routing", "link":"https://us02web.zoom.us/rec/share/yOJFEKqp20BJU6fOsWfAffc5AaP8aaa80XdM__ZZzkvQuJUmJixKeV-fipDCxAue?startTime=1591062450000"}
+    ]
   },
   "cal127": {
-    "title": "React Routing + READ",
+    "title": "Exercises",
     "start": "June 2, 2020 18:00:00",
     "end": "June 2, 2020 21:30:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "React routing and firebase READ",
-    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise"
-  },
-  "cal128": {
-    "title": "Exercises",
-    "start": "June 6, 2020 9:00:00",
-    "end": "June 6, 2020 14:00:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
     "eventType": "study",
     "description": "Open time to work on exercises",
     "githubRepo":""
+  },
+  "cal128": {
+    "title": "React Routing + READ",
+    "start": "June 6, 2020 9:00:00",
+    "end": "June 6, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React routing and firebase READ",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise",
+    "recordings": [
+      {"topic":"Navbar", "link":"https://us02web.zoom.us/rec/share/uvNKfrv67FNOWIHNyVuCZbUAFLTmX6a8hCZI_6denkaagj3C4QsDg57OIGcBjOD-?startTime=1591453230000"},
+      {"topic":"READ on scats", "link":"https://us02web.zoom.us/rec/share/uvNKfrv67FNOWIHNyVuCZbUAFLTmX6a8hCZI_6denkaagj3C4QsDg57OIGcBjOD-?startTime=1591457051000"},
+      {"topic":"READ on Single Scat", "link":"https://us02web.zoom.us/rec/share/uvNKfrv67FNOWIHNyVuCZbUAFLTmX6a8hCZI_6denkaagj3C4QsDg57OIGcBjOD-?startTime=1591460160000"}
+    ]
   },
   "cal129": {
     "title": "React Routing + CREATE",
