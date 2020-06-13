@@ -1439,7 +1439,8 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "React routing and firebase CREATE",
-    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise"
+    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise",
+    "recordings": [{"topic":"Create", "link":"https://us02web.zoom.us/rec/share/5tFMLID1qW5OZ6eUuUDcQbMbRYvcX6a81XBL-PoPnyc5t7115MTFlyjAupkHA6Y?startTime=1591657550000"}]
   },
   "cal130": {
     "title": "React Routing + DELETE",
@@ -1450,29 +1451,34 @@
     "hwUrl": "",
     "eventType": "lecture",
     "description": "React routing and firebase DELETE",
-    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise"
+    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise",
+    "recordings": [
+      {"topic":"Part 1", "link":"https://us02web.zoom.us/rec/share/y49wFKHz1V5Jeo3L1mGDeJU-FaD3aaa8hCQbr_demRt5wS1S4yHM3iFnZA_iSVST?startTime=1591743869000"},
+      {"topic":"Part 2", "link":"https://us02web.zoom.us/rec/share/y49wFKHz1V5Jeo3L1mGDeJU-FaD3aaa8hCQbr_demRt5wS1S4yHM3iFnZA_iSVST?startTime=1591744712000"}
+    ]
   },
-  "cal131": {
-    "title": "Exercises",
+  "cal132": {
+    "title": "React Routing + UPDATE",
     "start": "June 13, 2020 9:00:00",
     "end": "June 13, 2020 14:00:00",
+    "resourceUrl": "",
+    "instructor": "Zoe",
+    "hwUrl": "",
+    "eventType": "lecture",
+    "description": "React routing and firebase UPDATE",
+    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise",
+    "recordings": [{"topic":"Update", "link":"https://us02web.zoom.us/rec/share/wY90NrrS8WVLYKOX413hCrQqEoTaeaa81XUa8_UExE9wdZCy4Eo9k7jRJ5od0DX0?startTime=1592057246000"}]
+  },
+    "cal131": {
+    "title": "Exercises",
+    "start": "June 15, 2020 18:00:00",
+    "end": "June 15, 2020 21:30:00",
     "resourceUrl": "",
     "instructor": "",
     "hwUrl": "",
     "eventType": "study",
     "description": "Open time to work on exercises",
     "githubRepo":""
-  },
-  "cal132": {
-    "title": "React Routing + UPDATE",
-    "start": "June 15, 2020 18:00:00",
-    "end": "June 15, 2020 21:30:00",
-    "resourceUrl": "",
-    "instructor": "Zoe",
-    "hwUrl": "",
-    "eventType": "lecture",
-    "description": "React routing and firebase UPDATE",
-    "githubRepo":"https://github.com/nss-evening-cohort-11/scat-surprise"
   },
   "cal133": {
     "title": "Exercises",
