@@ -1404,7 +1404,7 @@
     ]
   },
   "cal127": {
-    "title": "Exercises",
+    "title": "Capstone",
     "start": "June 2, 2020 18:00:00",
     "end": "June 2, 2020 21:30:00",
     "resourceUrl": "",
@@ -1470,7 +1470,7 @@
     "recordings": [{"topic":"Update", "link":"https://us02web.zoom.us/rec/share/wY90NrrS8WVLYKOX413hCrQqEoTaeaa81XUa8_UExE9wdZCy4Eo9k7jRJ5od0DX0?startTime=1592057246000"}]
   },
     "cal131": {
-    "title": "Exercises",
+    "title": "Capstone Planning, Exercises",
     "start": "June 15, 2020 18:00:00",
     "end": "June 15, 2020 21:30:00",
     "resourceUrl": "",
@@ -1481,7 +1481,7 @@
     "githubRepo":""
   },
   "cal133": {
-    "title": "Exercises",
+    "title": "Capstone Planning, Exercises",
     "start": "June 16, 2020 18:00:00",
     "end": "June 16, 2020 21:30:00",
     "resourceUrl": "",
@@ -1492,7 +1492,7 @@
     "githubRepo":""
   },
   "cal134": {
-    "title": "Capstone Checkins/Exercises",
+    "title": "Capstone Checkins",
     "start": "June 20, 2020 9:00:00",
     "end": "June 20, 2020 14:00:00",
     "resourceUrl": "",
