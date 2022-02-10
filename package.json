@@ -9,7 +9,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "firebase": "^7.6.2",
     "moment": "^2.24.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.7.1",
     "react": "^16.8.1",
     "react-beautiful-dnd": "^10.0.4",
